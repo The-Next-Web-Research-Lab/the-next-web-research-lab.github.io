@@ -2,7 +2,7 @@ export const pagesRoutes = [
   ["v-52650e35","/essay.html",{"title":"에세이"},["/essay","/essay.md"]],
   ["v-184f4da6","/intro.html",{"title":"소개"},["/intro","/intro.md"]],
   ["v-11459178","/next-web-research.html",{"title":"선행개발"},["/next-web-research","/next-web-research.md"]],
-  ["v-8daa1a0e","/",{"title":"홈"},["/index.html","/README.md"]],
+  ["v-8daa1a0e","/",{"title":""},["/index.html","/README.md"]],
   ["v-9440481c","/fe-dev/code-snippets.html",{"title":"6장 코드 스니펫"},["/fe-dev/code-snippets","/fe-dev/code-snippets.md"]],
   ["v-4a9a3676","/fe-dev/design-patterns.html",{"title":"8장 디자인 패턴"},["/fe-dev/design-patterns","/fe-dev/design-patterns.md"]],
   ["v-e300156c","/fe-dev/framework.html",{"title":"2장 리팩터링"},["/fe-dev/framework","/fe-dev/framework.md"]],
