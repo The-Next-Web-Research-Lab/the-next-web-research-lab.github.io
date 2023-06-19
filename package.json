@@ -6,15 +6,15 @@
   "directories": {
     "dev": "docs"
   },
-  "dependencies": {},
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "next",
+    "fs-extra": "^11.1.1",
     "vuepress": "next"
   },
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "release": "rmdir /s /f assets src && cp -a docs/.vuepress/dist/. .",
-    "push": "npm run build && npm run release && git add -A && git commit -m \"설명 수정\" && git push origin master"
+    "release": "node release.js",
+    "push": "npm run build && npm run release && git add -A && git commit -m \"설명 수정\" && git push origin main"
   }
 }

@@ -1,0 +1,5 @@
+const fs = require("fs-extra");
+
+fs.removeSync("./assets");
+fs.removeSync("./src");
+fs.copySync("./docs/.vuepress/dist", "./");
