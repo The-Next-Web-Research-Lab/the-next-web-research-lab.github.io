@@ -1,0 +1,20 @@
+{
+  "name": "vuepress-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "dev": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@vuepress/plugin-google-analytics": "next",
+    "vuepress": "next"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "release": "rmdir /s /f assets src && cp -a docs/.vuepress/dist/. .",
+    "push": "npm run build && npm run release && git add -A && git commit -m \"설명 수정\" && git push origin master"
+  }
+}

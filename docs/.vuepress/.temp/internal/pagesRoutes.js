@@ -1,0 +1,16 @@
+export const pagesRoutes = [
+  ["v-52650e35","/essay.html",{"title":"에세이"},["/essay","/essay.md"]],
+  ["v-184f4da6","/intro.html",{"title":"소개"},["/intro","/intro.md"]],
+  ["v-11459178","/next-web-research.html",{"title":"선행개발"},["/next-web-research","/next-web-research.md"]],
+  ["v-8daa1a0e","/",{"title":"홈"},["/index.html","/README.md"]],
+  ["v-9440481c","/fe-dev/code-snippets.html",{"title":"6장 코드 스니펫"},["/fe-dev/code-snippets","/fe-dev/code-snippets.md"]],
+  ["v-4a9a3676","/fe-dev/design-patterns.html",{"title":"8장 디자인 패턴"},["/fe-dev/design-patterns","/fe-dev/design-patterns.md"]],
+  ["v-e300156c","/fe-dev/framework.html",{"title":"2장 리팩터링"},["/fe-dev/framework","/fe-dev/framework.md"]],
+  ["v-3f789caa","/fe-dev/good-code.html",{"title":"1장 좋은코드"},["/fe-dev/good-code","/fe-dev/good-code.md"]],
+  ["v-05f5451c","/fe-dev/intro.html",{"title":"0장 소개"},["/fe-dev/intro","/fe-dev/intro.md"]],
+  ["v-65dfc61f","/fe-dev/paradigm.html",{"title":"5장 명령형 / 객체지향 / 함수형"},["/fe-dev/paradigm","/fe-dev/paradigm.md"]],
+  ["v-a0bb3986","/fe-dev/pet-project.html",{"title":"7장 펫 프로젝트"},["/fe-dev/pet-project","/fe-dev/pet-project.md"]],
+  ["v-a242de1a","/fe-dev/project-management.html",{"title":"3장 프로젝트 관리"},["/fe-dev/project-management","/fe-dev/project-management.md"]],
+  ["v-7b37bd30","/fe-dev/refactoring.html",{"title":"2장 리팩터링"},["/fe-dev/refactoring","/fe-dev/refactoring.md"]],
+  ["v-3706649a","/404.html",{"title":""},["/404"]],
+]

@@ -1,0 +1,1 @@
+export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"en-US\",\"title\":\"The Next Web Research Lab\",\"description\":\"\",\"head\":[[\"meta\",{\"name\":\"google-site-verification\",\"content\":\"\"}]],\"locales\":{}}")
