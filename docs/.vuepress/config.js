@@ -84,6 +84,7 @@ export default {
         '/fe-dev/pet-project/',
         {
           text: 'Vue',
+          collapsible: true,
           children: [
             '/fe-dev/pet-project/vue2-part/',
             '/fe-dev/pet-project/vue2-component/',
@@ -92,6 +93,7 @@ export default {
         },
         {
           text: 'Helper',
+          collapsible: true,
           children: ['/fe-dev/pet-project/momentjs/',
             '/fe-dev/pet-project/immerjs/',
             '/fe-dev/pet-project/axios/',
@@ -99,6 +101,7 @@ export default {
         },
         {
           text: 'Component',
+          collapsible: true,
           children: [
             '/fe-dev/pet-project/component/2020-08-component/',
             '/fe-dev/pet-project/component/vuex-feature/',
@@ -110,6 +113,7 @@ export default {
         },
         {
           text: 'MVC',
+          collapsible: true,
           children: [
             '/fe-dev/pet-project/mvc/2021-07-mvc/',
             '/fe-dev/pet-project/mvc/2020-08-mvc/', '/fe-dev/pet-project/mvc/2021-07-mvc-class/', '/fe-dev/pet-project/mvc/2020-08-mvc-class/', '/fe-dev/pet-project/mvc/2020-08-mvc-function/'
