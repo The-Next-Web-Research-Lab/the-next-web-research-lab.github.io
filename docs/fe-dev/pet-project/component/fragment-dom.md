@@ -1,6 +1,6 @@
 ---
 title: Fragment DOM
-sidebar: auto
+
 ---
 > 2020.07.22
 
@@ -29,19 +29,19 @@ Attribute 변경은 신규 추가/삭제에 미발생한다. 기존 Node에만 A
 
 ## 코어
 ### /core/render.js
-@[code](@/docs/src/component/fragment-dom/core/render.js)
+@[code](@/docs/fe-dev/pet-project/component/fragment-dom/core/render.js)
 
 #### 사용예
-@[code](@/docs/src/component/fragment-dom/step1.js)
+@[code](@/docs/fe-dev/pet-project/component/fragment-dom/step1.js)
 
 ### /core/patch.js
-@[code](@/docs/src/component/fragment-dom/core/patch.js)
+@[code](@/docs/fe-dev/pet-project/component/fragment-dom/core/patch.js)
 
 #### 사용예
-@[code](@/docs/src/component/fragment-dom/step2.js)
+@[code](@/docs/fe-dev/pet-project/component/fragment-dom/step2.js)
 
 ## 사용케이스
 ### 상태 변경 후 패치
-@[code](@/docs/src/component/fragment-dom/step3.js)
+@[code](@/docs/fe-dev/pet-project/component/fragment-dom/step3.js)
 
-- [데모](https://chodragon9.github.io/dragonjs/docs/src/component/fragment-dom/index.html)
+- [데모](https://the-next-web-research-lab.github.io/fe-dev/pet-project/component/fragment-dom/index.html)

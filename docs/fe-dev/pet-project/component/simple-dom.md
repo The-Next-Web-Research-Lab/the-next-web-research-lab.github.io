@@ -1,6 +1,6 @@
 ---
 title: Simple DOM
-sidebar: auto
+
 ---
 > 2020.07.24
 
@@ -27,17 +27,17 @@ type patch = (FragmentDOM, AutualDOM) => void
 [Fragment DOM](/src/component/fragment-dom/)에서 영감을 얻은 코어.
 
 ### parse
-@[code](@/docs/src/component/simple-dom/core/parse.js)
+@[code](@/docs/fe-dev/pet-project/component/simple-dom/core/parse.js)
 
 ### generate
-@[code](@/docs/src/component/simple-dom/core/generate.js)
+@[code](@/docs/fe-dev/pet-project/component/simple-dom/core/generate.js)
 
 ### fragment-dom
 #### patch
-@[code](@/docs/src/component/simple-dom/core/fragment-dom-20200725/patch.js)
+@[code](@/docs/fe-dev/pet-project/component/simple-dom/core/fragment-dom-20200725/patch.js)
 
 #### render
-@[code](@/docs/src/component/simple-dom/core/fragment-dom-20200725/render.js)
+@[code](@/docs/fe-dev/pet-project/component/simple-dom/core/fragment-dom-20200725/render.js)
 
 ## 사용예
-@[code](@/docs/src/component/simple-dom/main.js)
+@[code](@/docs/fe-dev/pet-project/component/simple-dom/main.js)

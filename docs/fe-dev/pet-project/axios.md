@@ -1,6 +1,6 @@
 ---
 title: Axios 기능 만들기
-sidebar: auto
+
 ---
 
 ::: tip Axios 

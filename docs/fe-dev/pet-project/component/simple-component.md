@@ -1,6 +1,6 @@
 ---
 title: Simple Component
-sidebar: auto
+
 ---
 > 2020.07.23
 

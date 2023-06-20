@@ -1,20 +1,19 @@
 ---
 title: Vuex
-sidebar: auto
 ---
 
 ## Core
 
 ### observer
-@[code](@/docs/src/vuex/core/observer.js)
+@[code](@/docs/fe-dev/pet-project/vuex/core/observer.js)
 
 ### vuex
-@[code](@/docs/src/vuex/core/vuex.js)
+@[code](@/docs/fe-dev/pet-project/vuex/core/vuex.js)
 
 ## Consumer
 
 ### store module
-@[code](@/docs/src/vuex/store.js)
+@[code](@/docs/fe-dev/pet-project/vuex/store.js)
 
 ### index
-@[code](@/docs/src/vuex/index.js)
+@[code](@/docs/fe-dev/pet-project/vuex/index.js)

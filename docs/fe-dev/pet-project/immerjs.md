@@ -1,6 +1,6 @@
 ---
 title: Immer.js 기능 만들기
-sidebar: auto
+
 ---
 
 ::: tip Immer.js 
