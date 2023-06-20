@@ -81,7 +81,7 @@ export default {
     ],
     sidebar: {
       '/fe-dev/pet-project': [
-        '/fe-dev/pet-project',
+        '/fe-dev/pet-project/',
         {
           text: 'Vue',
           children: [
