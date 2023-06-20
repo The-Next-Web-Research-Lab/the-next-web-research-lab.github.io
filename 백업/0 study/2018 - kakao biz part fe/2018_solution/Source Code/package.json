@@ -1,0 +1,19 @@
+{
+  "name": "elevatorcontroller",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "doc": "grunt jsdoc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\\"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-jsdoc": "^2.2.0"
+  }
+}

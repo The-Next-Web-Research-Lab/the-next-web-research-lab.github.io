@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    .progress {
+      width: 150px;
+      height: 150px;
+      /* 프로그래스가 12시 방향으로 시작하기 위함 */
+      transform: rotate(-90deg)
+    }
+    .progress .gray-circle,
+    .progress .point-circle {
+      cx: 75px; /* width의 절반 */
+      cy: 75px; /* height의 절반 */
+      fill: none;
+    }
+    .progress .gray-circle {
+      stroke: #ddd;
+      stroke-width: 2;
+    }
+    .progress .point-circle {
+      stroke: #50d07b;
+      stroke-width: 4;
+      /* javascript로 동적으로 가능하지만, 반지름이 고정임으로 고정값으로 넣을 수 있음 */
+      /* 2 * Math.PI * radius */
+      /* calc(2 * 3.141592653589793 * 71) */
+      stroke-dasharray: 446;
+      /* calc(446 * (100 - 70) / 100) */
+      stroke-dashoffset: 133.8
+    }
+  </style>
+</head>
+<body>
+<svg
+  class="progress"
+  version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+>
+<!--  radius = width / 2 - stroke-width -->
+  <circle
+    class="gray-circle"
+    r="73"
+  ></circle>
+<!--  radius = width / 2 - stroke-width -->
+  <circle
+    class="point-circle"
+    r="71"
+  ></circle>
+</svg>
+</body>
+</html>

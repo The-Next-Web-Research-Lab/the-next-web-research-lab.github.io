@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+<button onclick="goTo('/main')">Main</button>
+<button onclick="goTo('/sub1')">Sub1</button>
+<button onclick="goTo('/sub2')">Sub2</button>
+<div id="page"></div>
+<script>
+const Router = (() => {
+  const store = new Map();
+
+  const hashChangeListener = () => {
+    //현재 hash URL을 가져온다.
+    const currentHash = location.hash.replace('#', '');
+
+    //등록한 URL이 있으면 callback을 실행한다.
+    if(store.has(currentHash)){
+      store.get(currentHash)();
+    }
+  }
+
+  const init = (options) => {
+    //라우터 등록
+    options.forEach(({url, callback}) => {
+      store.set(url, callback);
+    });
+
+    //페이지 접근 시 바로 실행
+    hashChangeListener();
+
+    //이벤트 등록
+    window.addEventListener(
+      'hashchange',
+      hashChangeListener
+    );
+  };
+
+  const destory = () => {
+    //이벤트 삭제
+    window.removeEventListener(
+      'hashchange',
+      hashChangeListener
+    );
+
+    //저장된 라우터 데이터 삭제
+    store.clear();
+  };
+
+  const go = (hashUrl) => {
+    location = `${location.href.replace(location.hash, '')}#${hashUrl}`;
+  };
+
+  return {
+    init,
+    destory,
+    go
+  }
+})();
+</script>
+<script>
+Router.init([
+  {
+    url: '/main',
+    callback: () => {
+      document.getElementById("page").innerHTML = 'Main';
+    }
+  },
+  {
+    url: '/sub1',
+    callback: () => {
+      document.getElementById("page").innerHTML = 'Sub1';
+    }
+  },
+  {
+    url: '/sub2',
+    callback: () => {
+      document.getElementById("page").innerHTML = 'Sub2';
+    }
+  }
+]);
+
+Router.go('/main');
+
+const goTo = (url) => {
+  Router.go(url);
+}
+</script>
+</body>
+</html>

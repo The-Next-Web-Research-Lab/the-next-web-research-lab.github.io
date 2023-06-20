@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    .progress-wrapper {
+      position: relative;
+    }
+    .progress-text {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 150px;
+      text-align: center;
+      line-height: 150px;
+      font-size: 30px;
+      color: #3198F5;
+    }
+    .progress {
+      width: 150px;
+      height: 150px;
+      /* 프로그래스가 12시 방향으로 시작하기 위함 */
+      transform: rotate(-90deg)
+    }
+    .progress .gray-circle,
+    .progress .point-circle {
+      cx: 75px; /* width의 절반 */
+      cy: 75px; /* height의 절반 */
+      fill: none;
+    }
+    .progress .gray-circle {
+      stroke: #ddd;
+      stroke-width: 2;
+    }
+    .progress .point-circle {
+      stroke: #3198F5;
+      stroke-width: 4;
+    }
+  </style>
+</head>
+<body>
+<div class="progress-wrapper">
+  <svg
+    class="progress"
+    version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+  <!--  radius = width / 2 - stroke-width -->
+    <circle
+      class="gray-circle"
+      r="73"
+    ></circle>
+  <!--  radius = width / 2 - stroke-width -->
+    <circle
+      class="point-circle"
+      r="71"
+    ></circle>
+  </svg>
+  <span class="progress-text">70%</span>
+</div>
+<script>
+
+  // 원의 둘레값
+  const getCircumference = (radius) => 2 * Math.PI * radius
+
+  const getStrokeDashoffset = (percentage, circumference) => {
+    const offset = (100 - percentage) / 100
+    return circumference * offset
+  }
+
+  window.onload = () => {
+    const pointCircle = document.querySelector('.point-circle')
+
+    // 반지름
+    const radius = pointCircle.getAttribute('r')
+    // 원의 둘레
+    const circumference = getCircumference(radius)
+
+    const percentage = 70
+
+    pointCircle.setAttribute('stroke-dashoffset', getStrokeDashoffset(percentage, circumference))
+    pointCircle.setAttribute('stroke-dasharray', circumference)
+  }
+</script>
+</body>
+</html>

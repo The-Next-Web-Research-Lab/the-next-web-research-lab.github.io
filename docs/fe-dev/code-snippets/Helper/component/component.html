@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<helloworld></helloworld>
+<ul>
+  <list></list>
+  <list></list>
+  <list></list>
+  <list></list>
+  <list></list>
+</ul>
+
+<script>
+const Component = (() => {
+  const store = new Set();
+
+  const parseHTML = (template) => {
+    const shallowElement = document.createElement('div');
+    shallowElement.innerHTML = template;
+    return shallowElement.childNodes
+  };
+
+  const define = ({name, template}) => {
+    store.add({
+      name,
+      template: parseHTML(template)[0]
+    });
+  };
+
+  const render = (parentSelector) => {
+    const parent = document.querySelector(parentSelector);
+
+    store.forEach((component) => {
+      const finedElems = parent.querySelectorAll(component.name);
+
+      finedElems.forEach((elem) => {
+        //Element 참조 방지
+        const clonedTemplate = component.template.cloneNode(true);
+        elem.parentNode.replaceChild(
+          clonedTemplate,
+          elem
+        );
+      });
+    });
+  };
+
+  return {define, render}
+})();
+</script>
+<script>
+Component.define({
+  name: 'helloworld',
+  template: '<div>Hello World</div>'
+});
+
+Component.define({
+  name: 'list',
+  template: '<li>Item</li>'
+});
+
+Component.render('body');
+</script>
+</body>
+</html>

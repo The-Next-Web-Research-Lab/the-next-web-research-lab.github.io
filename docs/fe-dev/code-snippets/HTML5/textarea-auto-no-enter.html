@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    .wrap {
+      width: 200px;
+      background-color: #f9f9f9;
+    }
+
+    .wrap textarea {
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <textarea
+    onkeydown="action.onKeyDown(event)"
+    oninput="action.onInput()"
+  ></textarea>
+</div>
+
+<script>
+  const ONE_LINE = 25
+  const textarea = document.querySelector('textarea');
+
+  const renderHeight = () => {
+    textarea.value = state.value
+    textarea.style.height = state.height
+    textarea.setAttribute('rows', state.rows)
+  }
+
+  const state = {
+    lineLength: 1,
+    value: '',
+    get height () {
+      return `${state.lineLength * ONE_LINE}px`
+    },
+    get rows () {
+      return state.lineLength
+    }
+  }
+
+  const mutation = {
+    mutateLineLength: length => {
+      state.lineLength = length
+      renderHeight();
+    },
+    mutateValue: value => {
+      const removedNewLine = value.split(/\n/g).join('')
+      state.value = removedNewLine
+      renderHeight();
+    }
+  }
+
+  const action = {
+    onKeyDown: (event) => {
+      if (event.key === 'Enter') {
+        event.preventDefault();
+      }
+    },
+    onInput: () => {
+      mutation.mutateValue(textarea.value)
+      mutation.mutateLineLength(1)
+
+      requestAnimationFrame(() => {
+        const {scrollHeight} = textarea
+        const lineLength = Math.round(scrollHeight / ONE_LINE)
+
+        mutation.mutateLineLength(lineLength)
+      })
+    },
+  }
+
+  renderHeight()
+</script>
+</body>
+</html>

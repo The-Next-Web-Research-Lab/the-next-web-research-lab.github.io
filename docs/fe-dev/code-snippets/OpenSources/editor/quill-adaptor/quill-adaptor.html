@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+  <style>
+    #editor-container {
+      height: 375px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Editor</h1>
+<div id="editor-container"></div>
+
+<input type="button" value="Save and Present" id="save">
+
+<h1>Result</h1>
+<div id="editor-presentor"></div>
+
+<input type="button" value="ReEdit" id="re-edit">
+
+<h1>Re-Editor</h1>
+<div id="re-editor-container"></div>
+
+<script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+
+<script src="config.js"></script>
+<script src="editor-adaptor.js"></script>
+<script>
+  const getElem = (id) => document.querySelector(id)
+
+  window.onload = () => {
+    const container = mountEditor(getElem('#editor-container'))
+    const presentor = mountViewer(getElem('#editor-presentor'))
+    const reEditContainer = mountEditor(getElem('#re-editor-container'))
+
+    getElem('#save').addEventListener('click', () => {
+      const delta = extractContents(container)
+      insertContents(presentor, delta)
+    })
+
+    getElem('#re-edit').addEventListener('click', () => {
+      const delta = extractContents(presentor)
+      insertContents(reEditContainer, delta)
+    })
+  }
+</script>
+
+</body>
+</html>

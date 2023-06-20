@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .wrapper {
+      overflow: hidden;
+    }
+    .drop-box {
+      width: 350px;
+      height: 310px;
+      padding: 10px;
+      border: 1px solid #aaaaaa;
+      background: #fff;
+      float: left;
+    }
+    .drag-box {
+      width: 350px;
+      height: 70px;
+      background: #ccc;
+      border: 1px solid #000;
+    }
+  </style>
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="drop-box">
+    <h1>Header1</h1>
+    <div class="drag-box" draggable="true">1</div>
+    <div class="drag-box" draggable="true">2</div>
+    <div class="drag-box" draggable="true">3</div>
+  </div>
+  <div class="drop-box" draggable="true">
+    <h1>Header2</h1>
+  </div>
+  <div class="drop-box" draggable="true">
+    <h1>Header3</h1>
+  </div>
+  <div class="drop-box" draggable="true">
+    <h1>Header4</h1>
+  </div>
+</div>
+
+<script>
+  const replacePosition = (targetElement, element) => {
+    if (element) {
+      const {parentNode} = targetElement;
+      const childList = [...parentNode.childNodes];
+      const targetIndex = childList.findIndex(child => child === targetElement);
+      const elementIndex = childList.findIndex(child => child === element);
+      const position = targetIndex < elementIndex
+        ? 'beforebegin'
+        : 'afterend';
+
+      targetElement.insertAdjacentElement(position, element);
+    }
+  };
+
+  const dragBoxAll = document.querySelectorAll('.drag-box');
+
+  let draggingBox = null;
+
+  dragBoxAll.forEach(dragBox => {
+    dragBox.ondragstart = event => {
+      event.stopPropagation();
+      draggingBox = event.target;
+    };
+    dragBox.ondragend = () => {
+      draggingBox = null;
+    };
+    dragBox.addEventListener('dragover', event => {
+      event.preventDefault();
+      event.stopPropagation();
+      replacePosition(event.target, draggingBox);
+    });
+  });
+
+  const dropBoxAll = document.querySelectorAll('.drop-box');
+
+  dropBoxAll.forEach(dropBox => {
+    dropBox.addEventListener('dragover', event => {
+      event.preventDefault();
+      draggingBox && dropBox.appendChild(draggingBox);
+    })
+  });
+
+  const draggableDropBoxAll = document.querySelectorAll('.drop-box[draggable="true"]');
+
+  let draggingDropBox = null;
+
+  draggableDropBoxAll.forEach(dragBox => {
+    dragBox.ondragstart = event => {
+      event.stopPropagation();
+      draggingDropBox = event.target;
+    };
+    dragBox.ondragend = () => {
+      draggingDropBox = null
+    };
+    dragBox.addEventListener('dragover', event => {
+      event.preventDefault();
+      replacePosition(event.target, draggingDropBox);
+    });
+  });
+</script>
+</body>
+</html>

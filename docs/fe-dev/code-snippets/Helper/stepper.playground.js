@@ -1,0 +1,13 @@
+"use strict";
+exports.__esModule = true;
+var stepper_1 = require("./stepper");
+var stepper = stepper_1.Stepper.create(3);
+console.log(stepper.currentPosition, stepper.min, stepper.max, stepper.isMin, stepper.isMax);
+stepper.moveTo(1000);
+console.log(stepper.currentPosition, stepper.min, stepper.max, stepper.isMin, stepper.isMax);
+stepper.prev();
+console.log(stepper.currentPosition, stepper.min, stepper.max, stepper.isMin, stepper.isMax);
+stepper.prev();
+console.log(stepper.currentPosition, stepper.min, stepper.max, stepper.isMin, stepper.isMax);
+stepper.prev();
+console.log(stepper.currentPosition, stepper.min, stepper.max, stepper.isMin, stepper.isMax);

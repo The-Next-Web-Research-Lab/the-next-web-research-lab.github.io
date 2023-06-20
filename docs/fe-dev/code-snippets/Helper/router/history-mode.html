@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+<button onclick="goTo('/main')">Main</button>
+<button onclick="goTo('/sub1')">Sub1</button>
+<button onclick="goTo('/sub2')">Sub2</button>
+<div id="page"></div>
+<script>
+const Router = (() => {
+  const store = new Map();
+
+  const excuteCallback = (url) => {
+    if(store.has(url)){
+      store.get(url)();
+    }
+  };
+
+  const historyChangeListener = (event) => {
+    const currentHistory = event.state.url;
+    excuteCallback(currentHistory);
+  };
+
+  const init = (options) => {
+    //라우터 등록
+    options.forEach(({url, callback}) => {
+      store.set(url, callback);
+    });
+
+    //이벤트 등록
+    window.addEventListener(
+      'popstate',
+      historyChangeListener
+    );
+  };
+
+  const destory = () => {
+    //이벤트 삭제
+    window.removeEventListener(
+      'popstate',
+      historyChangeListener
+    );
+
+    //저장된 라우터 데이터 삭제
+    store.clear();
+  };
+
+  const go = (url) => {
+    history.pushState({url}, '', url);
+    excuteCallback(url);
+  };
+
+  return {
+    init,
+    destory,
+    go
+  }
+})();
+</script>
+<script>
+Router.init([
+  {
+    url: '/main',
+    callback: () => {
+      document.getElementById("page").innerHTML = 'Main';
+    }
+  },
+  {
+    url: '/sub1',
+    callback: () => {
+      document.getElementById("page").innerHTML = 'Sub1';
+    }
+  },
+  {
+    url: '/sub2',
+    callback: () => {
+      document.getElementById("page").innerHTML = 'Sub2';
+    }
+  }
+]);
+
+Router.go('/main');
+
+const goTo = (url) => {
+  Router.go(url);
+}
+</script>
+</body>
+</html>

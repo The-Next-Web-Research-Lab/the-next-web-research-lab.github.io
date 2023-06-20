@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" class="w-full h-full">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>React</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body class="w-full h-full">
+<div id="root" class="w-full h-full"></div>
+
+<script type="text/babel">
+  const IMAGES_PATH = [
+    './images/1.jpg',
+    './images/2.jpg',
+    './images/3.jpg',
+    './images/4.jpg',
+    './images/5.jpg',
+  ];
+  const MAX_SIZE = IMAGES_PATH.length;
+
+  const useSlider = ({maxSize}) => {
+    const [currentPage, setCurrentPage] = React.useState(1);
+
+    const handlePrevPage = () => {
+      setCurrentPage(prev => {
+        return prev === 1 ? maxSize : prev - 1;
+      });
+    };
+    const handleNextPage = () => {
+      setCurrentPage(prev => {
+        return prev === maxSize ? 1 : prev + 1;
+      })
+    };
+
+    return {
+      currentPage,
+      handlePrevPage,
+      handleNextPage,
+    }
+  };
+
+  const Button = ({onClick, children}) => {
+    return (
+      <button
+        className="rounded-lg text-sm font-semibold py-2 px-4 bg-slate-900 text-white"
+        onClick={onClick}>
+        {children}
+      </button>
+    )
+  }
+
+  const SliderItem = ({path}) => {
+    return (
+      <div className="w-full p-2 shrink-0 flex justify-center items-center">
+        <img src={path} className="max-w-full max-h-full"/>
+      </div>
+    )
+  };
+
+  const MyApp = () => {
+    const {currentPage, handlePrevPage, handleNextPage} = useSlider({maxSize: MAX_SIZE});
+
+    return <>
+      <div className="flex justify-center items-center gap-x-3 text-lg p-2">
+        <Button onClick={handlePrevPage}>
+          Prev
+        </Button>
+        <span>{currentPage} / {MAX_SIZE}</span>
+        <Button onClick={handleNextPage}>
+          Next
+        </Button>
+      </div>
+
+      <div className="max-h-[500px] w-[100%] h-[50%] bg-[#ddd] overflow-hidden">
+        <div className={`-translate-x-[${(currentPage - 1) * 100}%] w-full h-full flex duration-100`}>
+          {
+            IMAGES_PATH
+              .map((path) => <SliderItem path={path} key={path} />)
+          }
+        </div>
+      </div>
+    </>;
+  }
+
+  const container = document.getElementById('root');
+  const root = ReactDOM.createRoot(container);
+  root.render(<MyApp />);
+</script>
+</body>
+</html>

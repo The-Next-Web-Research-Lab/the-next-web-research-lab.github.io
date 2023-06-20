@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div id="pagination"></div>
+
+  <script src="pagination2.js"></script>
+  <script>
+    const render = () => {
+      const nextButton = state.hasNext ?
+        '<button onclick="actions.handleNext(); render()">Next</button>' :
+        '';
+      const prevButton = state.hasPrev ?
+        '<button onclick="actions.handlePrev(); render()">Prev</button>' :
+        '';
+      const pagination = `<ul>${state.pages.map(v => {
+        const button = `<button onclick="mutation.changeCurrentPage(${v}); render()">
+          ${v}: ${v === state.currentPage ? 'Selected' : ''}
+        </button>`;
+        return `<li>${button}</li>`
+      }).join('')}</ul>`
+
+      const html = `
+        ${prevButton}
+        ${nextButton}
+        ${pagination}
+      `;
+      document.querySelector('#pagination').innerHTML = html
+    };
+
+    window.onload = () => {
+      render()
+    }
+  </script>
+</body>
+</html>

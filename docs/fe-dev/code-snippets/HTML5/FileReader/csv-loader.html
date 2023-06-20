@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSV File</title>
+</head>
+<body>
+<input type="file" accept=".csv" onchange="loadFile(this)">
+<script src="csv-loader.js"></script>
+<script>
+  const loadFile = (self) => {
+    const {files: [csvFile]} = self
+    if (!isCSVFormat(csvFile)) {
+      alert('CSV 파일이 아닙니다.')
+      self.value = ''
+      return
+    }
+
+    csvToObj(csvFile)
+      .then(console.log)
+      .catch(console.error)
+  }
+</script>
+</body>
+</html>

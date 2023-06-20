@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+      .wrapper {
+          width: 90px;
+          height: 160px;
+          position: relative;
+          background: #fff;
+          filter: blur(10px) contrast(20);
+      }
+
+      .dot {
+          width: 50px;
+          height: 50px;
+          background: #000;
+          border-radius: 100%;
+          overflow: hidden;
+          border: 0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          transition: top 1s;
+      }
+
+      .wrapper:hover .dot:nth-of-type(2) {
+          top: 40px;
+      }
+
+      .wrapper:hover .dot:nth-of-type(1) {
+          top: 110px;
+      }
+  </style>
+</head>
+<body>
+<div class="wrapper">
+  <div class="dot">&lt;</div>
+  <div class="dot">&gt;</div>
+</div>
+</body>
+</html>

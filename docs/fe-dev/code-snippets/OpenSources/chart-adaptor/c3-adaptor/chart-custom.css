@@ -1,0 +1,14 @@
+/* 라벨 색상 및 사이즈 수정 */
+.c3 svg {
+  font-size: 13px;
+  fill: #999
+}
+/* 좌표의 선 삭제 */
+.c3 .tick line {
+  display: none
+}
+/* 차트 내부 선 색상 및 라인으로 변경 */
+.c3-grid line {
+  stroke-dasharray: 0;
+  stroke: #ddd
+}

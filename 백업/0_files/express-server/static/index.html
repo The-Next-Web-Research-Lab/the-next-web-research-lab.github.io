@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<input type="file" id="my-file">
+<input type="button" value="Submit" onclick="uploadFile()">
+
+<script src="/docs/src/sample.js"></script>
+<script>
+  console.log(add(10, 5))
+
+  const uploadFile = () => {
+    const file = document.querySelector('#my-file').files[0]
+    const formData = new FormData()
+
+    formData.append('uploadFile', file, file.name)
+
+    fetch('/upload', {
+      method: 'POST',
+      body: formData
+    })
+  }
+</script>
+</body>
+</html>

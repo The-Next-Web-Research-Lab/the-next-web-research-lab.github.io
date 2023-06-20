@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .section {height: 300px;}
+    .section.on .modal {background: #222;}
+    .modal {width: 500px; max-width: 100%; height: 200px; background: #f8f8f8;}
+  </style>
+</head>
+<body>
+  <div>배경 클릭 시 모두 회색으로 됨</div>
+  <div class="section">
+    <button>검정</button>
+    <div class="modal"></div>
+  </div>
+  <div class="section">
+    <button>검정</button>
+    <div class="modal"></div>
+  </div>
+  <div class="section">
+    <button>검정</button>
+    <div class="modal"></div>
+  </div>
+  <script src="./contextmenu-object.js"></script>
+  <script>
+    const sections = document.querySelectorAll('.section');
+    const buttons = Array.from(sections)
+      .map((section) => section.querySelector('button'));
+
+    const contextMenus = Array.from({length: sections.length})
+      .map(() => ContextMenu.create());
+    const mediator = Mediator.create();
+
+    const hookRender = (fn) => () => {
+      fn();
+      render();
+    };
+    const render = () => {
+      sections.forEach((section, index) => {
+        const {isOpen} = contextMenus[index];
+        const commend = isOpen ? 'add' : 'remove';
+        section.classList[commend]('on')
+      });
+    };
+
+    const init = () => {
+      buttons.forEach((button, index) => {
+        button.addEventListener('click', hookRender(() => {
+          contextMenus[index].open();
+        }));
+      });
+
+      document.addEventListener('click', hookRender(() => {
+        mediator.closeAll();
+      }), true);
+    };
+
+    init();
+  </script>
+</body>
+</html>

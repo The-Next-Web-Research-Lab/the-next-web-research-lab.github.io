@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+<head></head>
+<body>
+<div id="calendar"></div>
+
+<script>
+  const range = (length) => Array.from({ length }, (_, i) => i);
+  const chunk = (arr, size) => {
+    if (size === 0) return arr;
+    return range(Math.ceil(arr.length / size)).map((i) =>
+      arr.slice(i * size, i * size + size)
+    );
+  };
+
+  const produceDate = (base, recipe) => {
+    const clonedDate = new Date(base);
+    recipe(clonedDate);
+    return clonedDate
+  };
+  const clearTime = (date) => {
+    return produceDate(date, (draft) => {
+      draft.setHours(0, 0, 0, 0)
+    })
+  };
+  const setDate = (date, day) => {
+    return produceDate(date, (draft) => {
+      draft.setDate(day);
+    })
+  };
+  const addMonth = (date, count) => {
+    return produceDate(date, (draft) => {
+      draft.setMonth(draft.getMonth() + count);
+    })
+  };
+  const subtractMonth = (date, count) => {
+    return addMonth(date, -count)
+  };
+  const toLastDay = (date) => {
+    return setDate(addMonth(date, 1), 0).getDate();
+  };
+
+  const toMonthDays = (date) => {
+    const WEEK_LENGTH = 7;
+
+    const firstDate = setDate(date, 1);
+    const lastDate = toLastDay(date);
+
+    const firstDateIndex = firstDate.getDay();
+    const restDay = (firstDateIndex + lastDate) % WEEK_LENGTH;
+    const nextMonthLength = restDay ? WEEK_LENGTH - restDay : restDay;
+
+    const prevMonthDays = range(firstDateIndex).fill('');
+    const currentMonthDays = range(lastDate).map((i) => setDate(date, i + 1)); // [1, 2, ...]
+    const nextMonthDays = range(nextMonthLength).fill('');
+
+    return chunk(
+      [
+        prevMonthDays,
+        currentMonthDays,
+        nextMonthDays
+      ].flat(),
+      WEEK_LENGTH
+    )
+  };
+
+  const props = {
+    current: new Date()
+  };
+
+  const state = {
+    current: clearTime(props.current),
+    get monthDays() {
+      return toMonthDays(state.current)
+    },
+    get title() {
+      const current = state.current;
+      const year = current.getFullYear();
+      const month = current.getMonth() + 1;
+      return `${year}.${month}`
+    }
+  };
+
+  const mutation = {
+    mutateCurrent: (current) => {
+      state.current = current;
+    }
+  };
+
+  const actions = {
+    fetchNextMonth: () => {
+      const nextMonth = addMonth(state.current, 1);
+      mutation.mutateCurrent(nextMonth)
+    },
+    fetchPrevMonth: () => {
+      const prevMonth = subtractMonth(state.current, 1);
+      mutation.mutateCurrent(prevMonth)
+    }
+  }
+</script>
+<script>
+  const onClickPrev = () => {
+    actions.fetchPrevMonth();
+    render();
+  };
+  const onClickNext = () => {
+    actions.fetchNextMonth();
+    render();
+  };
+
+  const buttonTemplate = () => {
+    return `<div>
+      <button onclick="onClickPrev()" type="button">Prev</button>
+      <button onclick="onClickNext()" type="button">Next</button>
+    </div>`
+  };
+  const calendarTemplate = () => {
+    const weeks = state.monthDays
+      .map((week) => {
+        const days = week
+          .map((day) => {
+            return `<td>${day ? day.getDate() : ''}</td>`
+          })
+          .join('');
+        return `<tr>${days}</tr>`
+      })
+      .join('');
+    return `<table>${weeks}</table>`
+  };
+  const render = () => {
+    const template = `
+      ${buttonTemplate()}
+      <div>${state.title}</div>
+      ${calendarTemplate()}
+    `;
+    document.querySelector('#calendar').innerHTML = template
+  };
+
+  render();
+</script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style type="text/css">
+    pre {
+      border: 1px solid #ddd;
+      max-height: 150px;
+      min-height: 150px;
+      overflow: auto
+    }
+    #result2 {word-break: break-all;}
+    #result2, textarea {width: 100%; height: 150px; border: 1px solid #ddd;}
+  </style>
+</head>
+<body>
+<div>
+  <h3>Syntax</h3>
+  <pre>
+Keyword: 'div' | 'span'
+Symbol: '&lt;' | '&gt;' | '&lt;/' | '{' | '}'
+StringConstant: 문자열
+
+Tag: '&lt;' Keyword (Attribute)* '&gt;' (Tag | Template | StringConstant) '&lt;/' Keyword '&gt;'
+Template: '{{' StringConstant '}}'
+Attribute: ' ' StringConstant '=' '"' StringConstant '"'
+  </pre>
+</div>
+<div>
+  <h3>Template</h3>
+  <textarea id="template">
+<div id="test" class="class-name" no-name>
+  {{hello}} {{world}}
+  <div d-if="true">Show</div>
+  <div d-if="false">Hide</div>
+</div></textarea>
+</div>
+<div>
+  <h3>state</h3>
+  <pre id="state"></pre>
+</div>
+<div>
+  <h3>Result</h3>
+  <div id="result1"></div>
+  <pre id="result2"></pre>
+<div>
+  <h3>Tokenizer</h3>
+  <pre id="tokenizer"></pre>
+</div>
+<div>
+  <h3>Parser</h3>
+  <pre id="parser"></pre>
+</div>
+<div>
+  <h3>Virtual Code Generator</h3>
+  <pre id="virtualCodeGenerator"></pre>
+</div>
+<div>
+  <h3>Target Code Generator</h3>
+  <pre id="debugTargetCode"></pre>
+  <pre id="targetCodeGenerator"></pre>
+</div>
+
+<script type="module">
+import {tokenizer} from './compiler/syntax-analyzer/tokenizer.js';
+import {parser} from './compiler/syntax-analyzer/parser.js';
+import {virtualCodeGenerator} from './compiler/code-generator/virtual-code-generator.js';
+import {targetCodeGenerator, debugTargetCode} from './compiler/code-generator/target-code-generator.js';
+
+const addResult = (id, result) => {
+  document
+    .querySelector(`#${id}`)
+    .textContent =
+      typeof result === 'string' || typeof result === 'function'
+        ? result
+        : JSON.stringify(result, null, 2)
+};
+
+export const onInput = () => {
+  const template = document.querySelector('textarea').value;
+  const tokens = tokenizer(template);
+  addResult('tokenizer', tokens);
+
+  const ast = parser(tokens);
+  addResult('parser', ast);
+
+  const virtualCode = virtualCodeGenerator(ast);
+  addResult('virtualCodeGenerator', virtualCode);
+
+  addResult('debugTargetCode', debugTargetCode(virtualCode));
+  const render = targetCodeGenerator(virtualCode);
+  addResult('targetCodeGenerator', render);
+
+  const state = {
+    hello: 'Hello',
+    world: 'World!',
+    text: 'My Text'
+  };
+
+  addResult('state', state);
+  document
+    .querySelector(`#result1`)
+    .innerHTML = render(state);
+  addResult('result2', render(state));
+};
+
+document.querySelector('textarea').oninput = onInput;
+
+onInput()
+
+</script>
+
+</body>
+</html>

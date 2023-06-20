@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html class="w-full h-full">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>React</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body class="w-full h-full">
+<div id="root" class="w-full h-full"></div>
+
+<script type="text/babel">
+  const MyApp = () => {
+    const [message, setMessage] = React.useState('');
+    const [message2, setMessage2] = React.useState('');
+
+    const shareText = async () => {
+      try {
+        await navigator.share({
+          title: 'One Piece | Web Share API',
+          text: 'Share Text',
+          url: 'https://chodragon9.github.io/one-piece/src/Javascript/WebApis/',
+        })
+
+        setMessage('One Piece shared successfully')
+      } catch (err) {
+        setMessage(`Error: ${err}`)
+      }
+    };
+
+    const shareFiles = async (event) => {
+      const files = event.target.files;
+
+      if (files.length === 0) {
+        setMessage2('No files selected.');
+      } else {
+        if (navigator.canShare) {
+          if (navigator.canShare({files})) {
+            try {
+              await navigator.share({
+                files,
+                title: 'Files',
+                text: 'My Files'
+              })
+              setMessage2('Shared!')
+            } catch (error) {
+              setMessage2(`Error: ${error.message}`)
+            }
+          } else {
+            setMessage2(`Your system doesn't support sharing these files.`);
+          }
+        } else {
+          setMessage2(`Your browser doesn't support the Web Share API.`);
+        }
+      }
+    };
+
+    return <div className="h-full w-full text-xl text-center flex flex-col gap-y-5 pt-5">
+      <div>
+        <button
+          type="text"
+          onClick={shareText}
+          className="py-2 px-4 bg-slate-900 text-white rounded-lg text-sm">
+          Share Text
+        </button>
+      </div>
+      <p>message: {message}</p>
+
+      <div>
+        Share Files: <input type="file" onChange={shareFiles}/>
+      </div>
+      <p>message: {message2}</p>
+    </div>;
+  }
+
+  ReactDOM
+    .createRoot(document.querySelector('#root'))
+    .render(<MyApp/>);
+</script>
+</body>
+</html>

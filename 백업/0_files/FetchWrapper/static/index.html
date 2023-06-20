@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+<table border="1">
+  <tr>
+    <td>Method</td>
+    <td>Data</td>
+    <td>Button</td>
+  </tr>
+  <tr>
+    <td>GET</td>
+    <td>Not Found</td>
+    <td><button type="button" id="get-not">Request</button></td>
+  </tr>
+  <tr>
+    <td>GET</td>
+    <td>JSON</td>
+    <td><button type="button" id="get-json">Request</button></td>
+  </tr>
+  <tr>
+    <td>GET</td>
+    <td>HTML</td>
+    <td><button type="button" id="get-html">Request</button></td>
+  </tr>
+  <tr>
+    <td>GET</td>
+    <td>Text</td>
+    <td><button type="button" id="get-text">Request</button></td>
+  </tr>
+  <tr>
+    <td>GET</td>
+    <td>Image</td>
+    <td>
+      <button type="button" id="get-image">Request</button>
+      <img src="" id="get-image-tag">
+    </td>
+  </tr>
+  <tr>
+    <td>POST</td>
+    <td>JSON</td>
+    <td><button type="button" id="post-json">Request</button></td>
+  </tr>
+  <tr>
+    <td>POST</td>
+    <td>File</td>
+    <td>
+      <input type="file" id="post-file-input">
+      <button type="button" id="post-file">Request</button>
+    </td>
+  </tr>
+  <tr>
+    <td>PUT</td>
+    <td>JSON</td>
+    <td><button type="button" id="put-json">Request</button></td>
+  </tr>
+  <tr>
+    <td>PUT</td>
+    <td>File</td>
+    <td>
+      <input type="file" id="put-file-input">
+      <button type="button" id="put-file">Request</button>
+    </td>
+  </tr>
+  <tr>
+    <td>DELETE</td>
+    <td>JSON</td>
+    <td><button type="button" id="delete-json">Request</button></td>
+  </tr>
+</table>
+
+<script src="/docs/src/fetch-wrapper.js"></script>
+<script>
+  const getElem = selector => document.querySelector('#' + selector)
+  const addClick = (selector, callback) => {
+    const elem = getElem(selector)
+    elem.onclick = callback
+  }
+
+  window.onload = () => {
+    ['not', 'json','html','text'].forEach(item => {
+      addClick('get-' + item, () => {
+        fetchGetData('/get/' + item)
+          .then(response => console.log(response))
+      })
+    });
+
+    addClick('get-image', () => {
+      fetchGetData('/static/code.png')
+        .then(response => {
+          console.log(response)
+          getElem('get-image-tag').src = URL.createObjectURL(response.body)
+        })
+    });
+
+    addClick('post-json', () => {
+      fetchPostData('/post/json', {data: 'json'})
+        .then(response => console.log(response))
+    });
+
+    addClick('post-file', () => {
+      // File API
+      const file = getElem('post-file-input').files[0]
+      // FormData
+      const formData = new FormData()
+      formData.append('uploadFile', file, file.name)
+
+      fetchPostData('/post/file', formData)
+        .then(response => console.log(response))
+    })
+
+    addClick('put-json', () => {
+      fetchPutData('/put/json', {data: 'json'})
+        .then(response => console.log(response))
+    });
+
+    addClick('put-file', () => {
+      // File API
+      const file = getElem('put-file-input').files[0]
+      // FormData
+      const formData = new FormData()
+      formData.append('uploadFile', file, file.name)
+
+      fetchPutData('/put/file', formData)
+        .then(response => console.log(response))
+    })
+
+    addClick('delete-json', () => {
+      fetchDeleteData('/delete/json', {data: 'json'})
+        .then(response => console.log(response))
+    });
+  }
+</script>
+</body>
+</html>

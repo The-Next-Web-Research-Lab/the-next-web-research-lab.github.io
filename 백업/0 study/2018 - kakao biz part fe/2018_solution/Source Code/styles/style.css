@@ -1,0 +1,94 @@
+#elevator-manager {
+    width: 100%;
+    overflow: hidden;
+}
+
+#elevator-manager > div {
+    width: 100px;
+    min-height: 100px;
+    float: left;
+}
+
+#elevator-manager > div+div {
+    position: relative;
+    border: solid 1px #ccc;
+    margin-left: 20px;
+}
+
+.floor-btn {
+    width: 100px;
+    height: 60px;
+    margin: 20px 0;
+}
+
+.active {
+    background-color: #f06;
+}
+
+.elevator {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+    width: 100px;
+    height: 100px;
+
+    box-sizing: border-box;
+    border: solid 5px #000;
+    border-radius: 4px;
+
+    transition-timing-function: linear;
+    transition-property: bottom;
+}
+
+.elevator-max-floor-2 {
+    height: 200px;
+}
+
+.elevator-max-floor-3 {
+    height: 300px;
+}
+
+.elevator-max-floor-4 {
+    height: 400px;
+}
+
+.elevator-max-floor-5 {
+    height: 500px;
+}
+
+.elevator-move-floor-1 {
+    bottom: 0;
+}
+
+.elevator-move-floor-2 {
+    bottom: 100px;
+}
+
+.elevator-move-floor-3 {
+    bottom: 200px;
+}
+
+.elevator-move-floor-4 {
+    bottom: 300px;
+}
+
+.elevator-move-floor-5 {
+    bottom: 400px;
+}
+
+.elevator-move-duration-1 {
+    transition-duration: 1s;
+}
+
+.elevator-move-duration-2 {
+    transition-duration: 2s;
+}
+
+.elevator-move-duration-3 {
+    transition-duration: 3s;
+}
+
+.elevator-move-duration-4 {
+    transition-duration: 4s;
+}
