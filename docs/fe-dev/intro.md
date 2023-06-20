@@ -1,5 +1,5 @@
 ---
-title: 0장 소개
+title: 0장 실용주의 FE Dev 소개
 sidebar: auto
 ---
 
