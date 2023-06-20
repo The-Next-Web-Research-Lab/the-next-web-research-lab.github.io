@@ -78,7 +78,45 @@ export default {
         text: '에세이',
         link: '/essay/'
       },
-    ]
+    ],
+    sidebar: {
+      '/fe-dev/pet-project': [
+        '/fe-dev/pet-project',
+        {
+          text: 'Vue',
+          children: [
+            '/fe-dev/pet-project/vue2-part/',
+            '/fe-dev/pet-project/vue2-component/',
+            '/fe-dev/pet-project/vuex/'
+          ]
+        },
+        {
+          text: 'Helper',
+          children: ['/fe-dev/pet-project/momentjs/',
+            '/fe-dev/pet-project/immerjs/',
+            '/fe-dev/pet-project/axios/',
+          ]
+        },
+        {
+          text: 'Component',
+          children: [
+            '/fe-dev/pet-project/component/2020-08-component/',
+            '/fe-dev/pet-project/component/vuex-feature/',
+            '/fe-dev/pet-project/component/recoil-feature/',
+            '/fe-dev/pet-project/component/fragment-dom/',
+            '/fe-dev/pet-project/component/simple-dom/',
+            '/fe-dev/pet-project/component/simple-component/'
+          ]
+        },
+        {
+          text: 'MVC',
+          children: [
+            '/fe-dev/pet-project/mvc/2021-07-mvc/',
+            '/fe-dev/pet-project/mvc/2020-08-mvc/', '/fe-dev/pet-project/mvc/2021-07-mvc-class/', '/fe-dev/pet-project/mvc/2020-08-mvc-class/', '/fe-dev/pet-project/mvc/2020-08-mvc-function/'
+          ],
+        },
+      ]
+    }
   }),
   head: [
     [
