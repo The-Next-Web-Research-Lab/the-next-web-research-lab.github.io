@@ -1,6 +1,6 @@
 ---
 title: Directive
-sidebar: auto
+
 ---
 
 ## directive

@@ -1,6 +1,6 @@
 ---
 title: Router
-sidebar: auto
+
 ---
 
 ## history mode

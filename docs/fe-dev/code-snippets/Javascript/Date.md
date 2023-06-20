@@ -1,6 +1,6 @@
 ---
 title: Date
-sidebar: auto
+
 ---
 
 ## dateToString.js

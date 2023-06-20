@@ -1,6 +1,6 @@
 ---
 title: Web APIs
-sidebar: auto
+
 ---
 ## navigator.vibrate
 > [데모](https://chodragon9.github.io/one-piece/docs/fe-dev/code-snippets/Javascript/WebApis/vibrate.html)

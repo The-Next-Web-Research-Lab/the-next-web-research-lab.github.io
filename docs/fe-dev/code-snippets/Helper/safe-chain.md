@@ -1,6 +1,6 @@
 ---
 title: safe-chain
-sidebar: auto
+
 ---
 
 ## try-catch.js

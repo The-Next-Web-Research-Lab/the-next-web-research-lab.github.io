@@ -1,6 +1,6 @@
 ---
 title: chart-adaptor
-sidebar: auto
+
 ---
 
 ## c3-adaptor

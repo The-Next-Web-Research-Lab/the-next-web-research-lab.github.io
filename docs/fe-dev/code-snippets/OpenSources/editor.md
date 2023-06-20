@@ -1,6 +1,6 @@
 ---
 title: editor
-sidebar: auto
+
 ---
 
 ## quill.html

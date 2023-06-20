@@ -1,6 +1,6 @@
 ---
 title: shuffle
-sidebar: auto
+
 ---
 
 ## shuffle.js

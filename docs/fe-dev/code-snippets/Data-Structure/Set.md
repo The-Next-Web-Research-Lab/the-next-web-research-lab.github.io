@@ -1,6 +1,6 @@
 ---
 title: Set
-sidebar: auto
+
 ---
 
 ```js

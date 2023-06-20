@@ -1,4 +1,4 @@
-export const data = JSON.parse("{\"key\":\"v-1b625908\",\"path\":\"/fe-dev/code-snippets/Data-Structure/Stack.html\",\"title\":\"Stack\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"Stack\",\"sidebar\":\"auto\"},\"headers\":[],\"git\":{\"updatedTime\":null,\"contributors\":[]},\"filePathRelative\":\"fe-dev/code-snippets/Data-Structure/Stack.md\"}")
+export const data = JSON.parse("{\"key\":\"v-1b625908\",\"path\":\"/fe-dev/code-snippets/Data-Structure/Stack.html\",\"title\":\"Stack\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"Stack\"},\"headers\":[],\"git\":{\"updatedTime\":1687279729000,\"contributors\":[{\"name\":\"ChoDragon9\",\"email\":\"04whdydrn30@gmail.com\",\"commits\":1}]},\"filePathRelative\":\"fe-dev/code-snippets/Data-Structure/Stack.md\"}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()

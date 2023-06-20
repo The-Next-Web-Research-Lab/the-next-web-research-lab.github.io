@@ -1,6 +1,6 @@
 ---
 title: InfiniteScrolling
-sidebar: auto
+
 ---
 
 ## infinite-scroll.js

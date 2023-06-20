@@ -1,6 +1,6 @@
 ---
 title: Observer
-sidebar: auto
+
 ---
 
 ## observer - defineProperty

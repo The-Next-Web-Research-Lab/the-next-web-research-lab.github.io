@@ -1,6 +1,6 @@
 ---
 title: Iterable
-sidebar: auto
+
 ---
 
 ## from.js

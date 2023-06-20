@@ -1,6 +1,6 @@
 ---
 title: produce
-sidebar: auto
+
 ---
 
 ## produce.ts

@@ -1,6 +1,6 @@
 ---
 title: Array
-sidebar: auto
+
 ---
 
 ## each-until.js

@@ -1,6 +1,6 @@
 ---
 title: Functional
-sidebar: auto
+
 ---
 
 ## unfold

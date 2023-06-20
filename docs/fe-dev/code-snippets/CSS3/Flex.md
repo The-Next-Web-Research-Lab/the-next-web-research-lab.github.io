@@ -1,6 +1,6 @@
 ---
 title: Flex
-sidebar: auto
+
 ---
 
 # flex

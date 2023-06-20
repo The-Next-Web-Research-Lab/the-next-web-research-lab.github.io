@@ -1,6 +1,6 @@
 ---
 title: Calendar
-sidebar: auto
+
 ---
 
 ## calendar.html

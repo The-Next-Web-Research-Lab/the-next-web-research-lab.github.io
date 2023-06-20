@@ -1,6 +1,6 @@
 ---
 title: clone
-sidebar: auto
+
 ---
 
 ## collection.js

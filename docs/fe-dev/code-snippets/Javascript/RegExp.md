@@ -1,6 +1,6 @@
 ---
 title: RegExp
-sidebar: auto
+
 ---
 
 ## input.js

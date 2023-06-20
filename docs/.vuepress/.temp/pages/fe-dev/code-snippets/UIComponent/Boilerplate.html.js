@@ -1,4 +1,4 @@
-export const data = JSON.parse("{\"key\":\"v-448dfa8e\",\"path\":\"/fe-dev/code-snippets/UIComponent/Boilerplate.html\",\"title\":\"Boilerplate\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"Boilerplate\",\"sidebar\":\"auto\"},\"headers\":[],\"git\":{\"updatedTime\":null,\"contributors\":[]},\"filePathRelative\":\"fe-dev/code-snippets/UIComponent/Boilerplate.md\"}")
+export const data = JSON.parse("{\"key\":\"v-448dfa8e\",\"path\":\"/fe-dev/code-snippets/UIComponent/Boilerplate.html\",\"title\":\"Boilerplate\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"Boilerplate\"},\"headers\":[],\"git\":{\"updatedTime\":1687279729000,\"contributors\":[{\"name\":\"ChoDragon9\",\"email\":\"04whdydrn30@gmail.com\",\"commits\":1}]},\"filePathRelative\":\"fe-dev/code-snippets/UIComponent/Boilerplate.md\"}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()

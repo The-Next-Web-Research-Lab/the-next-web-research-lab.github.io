@@ -1,6 +1,6 @@
 ---
 title: Contextmenu
-sidebar: auto
+
 ---
 
 ## contextmenu.ts

@@ -1,6 +1,6 @@
 ---
 title: TimePicker
-sidebar: auto
+
 ---
 
 ## timepicker.js

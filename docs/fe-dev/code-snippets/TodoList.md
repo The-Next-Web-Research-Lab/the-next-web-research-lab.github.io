@@ -1,6 +1,6 @@
 ---
 title: TodoList
-sidebar: auto
+
 ---
 
 ## 명령형

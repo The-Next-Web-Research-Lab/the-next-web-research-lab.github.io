@@ -1,6 +1,6 @@
 ---
 title: FileReader
-sidebar: auto
+
 ---
 
 ## csv-loader.js

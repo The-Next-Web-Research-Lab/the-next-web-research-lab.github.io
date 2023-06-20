@@ -1,6 +1,6 @@
 ---
 title: Object
-sidebar: auto
+
 ---
 
 ## assign.ts

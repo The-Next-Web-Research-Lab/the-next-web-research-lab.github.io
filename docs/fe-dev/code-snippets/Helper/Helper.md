@@ -1,6 +1,6 @@
 ---
 title: Helper
-sidebar: auto
+
 ---
 
 ## debounce.js

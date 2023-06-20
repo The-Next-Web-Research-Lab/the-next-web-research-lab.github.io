@@ -1,6 +1,6 @@
 ---
 title: HTML5
-sidebar: auto
+
 ---
 
 ## copy-text.js

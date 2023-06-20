@@ -1,4 +1,4 @@
-export const data = JSON.parse("{\"key\":\"v-5f92c8e4\",\"path\":\"/fe-dev/code-snippets/Javascript/String.html\",\"title\":\"String\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"String\",\"sidebar\":\"auto\"},\"headers\":[{\"level\":2,\"title\":\"thousand-comma.js\",\"slug\":\"thousand-comma-js\",\"link\":\"#thousand-comma-js\",\"children\":[]}],\"git\":{\"updatedTime\":null,\"contributors\":[]},\"filePathRelative\":\"fe-dev/code-snippets/Javascript/String.md\"}")
+export const data = JSON.parse("{\"key\":\"v-5f92c8e4\",\"path\":\"/fe-dev/code-snippets/Javascript/String.html\",\"title\":\"String\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"String\"},\"headers\":[{\"level\":2,\"title\":\"thousand-comma.js\",\"slug\":\"thousand-comma-js\",\"link\":\"#thousand-comma-js\",\"children\":[]}],\"git\":{\"updatedTime\":1687279729000,\"contributors\":[{\"name\":\"ChoDragon9\",\"email\":\"04whdydrn30@gmail.com\",\"commits\":1}]},\"filePathRelative\":\"fe-dev/code-snippets/Javascript/String.md\"}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()

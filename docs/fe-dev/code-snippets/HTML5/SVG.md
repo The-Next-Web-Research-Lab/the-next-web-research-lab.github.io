@@ -1,6 +1,6 @@
 ---
 title: SVG
-sidebar: auto
+
 ---
 
 ## 육각형 이미지

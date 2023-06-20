@@ -1,6 +1,6 @@
 ---
 title: String
-sidebar: auto
+
 ---
 
 ## thousand-comma.js

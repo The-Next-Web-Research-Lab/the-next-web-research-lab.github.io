@@ -86,94 +86,95 @@ export default {
           text: 'Data Structure',
           collapsible: true,
           children: [
-            {text: 'Set', link: '/fe-dev/code-snippets/Data-Structure/Set/'},
-            {text: 'Stack', link: '/fe-dev/code-snippets/Data-Structure/Stack/'},
-            {text: 'Queue', link: '/fe-dev/code-snippets/Data-Structure/Queue/'},
-            {text: 'LinkedList', link: '/fe-dev/code-snippets/Data-Structure/LinkedList/'},
+            '/fe-dev/code-snippets/Data-Structure/Set/',
+            '/fe-dev/code-snippets/Data-Structure/Stack/',
+            '/fe-dev/code-snippets/Data-Structure/Queue/',
+            '/fe-dev/code-snippets/Data-Structure/LinkedList/',
           ]
         },
         {
           text: 'UIComponent',
           collapsible: true,
           children: [
-            {text: 'Boilerplate', link: '/fe-dev/code-snippets/UIComponent/Boilerplate/'},
-            {text: 'Pagination', link: '/fe-dev/code-snippets/UIComponent/Pagination/'},
-            {text: 'Calendar', link: '/fe-dev/code-snippets/UIComponent/Calendar/'},
-            {text: 'TimePicker', link: '/fe-dev/code-snippets/UIComponent/TimePicker/'},
-            {text: 'InfiniteScrolling', link: '/fe-dev/code-snippets/UIComponent/InfiniteScrolling/'},
-            {text: 'Slider', link: '/fe-dev/code-snippets/UIComponent/Slider/'},
+            '/fe-dev/code-snippets/UIComponent/Boilerplate/',
+            '/fe-dev/code-snippets/UIComponent/Pagination/',
+            '/fe-dev/code-snippets/UIComponent/Calendar/',
+            '/fe-dev/code-snippets/UIComponent/TimePicker/',
+            '/fe-dev/code-snippets/UIComponent/InfiniteScrolling/',
+            '/fe-dev/code-snippets/UIComponent/Slider/',
           ]
         },
         {
           text: 'Helper',
           collapsible: true,
           children: [
-            {text: 'Helper', link: '/fe-dev/code-snippets/Helper/Helper/'},
-            {text: 'Contextmenu', link: '/fe-dev/code-snippets/Helper/contextmenu/'},
-            {text: 'clone', link: '/fe-dev/code-snippets/Helper/clone/'},
-            {text: 'produce', link: '/fe-dev/code-snippets/Helper/produce/'},
-            {text: 'safe-chain', link: '/fe-dev/code-snippets/Helper/safe-chain/'},
-            {text: 'shuffle', link: '/fe-dev/code-snippets/Helper/shuffle/'},
-            {text: 'Router', link: '/fe-dev/code-snippets/Helper/router/'},
-            {text: 'Observer', link: '/fe-dev/code-snippets/Helper/observer/'},
-            {text: 'Component', link: '/fe-dev/code-snippets/Helper/component/'},
-            {text: 'Directive', link: '/fe-dev/code-snippets/Helper/directive/'},
-            {text: 'Template Binding', link: '/fe-dev/code-snippets/Helper/template-binding/'},
+            '/fe-dev/code-snippets/Helper/Helper/',
+            '/fe-dev/code-snippets/Helper/contextmenu/',
+            '/fe-dev/code-snippets/Helper/clone/',
+            '/fe-dev/code-snippets/Helper/produce/',
+            '/fe-dev/code-snippets/Helper/safe-chain/',
+            '/fe-dev/code-snippets/Helper/shuffle/',
+            '/fe-dev/code-snippets/Helper/router/',
+            '/fe-dev/code-snippets/Helper/observer/',
+            '/fe-dev/code-snippets/Helper/component/',
+            '/fe-dev/code-snippets/Helper/directive/',
+            '/fe-dev/code-snippets/Helper/template-binding/',
           ]
         },
         {
           text: 'Javascript',
           collapsible: true,
           children: [
-            {text: 'Web APIs', link: '/fe-dev/code-snippets/Javascript/WebApis/'},
-            {text: 'Array', link: '/fe-dev/code-snippets/Javascript/Array/'},
-            {text: 'Date', link: '/fe-dev/code-snippets/Javascript/Date/'},
-            {text: 'Iterable', link: '/fe-dev/code-snippets/Javascript/Iterable/'},
-            {text: 'Object', link: '/fe-dev/code-snippets/Javascript/Object/'},
-            {text: 'String', link: '/fe-dev/code-snippets/Javascript/String/'},
-            {text: 'RegExp', link: '/fe-dev/code-snippets/Javascript/RegExp/'},
+            '/fe-dev/code-snippets/Javascript/WebApis/',
+            '/fe-dev/code-snippets/Javascript/Array/',
+            '/fe-dev/code-snippets/Javascript/Date/',
+            '/fe-dev/code-snippets/Javascript/Iterable/',
+            '/fe-dev/code-snippets/Javascript/Object/',
+            '/fe-dev/code-snippets/Javascript/String/',
+            '/fe-dev/code-snippets/Javascript/RegExp/',
           ]
         },
         {
           text: 'CSS3',
           collapsible: true,
           children: [
-            {text: 'Flex', link: '/fe-dev/code-snippets/CSS3/Flex/'},
-            {text: 'Mask Image', link: '/fe-dev/code-snippets/CSS3/MaskImage/'},
+            '/fe-dev/code-snippets/CSS3/Flex/',
+            '/fe-dev/code-snippets/CSS3/MaskImage/',
           ]
         },
         {
           text: 'HTML5',
           collapsible: true,
           children: [
-            {text: 'HTML5', link: '/fe-dev/code-snippets/HTML5/HTML5/'},
-            {text: 'FetchApi', link: '/fe-dev/code-snippets/HTML5/FetchApi/'},
-            {text: 'FileReader', link: '/fe-dev/code-snippets/HTML5/FileReader/'},
-            {text: 'SVG', link: '/fe-dev/code-snippets/HTML5/SVG/'},
+            '/fe-dev/code-snippets/HTML5/HTML5/',
+            '/fe-dev/code-snippets/HTML5/FetchApi/',
+            '/fe-dev/code-snippets/HTML5/FileReader/',
+            '/fe-dev/code-snippets/HTML5/SVG/',
           ]
         },
         {
           text: 'OpenSources',
           collapsible: true,
           children: [
-            {text: 'eslint', link: '/fe-dev/code-snippets/OpenSources/eslint/'},
-            {text: 'chart-adaptor', link: '/fe-dev/code-snippets/OpenSources/chart-adaptor/'},
-            {text: 'editor', link: '/fe-dev/code-snippets/OpenSources/editor/'},
-            {text: 'express-server', link: '/fe-dev/code-snippets/OpenSources/express-server/'},
-            {text: 'pdfjs-sample', link: '/fe-dev/code-snippets/OpenSources/pdfjs-sample/'},
+            '/fe-dev/code-snippets/OpenSources/eslint/',
+            '/fe-dev/code-snippets/OpenSources/chart-adaptor/',
+            '/fe-dev/code-snippets/OpenSources/editor/',
+            '/fe-dev/code-snippets/OpenSources/express-server/',
+            '/fe-dev/code-snippets/OpenSources/pdfjs-sample/',
           ]
         },
         {
           text: 'Functional',
-          link: '/fe-dev/code-snippets/Functional/Functional/'
+          children: ['/fe-dev/code-snippets/Functional/Functional/'],
+
         },
         {
           text: 'TodoList',
-          link: '/fe-dev/code-snippets/TodoList/'
+          children: ['/fe-dev/code-snippets/TodoList/']
         },
         {
           text: 'Reactive',
-          link: '/fe-dev/code-snippets/Reactive/Reactive/'
+          children: ['/fe-dev/code-snippets/Reactive/Reactive/']
         },
       ],
       '/fe-dev/pet-project': [

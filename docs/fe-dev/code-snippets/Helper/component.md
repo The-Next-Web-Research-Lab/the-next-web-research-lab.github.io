@@ -1,6 +1,6 @@
 ---
 title: Component
-sidebar: auto
+
 ---
 
 ## component

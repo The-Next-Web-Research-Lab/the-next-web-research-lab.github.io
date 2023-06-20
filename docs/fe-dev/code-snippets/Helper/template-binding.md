@@ -1,6 +1,6 @@
 ---
 title: Template Binding
-sidebar: auto
+
 ---
 
 ## Template Binding

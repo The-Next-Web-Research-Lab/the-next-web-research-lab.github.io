@@ -1,6 +1,6 @@
 ---
 title: FetchApi
-sidebar: auto
+
 ---
 
 ## 사용방법

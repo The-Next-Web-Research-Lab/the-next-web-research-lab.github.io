@@ -1,6 +1,6 @@
 ---
 title: Slider
-sidebar: auto
+
 ---
 
 # React

@@ -1,6 +1,6 @@
 ---
 title: Reactive
-sidebar: auto
+
 ---
 
 ## proxy

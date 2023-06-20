@@ -1,6 +1,6 @@
 ---
 title: express-server
-sidebar: auto
+
 ---
 
 ## server.js

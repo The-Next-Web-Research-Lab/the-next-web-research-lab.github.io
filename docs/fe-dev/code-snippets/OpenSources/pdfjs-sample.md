@@ -1,6 +1,6 @@
 ---
 title: pdfjs-sample
-sidebar: auto
+
 ---
 
 ## index.html

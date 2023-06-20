@@ -1,6 +1,6 @@
 ---
 title: Pagination
-sidebar: auto
+
 ---
 
 ## Basic
