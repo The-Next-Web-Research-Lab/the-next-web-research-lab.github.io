@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<div id="app">
+  <h3>Data Binding</h3>
+  <p>{{message}}</p>
+  <input type="text" v-model="message">
+  <h3>Default Directive(v-onclick)</h3>
+  <button type="button" v-onclick="reverseMessage">
+    {{btnName}}
+  </button>
+  <h3>Components</h3>
+  <hello-component></hello-component>
+  <ul>
+    <list></list>
+    <list></list>
+    <list></list>
+    <list></list>
+  </ul>
+  <h3>Directives</h3>
+  <div helloworld></div>
+</div>
+
+<script src="./component.js"></script>
+<script src="./directive.js"></script>
+<script src="./observer.js"></script>
+<script src="./template.js"></script>
+<script src="./vanillajs-vue.js"></script>
+<script>
+  vanillaJsVue({
+    el: '#app',
+    data: {
+      message: 'Hello World',
+      btnName: 'Reverse Message'
+    },
+    watch: {
+      message: val => {
+        console.log(val);
+      }
+    },
+    methods: {
+      reverseMessage() {
+        this.message = this.message.split('').reverse().join('');
+      }
+    },
+    directives: {
+      'helloworld': {
+        bind: el => {
+          el.innerHTML = 'Hello World';
+        }
+      }
+    },
+    components: {
+      'hello-component': {
+        template: '<p>Hello Component!!</p>'
+      },
+      'list': {
+        template: '<li>list</li>'
+      }
+    }
+  });
+</script>
+</body>
+</html>
