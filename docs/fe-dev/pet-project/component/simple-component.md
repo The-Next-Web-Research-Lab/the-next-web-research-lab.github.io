@@ -1,8 +1,7 @@
 ---
-title: Simple Component
+title: 2020.07.23 Simple Component
 
 ---
-> 2020.07.23
 
 [Simple DOM](/src/component/simple-dom)을 기반으로 만든 심플 컴포넌트 프로젝트다.
 

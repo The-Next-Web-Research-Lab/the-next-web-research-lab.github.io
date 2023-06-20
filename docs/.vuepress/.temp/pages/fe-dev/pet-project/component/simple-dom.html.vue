@@ -1,7 +1,4 @@
-<template><div><blockquote>
-<p>2020.07.24</p>
-</blockquote>
-<p>현실적으로 서비스를 운영할 때, 마크업은 탬플릿 형태로 반영된다.
+<template><div><p>현실적으로 서비스를 운영할 때, 마크업은 탬플릿 형태로 반영된다.
 탬플릿 형태를 사용하는 형태로 심플한 패치 기능 프로젝트다.</p>
 <h2 id="interface" tabindex="-1"><a class="header-anchor" href="#interface" aria-hidden="true">#</a> Interface</h2>
 <div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">interface</span> <span class="token class-name">FragmentAST</span> <span class="token punctuation">{</span>

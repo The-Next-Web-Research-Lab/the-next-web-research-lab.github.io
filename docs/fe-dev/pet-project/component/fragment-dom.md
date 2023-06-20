@@ -1,8 +1,7 @@
 ---
-title: Fragment DOM
+title: 2020.07.22 Fragment DOM
 
 ---
-> 2020.07.22
 
 Virtual DOM과 유사한 역할을 하며, Document**Fragment**를 사용한 Virtual **DOM**으로 **Fragment DOM**으로 명명했다.
 

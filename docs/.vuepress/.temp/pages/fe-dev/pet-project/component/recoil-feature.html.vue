@@ -1,7 +1,4 @@
-<template><div><blockquote>
-<p>2020.07.19</p>
-</blockquote>
-<h2 id="atom" tabindex="-1"><a class="header-anchor" href="#atom" aria-hidden="true">#</a> Atom</h2>
+<template><div><h2 id="atom" tabindex="-1"><a class="header-anchor" href="#atom" aria-hidden="true">#</a> Atom</h2>
 <h3 id="유틸" tabindex="-1"><a class="header-anchor" href="#유틸" aria-hidden="true">#</a> 유틸</h3>
 <h4 id="observer" tabindex="-1"><a class="header-anchor" href="#observer" aria-hidden="true">#</a> Observer</h4>
 <div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">export</span> <span class="token keyword">const</span> <span class="token function-variable function">createObserver</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>

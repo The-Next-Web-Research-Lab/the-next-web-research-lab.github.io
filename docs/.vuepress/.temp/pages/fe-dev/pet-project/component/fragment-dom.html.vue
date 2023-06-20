@@ -1,7 +1,4 @@
-<template><div><blockquote>
-<p>2020.07.22</p>
-</blockquote>
-<p>Virtual DOM과 유사한 역할을 하며, Document<strong>Fragment</strong>를 사용한 Virtual <strong>DOM</strong>으로 <strong>Fragment DOM</strong>으로 명명했다.</p>
+<template><div><p>Virtual DOM과 유사한 역할을 하며, Document<strong>Fragment</strong>를 사용한 Virtual <strong>DOM</strong>으로 <strong>Fragment DOM</strong>으로 명명했다.</p>
 <h2 id="interface" tabindex="-1"><a class="header-anchor" href="#interface" aria-hidden="true">#</a> Interface</h2>
 <div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token comment">// Component 생성 시, 작성하는 함수</span>
 <span class="token keyword">type</span> <span class="token class-name">render</span> <span class="token operator">=</span> <span class="token punctuation">(</span>state<span class="token punctuation">)</span> <span class="token operator">=></span> FragmentDOM

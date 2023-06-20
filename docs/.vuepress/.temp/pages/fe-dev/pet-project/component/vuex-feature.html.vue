@@ -1,7 +1,4 @@
-<template><div><blockquote>
-<p>2020.07.19</p>
-</blockquote>
-<h2 id="컴포넌트" tabindex="-1"><a class="header-anchor" href="#컴포넌트" aria-hidden="true">#</a> 컴포넌트</h2>
+<template><div><h2 id="컴포넌트" tabindex="-1"><a class="header-anchor" href="#컴포넌트" aria-hidden="true">#</a> 컴포넌트</h2>
 <h3 id="html-함수-만들기" tabindex="-1"><a class="header-anchor" href="#html-함수-만들기" aria-hidden="true">#</a> html 함수 만들기</h3>
 <div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token comment">// interface HTMLOptions {</span>
 <span class="token comment">//   events?: object</span>

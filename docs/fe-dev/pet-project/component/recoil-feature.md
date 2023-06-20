@@ -1,8 +1,7 @@
 ---
-title: Recoil 버전
+title: 2020.07.19 Recoil 버전
 
 ---
-> 2020.07.19
 
 ## Atom
 ### 유틸

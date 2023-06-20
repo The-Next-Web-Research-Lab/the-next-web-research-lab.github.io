@@ -1,7 +1,4 @@
-<template><div><blockquote>
-<p>2020.07.23</p>
-</blockquote>
-<p><a href="/src/component/simple-dom">Simple DOM</a>을 기반으로 만든 심플 컴포넌트 프로젝트다.</p>
+<template><div><p><a href="/src/component/simple-dom">Simple DOM</a>을 기반으로 만든 심플 컴포넌트 프로젝트다.</p>
 <h3 id="컴포넌트" tabindex="-1"><a class="header-anchor" href="#컴포넌트" aria-hidden="true">#</a> 컴포넌트</h3>
 <p><RouterLink to="/src/component/recoil-feature/">Recoil 버전</RouterLink>에서 영감을 얻은 컴포넌트.</p>
 <h4 id="기본-형태" tabindex="-1"><a class="header-anchor" href="#기본-형태" aria-hidden="true">#</a> 기본 형태</h4>
