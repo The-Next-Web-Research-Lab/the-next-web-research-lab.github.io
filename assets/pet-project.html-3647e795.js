@@ -1,0 +1,1 @@
+import{_ as o,p as c,q as s,R as e,t}from"./framework-96b046e1.js";const n={},r=e("p",null,[t("바닐라 자바스크립트로 구성된 "),e("strong",null,"펫 프로젝트들"),t("입니다. 오픈소스의 이해를 위해 만들어진 시험적인 코드도 있고, 패턴에 대한 내용도 있습니다.")],-1),_=[r];function a(l,p){return c(),s("div",null,_)}const f=o(n,[["render",a],["__file","pet-project.html.vue"]]);export{f as default};
