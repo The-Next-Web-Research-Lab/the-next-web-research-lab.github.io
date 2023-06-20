@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-148bb01f","path":"/fe-dev/code-snippets/Data-Structure/Queue.html","title":"Queue","lang":"en-US","frontmatter":{"title":"Queue"},"headers":[],"git":{"updatedTime":1687280744000,"contributors":[{"name":"ChoDragon9","email":"04whdydrn30@gmail.com","commits":2}]},"filePathRelative":"fe-dev/code-snippets/Data-Structure/Queue.md"}');export{e as data};
