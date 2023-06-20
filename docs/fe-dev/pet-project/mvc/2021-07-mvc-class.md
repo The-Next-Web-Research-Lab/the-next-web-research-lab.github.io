@@ -1,12 +1,12 @@
 ---
-title: Todo List (Class 버전) 
+title: 2021.07 Todo List (Class 버전) 
 
 ---
 
 > 참고자료: [Maria - The MVC Framework for JavaScript Application](http://peter.michaux.ca/maria/quick-start-tutorial-for-the-impatient.html)
 
 ## app
-@[code](@/docs/fe-dev/pet-project/mvc/2021-07-mvc/basic-todo-class/index.html
+@[code](@/docs/fe-dev/pet-project/mvc/2021-07-mvc/basic-todo-class/index.html)
 @[code](@/docs/fe-dev/pet-project/mvc/2021-07-mvc/basic-todo-class/app.js)
 
 ## model

@@ -1,7 +1,4 @@
 <template><div><h2 id="mvc란" tabindex="-1"><a class="header-anchor" href="#mvc란" aria-hidden="true">#</a> MVC란</h2>
-<blockquote>
-<p><a href="https://chodragon9.github.io/blog/mvc/" target="_blank" rel="noopener noreferrer">https://chodragon9.github.io/blog/mvc/<ExternalLinkIcon/></a></p>
-</blockquote>
 <p>MVC는 Model-View-Controller의 약자다.</p>
 <h3 id="model" tabindex="-1"><a class="header-anchor" href="#model" aria-hidden="true">#</a> Model</h3>
 <ul>

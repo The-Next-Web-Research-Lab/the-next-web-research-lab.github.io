@@ -1,6 +1,6 @@
-<template><div><p><a href="/src/component/simple-dom">Simple DOM</a>을 기반으로 만든 심플 컴포넌트 프로젝트다.</p>
+<template><div><p><RouterLink to="/fe-dev/pet-project/component/simple-dom/">Simple DOM</RouterLink>을 기반으로 만든 심플 컴포넌트 프로젝트다.</p>
 <h3 id="컴포넌트" tabindex="-1"><a class="header-anchor" href="#컴포넌트" aria-hidden="true">#</a> 컴포넌트</h3>
-<p><RouterLink to="/src/component/recoil-feature/">Recoil 버전</RouterLink>에서 영감을 얻은 컴포넌트.</p>
+<p><RouterLink to="/fe-dev/pet-project/component/recoil-feature/">Recoil 버전</RouterLink>에서 영감을 얻은 컴포넌트.</p>
 <h4 id="기본-형태" tabindex="-1"><a class="header-anchor" href="#기본-형태" aria-hidden="true">#</a> 기본 형태</h4>
 <div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">export</span> <span class="token keyword">const</span> TextComponent <span class="token operator">=</span> <span class="token function">defineComponent</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
   <span class="token function-variable function">render</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
