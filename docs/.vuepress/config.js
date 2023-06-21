@@ -80,6 +80,13 @@ export default {
       },
     ],
     sidebar: {
+      '/fe-dev/refactoring': [
+        '/fe-dev/refactoring/',
+        '/fe-dev/refactoring/structure-refactoring/',
+        '/fe-dev/refactoring/legacy-code-to-easy-code/',
+        '/fe-dev/refactoring/legacy-code-to-easy-code-2/',
+        '/fe-dev/refactoring/refactoring-meaning-and-result/',
+      ],
       '/fe-dev/good-code': [
         '/fe-dev/good-code/',
         '/fe-dev/good-code/easy-code/',
