@@ -80,6 +80,31 @@ export default {
       },
     ],
     sidebar: {
+      '/fe-dev/paradigm': [
+        '/fe-dev/paradigm/',
+        {
+          text: '명령형',
+          children: [
+            '/fe-dev/paradigm/back-to-the-imperative/',
+          ]
+        },
+        {
+          text: '객체지향',
+          children: [
+            '/fe-dev/paradigm/object/',
+            '/fe-dev/paradigm/produce-oop/'
+          ]
+        },
+        {
+          text: '함수형',
+          children: [
+            '/fe-dev/paradigm/functional/',
+            '/fe-dev/paradigm/functional2/',
+            '/fe-dev/paradigm/produce/',
+            '/fe-dev/paradigm/produce-immutable/',
+          ]
+        },
+      ],
       '/fe-dev/framework': [
         '/fe-dev/framework/',
         {
