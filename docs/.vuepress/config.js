@@ -80,6 +80,18 @@ export default {
       },
     ],
     sidebar: {
+      '/fe-dev/design-patterns': [
+        '/fe-dev/design-patterns/',
+        {
+          text: 'GoF Design Patterns',
+          children: [
+            '/fe-dev/design-patterns/gof/summary/',
+            '/fe-dev/design-patterns/gof/creational/',
+            '/fe-dev/design-patterns/gof/structural/',
+            '/fe-dev/design-patterns/gof/behavioral/',
+          ]
+        },
+      ],
       '/fe-dev/code-snippets': [
         '/fe-dev/code-snippets/',
         {
