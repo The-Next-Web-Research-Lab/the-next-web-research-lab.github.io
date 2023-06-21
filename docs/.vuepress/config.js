@@ -80,6 +80,14 @@ export default {
       },
     ],
     sidebar: {
+      '/fe-dev/project-management': [
+        '/fe-dev/project-management/',
+        '/fe-dev/project-management/estimation/',
+        '/fe-dev/project-management/release/',
+        '/fe-dev/project-management/facilitation-for-meeting/',
+        '/fe-dev/project-management/preventive-maintenance/',
+        '/fe-dev/project-management/git-scm-experience/',
+      ],
       '/fe-dev/refactoring': [
         '/fe-dev/refactoring/',
         '/fe-dev/refactoring/structure-refactoring/',
