@@ -80,6 +80,14 @@ export default {
       },
     ],
     sidebar: {
+      '/fe-dev/good-code': [
+        '/fe-dev/good-code/',
+        '/fe-dev/good-code/easy-code/',
+        '/fe-dev/good-code/code-position/',
+        '/fe-dev/good-code/reusable-code/',
+        '/fe-dev/good-code/declarative-function/',
+        '/fe-dev/good-code/date-helper-development/',
+      ],
       '/fe-dev/design-patterns': [
         '/fe-dev/design-patterns/',
         {
