@@ -80,6 +80,41 @@ export default {
       },
     ],
     sidebar: {
+      '/fe-dev/framework': [
+        '/fe-dev/framework/',
+        {
+          text: 'Vue Composition API',
+          children: [
+            '/fe-dev/framework/composition-api-rfc/',
+            '/fe-dev/framework/composition-api-rfc-summary/',
+            '/fe-dev/framework/composition-api-rfc-release-notes/',
+            '/fe-dev/framework/composition-api-rfc-migration/',
+            '/fe-dev/framework/vuex-in-composition-api/',
+          ]
+        },
+        {
+          text: 'Vue',
+          children: [
+            '/fe-dev/framework/vue-eslint/',
+            '/fe-dev/framework/nuxt-2-11-typescript/',
+            '/fe-dev/framework/nuxt-ts/',
+            '/fe-dev/framework/nuxt-migration/',
+          ]
+        },
+        {
+          text: 'Angular',
+          children: [
+            '/fe-dev/framework/rxjs-codereview/',
+            '/fe-dev/framework/angular/'
+          ]
+        },
+        {
+          text: 'React',
+          children: [
+            '/fe-dev/framework/react-convention-for-codereview/',
+          ]
+        },
+      ],
       '/fe-dev/project-management': [
         '/fe-dev/project-management/',
         '/fe-dev/project-management/estimation/',

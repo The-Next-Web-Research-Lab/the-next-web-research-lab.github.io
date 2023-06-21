@@ -1,7 +1,6 @@
 ---
-title: 2장 리팩터링
-sidebar: auto
+title: 4장 React / Vue / Angular
 ---
 
-## 2장 리팩터링
-2장 리팩터링
+## 4장 React / Vue / Angular
+4장 React / Vue / Angular
