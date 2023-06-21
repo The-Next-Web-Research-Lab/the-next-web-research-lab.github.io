@@ -80,6 +80,18 @@ export default {
       },
     ],
     sidebar: {
+      '/essay': [
+        '/essay/',
+        '/essay/2019-new-service-building/',
+        '/essay/cors-and-http-cookie/',
+        '/essay/how-to-catch-error/',
+        '/essay/abstract/',
+        '/essay/branch-n-case/',
+        '/essay/callback/',
+        '/essay/clone-function/',
+        '/essay/safe-chain/',
+        '/essay/observation-mechanism/',
+      ],
       '/fe-dev/paradigm': [
         '/fe-dev/paradigm/',
         {
