@@ -166,6 +166,26 @@ export default {
       '/fe-dev/design-patterns': [
         '/fe-dev/design-patterns/',
         {
+          text: '패턴 비교',
+          children: [
+            '/fe-dev/design-patterns/mv_flux/',
+            '/fe-dev/design-patterns/react_hook_vue_composition_recoil/',
+          ]
+        },
+        {
+          text: 'Model-View 패턴',
+          children: [
+            '/fe-dev/design-patterns/mvc-word-1979-12-10/',
+            '/fe-dev/design-patterns/mvc-xerox-parc/',
+            '/fe-dev/design-patterns/mvp-the-taligent-programming-model/',
+            '/fe-dev/design-patterns/introduction-to-mvvm-for-wpf/',
+            '/fe-dev/design-patterns/flux/',
+            '/fe-dev/design-patterns/vuex/',
+            '/fe-dev/design-patterns/mvc/',
+            '/fe-dev/design-patterns/mvvm/',
+          ]
+        },
+        {
           text: 'GoF Design Patterns',
           children: [
             '/fe-dev/design-patterns/gof/summary/',
