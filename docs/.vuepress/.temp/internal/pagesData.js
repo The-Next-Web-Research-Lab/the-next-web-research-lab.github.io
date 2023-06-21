@@ -121,6 +121,14 @@ export const pagesData = {
   "v-a8d0592c": () => import(/* webpackChunkName: "v-a8d0592c" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/UIComponent/Slider.html.js").then(({ data }) => data),
   // path: /fe-dev/code-snippets/UIComponent/TimePicker.html
   "v-2994d1d0": () => import(/* webpackChunkName: "v-2994d1d0" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/UIComponent/TimePicker.html.js").then(({ data }) => data),
+  // path: /fe-dev/design-patterns/gof/behavioral.html
+  "v-72aced9f": () => import(/* webpackChunkName: "v-72aced9f" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/design-patterns/gof/behavioral.html.js").then(({ data }) => data),
+  // path: /fe-dev/design-patterns/gof/creational.html
+  "v-a0172f1c": () => import(/* webpackChunkName: "v-a0172f1c" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/design-patterns/gof/creational.html.js").then(({ data }) => data),
+  // path: /fe-dev/design-patterns/gof/structural.html
+  "v-7d062abf": () => import(/* webpackChunkName: "v-7d062abf" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/design-patterns/gof/structural.html.js").then(({ data }) => data),
+  // path: /fe-dev/design-patterns/gof/summary.html
+  "v-56a8f9a0": () => import(/* webpackChunkName: "v-56a8f9a0" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/design-patterns/gof/summary.html.js").then(({ data }) => data),
   // path: /fe-dev/pet-project/component/2020-08-component.html
   "v-ea9ac096": () => import(/* webpackChunkName: "v-ea9ac096" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/pet-project/component/2020-08-component.html.js").then(({ data }) => data),
   // path: /fe-dev/pet-project/component/fragment-dom.html
@@ -143,14 +151,6 @@ export const pagesData = {
   "v-66679a92": () => import(/* webpackChunkName: "v-66679a92" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/pet-project/mvc/2021-07-mvc-class.html.js").then(({ data }) => data),
   // path: /fe-dev/pet-project/mvc/2021-07-mvc.html
   "v-227a301d": () => import(/* webpackChunkName: "v-227a301d" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/pet-project/mvc/2021-07-mvc.html.js").then(({ data }) => data),
-  // path: /fe-dev/design-patterns/gof/behavioral.html
-  "v-72aced9f": () => import(/* webpackChunkName: "v-72aced9f" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/design-patterns/gof/behavioral.html.js").then(({ data }) => data),
-  // path: /fe-dev/design-patterns/gof/creational.html
-  "v-a0172f1c": () => import(/* webpackChunkName: "v-a0172f1c" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/design-patterns/gof/creational.html.js").then(({ data }) => data),
-  // path: /fe-dev/design-patterns/gof/structural.html
-  "v-7d062abf": () => import(/* webpackChunkName: "v-7d062abf" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/design-patterns/gof/structural.html.js").then(({ data }) => data),
-  // path: /fe-dev/design-patterns/gof/summary.html
-  "v-56a8f9a0": () => import(/* webpackChunkName: "v-56a8f9a0" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/design-patterns/gof/summary.html.js").then(({ data }) => data),
   // path: /fe-dev/code-snippets/OpenSources/chart-adaptor/c3-adaptor/
   "v-d3fed2b6": () => import(/* webpackChunkName: "v-d3fed2b6" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/OpenSources/chart-adaptor/c3-adaptor/index.html.js").then(({ data }) => data),
   // path: /404.html

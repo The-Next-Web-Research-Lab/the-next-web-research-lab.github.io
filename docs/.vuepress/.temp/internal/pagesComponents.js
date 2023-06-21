@@ -123,6 +123,14 @@ export const pagesComponents = {
   "v-a8d0592c": defineAsyncComponent(() => import(/* webpackChunkName: "v-a8d0592c" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/UIComponent/Slider.html.vue")),
   // path: /fe-dev/code-snippets/UIComponent/TimePicker.html
   "v-2994d1d0": defineAsyncComponent(() => import(/* webpackChunkName: "v-2994d1d0" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/UIComponent/TimePicker.html.vue")),
+  // path: /fe-dev/design-patterns/gof/behavioral.html
+  "v-72aced9f": defineAsyncComponent(() => import(/* webpackChunkName: "v-72aced9f" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/design-patterns/gof/behavioral.html.vue")),
+  // path: /fe-dev/design-patterns/gof/creational.html
+  "v-a0172f1c": defineAsyncComponent(() => import(/* webpackChunkName: "v-a0172f1c" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/design-patterns/gof/creational.html.vue")),
+  // path: /fe-dev/design-patterns/gof/structural.html
+  "v-7d062abf": defineAsyncComponent(() => import(/* webpackChunkName: "v-7d062abf" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/design-patterns/gof/structural.html.vue")),
+  // path: /fe-dev/design-patterns/gof/summary.html
+  "v-56a8f9a0": defineAsyncComponent(() => import(/* webpackChunkName: "v-56a8f9a0" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/design-patterns/gof/summary.html.vue")),
   // path: /fe-dev/pet-project/component/2020-08-component.html
   "v-ea9ac096": defineAsyncComponent(() => import(/* webpackChunkName: "v-ea9ac096" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/pet-project/component/2020-08-component.html.vue")),
   // path: /fe-dev/pet-project/component/fragment-dom.html
@@ -145,14 +153,6 @@ export const pagesComponents = {
   "v-66679a92": defineAsyncComponent(() => import(/* webpackChunkName: "v-66679a92" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/pet-project/mvc/2021-07-mvc-class.html.vue")),
   // path: /fe-dev/pet-project/mvc/2021-07-mvc.html
   "v-227a301d": defineAsyncComponent(() => import(/* webpackChunkName: "v-227a301d" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/pet-project/mvc/2021-07-mvc.html.vue")),
-  // path: /fe-dev/design-patterns/gof/behavioral.html
-  "v-72aced9f": defineAsyncComponent(() => import(/* webpackChunkName: "v-72aced9f" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/design-patterns/gof/behavioral.html.vue")),
-  // path: /fe-dev/design-patterns/gof/creational.html
-  "v-a0172f1c": defineAsyncComponent(() => import(/* webpackChunkName: "v-a0172f1c" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/design-patterns/gof/creational.html.vue")),
-  // path: /fe-dev/design-patterns/gof/structural.html
-  "v-7d062abf": defineAsyncComponent(() => import(/* webpackChunkName: "v-7d062abf" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/design-patterns/gof/structural.html.vue")),
-  // path: /fe-dev/design-patterns/gof/summary.html
-  "v-56a8f9a0": defineAsyncComponent(() => import(/* webpackChunkName: "v-56a8f9a0" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/design-patterns/gof/summary.html.vue")),
   // path: /fe-dev/code-snippets/OpenSources/chart-adaptor/c3-adaptor/
   "v-d3fed2b6": defineAsyncComponent(() => import(/* webpackChunkName: "v-d3fed2b6" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/OpenSources/chart-adaptor/c3-adaptor/index.html.vue")),
   // path: /404.html
