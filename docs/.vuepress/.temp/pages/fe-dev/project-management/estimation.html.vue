@@ -1,4 +1,7 @@
 <template><div><h1 id="개발-일정산정" tabindex="-1"><a class="header-anchor" href="#개발-일정산정" aria-hidden="true">#</a> 개발 일정산정</h1>
+<blockquote>
+<p>2019년 2월 23일에 작성한 포스트입니다.</p>
+</blockquote>
 <h3 id="글의-목적" tabindex="-1"><a class="header-anchor" href="#글의-목적" aria-hidden="true">#</a> 글의 목적</h3>
 <p>기능을 개발하기 앞서 선작업이 필요한 것은 개발에 소요되는 일정을 산정하는 것이다. 서비스에 필요로하는 기능은 많지만 현실적으로 모두 구현한다는 것은 힘들기 때문에 우선순위 조정이 필요했다. 그래서 일정산정에 대한 정확한 과정을 알아보기로 하였다.</p>
 <h3 id="용어정의" tabindex="-1"><a class="header-anchor" href="#용어정의" aria-hidden="true">#</a> 용어정의</h3>

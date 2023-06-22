@@ -1,5 +1,8 @@
 <template><div><h1 id="형상관리-전략정리" tabindex="-1"><a class="header-anchor" href="#형상관리-전략정리" aria-hidden="true">#</a> 형상관리 전략정리</h1>
 <blockquote>
+<p>2019년 5월 9일에 작성한 포스트입니다.</p>
+</blockquote>
+<blockquote>
 <p>이 글을 읽기 위해 <a href="https://git-scm.com/book/ko/v1/Git%EC%9D%98-%EA%B8%B0%EC%B4%88" target="_blank">Git의 기초</a>와 <a href="https://git-scm.com/book/ko/v1/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98" target="_blank">Git 브랜치</a> 사전지식이 필요합니다.</p>
 </blockquote>
 <h3 id="글의-목적" tabindex="-1"><a class="header-anchor" href="#글의-목적" aria-hidden="true">#</a> 글의 목적</h3>

@@ -1,4 +1,7 @@
 <template><div><h1 id="구조-리펙토링-정리" tabindex="-1"><a class="header-anchor" href="#구조-리펙토링-정리" aria-hidden="true">#</a> 구조 리펙토링 정리</h1>
+<blockquote>
+<p>2019년 5월 11일에 작성된 포스트입니다.</p>
+</blockquote>
 <h3 id="글의-목적" tabindex="-1"><a class="header-anchor" href="#글의-목적" aria-hidden="true">#</a> 글의 목적</h3>
 <p>함수나 클래스 레벨의 코드를 수정하는 것은 굉장히 빈번하게 발생하고 익숙한 작업이다.
 하지만 구조 레벨을 수정하는 것은 빈번하지 않고 큰 비용이 발생하는 작업이다.</p>

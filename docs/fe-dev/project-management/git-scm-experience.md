@@ -1,7 +1,8 @@
 ---
-title: 2019.05.09 형상관리 전략정리"
+title: 형상관리 전략정리
 ---
 # 형상관리 전략정리
+> 2019년 5월 9일에 작성한 포스트입니다.
 
 > 이 글을 읽기 위해 <a href="https://git-scm.com/book/ko/v1/Git%EC%9D%98-%EA%B8%B0%EC%B4%88" target="_blank">Git의 기초</a>와 <a href="https://git-scm.com/book/ko/v1/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98" target="_blank">Git 브랜치</a> 사전지식이 필요합니다.
 

@@ -1,4 +1,7 @@
 <template><div><h1 id="레거시-코드에서-이해하기-쉬운코드로-리팩토링" tabindex="-1"><a class="header-anchor" href="#레거시-코드에서-이해하기-쉬운코드로-리팩토링" aria-hidden="true">#</a> 레거시 코드에서 이해하기 쉬운코드로 리팩토링</h1>
+<blockquote>
+<p>2019년 5월 26일에 작성한 포스트입니다.</p>
+</blockquote>
 <h3 id="글의-목적" tabindex="-1"><a class="header-anchor" href="#글의-목적" aria-hidden="true">#</a> 글의 목적</h3>
 <p>한번쯤은 <strong>다른 누군가에게 전해받은 레거시 코드</strong>를 받아 프로젝트를 진행해야 되는 경험이 있었을 것이다.
 나는 2018년 10월부터 <strong>i.kakao.com</strong>으로 서비스 되고 있는 <strong>카카오 i 오픈빌더</strong>를 이어 받았다.</p>
