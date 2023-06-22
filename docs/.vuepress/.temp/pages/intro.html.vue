@@ -1,11 +1,11 @@
-<template><div><h2 id="the-next-web-research-lab-소개" tabindex="-1"><a class="header-anchor" href="#the-next-web-research-lab-소개" aria-hidden="true">#</a> The Next Web Research Lab 소개</h2>
+<template><div><h1 id="the-next-web-research-lab-소개" tabindex="-1"><a class="header-anchor" href="#the-next-web-research-lab-소개" aria-hidden="true">#</a> The Next Web Research Lab 소개</h1>
 <p>The Next Web Research Lab은 미래에 사용될 웹 프론트 엔드(이하 FE) 기술을 전문적으로 연구하고 자료를 발행합니다. 또한 2013년 삼성테크윈(현 한화비전)에 고졸로 입사하고 카카오에서 시니어로 되기까지 FE 개발자로 10년 기간 동안 학습하고 경험했던 노하우를 정리하였고 현업에서 있었던 일화들을 에세이 형식으로 정리합니다.</p>
 <p>과거에 운영했던 &quot;실용주의 프런트 엔드 개발 Gitbook&quot;,  &quot;chodragon9.github.io 기술 블로그&quot; 그리고 450 페이지 이상 정리된 깃헙 위키들을 통합하고 다듬어서 지식과 경험을 집약한 기술 블로그로 만들 예정입니다.</p>
-<h2 id="운영자-소개" tabindex="-1"><a class="header-anchor" href="#운영자-소개" aria-hidden="true">#</a> 운영자 소개</h2>
+<h1 id="운영자-소개" tabindex="-1"><a class="header-anchor" href="#운영자-소개" aria-hidden="true">#</a> 운영자 소개</h1>
 <p>조용구 | 프런트엔드 개발자 | <a href="https://www.linkedin.com/in/yongku-cho" target="_blank" rel="noopener noreferrer">LinkedIn<ExternalLinkIcon/></a></p>
 <p>이해하기 쉬운 코드와 아키텍처에 관심이 많아 리팩토링하는 것을 즐깁니다.
 그리고 효율적인 개발과 커뮤니케이션으로 업무 효율을 끌어올리는 것을 자주 고민합니다.</p>
-<h3 id="경력" tabindex="-1"><a class="header-anchor" href="#경력" aria-hidden="true">#</a> 경력</h3>
+<h2 id="경력" tabindex="-1"><a class="header-anchor" href="#경력" aria-hidden="true">#</a> 경력</h2>
 <ul>
 <li>The Next Web Research Lab | 2023.06.01~</li>
 <li>마플코퍼레이션 | R&amp;D | 2022.07.05~2023.05.31</li>
@@ -13,7 +13,7 @@
 <li>한화테크윈 | Web SW팀 | 2016.01.01~2018.01.29</li>
 <li>삼성테크윈 | 선행개발연구소 | 2013.01.29~2015.12.31</li>
 </ul>
-<h3 id="주요-프로젝트" tabindex="-1"><a class="header-anchor" href="#주요-프로젝트" aria-hidden="true">#</a> 주요 프로젝트</h3>
+<h2 id="주요-프로젝트" tabindex="-1"><a class="header-anchor" href="#주요-프로젝트" aria-hidden="true">#</a> 주요 프로젝트</h2>
 <ul>
 <li>마플코퍼레이션
 <ul>
@@ -41,7 +41,7 @@
 </ul>
 </li>
 </ul>
-<h3 id="수상" tabindex="-1"><a class="header-anchor" href="#수상" aria-hidden="true">#</a> 수상</h3>
+<h2 id="수상" tabindex="-1"><a class="header-anchor" href="#수상" aria-hidden="true">#</a> 수상</h2>
 <ul>
 <li>2019.04 제주도 기능경기대회 심사위원 위촉 | 제주도특별자치도 기능경기위원회</li>
 <li>2015.12 브라질국제기능올림픽 국가대표 지도교사 표창장 | 고용노동부장관 표창장</li>
