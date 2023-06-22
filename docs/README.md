@@ -8,10 +8,10 @@ actions:
     type: primary
 features:
 - title: 선행개발
-  details: 준비 중
+  details: 미래에 사용될 웹 프런트 엔드 기술을 정리합니다. 현업에서는 사용되지 않으면서 시험적인 기술을 위주로 정리합니다.
 - title: 실용주의 FE Dev
-  details: 준비 중
+  details: FE 개발자로 10년 기간 동안 학습하고 경험했던 노하우를 정리합니다.
 - title: 에세이
-  details: 준비 중
-footer: Copyright © 2023 조용구
+  details: 현업에서 있었던 일화를 단편 에세이로 작성했고, 일화에서 필요했던 지식을 전달합니다.
+footer: © 2023 The Next Web Research Lab Co. All rights reserved.
 ---

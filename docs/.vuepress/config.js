@@ -25,8 +25,8 @@ export default {
     }
   },
   theme: defaultTheme({
-    colorMode: 'dark',
-    colorModeSwitch: false,
+    colorMode: 'auto',
+    colorModeSwitch: true,
     navbar: [{
         text: '소개',
         link: '/intro/'
