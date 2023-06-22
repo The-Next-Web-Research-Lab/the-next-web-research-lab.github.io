@@ -48,7 +48,7 @@ export default {
     }),
   ],
   theme: defaultTheme({
-    colorMode: 'auto',
+    colorMode: 'dark',
     colorModeSwitch: true,
     navbar: [{
         text: '소개',
