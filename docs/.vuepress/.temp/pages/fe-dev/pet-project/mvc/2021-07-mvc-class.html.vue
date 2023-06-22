@@ -218,7 +218,7 @@ document
 <p><a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Modules" target="_blank" rel="noopener noreferrer">ESM<ExternalLinkIcon/></a>를 지원하는 브라우저에서만 동작함</p>
 </blockquote>
 <ul>
-<li><a href="https://the-next-web-research-lab.github.io/fe-dev/pet-project/mvc/2021-07-mvc/basic-todo-class/index.html" target="_blank" rel="noopener noreferrer">데모<ExternalLinkIcon/></a></li>
+<li><a href="https://the-next-web-research-lab.github.io/docs/fe-dev/pet-project/mvc/2021-07-mvc/basic-todo-class/index.html" target="_blank" rel="noopener noreferrer">데모<ExternalLinkIcon/></a></li>
 </ul>
 </div></template>
 

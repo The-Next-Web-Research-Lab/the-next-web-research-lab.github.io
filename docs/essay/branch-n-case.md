@@ -35,7 +35,7 @@ foo(1) // BB
 foo(2) // CCC
 ```
 
-판단을 연쇄적으로 하고 싶을 때 예이다. 판단을 연쇄적으로 하여 [책임 연쇄 패턴](https://chodragon9.github.io/blog/design-pattern-behavioral/#%EC%B1%85%EC%9E%84-%EC%97%B0%EC%87%84chain-of-responsibility)과 일치한다.
+판단을 연쇄적으로 하고 싶을 때 예이다. 판단을 연쇄적으로 하여 [책임 연쇄 패턴](https://the-next-web-research-lab.github.io/fe-dev/design-patterns/gof/behavioral.html#%E1%84%8E%E1%85%A2%E1%86%A8%E1%84%8B%E1%85%B5%E1%86%B7%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%89%E1%85%AB-chain-of-responsibility)과 일치한다.
 
 조건식이 참이 되지 않을 때 연쇄적으로 다름 조건식으로 넘어간다. 이 형태는 **조건식과 반환문이 동일 선상**으로 코드를 기술 할 수 있는 게 장점이다.
 

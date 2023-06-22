@@ -168,8 +168,6 @@
   downCount
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="끝" tabindex="-1"><a class="header-anchor" href="#끝" aria-hidden="true">#</a> 끝</h3>
-<p>이 글에서 작성된 설정과정을 보일러 플레이트로 만들어서 <a href="https://github.com/ChoDragon9/create-nuxt-ts" target="_blank" rel="noopener noreferrer">create-nuxt-ts<ExternalLinkIcon/></a>에 올렸다. 이 저장소를 내려받으면 설정 과정없이 바로 사용 가능하다.</p>
-<p>그리고 처음 인텔리제이를 통해서 개발환경세팅을 했는 데, 인텔리제이는 IDE에 설정과정에서 많은 삽질이 필요하다. 웹스톰을 사용하면 별도로 IDE 설정 필요없이 바로 사용가능하다.</p>
 </div></template>
 
 

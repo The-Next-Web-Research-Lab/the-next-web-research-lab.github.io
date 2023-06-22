@@ -3,7 +3,7 @@ title: 2019.12.07 안전한 체이닝을 위한 safeChain
 ---
 # 안전한 체이닝을 위한 safeChain
 #### 글의 목적
-객체와 배열을 안전하게 사용하기 위해서 다양한 기법이 사용된다. 방법으로는 [undefined일 때 기본값을 할당](https://chodragon9.github.io/blog/es6/#default-value)하거나 분기문을 사용하기도 한다. 그리고 최근에는 [옵셔널 체이닝](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining) 문법을 사용하여 안전하게 체이닝을 하기도 한다.
+객체와 배열을 안전하게 사용하기 위해서 다양한 기법이 사용된다. 방법으로는 undefined일 때 기본값을 할당하거나 분기문을 사용하기도 한다. 그리고 최근에는 [옵셔널 체이닝](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining) 문법을 사용하여 안전하게 체이닝을 하기도 한다.
 
 이번에 시도 해본 것은 안전하게 체이닝을 하기 위한 함수를 만들어봤다. 옵셔널 체이닝같은 문법을 미지원 하는 환경이나, 기본값 할당이나 분기문으로 가독성과 복잡성이 증가되는 것을 방지하기 위해 만들었다.
 

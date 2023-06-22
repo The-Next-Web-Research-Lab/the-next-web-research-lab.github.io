@@ -200,7 +200,7 @@
 <p>다시 랜더링 됬을 때, form 요소가 다시 랜더링 되지 않게 처리가 필요하다.</p>
 <h3 id="데모" tabindex="-1"><a class="header-anchor" href="#데모" aria-hidden="true">#</a> 데모</h3>
 <ul>
-<li><a href="https://the-next-web-research-lab.github.io/fe-dev/pet-project/component/recoil-feature/example/advanced.html" target="_blank" rel="noopener noreferrer">데모<ExternalLinkIcon/></a></li>
+<li><a href="https://the-next-web-research-lab.github.io/docs/fe-dev/pet-project/component/recoil-feature/example/advanced.html" target="_blank" rel="noopener noreferrer">데모<ExternalLinkIcon/></a></li>
 </ul>
 </div></template>
 

@@ -1,6 +1,6 @@
 <template><div><h1 id="함수형-프로그래밍-정리2" tabindex="-1"><a class="header-anchor" href="#함수형-프로그래밍-정리2" aria-hidden="true">#</a> 함수형 프로그래밍 정리2</h1>
 <h2 id="글의-목적" tabindex="-1"><a class="header-anchor" href="#글의-목적" aria-hidden="true">#</a> 글의 목적</h2>
-<p>함수형만 지원하는 언어를 통해 함수형에 대한 특징을 리서치했다. <a href="https://chodragon9.github.io/blog/functional/" target="_blank" rel="noopener noreferrer">함수형 프로그래밍 정리<ExternalLinkIcon/></a>에서 정리했던 내용은 함수형에서 극히 일부의 특징을 다뤘다는 것을 알 수 있었다. 또한 내가 알고 있던 지식이 함수형에 대한 이해가 부족했음을 알 수 있었다.</p>
+<p>함수형만 지원하는 언어를 통해 함수형에 대한 특징을 리서치했다. <RouterLink to="/fe-dev/paradigm/functional.html">함수형 프로그래밍 정리</RouterLink>에서 정리했던 내용은 함수형에서 극히 일부의 특징을 다뤘다는 것을 알 수 있었다. 또한 내가 알고 있던 지식이 함수형에 대한 이해가 부족했음을 알 수 있었다.</p>
 <p>함수형을 좀 더 깊게 이해하기 위해서는 함수형을 강력하게 지원하는 언어를 학습할 필요가 있겠다고 문득 떠올랐다. 그래서 자바스크립트 언어가 아닌 다른 언어로 작성된 도서를 통해 학습을 했다. 참고한 도서는 다음 세가지 도서이다.</p>
 <div class="language-text line-numbers-mode" data-ext="text"><pre v-pre class="language-text"><code>- 크리스 오카사키. 『순수 함수형 데이터 구조』. 오현석(역). 에이콘출판사, 2019.
 - 닐 포드. 『함수형 사고』. 김재완(역). 한빛미디어, 2016.

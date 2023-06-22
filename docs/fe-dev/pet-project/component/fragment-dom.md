@@ -43,4 +43,4 @@ Attribute 변경은 신규 추가/삭제에 미발생한다. 기존 Node에만 A
 ### 상태 변경 후 패치
 @[code](@/docs/fe-dev/pet-project/component/fragment-dom/step3.js)
 
-- [데모](https://the-next-web-research-lab.github.io/fe-dev/pet-project/component/fragment-dom/index.html)
+- [데모](https://the-next-web-research-lab.github.io/docs/fe-dev/pet-project/component/fragment-dom/index.html)

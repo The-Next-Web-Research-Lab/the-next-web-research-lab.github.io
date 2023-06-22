@@ -2,7 +2,7 @@
 title: Mask Image
 
 ---
-> [데모](https://chodragon9.github.io/one-piece/docs/fe-dev/code-snippets/CSS3/mask-image.html)
+> [데모](https://the-next-web-research-lab.github.io/docs/fe-dev/code-snippets/CSS3/mask-image.html)
 
 @[code](@/docs/fe-dev/code-snippets/CSS3/mask-image.html)
 

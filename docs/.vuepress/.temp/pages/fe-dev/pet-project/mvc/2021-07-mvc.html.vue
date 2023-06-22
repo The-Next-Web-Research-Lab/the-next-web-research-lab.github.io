@@ -5,9 +5,9 @@
 <p><img src="@source/fe-dev/pet-project/mvc/2021-07-mvc/images/1.png" alt="1"></p>
 <p>전통적인 MVC는 아래 3가지의 패턴으로 이뤄진다.</p>
 <ol>
-<li>Model-View: <a href="https://chodragon9.github.io/design-patterns/src/gof/behavioral/#%EA%B0%90%EC%8B%9C%EC%9E%90-observer" target="_blank" rel="noopener noreferrer">Observer Pattern<ExternalLinkIcon/></a></li>
-<li>View-Controller: <a href="https://chodragon9.github.io/design-patterns/src/gof/behavioral/#%EC%A0%84%EB%9E%B5-strategy" target="_blank" rel="noopener noreferrer">Strategy Pattern<ExternalLinkIcon/></a></li>
-<li>View-Views: <a href="https://chodragon9.github.io/design-patterns/src/gof/structural/#%EC%BB%B4%ED%8F%AC%EC%A7%80%ED%8A%B8-composite" target="_blank" rel="noopener noreferrer">Composite Pattern<ExternalLinkIcon/></a></li>
+<li>Model-View: <RouterLink to="/fe-dev/design-patterns/gof/behavioral.html#%E1%84%80%E1%85%A1%E1%86%B7%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1-observer">Observer Pattern</RouterLink></li>
+<li>View-Controller: <RouterLink to="/fe-dev/design-patterns/gof/behavioral.html#%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%85%E1%85%A3%E1%86%A8-strategy">Strategy Pattern</RouterLink></li>
+<li>View-Views: <RouterLink to="/fe-dev/design-patterns/gof/structural.html#%E1%84%8F%E1%85%A5%E1%86%B7%E1%84%91%E1%85%A9%E1%84%8C%E1%85%B5%E1%84%90%E1%85%B3-composite">Composite Pattern</RouterLink></li>
 </ol>
 <div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">const</span> model <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Model</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token keyword">const</span> view <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">View</span><span class="token punctuation">(</span>model<span class="token punctuation">)</span><span class="token punctuation">;</span>

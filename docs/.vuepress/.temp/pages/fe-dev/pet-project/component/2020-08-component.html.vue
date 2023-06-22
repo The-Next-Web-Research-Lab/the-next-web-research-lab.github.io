@@ -330,7 +330,7 @@
 <p><a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Modules" target="_blank" rel="noopener noreferrer">ESM<ExternalLinkIcon/></a>를 지원하는 브라우저에서만 동작함</p>
 </blockquote>
 <ul>
-<li><a href="https://the-next-web-research-lab.github.io/fe-dev/pet-project/component/2020-08-component/index.html" target="_blank" rel="noopener noreferrer">데모<ExternalLinkIcon/></a></li>
+<li><a href="https://the-next-web-research-lab.github.io/docs/fe-dev/pet-project/component/2020-08-component/index.html" target="_blank" rel="noopener noreferrer">데모<ExternalLinkIcon/></a></li>
 </ul>
 <h2 id="📄-코어-코드" tabindex="-1"><a class="header-anchor" href="#📄-코어-코드" aria-hidden="true">#</a> 📄 코어 코드</h2>
 <h3 id="헬퍼" tabindex="-1"><a class="header-anchor" href="#헬퍼" aria-hidden="true">#</a> 헬퍼</h3>

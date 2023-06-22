@@ -2,7 +2,7 @@
 title: 2019.12.01 immer 구현해보기 - OOP 버전
 ---
 # immer 구현해보기 - OOP 버전
-[immer 구현해보기](https://chodragon9.github.io/blog/produce/)에서 작성된 코드를 OOP 버전으로 리팩토링한 코드이다.
+[immer 구현해보기](/fe-dev/paradigm/produce.md)에서 작성된 코드를 OOP 버전으로 리팩토링한 코드이다.
 
 ```js
 const isArray = value => Array.isArray(value)

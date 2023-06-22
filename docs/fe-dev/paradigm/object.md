@@ -3,7 +3,7 @@ title: 2019.06.08 객체 정리
 ---
 # 객체 정리
 ### 글의 목적
-소프트웨어의 구성요소는 객체, 객체간의 관계, 조건문, 반복문이라는 재료가 대부분 구성된다. 이전에는 조건문과 반복문 재료를 다루기 위해서 현실세계에서 유용한 사항들을 <a href="https://chodragon9.github.io/blog/declarative-function/" target="_blank">선언형으로 대체 가능한 문법들 정리</a>에 다뤘다.
+소프트웨어의 구성요소는 객체, 객체간의 관계, 조건문, 반복문이라는 재료가 대부분 구성된다. 이전에는 조건문과 반복문 재료를 다루기 위해서 현실세계에서 유용한 사항들을 [선언형으로 대체 가능한 문법들 정리](https://the-next-web-research-lab.github.io/fe-dev/good-code/declarative-function.html)에 다뤘다.
 
 이번에는 객체에 대한 내용을 정리했다. 객체를 다루는 것은 현실세계를 해결하는 데 있어서 필수라고 할 수 있다. 사견을 정리하는 것보다 도서 몇권을 발췌하여 객체과 객체지향에 대한 내용을 작성했다.
 
@@ -85,8 +85,8 @@ title: 2019.06.08 객체 정리
 적절한 책임이 자율적인 객체를 낳고, 자율적인 객체들이 모여 유연하고 단순한 협력을 낳는다. 따라서 협력에 참여하는 객체가 얼마나 자율적인지가 전체 애플리케이션의 품질을 결정한다.
 
 ### 관련 포스트
-- <a href="https://chodragon9.github.io/blog/legacy-code-to-easy-code/" target="_blank">레거시 코드에서 이해하기 쉬운코드로 리팩토링</a>: 객체의 역할 분리 대한 정리한 포스트다.
-- <a href="https://chodragon9.github.io/blog/code-position/" target="_blank">코드의 위치를 정하는 기준</a>: 객체의 책임과 협력에 따른 코드의 위치를 정하는 기준을 정리한 포스트다.
+- [레거시 코드에서 이해하기 쉬운코드로 리팩토링](https://the-next-web-research-lab.github.io/fe-dev/refactoring/legacy-code-to-easy-code.html): 객체의 역할 분리 대한 정리한 포스트다.
+- [코드의 위치를 정하는 기준](https://the-next-web-research-lab.github.io/fe-dev/good-code/code-position.html): 객체의 책임과 협력에 따른 코드의 위치를 정하는 기준을 정리한 포스트다.
 
 ### 요약
 - 객체: 상태와 행동을 함께 지닌 실체

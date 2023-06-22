@@ -1,5 +1,5 @@
 <template><div><blockquote>
-<p><a href="https://chodragon9.github.io/one-piece/docs/fe-dev/code-snippets/CSS3/mask-image.html" target="_blank" rel="noopener noreferrer">데모<ExternalLinkIcon/></a></p>
+<p><a href="https://the-next-web-research-lab.github.io/docs/fe-dev/code-snippets/CSS3/mask-image.html" target="_blank" rel="noopener noreferrer">데모<ExternalLinkIcon/></a></p>
 </blockquote>
 <div class="language-html line-numbers-mode" data-ext="html"><pre v-pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">doctype</span> <span class="token name">html</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
