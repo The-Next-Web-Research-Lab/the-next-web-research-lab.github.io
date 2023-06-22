@@ -1,14 +1,17 @@
 <template><div><h1 id="immer-구현해보기" tabindex="-1"><a class="header-anchor" href="#immer-구현해보기" aria-hidden="true">#</a> immer 구현해보기</h1>
+<blockquote>
+<p>2019년 12월 1일에 작성한 포스트입니다.</p>
+</blockquote>
 <h3 id="글의-목적" tabindex="-1"><a class="header-anchor" href="#글의-목적" aria-hidden="true">#</a> 글의 목적</h3>
 <p><a href="https://immerjs.github.io/immer/docs/introduction" target="_blank" rel="noopener noreferrer">ImmerJs<ExternalLinkIcon/></a>의 <code v-pre>produce</code> 함수를 코드리뷰에서 우연히 봤다. 심플한 API로 영속 자료 구조를 구현할 수 있는 게 놀라웠다.</p>
 <p>ImmerJs에서는 상태 변경에 필요한 API를 제공하지 않는 다. <code v-pre>produce(state, recipeFunction)</code> 형태로 사용하면 변경된 상태를 전달해준다.</p>
 <p>이 계기로 <code v-pre>produce</code> 내부 로직이 궁금하고, 구현해보고 싶은 욕심에 ImmerJs의 코드를 분석하고, 간단한 produce 함수를 만들어봤다.</p>
 <h3 id="목차" tabindex="-1"><a class="header-anchor" href="#목차" aria-hidden="true">#</a> 목차</h3>
 <ul>
-<li><a href="#ImmerJs%EC%9D%98-%EC%9B%90%EB%A6%AC">ImmerJs의 원리</a></li>
-<li><a href="#%ED%94%84%EB%A1%9D%EC%8B%9C-%EA%B8%B0%EB%B0%98-%EB%8B%A4%EC%A7%80%EA%B8%B0">프록시 기반 다지기</a></li>
-<li><a href="#%EC%98%81%EC%86%8D-%EC%9E%90%EB%A3%8C-%EA%B5%AC%EC%A1%B0-%EB%A7%8C%EB%93%A4%EA%B8%B0">영속 자료 구조 만들기</a></li>
-<li><a href="#%ED%94%84%EB%A1%9D%EC%8B%9C%EC%99%80-%EC%98%81%EC%86%8D-%EC%9E%90%EB%A3%8C-%EA%B5%AC%EC%A1%B0-%EB%B3%91%ED%95%A9%ED%95%98%EA%B8%B0">프록시와 영속 자료 구조 병합하기</a></li>
+<li>ImmerJs의 원리</li>
+<li>프록시 기반 다지기</li>
+<li>영속 자료 구조 만들기</li>
+<li>프록시와 영속 자료 구조 병합하기</li>
 </ul>
 <h3 id="immerjs의-원리" tabindex="-1"><a class="header-anchor" href="#immerjs의-원리" aria-hidden="true">#</a> ImmerJs의 원리</h3>
 <p>ImmerJs의 원리는 이렇다.</p>

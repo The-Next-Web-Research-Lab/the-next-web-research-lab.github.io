@@ -1,4 +1,7 @@
 <template><div><h1 id="immer-구현해보기-oop-버전" tabindex="-1"><a class="header-anchor" href="#immer-구현해보기-oop-버전" aria-hidden="true">#</a> immer 구현해보기 - OOP 버전</h1>
+<blockquote>
+<p>2019년 12월 1일에 작성한 포스트입니다.</p>
+</blockquote>
 <p><RouterLink to="/fe-dev/paradigm/produce.html">immer 구현해보기</RouterLink>에서 작성된 코드를 OOP 버전으로 리팩토링한 코드이다.</p>
 <div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">const</span> <span class="token function-variable function">isArray</span> <span class="token operator">=</span> <span class="token parameter">value</span> <span class="token operator">=></span> Array<span class="token punctuation">.</span><span class="token function">isArray</span><span class="token punctuation">(</span>value<span class="token punctuation">)</span>
 <span class="token keyword">const</span> <span class="token function-variable function">assign</span> <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token parameter"><span class="token operator">...</span>obj</span><span class="token punctuation">)</span> <span class="token operator">=></span> Object<span class="token punctuation">.</span><span class="token function">assign</span><span class="token punctuation">(</span><span class="token operator">...</span>obj<span class="token punctuation">)</span>

@@ -1,4 +1,7 @@
 <template><div><h1 id="객체-정리" tabindex="-1"><a class="header-anchor" href="#객체-정리" aria-hidden="true">#</a> 객체 정리</h1>
+<blockquote>
+<p>2019년 6월 8일에 정리한 포스트입니다.</p>
+</blockquote>
 <h3 id="글의-목적" tabindex="-1"><a class="header-anchor" href="#글의-목적" aria-hidden="true">#</a> 글의 목적</h3>
 <p>소프트웨어의 구성요소는 객체, 객체간의 관계, 조건문, 반복문이라는 재료가 대부분 구성된다. 이전에는 조건문과 반복문 재료를 다루기 위해서 현실세계에서 유용한 사항들을 <a href="https://the-next-web-research-lab.github.io/fe-dev/good-code/declarative-function.html" target="_blank" rel="noopener noreferrer">선언형으로 대체 가능한 문법들 정리<ExternalLinkIcon/></a>에 다뤘다.</p>
 <p>이번에는 객체에 대한 내용을 정리했다. 객체를 다루는 것은 현실세계를 해결하는 데 있어서 필수라고 할 수 있다. 사견을 정리하는 것보다 도서 몇권을 발췌하여 객체과 객체지향에 대한 내용을 작성했다.</p>

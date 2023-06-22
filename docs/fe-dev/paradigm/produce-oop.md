@@ -1,7 +1,9 @@
 ---
-title: 2019.12.01 immer 구현해보기 - OOP 버전
+title: immer 구현해보기 - OOP 버전
 ---
 # immer 구현해보기 - OOP 버전
+> 2019년 12월 1일에 작성한 포스트입니다. 
+
 [immer 구현해보기](/fe-dev/paradigm/produce.md)에서 작성된 코드를 OOP 버전으로 리팩토링한 코드이다.
 
 ```js

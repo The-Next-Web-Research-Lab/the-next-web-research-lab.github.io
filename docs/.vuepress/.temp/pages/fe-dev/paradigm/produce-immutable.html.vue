@@ -1,4 +1,7 @@
 <template><div><h1 id="immer-구현해보기-불변성편" tabindex="-1"><a class="header-anchor" href="#immer-구현해보기-불변성편" aria-hidden="true">#</a> immer 구현해보기 - 불변성편</h1>
+<blockquote>
+<p>2019년 12월 2일에 작성한 포스트입니다.</p>
+</blockquote>
 <h3 id="글의-목적" tabindex="-1"><a class="header-anchor" href="#글의-목적" aria-hidden="true">#</a> 글의 목적</h3>
 <p>먼저 immer의 <a href="https://immerjs.github.io/immer/docs/produce" target="_blank" rel="noopener noreferrer">produce<ExternalLinkIcon/></a>에 대한 설명을 하면, produce는 영속적 자료 구조(Persistent Data Structure)이다. 변경이 필요한 부분만 새로 상태를 만들고 변경이 필요하지 않는 부분은 기존 상태를 유지한다.</p>
 <p>하지만 영속적 자료 구조가 필요하지 않고 불변성만 필요할 때는 간단하게 구현 가능하다. produce를 처음 접했을 때 영속적 자료 구조에 대한 이점은 불필요하여 만들었던 함수에 대한 내용이다.</p>

@@ -1,4 +1,7 @@
 <template><div><h1 id="함수형-프로그래밍-정리2" tabindex="-1"><a class="header-anchor" href="#함수형-프로그래밍-정리2" aria-hidden="true">#</a> 함수형 프로그래밍 정리2</h1>
+<blockquote>
+<p>2020년 2월 12일 정리한 포스트입니다.</p>
+</blockquote>
 <h2 id="글의-목적" tabindex="-1"><a class="header-anchor" href="#글의-목적" aria-hidden="true">#</a> 글의 목적</h2>
 <p>함수형만 지원하는 언어를 통해 함수형에 대한 특징을 리서치했다. <RouterLink to="/fe-dev/paradigm/functional.html">함수형 프로그래밍 정리</RouterLink>에서 정리했던 내용은 함수형에서 극히 일부의 특징을 다뤘다는 것을 알 수 있었다. 또한 내가 알고 있던 지식이 함수형에 대한 이해가 부족했음을 알 수 있었다.</p>
 <p>함수형을 좀 더 깊게 이해하기 위해서는 함수형을 강력하게 지원하는 언어를 학습할 필요가 있겠다고 문득 떠올랐다. 그래서 자바스크립트 언어가 아닌 다른 언어로 작성된 도서를 통해 학습을 했다. 참고한 도서는 다음 세가지 도서이다.</p>
@@ -8,23 +11,23 @@
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>이 도서를 통해 알게된 함수형의 특징에 대한 정리를 했다.</p>
 <h2 id="목차" tabindex="-1"><a class="header-anchor" href="#목차" aria-hidden="true">#</a> 목차</h2>
 <ul>
-<li><a href="#%ED%95%A8%EC%88%98%ED%98%95-%EC%96%B8%EC%96%B4%EC%97%90%EC%84%9C-%EC%A7%80%EC%9B%90%ED%95%98%EB%8A%94-%ED%8A%B9%EB%B3%84%ED%95%9C-%EB%AC%B8%EB%B2%95">함수형 언어에서 지원하는 특별한 문법</a>
+<li>함수형 언어에서 지원하는 특별한 문법
 <ul>
-<li><a href="#%EC%97%B0%EC%82%B0%EC%9E%90-%EC%98%A4%EB%B2%84%EB%A1%9C%EB%94%A9">연산자 오버로딩</a></li>
-<li><a href="#%ED%8C%A8%ED%84%B4-%EB%A7%A4%EC%B9%AD">패턴 매칭</a></li>
+<li>연산자 오버로딩</li>
+<li>패턴 매칭</li>
 </ul>
 </li>
-<li><a href="#%ED%95%A8%EC%88%98%ED%98%95-%EC%82%AC%EA%B3%A0%EB%A1%9C-%EC%A0%84%ED%99%98">함수형 사고로 전환</a>
+<li>함수형 사고로 전환
 <ul>
-<li><a href="#%EC%9E%AC%EA%B7%80%EC%A0%81%EC%9D%B8-%EC%82%AC%EA%B3%A0">재귀적인 사고</a></li>
-<li><a href="#%EB%A9%94%EB%AA%A8%EC%9D%B4%EC%A0%9C%EC%9D%B4%EC%85%98">메모이제이션</a></li>
-<li><a href="#%EC%A7%80%EC%97%B0-%ED%8F%89%EA%B0%80">지연 평가</a></li>
+<li>재귀적인 사고</li>
+<li>메모이제이션</li>
+<li>지연 평가</li>
 </ul>
 </li>
-<li><a href="#%ED%95%A8%EC%88%98%ED%98%95-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0">함수형 자료구조</a>
+<li>함수형 자료구조
 <ul>
-<li><a href="#%EC%A7%80%EC%97%B0-%EB%A6%AC%EC%8A%A4%ED%8A%B8">지연 리스트</a></li>
-<li><a href="#%EC%98%81%EC%86%8D%EC%A0%81-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0">영속적 자료구조</a></li>
+<li>지연 리스트</li>
+<li>영속적 자료구조</li>
 </ul>
 </li>
 </ul>
