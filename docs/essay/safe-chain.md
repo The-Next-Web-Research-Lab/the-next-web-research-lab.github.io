@@ -1,7 +1,9 @@
 ---
-title: 2019.12.07 안전한 체이닝을 위한 safeChain
+title: 안전한 체이닝을 위한 safeChain
 ---
 # 안전한 체이닝을 위한 safeChain
+> 2019년 12월 7일에 정리한 포스트입니다.
+
 #### 글의 목적
 객체와 배열을 안전하게 사용하기 위해서 다양한 기법이 사용된다. 방법으로는 undefined일 때 기본값을 할당하거나 분기문을 사용하기도 한다. 그리고 최근에는 [옵셔널 체이닝](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining) 문법을 사용하여 안전하게 체이닝을 하기도 한다.
 

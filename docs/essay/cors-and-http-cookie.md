@@ -1,7 +1,9 @@
 ---
-title: 2019.10.22 CORS와 HTTP Cookie
+title: CORS와 HTTP Cookie
 ---
 # CORS와 HTTP Cookie
+> 2019년 10월 22일 사내 서비스를 개발하면서 협업하는 BE 개발자에게 설명해주기 위해 정리한 포스트입니다.
+
 ### 글의 목적
 Cross-Origin Resource Sharing! 앞 글자만 따서 CORS라고 부른다. 내 경험상 CORS는 서로 다른 도메인을 사용하는 클라이언트와 API 서버가 통신할 때 발생하는 첫번째 현상이다.
 

@@ -1,4 +1,7 @@
 <template><div><h1 id="에러-처리-정리" tabindex="-1"><a class="header-anchor" href="#에러-처리-정리" aria-hidden="true">#</a> 에러 처리 정리</h1>
+<blockquote>
+<p>2019년 5월 23일에 진행 중인 프로젝트에서 에러 처리 방법을 고민하면서 정리한 포스트입니다.</p>
+</blockquote>
 <h2 id="글의-목적" tabindex="-1"><a class="header-anchor" href="#글의-목적" aria-hidden="true">#</a> 글의 목적</h2>
 <p><strong>에러 처리</strong>는 소프트웨어의 비정상적인 동작에 대한 큰 사고로 이어지지 않도록 <strong>예방</strong>하는 것이다.
 서비스 운영에 있어서는 사용자들이 서비스를 비정상적으로 사용하는 부분이 있는 지 감지를 할 수 있다.</p>

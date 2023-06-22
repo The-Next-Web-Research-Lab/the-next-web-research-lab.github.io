@@ -1,4 +1,7 @@
 <template><div><h1 id="분기를-작성하는-방법-n가지" tabindex="-1"><a class="header-anchor" href="#분기를-작성하는-방법-n가지" aria-hidden="true">#</a> 분기를 작성하는 방법 n가지</h1>
+<blockquote>
+<p>2019년 12월 7일에 정리한 포스트입니다.</p>
+</blockquote>
 <h3 id="글의-목적" tabindex="-1"><a class="header-anchor" href="#글의-목적" aria-hidden="true">#</a> 글의 목적</h3>
 <p>자바스크립트에서 분기를 작성하는 방법을 다양하다. 큰 카테고리로 보면 문(statement)와 식(expression)이 있다. 내가 사용하는 분기 작성 코드를 봤을 때, 문은 대표적으로 <code v-pre>switch</code>, <code v-pre>if</code>가 있고, 식은 삼항연산자, 리터럴이 있다.</p>
 <p>문과 식이 대표적으로 다른점은 <strong>값으로 될 수 있나 없나</strong>의 차이다. 식은 값으로 되는 반면에 문은 값이 될 수 없다. 값이 될 수 있느냐의 차이가 문과 식의 분기 작성에 차이를 보인다.</p>

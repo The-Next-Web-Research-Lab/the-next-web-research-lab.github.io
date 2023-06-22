@@ -1,4 +1,7 @@
 <template><div><h1 id="안전한-체이닝을-위한-safechain" tabindex="-1"><a class="header-anchor" href="#안전한-체이닝을-위한-safechain" aria-hidden="true">#</a> 안전한 체이닝을 위한 safeChain</h1>
+<blockquote>
+<p>2019년 12월 7일에 정리한 포스트입니다.</p>
+</blockquote>
 <h4 id="글의-목적" tabindex="-1"><a class="header-anchor" href="#글의-목적" aria-hidden="true">#</a> 글의 목적</h4>
 <p>객체와 배열을 안전하게 사용하기 위해서 다양한 기법이 사용된다. 방법으로는 undefined일 때 기본값을 할당하거나 분기문을 사용하기도 한다. 그리고 최근에는 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining" target="_blank" rel="noopener noreferrer">옵셔널 체이닝<ExternalLinkIcon/></a> 문법을 사용하여 안전하게 체이닝을 하기도 한다.</p>
 <p>이번에 시도 해본 것은 안전하게 체이닝을 하기 위한 함수를 만들어봤다. 옵셔널 체이닝같은 문법을 미지원 하는 환경이나, 기본값 할당이나 분기문으로 가독성과 복잡성이 증가되는 것을 방지하기 위해 만들었다.</p>

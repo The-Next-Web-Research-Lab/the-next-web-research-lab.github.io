@@ -1,4 +1,7 @@
 <template><div><h1 id="옵져버-매커니즘" tabindex="-1"><a class="header-anchor" href="#옵져버-매커니즘" aria-hidden="true">#</a> 옵져버 매커니즘</h1>
+<blockquote>
+<p>2019년 5월 20일에 정리한 포스트입니다.</p>
+</blockquote>
 <h3 id="글의-목적" tabindex="-1"><a class="header-anchor" href="#글의-목적" aria-hidden="true">#</a> 글의 목적</h3>
 <blockquote>
 <p>정보 전달 목적보다는 자료 정리 목적으로 작성된 포스트라 정돈이 안되있다.</p>

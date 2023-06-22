@@ -1,4 +1,7 @@
 <template><div><h1 id="경우에-따른-clone-함수" tabindex="-1"><a class="header-anchor" href="#경우에-따른-clone-함수" aria-hidden="true">#</a> 경우에 따른 clone 함수</h1>
+<blockquote>
+<p>2019년 12월 2일에 정리한 포스트입니다.</p>
+</blockquote>
 <h3 id="글의-목적" tabindex="-1"><a class="header-anchor" href="#글의-목적" aria-hidden="true">#</a> 글의 목적</h3>
 <p>불변성에 대한 처리를 하면서 상태를 복제하는 기능을 만들어 사용하곤한다. 다양한 방법들이 존재하는 데 경우에 따라 어떤 함수들이 있는 지 정리한 글이다.</p>
 <h3 id="목차" tabindex="-1"><a class="header-anchor" href="#목차" aria-hidden="true">#</a> 목차</h3>
