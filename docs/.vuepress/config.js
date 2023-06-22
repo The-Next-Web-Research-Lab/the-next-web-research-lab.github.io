@@ -24,6 +24,29 @@ export default {
       }
     }
   },
+  head: [
+    [
+      'link',
+      {
+        rel: "stylesheet",
+        as: "style",
+        crossorigin: true,
+        href: "https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.7/dist/web/static/pretendard.css"
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'google-site-verification',
+        content: '' // yX6dHIw5DyDCd9iNbZSo2w8VjnED68OLdw6zu_Rm554
+      }
+    ]
+  ],
+  plugins: [
+    googleAnalyticsPlugin({
+      id: '' // G-B42104C429
+    }),
+  ],
   theme: defaultTheme({
     colorMode: 'auto',
     colorModeSwitch: true,
@@ -345,19 +368,5 @@ export default {
         },
       ]
     }
-  }),
-  head: [
-    [
-      'meta',
-      {
-        name: 'google-site-verification',
-        content: '' // yX6dHIw5DyDCd9iNbZSo2w8VjnED68OLdw6zu_Rm554
-      }
-    ]
-  ],
-  plugins: [
-    googleAnalyticsPlugin({
-      id: '' // G-B42104C429
-    }),
-  ]
+  })
 }

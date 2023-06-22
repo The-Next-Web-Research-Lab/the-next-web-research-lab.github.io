@@ -1,4 +1,4 @@
-export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"en-US\",\"title\":\"The Next Web Research Lab\",\"description\":\"\",\"head\":[[\"meta\",{\"name\":\"google-site-verification\",\"content\":\"\"}]],\"locales\":{}}")
+export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"en-US\",\"title\":\"The Next Web Research Lab\",\"description\":\"\",\"head\":[[\"link\",{\"rel\":\"stylesheet\",\"as\":\"style\",\"crossorigin\":true,\"href\":\"https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.7/dist/web/static/pretendard.css\"}],[\"meta\",{\"name\":\"google-site-verification\",\"content\":\"\"}]],\"locales\":{}}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()
