@@ -1,6 +1,6 @@
 <template><div><h1 id="강제성-단일화-그리고-날짜-헬퍼-개발" tabindex="-1"><a class="header-anchor" href="#강제성-단일화-그리고-날짜-헬퍼-개발" aria-hidden="true">#</a> 강제성, 단일화 그리고 날짜 헬퍼 개발</h1>
 <blockquote>
-<p>현재 진행 중인 프로젝트의 기술 스택은 Angular, TypeScript 사용중이다.</p>
+<p>2019년 7월 13일에 진행 중인 프로젝트에서 동료 FE 개발자들과 작업하면서 느꼈던 내용을 정리한 포스트입니다.</p>
 <p>이 글에서 Angular, Typescript의 예제를 사용한다.</p>
 </blockquote>
 <h3 id="목차" tabindex="-1"><a class="header-anchor" href="#목차" aria-hidden="true">#</a> 목차</h3>

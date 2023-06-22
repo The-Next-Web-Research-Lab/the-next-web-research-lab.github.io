@@ -1,4 +1,7 @@
 <template><div><h1 id="선언형으로-대체-가능한-문법들-정리" tabindex="-1"><a class="header-anchor" href="#선언형으로-대체-가능한-문법들-정리" aria-hidden="true">#</a> 선언형으로 대체 가능한 문법들 정리</h1>
+<blockquote>
+<p>2019년 6월 1일에 레거시 코드를 분석하면서 정리했던 방법을 정리한 포스트입니다.</p>
+</blockquote>
 <h3 id="글의-목적" tabindex="-1"><a class="header-anchor" href="#글의-목적" aria-hidden="true">#</a> 글의 목적</h3>
 <p>프로젝트 코드를 모두 리뷰를 했을 때 알 수 있는 것은 소프트웨어의 구성은 대부분 <strong>객체 또는 객체간의 관계</strong>, <strong>조건문</strong>, <strong>반복문</strong>으로 이뤄졌다는 것이다.</p>
 <p><strong>if, for</strong>같은 기본 문법을 사용하는 것보다 <strong>선언형</strong>으로 작성하면 이해하기 쉬운 코드를 작성할 수 있다.

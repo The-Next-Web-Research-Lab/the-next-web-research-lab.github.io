@@ -1,4 +1,7 @@
 <template><div><h1 id="재사용-가능한-코드-개발" tabindex="-1"><a class="header-anchor" href="#재사용-가능한-코드-개발" aria-hidden="true">#</a> 재사용 가능한 코드 개발</h1>
+<blockquote>
+<p>2019년 5월 19일에 재사용에 대한 고민을 하는 중에 작성한 포스트입니다.</p>
+</blockquote>
 <h3 id="글의-목적" tabindex="-1"><a class="header-anchor" href="#글의-목적" aria-hidden="true">#</a> 글의 목적</h3>
 <p>재사용 가능한 모듈 또는 컴포넌트를 만드는 작업은 <strong>비용을 절약</strong>하는 데 큰 역할을 한다.
 재사용성 관련해서는 <strong>난이도 3배의 법칙</strong>이 있다.

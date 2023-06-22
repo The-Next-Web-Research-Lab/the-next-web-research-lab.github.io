@@ -1,4 +1,7 @@
 <template><div><h1 id="코드의-위치를-정하는-기준" tabindex="-1"><a class="header-anchor" href="#코드의-위치를-정하는-기준" aria-hidden="true">#</a> 코드의 위치를 정하는 기준</h1>
+<blockquote>
+<p>2019년 5월 19일에 <a href="https://the-next-web-research-lab.github.io/fe-dev/refactoring/structure-refactoring.html" target="_blank" rel="noopener noreferrer">구조 리펙토링 정리<ExternalLinkIcon/></a> 관련 작업 중에 고민했던 내용들을 정리한 포스트입니다.</p>
+</blockquote>
 <h3 id="글의-목적" tabindex="-1"><a class="header-anchor" href="#글의-목적" aria-hidden="true">#</a> 글의 목적</h3>
 <p>코드는 만들어진 <strong>목적</strong>과 <strong>역할</strong>이 있기 때문에 <strong>어울리는 자리</strong>가 있다.
 <strong>어울리는 자리</strong>에 정확히 있으면 왜 그 자리에 있는 지 이해가 되고 유추가 가능하다.
