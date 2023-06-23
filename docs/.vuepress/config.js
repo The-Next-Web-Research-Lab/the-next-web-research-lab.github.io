@@ -98,7 +98,7 @@ export default {
         ]
       },
       {
-        text: '에세이',
+        text: '생각정리',
         link: '/essay/'
       },
     ],
