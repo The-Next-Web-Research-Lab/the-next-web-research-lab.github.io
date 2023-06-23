@@ -12,6 +12,6 @@ features:
 - title: 실용주의 FE Dev
   details: FE 개발자로 10년 기간 동안 학습하고 경험했던 노하우를 정리합니다.
 - title: 생각정리
-  details: 서비스 개발하면서 떠올랐던 생각들과 경험기에 대한 내용을 정리합니다.
+  details: 서비스를 개발하면서 떠올랐던 생각들과 경험기에 대한 내용을 정리합니다.
 footer: © 2023 The Next Web Research Lab Co. All rights reserved.
 ---
