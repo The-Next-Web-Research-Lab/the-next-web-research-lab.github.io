@@ -59,10 +59,7 @@ export default {
       },
       {
         text: '실용주의 FE Dev',
-        children: [{
-            text: '0장 소개',
-            link: '/fe-dev/intro'
-          },
+        children: [
           {
             text: '1장 좋은코드',
             link: '/fe-dev/good-code'

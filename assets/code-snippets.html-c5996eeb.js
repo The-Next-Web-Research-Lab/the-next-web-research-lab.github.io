@@ -1,1 +1,0 @@
-import{_ as e,p as t,q as s,R as c}from"./framework-96b046e1.js";const o={},n=c("p",null,"코드 조각들을 모아두는 스닛펫 저장소입니다.",-1),_=[n];function r(a,l){return t(),s("div",null,_)}const d=e(o,[["render",r],["__file","code-snippets.html.vue"]]);export{d as default};
