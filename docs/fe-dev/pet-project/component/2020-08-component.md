@@ -71,7 +71,7 @@ title: 2020.08 Component
 ### 💻 데모
 > [ESM](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Modules)를 지원하는 브라우저에서만 동작함
 
-- [데모](https://the-next-web-research-lab.github.io/docs/fe-dev/pet-project/component/2020-08-component/index.html)
+- [데모보기](https://the-next-web-research-lab.github.io/docs/fe-dev/pet-project/component/2020-08-component/index.html)
 
 ## 📄 코어 코드
 ### 헬퍼

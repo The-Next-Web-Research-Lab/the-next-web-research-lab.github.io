@@ -13,4 +13,4 @@ title: Contextmenu
 @[code](@/docs/fe-dev/code-snippets/Helper/contextmenu/contextmenu-object.js)
 @[code](@/docs/fe-dev/code-snippets/Helper/contextmenu/contextmenu-object.html)
 
-- [데모](https://the-next-web-research-lab.github.io/docs/fe-dev/code-snippets/Helper/contextmenu/contextmenu-object.html)
+- [데모보기](https://the-next-web-research-lab.github.io/docs/fe-dev/code-snippets/Helper/contextmenu/contextmenu-object.html)

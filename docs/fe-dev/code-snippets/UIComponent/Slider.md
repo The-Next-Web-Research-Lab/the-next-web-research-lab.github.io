@@ -4,13 +4,13 @@ title: Slider
 ---
 
 # React
-- [데모](https://the-next-web-research-lab.github.io/docs/fe-dev/code-snippets/UIComponent/slider/react.html)
+- [데모보기](https://the-next-web-research-lab.github.io/docs/fe-dev/code-snippets/UIComponent/slider/react.html)
 
 ## react.html
 @[code](@/docs/fe-dev/code-snippets/UIComponent/slider/react.html)
 
 # Vanila Js
-- [데모](https://the-next-web-research-lab.github.io/docs/fe-dev/code-snippets/UIComponent/slider/index.html)
+- [데모보기](https://the-next-web-research-lab.github.io/docs/fe-dev/code-snippets/UIComponent/slider/index.html)
 
 ## index.html
 @[code](@/docs/fe-dev/code-snippets/UIComponent/slider/index.html)

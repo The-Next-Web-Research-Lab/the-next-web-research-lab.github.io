@@ -100,6 +100,13 @@ export default {
       },
     ],
     sidebar: {
+      '/next-web-research': [
+        '/next-web-research/',
+        '/next-web-research/vibrate.md',
+        '/next-web-research/battery.md',
+        '/next-web-research/share.md',
+        '/next-web-research/file-system-Access-api.md'
+      ],
       '/essay': [
         '/essay/',
         '/essay/2019-new-service-building/',
@@ -272,7 +279,6 @@ export default {
           text: 'Javascript',
           collapsible: true,
           children: [
-            '/fe-dev/code-snippets/Javascript/WebApis/',
             '/fe-dev/code-snippets/Javascript/Array/',
             '/fe-dev/code-snippets/Javascript/Date/',
             '/fe-dev/code-snippets/Javascript/Iterable/',

@@ -1,6 +1,5 @@
 ---
 title: 선행개발 소개
-sidebar: auto
 ---
 
 # 선행개발 소개
