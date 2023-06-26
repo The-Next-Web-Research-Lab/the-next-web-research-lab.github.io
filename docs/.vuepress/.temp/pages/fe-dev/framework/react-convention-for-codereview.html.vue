@@ -60,7 +60,7 @@
 <ul>
 <li>produce : 비순수 함수를 콜백으로 사용하여 불변성을 구현해줌</li>
 </ul>
-<h3 id="끄읕" tabindex="-1"><a class="header-anchor" href="#끄읕" aria-hidden="true">#</a> 끄읕</h3>
+<h3 id="끝" tabindex="-1"><a class="header-anchor" href="#끝" aria-hidden="true">#</a> 끝</h3>
 </div></template>
 
 

@@ -99,5 +99,5 @@ nuxt.config.ts에는 TypeScript를 사용하도록 설정하는 파일이 있다
 
 설치 후에는 `scripts`에 `nuxt`로 사용했던 명령어를 `nuxt-ts`로 변경이 필요하다.
 
-### 끄읕
+### 끝
 사실 Nuxt는 2.11.0으로 업그레이드한 이유는 단순히 마이그레이션의 목적이 아니였다. [TypeScript 3.7](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-7.html)부터 [Optional Chaining](https://github.com/tc39/proposal-optional-chaining) 스팩이 추가되었는 데, 객체의 프로퍼티 접근 관련해서 안전하고 가독성 좋은 방안을 찾고 있었던 시기였다. 결론적으로 Optional Chaining를 사용하기 위해서 버전 업그레이드에 대한 연쇄적으로 찾아본 결과 Nuxt를 최신 버전으로 업그레이드하게 된 것이다.

@@ -158,7 +158,7 @@ recur2: 0.00634765625ms
 recur3: 0.0029296875ms
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="지연-평가" tabindex="-1"><a class="header-anchor" href="#지연-평가" aria-hidden="true">#</a> 지연 평가</h3>
 <p>함수형 언어는 평가 순서에 따라 엄격 평가(strict evaluation) 언어인지 지연 평가(lazy evaluation) 언어이지 구분할 수 있다. 두 연산 순서의 차이는 함수 인자를 처리하는 것으로 차이를 볼 수 있다. 엄격평가 언어는 함수 인자가 필요하지 않아도 미리 계산 한 뒤 함수 본문을 계산한다. 하지만 지연 평가 언어는 함수 본문에서 함수 인자가 필요할 때 계산한다.</p>
-<p>지연 평가 언어가 아니여도 지연 평가를 구현해서 사용하기도 한다. 지연 시퀀스, 스트림, 게으른 컬렉션으로 도서마다 다양하게 불리는 자료구조이다. 여기서는 지연 리스트로 부르겠다. 지연 리스트는 언어에서 <code v-pre>lazy</code>라는 키워드를 통해 지원하는 언어도 있지만 없는 언어는 <code v-pre>Iterator</code>를 통해서 구현한다. 자바스크립트의 지연 리스트는 <a href="#%EC%A7%80%EC%97%B0-%EB%A6%AC%EC%8A%A4%ED%8A%B8">지연 리스트</a> 본문에서 다루겠다.</p>
+<p>지연 평가 언어가 아니여도 지연 평가를 구현해서 사용하기도 한다. 지연 시퀀스, 스트림, 게으른 컬렉션으로 도서마다 다양하게 불리는 자료구조이다. 여기서는 지연 리스트로 부르겠다. 지연 리스트는 언어에서 <code v-pre>lazy</code>라는 키워드를 통해 지원하는 언어도 있지만 없는 언어는 <code v-pre>Iterator</code>를 통해서 구현한다. 자바스크립트의 지연 리스트는 <RouterLink to="/fe-dev/paradigm/functional2.html#%E1%84%8C%E1%85%B5%E1%84%8B%E1%85%A7%E1%86%AB-%E1%84%85%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3">지연 리스트</RouterLink> 본문에서 다루겠다.</p>
 <h2 id="함수형-자료구조" tabindex="-1"><a class="header-anchor" href="#함수형-자료구조" aria-hidden="true">#</a> 함수형 자료구조</h2>
 <h3 id="지연-리스트" tabindex="-1"><a class="header-anchor" href="#지연-리스트" aria-hidden="true">#</a> 지연 리스트</h3>
 <p>지연 리스트는 원소가 필요할 때 평가하는 형태로 구현된다. 지연 리스트는 지연 함수를 조합하는 형태를 사용하고, 종결 함수를 통해서 평가가 필요한 시기를 선택한다. 자바스크립트에서는 <a href="https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Iterators_and_Generators" target="_blank" rel="noopener noreferrer">Iterator<ExternalLinkIcon/></a>를 통해서 구현 가능하다.</p>
@@ -211,8 +211,7 @@ console<span class="token punctuation">.</span><span class="token function">log<
 
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>ys<span class="token punctuation">)</span> <span class="token comment">// ['Changed', [4, [5, []]]]</span>
 console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>zs<span class="token punctuation">)</span> <span class="token comment">// [0,[1,[2,['Changed',[4,[5,[]]]]]]]</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="끄읕" tabindex="-1"><a class="header-anchor" href="#끄읕" aria-hidden="true">#</a> 끄읕</h2>
-<p>이 글에서 정리된 내용에 잘못된 정보가 있다면 이메일(04whdydrn30@gmail.com)을 통해 피드백을 주시면 수정하겠습니다 😃</p>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="끝" tabindex="-1"><a class="header-anchor" href="#끝" aria-hidden="true">#</a> 끝</h2>
 </div></template>
 
 
