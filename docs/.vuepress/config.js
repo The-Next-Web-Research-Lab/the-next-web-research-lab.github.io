@@ -38,7 +38,7 @@ export default {
       'meta',
       {
         name: 'google-site-verification',
-        content: '8_VtlBVA_jvMsCASxHBCEhtkASThDnhfhjPVBoupFuw'
+        content: 'AQgb7qIvzY8UNdV_dzzcCI1ofNUSeJeBRgf-IAajJO0'
       }
     ]
   ],
