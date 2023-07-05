@@ -44,7 +44,7 @@ export default {
   ],
   plugins: [
     googleAnalyticsPlugin({
-      id: '' // G-B42104C429
+      id: 'G-D8DGV9TS3G'
     }),
   ],
   theme: defaultTheme({
