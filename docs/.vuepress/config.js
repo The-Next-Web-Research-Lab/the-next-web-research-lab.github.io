@@ -48,6 +48,7 @@ export default {
     }),
   ],
   theme: defaultTheme({
+    contributors: false,
     colorMode: 'dark',
     colorModeSwitch: true,
     navbar: [{

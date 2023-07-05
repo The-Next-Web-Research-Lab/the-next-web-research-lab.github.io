@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-11459178","path":"/next-web-research.html","title":"선행개발 소개","lang":"en-US","frontmatter":{"title":"선행개발 소개"},"headers":[],"git":{"updatedTime":1687763723000},"filePathRelative":"next-web-research.md"}');export{e as data};
