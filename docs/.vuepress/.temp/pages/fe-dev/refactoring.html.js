@@ -1,1 +1,1 @@
-export const data = JSON.parse("{\"key\":\"v-7b37bd30\",\"path\":\"/fe-dev/refactoring.html\",\"title\":\"2장 리팩터링\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"2장 리팩터링\"},\"headers\":[],\"git\":{\"updatedTime\":1687567502000},\"filePathRelative\":\"fe-dev/refactoring.md\"}")
+export const data = JSON.parse("{\"key\":\"v-7b37bd30\",\"path\":\"/fe-dev/refactoring.html\",\"title\":\"2장 리팩터링\",\"lang\":\"ko-KR\",\"frontmatter\":{\"title\":\"2장 리팩터링\"},\"headers\":[],\"git\":{\"updatedTime\":1687567502000},\"filePathRelative\":\"fe-dev/refactoring.md\"}")

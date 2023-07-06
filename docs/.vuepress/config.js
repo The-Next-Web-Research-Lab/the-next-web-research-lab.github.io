@@ -2,6 +2,9 @@ import {
   googleAnalyticsPlugin
 } from "@vuepress/plugin-google-analytics";
 import {
+  docsearchPlugin
+} from '@vuepress/plugin-docsearch';
+import {
   defaultTheme
 } from "vuepress";
 import {
@@ -13,7 +16,9 @@ const __dirname = getDirname(
   import.meta.url)
 
 export default {
+  lang: 'ko-KR',
   title: 'The Next Web Research Lab',
+  description: '웹 클라이언트 기술을 전문적으로 연구하고 자료를 발행하는 기술 블로그를 운영합니다.',
   base: '/',
   markdown: {
     importCode: {
@@ -140,6 +145,21 @@ export default {
   plugins: [
     googleAnalyticsPlugin({
       id: 'G-D8DGV9TS3G'
+    }),
+    docsearchPlugin({
+      appId: 'KG049CYGHA',
+      apiKey: '989e418f2e968981ce479c9ccfdfc9cf',
+      indexName: 'the-next-web-research-labio',
+      locales: {
+        '/': {
+          placeholder: '찾고 싶은 포스트와 관련된 검색어를 입력해주세요.',
+          translations: {
+            button: {
+              buttonText: '',
+            },
+          },
+        },
+      }
     }),
   ],
   theme: defaultTheme({

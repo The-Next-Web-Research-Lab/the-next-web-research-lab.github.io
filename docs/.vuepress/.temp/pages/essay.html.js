@@ -1,1 +1,1 @@
-export const data = JSON.parse("{\"key\":\"v-52650e35\",\"path\":\"/essay.html\",\"title\":\"생각정리 소개\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"생각정리 소개\"},\"headers\":[],\"git\":{\"updatedTime\":1687553086000},\"filePathRelative\":\"essay.md\"}")
+export const data = JSON.parse("{\"key\":\"v-52650e35\",\"path\":\"/essay.html\",\"title\":\"생각정리 소개\",\"lang\":\"ko-KR\",\"frontmatter\":{\"title\":\"생각정리 소개\"},\"headers\":[],\"git\":{\"updatedTime\":1687553086000},\"filePathRelative\":\"essay.md\"}")

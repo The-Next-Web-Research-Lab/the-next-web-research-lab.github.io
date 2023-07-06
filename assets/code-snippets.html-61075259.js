@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-9440481c","path":"/fe-dev/code-snippets.html","title":"6장 코드 스니펫","lang":"ko-KR","frontmatter":{"title":"6장 코드 스니펫"},"headers":[],"git":{"updatedTime":1687567502000},"filePathRelative":"fe-dev/code-snippets.md"}');export{e as data};
