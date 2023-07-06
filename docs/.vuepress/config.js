@@ -5,6 +5,10 @@ import {
   docsearchPlugin
 } from '@vuepress/plugin-docsearch';
 import {
+  sitemapPlugin
+} from "vuepress-plugin-sitemap2";
+
+import {
   defaultTheme
 } from "vuepress";
 import {
@@ -161,6 +165,9 @@ export default {
         },
       }
     }),
+    sitemapPlugin({
+      hostname: 'the-next-web-research-lab.github.io',
+    }),
   ],
   theme: defaultTheme({
     contributors: false,
@@ -168,10 +175,10 @@ export default {
     colorModeSwitch: true,
     navbar: [{
         text: '소개',
-        link: '/intro/'
+        link: '/intro.html'
       }, {
         text: '선행개발',
-        link: '/next-web-research/'
+        link: '/next-web-research.html'
       },
       {
         text: '실용주의 FE Dev',
@@ -211,7 +218,7 @@ export default {
       },
       {
         text: '생각정리',
-        link: '/essay/'
+        link: '/essay.html'
       },
     ],
     sidebar: {

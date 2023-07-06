@@ -3,7 +3,7 @@ title: 2020.08 Todo List (Function 버전)
 
 ---
 
-MVC는 [2020.08 MVC](/fe-dev/pet-project/mvc/2020-08-mvc/)에 설명한다.
+MVC는 [2020.08 MVC](/fe-dev/pet-project/mvc/2020-08-mvc.html)에 설명한다.
 
 ## app
 @[code](@/docs/fe-dev/pet-project/mvc/2020-08-mvc/basic-todo-function/index.html)

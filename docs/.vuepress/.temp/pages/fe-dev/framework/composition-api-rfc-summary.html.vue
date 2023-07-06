@@ -3,7 +3,7 @@
 <p>초안작성일: 2020.02.29</p>
 </blockquote>
 <div class="custom-container tip"><p class="custom-container-title">TIP</p>
-<p><RouterLink to="/blog/composition-api-rfc/">Composition API RFC 번역</RouterLink>에 작성된 내용 요약과 <a href="https://www.vuemastery.com/" target="_blank" rel="noopener noreferrer">Vue Mastery<ExternalLinkIcon/></a>에서 확인할 수 있는 Composition API 관련 영상을 정리한 내용입니다.</p>
+<p><a href="https://the-next-web-research-lab.github.io/fe-dev/framework/composition-api-rfc.html" target="_blank" rel="noopener noreferrer">Composition API RFC 번역<ExternalLinkIcon/></a>에 작성된 내용 요약과 <a href="https://www.vuemastery.com/" target="_blank" rel="noopener noreferrer">Vue Mastery<ExternalLinkIcon/></a>에서 확인할 수 있는 Composition API 관련 영상을 정리한 내용입니다.</p>
 </div>
 <h2 id="composition-api란" tabindex="-1"><a class="header-anchor" href="#composition-api란" aria-hidden="true">#</a> Composition API란</h2>
 <p>Composition API는 Vue 컴포넌트의 로직을 유연하고 구성하기 위한 API입니다. Vue 2.x에 추가 가능하고, Vue 3.0에서는 내장으로 제공할 함수기반 API 세트입니다. 가장 기본이 되는 API는 <code v-pre>ref</code>와 <code v-pre>reactive</code>입니다.</p>

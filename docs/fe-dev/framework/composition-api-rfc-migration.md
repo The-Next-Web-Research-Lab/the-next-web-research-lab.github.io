@@ -313,7 +313,7 @@ const state = reactive<Pagination>({
 `reactive`로 정의한 `state`는 정상적으로 참조되지 않는다.
 
 ### Vuex
-내용이 많이 [Vuex 적용 경험 정리](/blog/vuex-in-composition-api/)에 분리함.
+내용이 많이 [Vuex 적용 경험 정리](https://the-next-web-research-lab.github.io/fe-dev/framework/vuex-in-composition-api.html)에 분리함.
 
 ### Nuxt
 > [v2.12.0](https://github.com/nuxt/nuxt.js/pull/6999)부터 새로운 `fetch` 인터페이스가 적용된다.

@@ -3,10 +3,10 @@ title: 2020.07.23 Simple Component
 
 ---
 
-[Simple DOM](/fe-dev/pet-project/component/simple-dom/)을 기반으로 만든 심플 컴포넌트 프로젝트다.
+[Simple DOM](/fe-dev/pet-project/component/simple-dom.html)을 기반으로 만든 심플 컴포넌트 프로젝트다.
 
 ### 컴포넌트
-[Recoil 버전](/fe-dev/pet-project/component/recoil-feature/)에서 영감을 얻은 컴포넌트.
+[Recoil 버전](/fe-dev/pet-project/component/recoil-feature.html)에서 영감을 얻은 컴포넌트.
 
 #### 기본 형태
 ```js

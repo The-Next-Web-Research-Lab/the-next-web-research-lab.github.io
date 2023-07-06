@@ -1,4 +1,4 @@
-<template><div><p>MVC는 <RouterLink to="/fe-dev/pet-project/mvc/2020-08-mvc/">2020.08 MVC</RouterLink>에 설명한다.</p>
+<template><div><p>MVC는 <RouterLink to="/fe-dev/pet-project/mvc/2020-08-mvc.html">2020.08 MVC</RouterLink>에 설명한다.</p>
 <h2 id="app" tabindex="-1"><a class="header-anchor" href="#app" aria-hidden="true">#</a> app</h2>
 <div class="language-html line-numbers-mode" data-ext="html"><pre v-pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">doctype</span> <span class="token name">html</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>

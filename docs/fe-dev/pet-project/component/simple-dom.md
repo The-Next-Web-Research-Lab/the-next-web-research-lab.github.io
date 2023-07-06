@@ -23,7 +23,7 @@ type patch = (FragmentDOM, AutualDOM) => void
 ```
 
 ## Core
-[Fragment DOM](/fe-dev/pet-project/component/fragment-dom/)에서 영감을 얻은 코어.
+[Fragment DOM](/fe-dev/pet-project/component/fragment-dom.html)에서 영감을 얻은 코어.
 
 ### parse
 @[code](@/docs/fe-dev/pet-project/component/simple-dom/core/parse.js)

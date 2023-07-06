@@ -264,7 +264,7 @@ TypeScript로 정의된 Declaration 파일에서는 <code v-pre>null</code>만 �
 <p><code v-pre>&lt;template&gt;</code>내에서 <code v-pre>&lt;div ref=&quot;box&quot;&gt;</code>와 같이 <code v-pre>TemplateRef</code>를 사용할 때는 항상 <code v-pre>ref</code>로 정의한 <code v-pre>state</code>를 사용해야 한다.
 <code v-pre>reactive</code>로 정의한 <code v-pre>state</code>는 정상적으로 참조되지 않는다.</p>
 <h3 id="vuex" tabindex="-1"><a class="header-anchor" href="#vuex" aria-hidden="true">#</a> Vuex</h3>
-<p>내용이 많이 <RouterLink to="/blog/vuex-in-composition-api/">Vuex 적용 경험 정리</RouterLink>에 분리함.</p>
+<p>내용이 많이 <a href="https://the-next-web-research-lab.github.io/fe-dev/framework/vuex-in-composition-api.html" target="_blank" rel="noopener noreferrer">Vuex 적용 경험 정리<ExternalLinkIcon/></a>에 분리함.</p>
 <h3 id="nuxt" tabindex="-1"><a class="header-anchor" href="#nuxt" aria-hidden="true">#</a> Nuxt</h3>
 <blockquote>
 <p><a href="https://github.com/nuxt/nuxt.js/pull/6999" target="_blank" rel="noopener noreferrer">v2.12.0<ExternalLinkIcon/></a>부터 새로운 <code v-pre>fetch</code> 인터페이스가 적용된다.
