@@ -33,7 +33,7 @@ watchEffect(() => {
 state.count++ // -> 2
 ```
 
-Composition API의 내부 동작원리는 [상세 설계](/blog/composition-api-rfc/#상세-설계-detailed-design)에서 확인할 수 있습니다. 라이브 코딩을 확인하고 싶다면 [Connect.Tech 2019: Composing Functionality With The New Vue APIs](https://www.vuemastery.com/conferences/connect-tech-2019/composing-functionality-with-the-new-vue-apis/)에서 확인 할 수 있습니다.
+Composition API의 내부 동작원리는 [상세 설계](https://the-next-web-research-lab.github.io/fe-dev/framework/composition-api-rfc.html#%E1%84%89%E1%85%A1%E1%86%BC%E1%84%89%E1%85%A6-%E1%84%89%E1%85%A5%E1%86%AF%E1%84%80%E1%85%A8)에서 확인할 수 있습니다. 라이브 코딩을 확인하고 싶다면 [Connect.Tech 2019: Composing Functionality With The New Vue APIs](https://www.vuemastery.com/conferences/connect-tech-2019/composing-functionality-with-the-new-vue-apis/)에서 확인 할 수 있습니다.
 
 ## 동기 부여
 Composition API를 만들게 된 동기 부여는 Vue 2의 한계입니다. Vue를 대규모 프로젝트에서 사용되면서 코드 재사용과 TypeScript 지원이 필요했지만 Vue 2는 코드 재사용이 깔끔하게 제공되지 않고 TypeScript를 적용하기에 부적합했습니다. 그러므로 실험과 논의를 통해 현재의 Composition API를 설계하게 되었습니다.
