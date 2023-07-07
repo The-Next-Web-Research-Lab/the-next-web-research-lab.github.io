@@ -1,6 +1,7 @@
 ---
 home: true
 heroText: The Next Web Research Lab
+description: 웹 클라이언트 기술을 전문적으로 연구하고 자료를 발행하는 기술 블로그를 운영합니다.
 tagline: 웹 클라이언트 기술을 전문적으로 연구하고 자료를 발행하는 기술 블로그를 운영합니다.
 actions:
   - text: 소개

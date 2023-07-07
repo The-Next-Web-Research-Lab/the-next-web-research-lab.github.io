@@ -7,6 +7,9 @@ import {
 import {
   sitemapPlugin
 } from "vuepress-plugin-sitemap2";
+import {
+  seoPlugin
+} from "vuepress-plugin-seo2";
 
 import {
   defaultTheme
@@ -167,6 +170,9 @@ export default {
     }),
     sitemapPlugin({
       hostname: 'the-next-web-research-lab.github.io',
+    }),
+    seoPlugin({
+      hostname: 'the-next-web-research-lab.github.io',      
     }),
   ],
   theme: defaultTheme({

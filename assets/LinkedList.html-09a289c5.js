@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-793efd8b","path":"/fe-dev/code-snippets/Data-Structure/LinkedList.html","title":"LinkedList","lang":"ko-KR","frontmatter":{"title":"LinkedList"},"headers":[],"git":{"updatedTime":1687280744000},"filePathRelative":"fe-dev/code-snippets/Data-Structure/LinkedList.md"}');export{e as data};
