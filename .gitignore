@@ -5,3 +5,4 @@ _site
 .idea
 docs/.vuepress/dist
 docs/.vuepress/.temp
+robots.txt
