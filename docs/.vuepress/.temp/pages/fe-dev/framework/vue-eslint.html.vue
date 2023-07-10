@@ -2,7 +2,7 @@
 <p>Nuxt 기반한 프로젝트에서 <code v-pre>vue/eslint-plugin-vue</code>를 사용중이다. prettier 를 사용하려고 검토하는 도중 우연히 <code v-pre>vue/eslint-plugin-vue</code>에 룰이 많다는 것을 알게 되었다. 초기 세팅 시에 잡혀있는 <code v-pre>plugin:vue/recommended</code>는 굉장히 약한 수준의 룰이다. <a href="https://eslint.vuejs.org/rules/" target="_blank" rel="noopener noreferrer">eslint-plugin-vue<ExternalLinkIcon/></a>를 참고해서 아래와 같이 룰을 수정했다.</p>
 <ul>
 <li><code v-pre>rules</code>에 prettier로 작업했던 유사한 룰을 추가했다.</li>
-<li>기본룰 수준을 <a href="https://eslint.vuejs.org/rules/#priority-b-strongly-recommended-improving-readability-for-vue-js-2-x" target="_blank" rel="noopener noreferrer">plugin:vue/recommended<ExternalLinkIcon/></a>에서 <a href="https://eslint.vuejs.org/rules/#priority-b-strongly-recommended-improving-readability-for-vue-js-2-x" target="_blank" rel="noopener noreferrer">plugin:vue/strongly-recommended<ExternalLinkIcon/></a>로 변경했다.</li>
+<li>기본룰 수준을 <a href="https://eslint.vuejs.org/rules/#priority-c-recommended-potentially-dangerous-patterns" target="_blank" rel="noopener noreferrer">plugin:vue/recommended<ExternalLinkIcon/></a>에서 <a href="https://eslint.vuejs.org/rules/#priority-b-strongly-recommended-improving-readability" target="_blank" rel="noopener noreferrer">plugin:vue/strongly-recommended<ExternalLinkIcon/></a>로 변경했다.</li>
 </ul>
 <div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
   <span class="token literal-property property">root</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
