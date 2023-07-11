@@ -41,7 +41,7 @@ Design Patterns은 세 가지 카테고리로 분류되어 23개 패턴이 있�
 - **반복자** : 내부 표현부를 노출하지 않고 어떤 집합 객체에 속한 원소들을 순차적으로 접근할 수 있는 방법을 제공합니다.
   - [ES6 Iterator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols)
 - **중재자** : 한 집합에 속해 있는 객체의 상호작용을 캡슐화하는 객체를 정의합니다.
-- **메멘토** : 캡슐화를 위해하지 않은 체 어떤 객체의 내부 상태를 잡아내고 실체화 시켜둠으로써, 이후 해당 객체가 그 상태로 되돌아 올 수 있도록 합니다.
+- **메멘토** : 캡슐화를 위배하지 않은 체 어떤 객체의 내부 상태를 잡아내고 실체화 시켜둠으로써, 이후 해당 객체가 그 상태로 되돌아 올 수 있도록 합니다.
 - **감시자** : 객체 사이에 일대 다의 의존 관계를 정의해두어, 어떤 객체의 상태가 변할 때 그 객체에 의존성을 가진 다른 객체들이 그 변화를 통지 받고 자동으로 갱신될 수 있게 만듭니다.
   - [MutationObserver](https://developer.mozilla.org/ko/docs/Web/API/MutationObserver)
   - [IntersectionObserver](https://developer.mozilla.org/ko/docs/Web/API/IntersectionObserver/IntersectionObserver)
