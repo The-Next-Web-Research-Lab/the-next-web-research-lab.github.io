@@ -1,3 +1,0 @@
-signature RAT =
-sig
-end

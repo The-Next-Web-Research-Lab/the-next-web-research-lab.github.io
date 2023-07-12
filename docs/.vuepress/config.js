@@ -252,7 +252,8 @@ export default {
         '/next-web-research/vibrate.md',
         '/next-web-research/battery.md',
         '/next-web-research/share.md',
-        '/next-web-research/file-system-access-api.md'
+        '/next-web-research/file-system-access-api.md',
+        '/next-web-research/network-speed.md'
       ],
       '/essay': [
         '/essay/',
