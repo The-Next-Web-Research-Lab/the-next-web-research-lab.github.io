@@ -266,6 +266,10 @@ export default {
         '/essay/clone-function/',
         '/essay/safe-chain/',
         '/essay/observation-mechanism/',
+        '/essay/compiler-theory/',
+        '/essay/non-functional-requirements/',
+        '/essay/design-guide/',
+        '/essay/web-accessibility/',
       ],
       '/fe-dev/paradigm': [
         '/fe-dev/paradigm/',
