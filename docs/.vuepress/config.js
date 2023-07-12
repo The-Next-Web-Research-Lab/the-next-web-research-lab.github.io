@@ -147,6 +147,13 @@ export default {
         name: 'google-site-verification',
         content: 'AQgb7qIvzY8UNdV_dzzcCI1ofNUSeJeBRgf-IAajJO0'
       }
+    ],
+    [
+      'meta',
+      {
+        name: 'naver-site-verification',
+        content: '0adacb2ebffbc3afc4a8525d472fe9ff6029850b'
+      }
     ]
   ],
   plugins: [
