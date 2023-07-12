@@ -226,6 +226,18 @@ export default {
         text: '생각정리',
         link: '/essay.html'
       },
+      {
+        text: '패밀리 사이트',
+        children: [{
+            text: '네이버 블로그',
+            link: 'https://m.blog.naver.com/nextwebresearchlab'
+          },
+          {
+            text: '티스토리 블로그',
+            link: 'https://the-next-web-research-lab.tistory.com/'
+          },
+        ]
+      }
     ],
     sidebar: {
       '/next-web-research': [

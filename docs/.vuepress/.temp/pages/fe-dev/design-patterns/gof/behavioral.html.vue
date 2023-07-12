@@ -350,7 +350,7 @@ literal ::= 'a' | 'b' | 'c' ... {'a' | 'b' | 'c'...}*
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="메멘토-memento" tabindex="-1"><a class="header-anchor" href="#메멘토-memento" aria-hidden="true">#</a> 메멘토(Memento)</h2>
 <h3 id="의도-5" tabindex="-1"><a class="header-anchor" href="#의도-5" aria-hidden="true">#</a> 의도</h3>
-<p>캡슐화를 위해하지 않은 체 어떤 객체의 내부 상태를 잡아내고 실체화 시켜둠으로써,
+<p>캡슐화를 위배하지 않은 체 어떤 객체의 내부 상태를 잡아내고 실체화 시켜둠으로써,
 이후 해당 객체가 그 상태로 되돌아 올 수 있도록 합니다.</p>
 <h3 id="활용성-5" tabindex="-1"><a class="header-anchor" href="#활용성-5" aria-hidden="true">#</a> 활용성</h3>
 <ul>
