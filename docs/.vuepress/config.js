@@ -179,7 +179,7 @@ export default {
       hostname: 'the-next-web-research-lab.github.io',
     }),
     seoPlugin({
-      hostname: 'the-next-web-research-lab.github.io',      
+      hostname: 'the-next-web-research-lab.github.io',
     }),
   ],
   theme: defaultTheme({
@@ -196,6 +196,9 @@ export default {
       {
         text: '실용주의 FE Dev',
         children: [{
+            text: '0장 자바스크립트',
+            link: '/fe-dev/javascript'
+          }, {
             text: '1장 좋은코드',
             link: '/fe-dev/good-code'
           },
@@ -270,6 +273,15 @@ export default {
         '/essay/non-functional-requirements/',
         '/essay/design-guide/',
         '/essay/web-accessibility/',
+      ],
+      '/fe-dev/javascript': [
+        '/fe-dev/javascript/',
+        '/fe-dev/javascript/syntax',
+        '/fe-dev/javascript/this',
+        '/fe-dev/javascript/promise',
+        '/fe-dev/javascript/async-await',
+        '/fe-dev/javascript/coroutine',
+        
       ],
       '/fe-dev/paradigm': [
         '/fe-dev/paradigm/',
@@ -387,7 +399,44 @@ export default {
         },
       ],
       '/fe-dev/code-snippets': [
-        '/fe-dev/code-snippets/',
+        '/fe-dev/code-snippets/',{
+          text: 'TypeScript',
+          collapsible: true,
+          children: [
+            '/fe-dev/code-snippets/typescript/callback/',
+            '/fe-dev/code-snippets/typescript/template-literals/',
+          ]
+        },
+        {
+          text: 'Javascript',
+          collapsible: true,
+          children: [
+            '/fe-dev/code-snippets/Javascript/Array/',
+            '/fe-dev/code-snippets/Javascript/Date/',
+            '/fe-dev/code-snippets/Javascript/Iterable/',
+            '/fe-dev/code-snippets/Javascript/Object/',
+            '/fe-dev/code-snippets/Javascript/String/',
+            '/fe-dev/code-snippets/Javascript/RegExp/',
+          ]
+        },
+        {
+          text: 'CSS3',
+          collapsible: true,
+          children: [
+            '/fe-dev/code-snippets/CSS3/Flex/',
+            '/fe-dev/code-snippets/CSS3/MaskImage/',
+          ]
+        },
+        {
+          text: 'HTML5',
+          collapsible: true,
+          children: [
+            '/fe-dev/code-snippets/HTML5/HTML5/',
+            '/fe-dev/code-snippets/HTML5/FetchApi/',
+            '/fe-dev/code-snippets/HTML5/FileReader/',
+            '/fe-dev/code-snippets/HTML5/SVG/',
+          ]
+        },
         {
           text: 'Data Structure',
           collapsible: true,
@@ -425,36 +474,6 @@ export default {
             '/fe-dev/code-snippets/Helper/component/',
             '/fe-dev/code-snippets/Helper/directive/',
             '/fe-dev/code-snippets/Helper/template-binding/',
-          ]
-        },
-        {
-          text: 'Javascript',
-          collapsible: true,
-          children: [
-            '/fe-dev/code-snippets/Javascript/Array/',
-            '/fe-dev/code-snippets/Javascript/Date/',
-            '/fe-dev/code-snippets/Javascript/Iterable/',
-            '/fe-dev/code-snippets/Javascript/Object/',
-            '/fe-dev/code-snippets/Javascript/String/',
-            '/fe-dev/code-snippets/Javascript/RegExp/',
-          ]
-        },
-        {
-          text: 'CSS3',
-          collapsible: true,
-          children: [
-            '/fe-dev/code-snippets/CSS3/Flex/',
-            '/fe-dev/code-snippets/CSS3/MaskImage/',
-          ]
-        },
-        {
-          text: 'HTML5',
-          collapsible: true,
-          children: [
-            '/fe-dev/code-snippets/HTML5/HTML5/',
-            '/fe-dev/code-snippets/HTML5/FetchApi/',
-            '/fe-dev/code-snippets/HTML5/FileReader/',
-            '/fe-dev/code-snippets/HTML5/SVG/',
           ]
         },
         {
