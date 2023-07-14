@@ -2,7 +2,8 @@
 title: React Hook/Vue Composition/Recoil 정리
 ---
 
-React Hook, Vue Composition API, Recoil의 발생 시기와 이유에 대한 정리자료다.
+# React Hook/Vue Composition/Recoil 정리
+React Hook, Vue Composition API, Recoil의 발생 시기와 이유에 대한 정리자료입니다.
 
 ## React Hook
 ### 발생시기

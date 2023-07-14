@@ -1,6 +1,7 @@
 ---
 title: Vuex
 ---
+# Vuex
 
 ## Core
 

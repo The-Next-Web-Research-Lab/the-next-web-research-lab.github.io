@@ -2,6 +2,7 @@
 title:  Promise 한장에 정리
 ---
 
+# Promise 한장에 정리
 ### 목차
 - Promise 상태
 - 응답 결과 전달 방법

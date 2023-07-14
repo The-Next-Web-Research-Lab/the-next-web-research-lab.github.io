@@ -1,6 +1,7 @@
 ---
 title: 2019.08 Vue2 컴포넌트 구현
 ---
+# 2019.08 Vue2 컴포넌트 구현
 ## 컴포넌트 사용 예제
 ### 컴포넌트 마운트
 @[code](@/docs/fe-dev/pet-project/vue2-component/vue2-component.html)

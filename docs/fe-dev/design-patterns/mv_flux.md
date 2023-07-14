@@ -1,6 +1,8 @@
 ---
 title: MV*/Flux 정리
 ---
+# MV*/Flux 정리
+MV*과 Flux 패턴을 정리합니다.
 
 ## MVC
 - 제작시기

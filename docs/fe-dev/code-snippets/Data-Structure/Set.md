@@ -1,7 +1,8 @@
 ---
 title: Set
-
 ---
+
+# Set
 
 ```js
 const set = new Set();

@@ -1,6 +1,9 @@
 ---
 title: GoF 디자인 패턴 | 요약
 ---
+
+# GoF 디자인 패턴 | 요약
+
 > 출처: 에릭 감마 , 리처드 헬름 , 랄프 존슨 , 존 블리시디스. 『Gof의 디자인 패턴』. 김정아(역). 프로텍미디어, 2015.
 
 GoF(Gang of Four)는 **Design Patterns: Elements of Reusable Object-Oriented Software**를 집필한 저자 4명을 말한다.

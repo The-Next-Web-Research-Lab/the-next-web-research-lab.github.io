@@ -1,4 +1,5 @@
-<template><div><blockquote>
+<template><div><h1 id="gof-디자인-패턴-요약" tabindex="-1"><a class="header-anchor" href="#gof-디자인-패턴-요약" aria-hidden="true">#</a> GoF 디자인 패턴 | 요약</h1>
+<blockquote>
 <p>출처: 에릭 감마 , 리처드 헬름 , 랄프 존슨 , 존 블리시디스. 『Gof의 디자인 패턴』. 김정아(역). 프로텍미디어, 2015.</p>
 </blockquote>
 <p>GoF(Gang of Four)는 <strong>Design Patterns: Elements of Reusable Object-Oriented Software</strong>를 집필한 저자 4명을 말한다.

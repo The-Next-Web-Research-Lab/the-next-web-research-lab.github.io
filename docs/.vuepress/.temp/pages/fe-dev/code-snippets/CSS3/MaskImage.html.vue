@@ -1,4 +1,6 @@
-<template><div><blockquote>
+<template><div><h1 id="mask-image" tabindex="-1"><a class="header-anchor" href="#mask-image" aria-hidden="true">#</a> Mask Image</h1>
+<p>css로 이미지를 마스킹하는 방법입니다.</p>
+<blockquote>
 <p><a href="https://the-next-web-research-lab.github.io/docs/fe-dev/code-snippets/CSS3/mask-image.html" target="_blank" rel="noopener noreferrer">데모보기<ExternalLinkIcon/></a></p>
 </blockquote>
 <div class="language-html line-numbers-mode" data-ext="html"><pre v-pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">doctype</span> <span class="token name">html</span><span class="token punctuation">></span></span>

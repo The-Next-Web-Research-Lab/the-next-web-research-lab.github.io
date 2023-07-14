@@ -1,4 +1,5 @@
-<template><div><h2 id="컴포넌트-사용-예제" tabindex="-1"><a class="header-anchor" href="#컴포넌트-사용-예제" aria-hidden="true">#</a> 컴포넌트 사용 예제</h2>
+<template><div><h1 id="_2019-08-vue2-컴포넌트-구현" tabindex="-1"><a class="header-anchor" href="#_2019-08-vue2-컴포넌트-구현" aria-hidden="true">#</a> 2019.08 Vue2 컴포넌트 구현</h1>
+<h2 id="컴포넌트-사용-예제" tabindex="-1"><a class="header-anchor" href="#컴포넌트-사용-예제" aria-hidden="true">#</a> 컴포넌트 사용 예제</h2>
 <h3 id="컴포넌트-마운트" tabindex="-1"><a class="header-anchor" href="#컴포넌트-마운트" aria-hidden="true">#</a> 컴포넌트 마운트</h3>
 <div class="language-html line-numbers-mode" data-ext="html"><pre v-pre class="language-html"><code><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">doctype</span> <span class="token name">html</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>

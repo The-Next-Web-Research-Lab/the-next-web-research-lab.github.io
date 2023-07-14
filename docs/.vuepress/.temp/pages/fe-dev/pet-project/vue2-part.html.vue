@@ -1,4 +1,5 @@
-<template><div><h2 id="파트별-구현" tabindex="-1"><a class="header-anchor" href="#파트별-구현" aria-hidden="true">#</a> 파트별 구현</h2>
+<template><div><h1 id="_2017-09-vue2-파트별-구현" tabindex="-1"><a class="header-anchor" href="#_2017-09-vue2-파트별-구현" aria-hidden="true">#</a> 2017.09 Vue2 파트별 구현</h1>
+<h2 id="파트별-구현" tabindex="-1"><a class="header-anchor" href="#파트별-구현" aria-hidden="true">#</a> 파트별 구현</h2>
 <h3 id="옵져버" tabindex="-1"><a class="header-anchor" href="#옵져버" aria-hidden="true">#</a> 옵져버</h3>
 <div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">const</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
 <span class="token function">Observer</span><span class="token punctuation">(</span>obj<span class="token punctuation">,</span> <span class="token string">'counter'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token parameter">newValue<span class="token punctuation">,</span> oldValue</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>

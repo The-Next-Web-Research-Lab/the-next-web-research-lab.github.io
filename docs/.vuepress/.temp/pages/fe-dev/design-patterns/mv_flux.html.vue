@@ -1,4 +1,6 @@
-<template><div><h2 id="mvc" tabindex="-1"><a class="header-anchor" href="#mvc" aria-hidden="true">#</a> MVC</h2>
+<template><div><h1 id="mv-flux-정리" tabindex="-1"><a class="header-anchor" href="#mv-flux-정리" aria-hidden="true">#</a> MV*/Flux 정리</h1>
+<p>MV*과 Flux 패턴을 정리합니다.</p>
+<h2 id="mvc" tabindex="-1"><a class="header-anchor" href="#mvc" aria-hidden="true">#</a> MVC</h2>
 <ul>
 <li>제작시기
 <ul>
