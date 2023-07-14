@@ -142,22 +142,22 @@ const instance = new MyClass()
 ```
 ### Sub classing
 ```js
-class Point {
-  constructor (x, y) {
-    this.x = x    
-    this.y = y  
-  }  
-  toString () {    
-    return `${this.x} ${this.y}`  
+class Point { 
+  constructor (x, y) { 
+    this.x = x     
+    this.y = y   
+  }   
+  toString () {     
+    return `${this.x} ${this.y}`   
   }
-}
+ }
 class ColorPoint extends Point {
-  constructor (x, y, color) {    
-    super(x, y) //Must call super    
-    this.color = color  
-  }  
-  toString () {    
-    return `${super.toString()} in ${this.color}`  
+   constructor (x, y, color) {     
+    super(x, y) //Must call super     
+    this.color = color   
+  }   
+  toString () {     
+    return `${super.toString()} in ${this.color}`   
   }
 }
 ```
@@ -256,14 +256,14 @@ const serverInfo = {
     this.port = port
   }
 }
-serverInfo.setDevInfo()//ip: 127.0.0.1, port: 1234
+serverInfo.setDevInfo() //ip: 127.0.0.1, port: 1234
 
 ```
 ### Destructuring
 ```js
 const peter = {weight: 72, height: 173}
 const {weight, height, age = 25} = peter
-console.log(weight, height, age)//72, 173, 25
+console.log(weight, height, age) //72, 173, 25
 ```
 ### 해체할당
 나머지 연산자를 통해 객체 프로퍼티와 배열 요소에 할당할 수도 있습니다.
@@ -297,9 +297,9 @@ Rest Operator 기능은 함수로 전달되는 argument들중 변수로 정의�
 가장 중요한 것은 Rest Operator는 항상 마지막에 사용해야 합니다.
 
 ```js
-function foo(...args) {} //args : [1,2,3]
-foo(1,2,3)
-function bar (first, ...args) {} //args : [2,3]
+function foo(...args) {} //args : [1,2,3] 
+foo(1,2,3)  
+function bar (first, ...args) {} //args : [2,3] 
 bar(1,2,3)
 
 ```
@@ -325,19 +325,19 @@ const mergedObj = {...obj1, ...obj2}
 ### String concatenation
 ```js
 const name = 'Peter'
-const txt = `Hello WorldI'm ${name}`
+const txt = `Hello World I'm ${name}`
 /*
 Hello World
-I'm Peter
+I'm Peter 
 */
 ```
 ### Expression
 ```js
 const math = 90
 const science = 100
-console.log(`Math: ${math}
-  Sciene: ${science}
-  Total: ${math + science}
+console.log(`Math: ${math} 
+  Sciene: ${science} 
+  Total: ${math + science} 
   Average: ${(math + science) / 2}`)
 ```
 ### Undefined variable
@@ -393,7 +393,7 @@ avg(1,2,3,4) //2.5
 default export는 하나만 선언할 수 있습니다.
 ```js
 //myFunc.js
-export default function () {}
+export default function () {} 
 //main.js
 import myFunc from './myFunc'
 myFunc()
@@ -403,7 +403,7 @@ myFunc()
 ```js
 import {getTime} from './bar'
 import {getTime} from './foo'
-//Duplicate declaration
+//Duplicate declaration 
 
 import * as bar from './bar'
 import * as foo from './foo'
@@ -425,12 +425,12 @@ console.log(counter)
 counter++
 //SyntaxError 'counter' is read-only
 
-//lib.js
+//lib.js 
 export let counter = 3
 
 export function incCounter() {
   counter++
-}
+} 
 ```
 
 ## Data Structure
@@ -448,7 +448,7 @@ map.delete('foo')
 map.size //2
 map.clear() //map.size === 0
 
-const map = new Map([['foo', true],['bar', false]])
+const map = new Map([ ['foo', true], ['bar', false] ])
 ```
 ### Set
 Set의 고유한 데이터를 순서의 상관없이 모아둡니다. 그래서 이미 선언된 데이터도 중복선언이 되지 않습니다.
@@ -457,7 +457,7 @@ const set = new Set()
 set.add('red')
 set.has('red') //true
 set.delete('red')
-set.has('red') //false
+set.has('red') //false 
 set.add('red')
 set.add('green')
 set.size //2
@@ -511,7 +511,7 @@ Promise.all([
   getPromise(),
   getPromise(),
   getPromise()
-])  //response all data
+])   //response all data 
   .then([result1, result2, result3] => {})
   .catch(err => console.error(err))
 ```
@@ -519,10 +519,10 @@ Promise.all([
 가장 빠르게 응답되는 Promise를 찾을 때는 Promise.race()를 통해 사용할 수 있습니다. 이 기능을 활용하면 타임아웃기능을 구현할 수 있습니다.
 ```js
 Promise.race([
-  getPromise(), //1000ms
-  getPromise(), //500ms
+  getPromise(), //1000ms 
+  getPromise(), //500ms 
   getPromise() //250ms
-])  //response of 250ms
+])   //response of 250ms 
   .then(data => console.log(data))
   .catch(err => console.error(err))
 ```
@@ -540,8 +540,8 @@ const height = Symbol('height')
 const obj = {age: 25}
 obj[height] = 173
 
-Object.getOwnPropertyNames(obj)//[ 'age’ ]
-Object.getOwnPropertySymbols(obj)// [ Symbol(height) ]
+Object.getOwnPropertyNames(obj) //[ 'age’ ] 
+Object.getOwnPropertySymbols(obj) // [ Symbol(height) ] 
 ```
 ## Clear intention
 ### Bad

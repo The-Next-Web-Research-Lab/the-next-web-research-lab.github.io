@@ -166,7 +166,7 @@ Promise
     getPromise(),
     getPromise()
   ])
-  //response all data
+   //response all data 
   .then(data => console.log(data))
   .catch(err => console.error(err))
 ```
@@ -187,22 +187,22 @@ Promise
 ```javascript
 Promise
   .race([
-    getPromise(), //1000ms
-    getPromise(), //500ms
+    getPromise(), //1000ms 
+    getPromise(), //500ms 
     getPromise() //250ms
   ])
-  //response of 250ms
+  //response of 250ms 
   .then(data => console.log(data))
 ```
 
 ```javascript
 Promise
   .race([
-    getPromise(), //1000ms
-    getPromise(), //500ms
+    getPromise(), //1000ms 
+    getPromise(), //500ms 
     getPromiseReject() //250ms
   ])
-  //response of 250ms
+   //response of 250ms 
   .catch(err => console.error(err))
 ```
 
