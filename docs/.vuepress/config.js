@@ -24,7 +24,7 @@ const __dirname = getDirname(
 
 export default {
   lang: 'ko-KR',
-  title: 'The Next Web Research Lab',
+  title: '더넥스트웹리서치랩',
   description: '웹 클라이언트 기술을 전문적으로 연구하고 자료를 발행하는 기술 블로그를 운영합니다.',
   base: '/',
   markdown: {

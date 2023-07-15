@@ -1,8 +1,10 @@
 ---
 home: true
-title: The Next Web Research Lab
+title: 더넥스트웹리서치랩
 description: 웹 클라이언트 기술을 전문적으로 연구하고 자료를 발행하는 기술 블로그를 운영합니다.
-heroText: The Next Web Research Lab
+heroText: 
+heroImage: /images/white_logo.png
+heroImageDark: /images/black_logo.png
 tagline: 웹 클라이언트 기술을 전문적으로 연구하고 자료를 발행하는 기술 블로그를 운영합니다.
 actions:
   - text: 소개
@@ -15,5 +17,5 @@ features:
   details: FE 개발자로 10년 기간 동안 학습하고 경험했던 노하우를 정리합니다. 중요하다고 생각하는 순서부터 앞장에 작성했습니다.
 - title: 생각정리
   details: 서비스를 개발하면서 떠올랐던 생각들과 경험기에 대한 내용을 정리합니다.
-footer: © 2023 The Next Web Research Lab Co. All rights reserved.
+footer: © 2023 더넥스트웹리서치랩 Co. All rights reserved.
 ---
