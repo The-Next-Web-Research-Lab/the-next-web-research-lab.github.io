@@ -120,7 +120,7 @@
 <h3 id="활용성-2" tabindex="-1"><a class="header-anchor" href="#활용성-2" aria-hidden="true">#</a> 활용성</h3>
 <ul>
 <li>부분-전체의 객체 계통을 표현하고 싶을 때</li>
-<li>사용자가 객체의 합성으로 생긴 복합 객체와 개개의 객체 사이의 차이를 알지 않고도 자기 일을 할 수 있도록 만들고 싶을 때, 사용자는 복합 구조의 모든 객체를 똑같이 취급하게 됩니다.</li>
+<li>사용자가 객체의 합성으로 생긴 복합 객체와 개별의 객체 사이의 차이를 알지 않고도 자기 일을 할 수 있도록 만들고 싶을 때, 사용자는 복합 구조의 모든 객체를 똑같이 취급하게 됩니다.</li>
 </ul>
 <h3 id="구조-및-구현-2" tabindex="-1"><a class="header-anchor" href="#구조-및-구현-2" aria-hidden="true">#</a> 구조 및 구현</h3>
 <div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">interface</span> <span class="token class-name">Component</span> <span class="token punctuation">{</span>
@@ -356,7 +356,7 @@
 </li>
 <li>사용자는 <code v-pre>ConcreteFlyweight</code>의 인스턴스를 직접 만들 수 없다.
 <ul>
-<li>사용자는 <code v-pre>ConcreteFlyweight</code>객체를 <code v-pre>FlyweightFactory</code>객체에서 언어야 한다. 이렇게 해야 <code v-pre>Flyweight</code>객체가 공유될 수 있다.</li>
+<li>사용자는 <code v-pre>ConcreteFlyweight</code>객체를 <code v-pre>FlyweightFactory</code>객체에서 얻어야 한다. 이렇게 해야 <code v-pre>Flyweight</code>객체가 공유될 수 있다.</li>
 </ul>
 </li>
 </ul>

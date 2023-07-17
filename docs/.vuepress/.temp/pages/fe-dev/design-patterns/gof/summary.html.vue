@@ -43,7 +43,7 @@
 <ul>
 <li><strong>책임연쇄</strong> : 메세지를 보내는 객체와 이를 받아 처리하는 객체들 간의 결합도를 없애기 위한 패턴입니다.</li>
 <li><strong>명령</strong> : 요청 자체를 캡슐화하는 것입니다. 이를 통해 요청이 서로 다른 사용자를 매개변수로 만들고, 요청을 대기 시키거나 로깅하여, 되돌릴 수 있는 연산을 지원합니다.</li>
-<li><strong>해석자</strong> : 간단한 언어의 문법을 정의하는 방법과 그 언어로 문장을 구정하는 방법, 이들 문장을 해석하는 방법을 설명합니다.</li>
+<li><strong>해석자</strong> : 간단한 언어의 문법을 정의하는 방법과 그 언어로 문장을 구성하는 방법, 이들 문장을 해석하는 방법을 설명합니다.</li>
 <li><strong>반복자</strong> : 내부 표현부를 노출하지 않고 어떤 집합 객체에 속한 원소들을 순차적으로 접근할 수 있는 방법을 제공합니다.
 <ul>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols" target="_blank" rel="noopener noreferrer">ES6 Iterator<ExternalLinkIcon/></a></li>

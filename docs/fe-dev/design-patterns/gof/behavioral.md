@@ -164,7 +164,7 @@ class Main {
 
 ## 해석자(Interpreter)
 ### 의도
-간단한 언어의 문법을 정의하는 방법과 그 언어로 문장을 구정하는 방법, 이들 문장을 해석하는 방법을 설명합니다.
+간단한 언어의 문법을 정의하는 방법과 그 언어로 문장을 구성하는 방법, 이들 문장을 해석하는 방법을 설명합니다.
 
 ### 활용성
 - 정의할 언어의 문법이 간단할 때 적합하다.
@@ -187,22 +187,63 @@ class Main {
 4. 결과적으로 interpret(context)에서 클래스들을 사용함으로 트리 형태로 만들어진다.
 
 ### 구조 및 구현
-> 작성중
 
 ```ts
-interface AbstractExpression {
-    interpret(context: Context): void
+class Context {
+  constructor(input) {
+    this.input = input
+    this.output = 0
+  }
+  startsWith(str) {
+    return this.input.startsWith(str)
+  }
 }
 
-class TerminalExpression implements AbstractExpression {
-    interpret(context: Context) {}
+class Expression {
+  constructor(name, one, four, five, nine, multiplier) {
+    this.name = name
+    this.one = one
+    this.four = four
+    this.five = five
+    this.nine = nine
+    this.multiplier = multiplier
+  }
+  interpret(context) {
+    if (context.input.length === 0) {
+      return
+    }
+    if (context.startsWith(this.nine)) {
+      this.calculate(9, this.nine);
+    } else if (context.startsWith(this.four)) {
+      this.calculate(4, this.four);
+    } else if (context.startsWith(this.five)) {
+      this.calculate(5, this.five);
+    }
+    while (context.startsWith(this.one)) {
+      this.calculate(1, this.one);
+    }
+  }
+  calculate(num, str) {
+    context.output += (num * this.multiplier)
+    context.input = context.input.substr(str.length)
+  }
 }
+```
 
-class NonTerminalExpression implements AbstractExpression {
-    interpret(context: Context) {}
-}
+```ts
+const interpreter = [
+  new Expression('thousand', 'M', ' ', ' ', ' ', 1000),
+  new Expression('hundred', 'C', 'CD', 'D', 'CM', 100),
+  new Expression('ten', 'X', 'XL', 'L', 'XC', 10),
+  new Expression('one', 'I', 'IV', 'V', 'IX', 1)
+];
 
-class Context {}
+const roman = 'MCMXXVIII'
+const context = new Context(roman)
+interpreter.forEach(leaf => leaf.interpret(context))
+
+console.log(`${roman} = ${context.output}`)
+// MCMXXVIII = 1928
 ```
 
 ## 반복자(Iterator)
@@ -652,7 +693,7 @@ class Main {
 객체 구조를 이루는 원소에 대해 수행할 연산을 표현하는 패턴으로, 연산을 적용할 원소의 클래스를 변경하지 않고도 새로운 연산을 정의할 수 있게 한다.
 
 ### 활용성
-- 객체 구조를 정의한 클래스는 거의 변하지 않지만, 전체 구조에 걸쳐 새로운 연산을 추가하고 싶을 
+- 객체 구조를 정의한 클래스는 거의 변하지 않지만, 전체 구조에 걸쳐 새로운 연산을 추가하고 싶을 때
 
 ### 구조 및 구현
 ```ts
