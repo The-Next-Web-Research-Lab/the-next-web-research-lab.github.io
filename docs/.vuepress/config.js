@@ -230,6 +230,10 @@ export default {
             text: '8장 디자인 패턴',
             link: '/fe-dev/design-patterns'
           },
+          {
+            text: '9장 성능 최적화',
+            link: '/fe-dev/optimization'
+          },
         ]
       },
       {
@@ -273,6 +277,13 @@ export default {
         '/essay/non-functional-requirements/',
         '/essay/design-guide/',
         '/essay/web-accessibility/',
+      ],
+      '/fe-dev/optimization': [
+        '/fe-dev/optimization/',
+        '/fe-dev/optimization/rail',
+        '/fe-dev/optimization/web-vitals',
+        '/fe-dev/optimization/monitoring',
+        '/fe-dev/optimization/chrome-network-tab'
       ],
       '/fe-dev/javascript': [
         '/fe-dev/javascript/',
