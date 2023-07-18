@@ -234,6 +234,10 @@ export default {
             text: '9장 성능 최적화',
             link: '/fe-dev/optimization'
           },
+          {
+            text: '10장 도서 리뷰',
+            link: '/fe-dev/books'
+          },
         ]
       },
       {
@@ -277,6 +281,25 @@ export default {
         '/essay/non-functional-requirements/',
         '/essay/design-guide/',
         '/essay/web-accessibility/',
+      ],
+      '/fe-dev/books': [
+        '/fe-dev/books/',
+        '/fe-dev/books/1',
+        '/fe-dev/books/2',
+        '/fe-dev/books/3',
+        '/fe-dev/books/4',
+        '/fe-dev/books/5',
+        '/fe-dev/books/6',
+        '/fe-dev/books/7',
+        '/fe-dev/books/8',
+        '/fe-dev/books/9',
+        '/fe-dev/books/10',
+        '/fe-dev/books/11',
+        '/fe-dev/books/12',
+        '/fe-dev/books/13',
+        '/fe-dev/books/14',
+        '/fe-dev/books/15',
+        '/fe-dev/books/16',
       ],
       '/fe-dev/optimization': [
         '/fe-dev/optimization/',
