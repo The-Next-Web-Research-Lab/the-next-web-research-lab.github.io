@@ -394,6 +394,7 @@ export default {
       ],
       '/fe-dev/good-code': [
         '/fe-dev/good-code/',
+        '/fe-dev/good-code/2023/',
         '/fe-dev/good-code/easy-code/',
         '/fe-dev/good-code/code-position/',
         '/fe-dev/good-code/reusable-code/',
