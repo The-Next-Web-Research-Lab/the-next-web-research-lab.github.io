@@ -384,6 +384,7 @@ export default {
         '/fe-dev/project-management/facilitation-for-meeting/',
         '/fe-dev/project-management/preventive-maintenance/',
         '/fe-dev/project-management/git-scm-experience/',
+        '/fe-dev/project-management/software-lifecycle/',
       ],
       '/fe-dev/refactoring': [
         '/fe-dev/refactoring/',
@@ -391,6 +392,9 @@ export default {
         '/fe-dev/refactoring/legacy-code-to-easy-code/',
         '/fe-dev/refactoring/legacy-code-to-easy-code-2/',
         '/fe-dev/refactoring/refactoring-meaning-and-result/',
+        '/fe-dev/refactoring/tdd-bdd/',
+        '/fe-dev/refactoring/test-types/',
+        '/fe-dev/refactoring/test-guide/',
       ],
       '/fe-dev/good-code': [
         '/fe-dev/good-code/',
