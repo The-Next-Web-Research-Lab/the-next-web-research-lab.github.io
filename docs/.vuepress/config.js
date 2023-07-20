@@ -409,6 +409,12 @@ export default {
         '/fe-dev/good-code/reusable-code/',
         '/fe-dev/good-code/declarative-function/',
         '/fe-dev/good-code/date-helper-development/',
+        '/fe-dev/good-code/dependency-inversion/',
+        '/fe-dev/good-code/solid-srp/',
+        '/fe-dev/good-code/solid-ocp/',
+        '/fe-dev/good-code/solid-lsp/',
+        '/fe-dev/good-code/solid-isp/',
+        '/fe-dev/good-code/solid-dip/',
       ],
       '/fe-dev/design-patterns': [
         '/fe-dev/design-patterns/',
