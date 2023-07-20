@@ -268,6 +268,11 @@ export default {
       ],
       '/essay': [
         '/essay/',
+        '/essay/web-usability-review/',
+        '/essay/authentication-and-authorization/',
+        '/essay/color-space-munsell-color-theory/',
+        '/essay/color-space-hsl-and-hsv/',
+        '/essay/color-space-lch-and-lab/',
         '/essay/2019-new-service-building/',
         '/essay/cors-and-http-cookie/',
         '/essay/how-to-catch-error/',
