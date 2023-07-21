@@ -323,6 +323,8 @@ export default {
         '/fe-dev/javascript/union-type',
         '/fe-dev/javascript/decorators',
         '/fe-dev/javascript/event',
+        '/fe-dev/javascript/concurrency-and-parallelism',
+        '/fe-dev/javascript/pure-and-first-class-function',
         
       ],
       '/fe-dev/paradigm': [
