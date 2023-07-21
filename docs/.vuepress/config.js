@@ -196,7 +196,7 @@ export default {
       {
         text: '실용주의 FE Dev',
         children: [{
-            text: '0장 자바스크립트',
+            text: '0장 프로그래밍 언어',
             link: '/fe-dev/javascript'
           }, {
             text: '1장 좋은코드',
@@ -320,6 +320,9 @@ export default {
         '/fe-dev/javascript/promise',
         '/fe-dev/javascript/async-await',
         '/fe-dev/javascript/coroutine',
+        '/fe-dev/javascript/union-type',
+        '/fe-dev/javascript/decorators',
+        '/fe-dev/javascript/event',
         
       ],
       '/fe-dev/paradigm': [
