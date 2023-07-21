@@ -6,7 +6,7 @@ title: JavaScript - Decorators
 ## Decorators Proposal
 - [tc39/proposal-decorators](https://github.com/tc39/proposal-decorators)에 제안서 정의됨
 - [Orthogonal Classes](https://github.com/erights/Orthogonal-Classes)와 [Class Evaluation Order](https://onedrive.live.com/view.aspx?resid=A7BBCE1FC8EE16DB!442046&app=PowerPoint&authkey=!AEeXmhZASk50KjA) 제안을 바탕으로 Decorators와 [Class Field](https://tc39.github.io/proposal-class-fields/) 및 [Private methods](https://github.com/tc39/proposal-private-methods)를 함께 작동시키는 방법에 대한 결합된 비전을 제안
-- Decorators는 이미 정의된 클래스, 함수, 변수의 코드를 수정하기 않고, 기능을 추가하는 것에 유용함
+- Decorators는 이미 정의된 클래스, 함수, 변수의 코드를 수정하지 않고, 기능을 추가하는 것에 유용함
 - 메모이제이션, 접근 제어, 인증, 계측, 타이밍 처리, 로깅, 속도 제한 등에 사용된다.
 
 ## Decorators 실용성
