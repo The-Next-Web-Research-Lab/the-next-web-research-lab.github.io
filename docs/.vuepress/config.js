@@ -325,6 +325,9 @@ export default {
         '/fe-dev/javascript/event',
         '/fe-dev/javascript/concurrency-and-parallelism',
         '/fe-dev/javascript/pure-and-first-class-function',
+        '/fe-dev/javascript/float-flex-grid',
+        '/fe-dev/javascript/immutable-persistent',
+        '/fe-dev/javascript/mono-repo',
         
       ],
       '/fe-dev/paradigm': [
