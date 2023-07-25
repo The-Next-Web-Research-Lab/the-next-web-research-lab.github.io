@@ -1,7 +1,4 @@
 <template><div><h1 id="콜백-사용-시점" tabindex="-1"><a class="header-anchor" href="#콜백-사용-시점" aria-hidden="true">#</a> 콜백 사용 시점</h1>
-<blockquote>
-<p>2019년 11월 2일에 정리한 포스트입니다.</p>
-</blockquote>
 <h3 id="글의-목적" tabindex="-1"><a class="header-anchor" href="#글의-목적" aria-hidden="true">#</a> 글의 목적</h3>
 <p>자바스크립트 코드를 작성할 때 콜백을 사용하는 시점은 명확히 구분해서 사용하고 있다. 비동기 코드를 작성할 때는 Promise에만 사용하고, 동기 코드를 작성할 때는 map, filter, reduce와 같은 함수의 인자로 사용한다.</p>
 <p>비동기 코드를 작성할 때, 왜! 인자로 콜백을 사용하지 않는 지 뻔한 이야기를 다시 되새겨 보려고 한다. 그리고 동기 코드에서 콜백을 인자로 사용하는 의미를 정리해보려고 한다.</p>

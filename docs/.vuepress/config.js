@@ -25,7 +25,7 @@ const __dirname = getDirname(
 export default {
   lang: 'ko-KR',
   title: '더넥스트웹리서치랩',
-  description: '웹 클라이언트 기술을 전문적으로 연구하고 자료를 발행하는 기술 블로그를 운영합니다.',
+  description: '담백한 프런트엔드 기술 블로그에서 지식 한 줌 담아 가세요!',
   base: '/',
   markdown: {
     importCode: {
@@ -194,7 +194,7 @@ export default {
         link: '/next-web-research.html'
       },
       {
-        text: '실용주의 FE Dev',
+        text: '실용주의 프런트엔드',
         children: [{
             text: '0장 프로그래밍 언어',
             link: '/fe-dev/javascript'
