@@ -1,5 +1,5 @@
 ---
-title: Color Space 시리즈 - 먼셀의 색체계
+title:  먼셀의 색체계
 ---
 # Color Space 시리즈 - 먼셀의 색체계
 ## 먼셀의 색체계(Munsell color theory)

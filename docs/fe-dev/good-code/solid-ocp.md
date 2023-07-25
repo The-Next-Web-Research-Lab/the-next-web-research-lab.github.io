@@ -1,5 +1,5 @@
 ---
-title: SOLID 원칙 시리즈 - 개방-패쇄 원칙
+title: 개방-패쇄 원칙
 ---
 # SOLID 원칙 시리즈 - 개방-패쇄 원칙
 ## OCP: 개방-패쇄 원칙 (Open-Closed Principle)

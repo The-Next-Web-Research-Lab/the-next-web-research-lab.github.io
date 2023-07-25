@@ -1,5 +1,5 @@
 ---
-title: SOLID 원칙 시리즈 - 단일 책임 원칙
+title: 단일 책임 원칙
 ---
 # SOLID 원칙 시리즈 - 단일 책임 원칙
 ## SRP: 단일 책임 원칙 (Single Responsibility Principle)

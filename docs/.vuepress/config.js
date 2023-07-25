@@ -268,48 +268,102 @@ export default {
       ],
       '/essay': [
         '/essay/',
-        '/essay/web-usability-review/',
-        '/essay/authentication-and-authorization/',
-        '/essay/color-space-munsell-color-theory/',
-        '/essay/color-space-hsl-and-hsv/',
-        '/essay/color-space-lch-and-lab/',
-        '/essay/2019-new-service-building/',
-        '/essay/cors-and-http-cookie/',
-        '/essay/how-to-catch-error/',
-        '/essay/abstract/',
-        '/essay/branch-n-case/',
-        '/essay/callback/',
-        '/essay/clone-function/',
-        '/essay/safe-chain/',
-        '/essay/observation-mechanism/',
-        '/essay/compiler-theory/',
-        '/essay/non-functional-requirements/',
-        '/essay/design-guide/',
-        '/essay/web-accessibility/',
+        {
+          text: '경험기',
+          collapsible: true,
+          children: [
+            '/essay/web-usability-review/',
+            '/essay/2019-new-service-building/',
+            '/essay/cors-and-http-cookie/',
+          ]
+        },
+        {
+          text: '이론',
+          collapsible: true,
+          children: [
+            '/essay/authentication-and-authorization/',
+            '/essay/abstract/',
+            '/essay/compiler-theory/',
+            '/essay/non-functional-requirements/',
+            '/essay/design-guide/',
+            '/essay/web-accessibility/',
+          ]
+        },
+        {
+          text: 'Color Space 시리즈',
+          collapsible: true,
+          children: [
+            '/essay/color-space-munsell-color-theory/',
+            '/essay/color-space-hsl-and-hsv/',
+            '/essay/color-space-lch-and-lab/',
+          ]
+        },
+        {
+          text: '코드 작성',
+          collapsible: true,
+          children: [
+            '/essay/how-to-catch-error/',
+            '/essay/branch-n-case/',
+            '/essay/callback/',
+            '/essay/clone-function/',
+            '/essay/safe-chain/',
+            '/essay/observation-mechanism/',
+          ]
+        }
       ],
       '/fe-dev/books': [
         '/fe-dev/books/',
-        '/fe-dev/books/1',
-        '/fe-dev/books/2',
-        '/fe-dev/books/3',
-        '/fe-dev/books/4',
-        '/fe-dev/books/5',
-        '/fe-dev/books/6',
-        '/fe-dev/books/7',
-        '/fe-dev/books/8',
-        '/fe-dev/books/9',
-        '/fe-dev/books/10',
-        '/fe-dev/books/11',
-        '/fe-dev/books/12',
-        '/fe-dev/books/13',
-        '/fe-dev/books/14',
-        '/fe-dev/books/15',
-        '/fe-dev/books/16',
-        '/fe-dev/books/17',
-        '/fe-dev/books/18',
-        '/fe-dev/books/19',
-        '/fe-dev/books/20',
-        '/fe-dev/books/21',
+        {
+          text: '프로그래밍 페러다임',
+          children: [
+            '/fe-dev/books/9',
+            '/fe-dev/books/10',
+            '/fe-dev/books/19',
+            '/fe-dev/books/20',
+          ]
+        },
+        {
+          text: '클린 시리즈',
+          children: [
+            '/fe-dev/books/1',
+            '/fe-dev/books/2',
+            '/fe-dev/books/18',
+          ]
+        },
+        {
+          text: '자바스크립트',
+          children: [
+            '/fe-dev/books/6',
+            '/fe-dev/books/16',
+            '/fe-dev/books/21',
+          ]
+        },
+        {
+          text: '매니징',
+          children: [
+            '/fe-dev/books/11',
+            '/fe-dev/books/12',
+          ]
+        },
+        {
+          text: '방법론',
+          children: [
+            '/fe-dev/books/3',
+            '/fe-dev/books/4',
+            '/fe-dev/books/5',
+            '/fe-dev/books/14',
+            '/fe-dev/books/17',
+          ]
+        },
+        {
+          text: '컴퓨터 과학',
+          children: [
+            '/fe-dev/books/7',
+            '/fe-dev/books/8',
+            '/fe-dev/books/13',
+            '/fe-dev/books/15',
+          ]
+        }
       ],
       '/fe-dev/optimization': [
         '/fe-dev/optimization/',
@@ -320,20 +374,39 @@ export default {
       ],
       '/fe-dev/javascript': [
         '/fe-dev/javascript/',
-        '/fe-dev/javascript/syntax',
-        '/fe-dev/javascript/this',
-        '/fe-dev/javascript/promise',
-        '/fe-dev/javascript/async-await',
-        '/fe-dev/javascript/coroutine',
-        '/fe-dev/javascript/union-type',
-        '/fe-dev/javascript/decorators',
-        '/fe-dev/javascript/event',
-        '/fe-dev/javascript/concurrency-and-parallelism',
-        '/fe-dev/javascript/pure-and-first-class-function',
-        '/fe-dev/javascript/float-flex-grid',
-        '/fe-dev/javascript/immutable-persistent',
-        '/fe-dev/javascript/mono-repo',
-        
+        {
+          text: '자바스크립트',
+          children: [
+            '/fe-dev/javascript/syntax',
+            '/fe-dev/javascript/this',
+            '/fe-dev/javascript/promise',
+            '/fe-dev/javascript/async-await',
+            '/fe-dev/javascript/coroutine',
+            '/fe-dev/javascript/decorators',
+            '/fe-dev/javascript/event',
+            '/fe-dev/javascript/concurrency-and-parallelism',
+            '/fe-dev/javascript/pure-and-first-class-function',
+            '/fe-dev/javascript/immutable-persistent',
+          ]
+        },
+        {
+          text: '타입스크립트',
+          children: [
+            '/fe-dev/javascript/union-type',
+          ]
+        },
+        {
+          text: 'CSS',
+          children: [
+            '/fe-dev/javascript/float-flex-grid',
+          ]
+        },
+        {
+          text: 'npm',
+          children: [
+            '/fe-dev/javascript/mono-repo',
+          ]
+        },
       ],
       '/fe-dev/paradigm': [
         '/fe-dev/paradigm/',
@@ -416,18 +489,29 @@ export default {
       ],
       '/fe-dev/good-code': [
         '/fe-dev/good-code/',
-        '/fe-dev/good-code/2023/',
-        '/fe-dev/good-code/easy-code/',
-        '/fe-dev/good-code/code-position/',
-        '/fe-dev/good-code/reusable-code/',
-        '/fe-dev/good-code/declarative-function/',
-        '/fe-dev/good-code/date-helper-development/',
-        '/fe-dev/good-code/dependency-inversion/',
-        '/fe-dev/good-code/solid-srp/',
-        '/fe-dev/good-code/solid-ocp/',
-        '/fe-dev/good-code/solid-lsp/',
-        '/fe-dev/good-code/solid-isp/',
-        '/fe-dev/good-code/solid-dip/',
+        {
+          text: '실무 사례',
+          children: [
+            '/fe-dev/good-code/2023/',
+            '/fe-dev/good-code/easy-code/',
+            '/fe-dev/good-code/code-position/',
+            '/fe-dev/good-code/reusable-code/',
+            '/fe-dev/good-code/declarative-function/',
+            '/fe-dev/good-code/date-helper-development/',
+            '/fe-dev/good-code/dependency-inversion/',
+          ]
+        },
+        {
+          text: 'SOLID 원칙 시리즈',
+          children: [
+
+            '/fe-dev/good-code/solid-srp/',
+            '/fe-dev/good-code/solid-ocp/',
+            '/fe-dev/good-code/solid-lsp/',
+            '/fe-dev/good-code/solid-isp/',
+            '/fe-dev/good-code/solid-dip/',
+          ]
+        },
       ],
       '/fe-dev/design-patterns': [
         '/fe-dev/design-patterns/',
@@ -462,7 +546,7 @@ export default {
         },
       ],
       '/fe-dev/code-snippets': [
-        '/fe-dev/code-snippets/',{
+        '/fe-dev/code-snippets/', {
           text: 'TypeScript',
           collapsible: true,
           children: [

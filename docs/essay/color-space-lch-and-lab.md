@@ -1,5 +1,5 @@
 ---
-title: Color Space 시리즈 - LCH LAB
+title:  LCH LAB
 ---
 # Color Space 시리즈 - LCH LAB
 

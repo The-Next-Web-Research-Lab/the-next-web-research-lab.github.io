@@ -1,5 +1,5 @@
 ---
-title: Color Space 시리즈 - HSL HSV
+title:  HSL HSV
 ---
 
 # Color Space 시리즈 - HSL HSV
