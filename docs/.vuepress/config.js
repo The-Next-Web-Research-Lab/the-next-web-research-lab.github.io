@@ -305,6 +305,11 @@ export default {
         '/fe-dev/books/14',
         '/fe-dev/books/15',
         '/fe-dev/books/16',
+        '/fe-dev/books/17',
+        '/fe-dev/books/18',
+        '/fe-dev/books/19',
+        '/fe-dev/books/20',
+        '/fe-dev/books/21',
       ],
       '/fe-dev/optimization': [
         '/fe-dev/optimization/',
