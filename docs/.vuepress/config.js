@@ -185,7 +185,7 @@ export default {
   ],
   theme: defaultTheme({
     contributors: false,
-    colorMode: 'dark',
+    colorMode: 'light',
     colorModeSwitch: true,
     navbar: [{
         text: '소개',
