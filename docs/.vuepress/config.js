@@ -180,7 +180,7 @@ export default {
     }),
     seoPlugin({
       hostname: 'the-next-web-research-lab.github.io',
-      fallBackImage: 'https://the-next-web-research-lab.github.io/images/logo.png'
+      fallBackImage: 'https://the-next-web-research-lab.github.io/images/og_image.png'
     }),
   ],
   theme: defaultTheme({
