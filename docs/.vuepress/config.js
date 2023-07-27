@@ -239,6 +239,10 @@ export default {
             text: '10장 도서 리뷰',
             link: '/fe-dev/books'
           },
+          {
+            text: '11장 면접관 가이드',
+            link: '/fe-dev/interview-guide'
+          },
         ]
       },
       {
@@ -259,6 +263,10 @@ export default {
       }
     ],
     sidebar: {
+      '/fe-dev/interview-guide': [
+        '/fe-dev/interview-guide/',
+        '/fe-dev/interview-guide/questions-list'
+      ],
       '/next-web-research': [
         '/next-web-research/',
         '/next-web-research/vibrate.md',
