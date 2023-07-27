@@ -266,7 +266,8 @@ export default {
       '/fe-dev/interview-guide': [
         '/fe-dev/interview-guide/',
         '/fe-dev/interview-guide/questions-list',
-        '/fe-dev/interview-guide/interview-process'
+        '/fe-dev/interview-guide/interview-process',
+        '/fe-dev/interview-guide/success-criteria',
       ],
       '/next-web-research': [
         '/next-web-research/',
