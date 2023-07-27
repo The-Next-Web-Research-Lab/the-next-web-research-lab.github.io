@@ -17,7 +17,9 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
+    "preprocess": "node preprocess.js",
     "release": "node release.js",
-    "push": "npm run build && npm run release && git add -A && git commit -m \"설명 수정\" && git push origin main"
+    "git:push": "git add -A && git commit -m \"설명 수정\" && git push origin main",
+    "push": "npm run preprocess && npm run build && npm run release && npm run git:push"
   }
 }

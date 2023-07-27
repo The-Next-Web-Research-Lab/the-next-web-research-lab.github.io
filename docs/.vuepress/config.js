@@ -265,7 +265,8 @@ export default {
     sidebar: {
       '/fe-dev/interview-guide': [
         '/fe-dev/interview-guide/',
-        '/fe-dev/interview-guide/questions-list'
+        '/fe-dev/interview-guide/questions-list',
+        '/fe-dev/interview-guide/interview-process'
       ],
       '/next-web-research': [
         '/next-web-research/',
