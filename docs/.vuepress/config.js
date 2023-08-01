@@ -197,50 +197,53 @@ export default {
       {
         text: '실용주의 프런트엔드',
         children: [{
-            text: '0장 프로그래밍 언어',
+            text: '커리어 관리',
+            link: '/fe-dev/career-management'
+          }, {
+            text: '프로그래밍 언어',
             link: '/fe-dev/javascript'
           }, {
-            text: '1장 좋은코드',
+            text: '좋은코드',
             link: '/fe-dev/good-code'
           },
           {
-            text: '2장 리팩터링',
+            text: '리팩터링',
             link: '/fe-dev/refactoring'
           },
           {
-            text: '3장 프로젝트 관리',
+            text: '프로젝트 관리',
             link: '/fe-dev/project-management'
           },
           {
-            text: '4장 React / Vue / Angular',
+            text: 'React / Vue / Angular',
             link: '/fe-dev/framework',
           },
           {
-            text: '5장 명령형 / 객체지향 / 함수형',
+            text: '명령형 / 객체지향 / 함수형',
             link: '/fe-dev/paradigm'
           },
           {
-            text: '6장 코드 스니펫',
+            text: '코드 스니펫',
             link: '/fe-dev/code-snippets'
           },
           {
-            text: '7장 펫 프로젝트',
+            text: '펫 프로젝트',
             link: '/fe-dev/pet-project'
           },
           {
-            text: '8장 디자인 패턴',
+            text: '디자인 패턴',
             link: '/fe-dev/design-patterns'
           },
           {
-            text: '9장 성능 최적화',
+            text: '성능 최적화',
             link: '/fe-dev/optimization'
           },
           {
-            text: '10장 도서 리뷰',
+            text: '도서 리뷰',
             link: '/fe-dev/books'
           },
           {
-            text: '11장 면접관 가이드',
+            text: '면접관 가이드',
             link: '/fe-dev/interview-guide'
           },
         ]
@@ -263,6 +266,10 @@ export default {
       }
     ],
     sidebar: {
+      '/fe-dev/career-management': [
+        '/fe-dev/career-management/',
+        '/fe-dev/career-management/project-history'
+      ],
       '/fe-dev/interview-guide': [
         '/fe-dev/interview-guide/',
         '/fe-dev/interview-guide/questions-list',

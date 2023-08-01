@@ -12,7 +12,7 @@ title: 파일 시스템 접근
 
 ## 코드 예제
 ::: tip 
-[6장 코드 스니펫 > Boilerplate](https://the-next-web-research-lab.github.io/fe-dev/code-snippets/UIComponent/Boilerplate.html) 코드를 기반으로 데모가 제작되었습니다.
+[코드 스니펫 > Boilerplate](https://the-next-web-research-lab.github.io/fe-dev/code-snippets/UIComponent/Boilerplate.html) 코드를 기반으로 데모가 제작되었습니다.
 :::
 
 [데모보기](https://the-next-web-research-lab.github.io/docs/next-web-research/WebApis/fileSystemAccess.html)
