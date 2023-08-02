@@ -412,6 +412,8 @@ export default {
           text: '타입스크립트',
           children: [
             '/fe-dev/javascript/union-type',
+            '/fe-dev/javascript/callback/',
+            '/fe-dev/javascript/template-literals/',
           ]
         },
         {
@@ -565,14 +567,7 @@ export default {
         },
       ],
       '/fe-dev/code-snippets': [
-        '/fe-dev/code-snippets/', {
-          text: 'TypeScript',
-          collapsible: true,
-          children: [
-            '/fe-dev/code-snippets/typescript/callback/',
-            '/fe-dev/code-snippets/typescript/template-literals/',
-          ]
-        },
+        '/fe-dev/code-snippets/', 
         {
           text: 'Javascript',
           collapsible: true,

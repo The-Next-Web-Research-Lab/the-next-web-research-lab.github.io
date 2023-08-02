@@ -1,1 +1,0 @@
-import{_ as o,o as t,c as a,a as e,b as c}from"./app-745ed8fe.js";const s={},d=e("h1",{id:"좋은코드",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#좋은코드","aria-hidden":"true"},"#"),c(" 좋은코드")],-1),n=e("p",null,"좋은코드에 대한 고민을 정리했습니다.",-1),r=[d,n];function _(i,l){return t(),a("div",null,r)}const f=o(s,[["render",_],["__file","good-code.html.vue"]]);export{f as default};
