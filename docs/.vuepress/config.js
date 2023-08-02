@@ -197,8 +197,8 @@ export default {
       {
         text: '실용주의 프런트엔드',
         children: [{
-            text: '커리어 관리',
-            link: '/fe-dev/career-management'
+            text: '자기 관리',
+            link: '/fe-dev/self-management'
           }, {
             text: '프로그래밍 언어',
             link: '/fe-dev/javascript'
@@ -266,9 +266,10 @@ export default {
       }
     ],
     sidebar: {
-      '/fe-dev/career-management': [
-        '/fe-dev/career-management/',
-        '/fe-dev/career-management/project-history'
+      '/fe-dev/self-management': [
+        '/fe-dev/self-management/',
+        '/fe-dev/self-management/project-history',
+        '/fe-dev/self-management/stress-management'
       ],
       '/fe-dev/interview-guide': [
         '/fe-dev/interview-guide/',
