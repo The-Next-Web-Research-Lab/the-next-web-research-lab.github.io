@@ -7,7 +7,7 @@ title: "스트레스 관리: 나를 리팩터링 해서 스트레스 관리하�
 나는 계획형이고 신중한 성격이라 익숙하지 않는 갑작스러운 일이 발생하면 스트레스를 받곤 한다.
 그리고 정보 과부하가 생기면 판단력이 흐려지곤 했다.
 
-[질병관리청에서 스트레스](https://www.mentalhealth.go.kr/portal/disease/diseaseDetail.do?dissId=30&srCodeNm=%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%8A%A4)는 정신질환의 하나로 보고 있다. 사람은 스트레스를 받으면 판단력이 흐려지고 그만큼 본인의 능력치 만큼 발휘를 못한다. 즉, 스트레스 받는 지점을 줄이면 그만큼 업무 효율이 증가하다.
+[질병관리청에서 스트레스](https://www.mentalhealth.go.kr/portal/disease/diseaseDetail.do?dissId=30&srCodeNm=%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%8A%A4)는 정신질환의 하나로 보고 있다. 사람은 스트레스를 받으면 판단력이 흐려지고 그만큼 본인의 능력치 만큼 발휘를 못한다. 즉, 스트레스 받는 지점을 줄이면 그만큼 업무 효율이 증가한다.
 
 ## 스트레스 줄이기
 ### 단순하고 반복적인 작업 줄이기
