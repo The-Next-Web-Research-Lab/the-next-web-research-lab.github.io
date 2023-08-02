@@ -1,12 +1,10 @@
 <template><div><h1 id="더넥스트웹리서치랩-소개" tabindex="-1"><a class="header-anchor" href="#더넥스트웹리서치랩-소개" aria-hidden="true">#</a> 더넥스트웹리서치랩 소개</h1>
-<p>더넥스트웹리서치랩은 세로토닌이 생기는 담백한 프런트엔드 기술 블로그를 운영하기 위해 노력합니다.
-콘텐츠에는 근 미래에 웹 표준이 될 기술과 10년 간 20개 이상의 서비스를 경험한 프런트엔드 노하우를 담았습니다.</p>
+<p>더넥스트웹리서치랩은 세로토닌이 생기는 담백한 프런트엔드 기술 블로그를 운영하기 위해 노력합니다.​ 콘텐츠에는 근 미래에 웹 표준이 될 기술과 10년간 20개 이상의 프로젝트에서 경험한 프런트엔드 지식들을 담았습니다.</p>
 <h1 id="운영자-소개" tabindex="-1"><a class="header-anchor" href="#운영자-소개" aria-hidden="true">#</a> 운영자 소개</h1>
 <p>조용구 | ISTJ | 프런트엔드 개발자 | <a href="https://github.com/ChoDragon9" target="_blank" rel="noopener noreferrer">Github<ExternalLinkIcon/></a> | <a href="https://www.linkedin.com/in/yongku-cho" target="_blank" rel="noopener noreferrer">LinkedIn<ExternalLinkIcon/></a></p>
 <p>고등학생 시절 독학으로 시작해서 여러 번의 대회 수상으로 프런트엔드 개발자를 선택했습니다.
 이후 현업에서 10년 차 동안 대기업에서 2번의 조기진급과 카카오에서 시니어로 인정받았습니다.</p>
-<p>​
-독학으로 깊이 파고 문서로 정리하는 것을 좋아하고,
+<p>독학으로 깊이 파고 문서로 정리하는 것을 좋아하고,
 매끄러운 커뮤니케이션과 효율적인 개발로 생산성을 끌어올리는 것을 자주 고민합니다 😃</p>
 <h2 id="경력" tabindex="-1"><a class="header-anchor" href="#경력" aria-hidden="true">#</a> 경력</h2>
 <ul>

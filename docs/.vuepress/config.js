@@ -249,7 +249,7 @@ export default {
         ]
       },
       {
-        text: '생각정리',
+        text: '경험정리',
         link: '/essay.html'
       },
       {
