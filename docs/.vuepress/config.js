@@ -10,6 +10,9 @@ import {
 import {
   seoPlugin
 } from "vuepress-plugin-seo2";
+import {
+  mdEnhancePlugin
+} from "vuepress-plugin-md-enhance";
 
 import {
   defaultTheme
@@ -182,6 +185,11 @@ export default {
       hostname: 'the-next-web-research-lab.github.io',
       fallBackImage: 'https://the-next-web-research-lab.github.io/images/og_image.png'
     }),
+    mdEnhancePlugin({
+      tabs: true,
+      codetabs: true,
+      demo: true,
+    })
   ],
   theme: defaultTheme({
     contributors: false,
@@ -567,7 +575,7 @@ export default {
         },
       ],
       '/fe-dev/code-snippets': [
-        '/fe-dev/code-snippets/', 
+        '/fe-dev/code-snippets/',
         {
           text: 'Javascript',
           collapsible: true,

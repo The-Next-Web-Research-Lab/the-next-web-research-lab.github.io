@@ -1,4 +1,7 @@
 import {
+  setupDevtoolsPlugin
+} from "./chunk-J4VLYDXT.js";
+import {
   computed,
   defineComponent,
   getCurrentInstance,
@@ -16,11 +19,8 @@ import {
   unref,
   watch,
   watchEffect
-} from "./chunk-AQDTH7GJ.js";
-import "./chunk-DDKVHXSX.js";
-import {
-  setupDevtoolsPlugin
-} from "./chunk-RFQTXRIF.js";
+} from "./chunk-DSEQG6WU.js";
+import "./chunk-OB5VABF2.js";
 
 // node_modules/vue-router/dist/vue-router.mjs
 var isBrowser = typeof window !== "undefined";
@@ -1264,7 +1264,7 @@ function useCallbacks() {
   }
   return {
     add,
-    list: () => handlers,
+    list: () => handlers.slice(),
     reset
   };
 }
@@ -2391,9 +2391,7 @@ ${JSON.stringify(newTargetLocation, null, 2)}
     ) ? err : Promise.reject(err));
   }
   function triggerAfterEach(to, from, failure) {
-    for (const guard of afterGuards.list()) {
-      runWithContext(() => guard(to, from, failure));
-    }
+    afterGuards.list().forEach((guard) => runWithContext(() => guard(to, from, failure)));
   }
   function finalizeNavigation(toLocation, from, isPush, replace2, data) {
     const error = checkCanceledNavigation(toLocation, from);
@@ -2661,7 +2659,7 @@ export {
 
 vue-router/dist/vue-router.mjs:
   (*!
-    * vue-router v4.2.3
+    * vue-router v4.2.4
     * (c) 2023 Eduardo San Martin Morote
     * @license MIT
     *)

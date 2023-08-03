@@ -7,12 +7,13 @@
     "dev": "docs"
   },
   "devDependencies": {
-    "@vuepress/plugin-docsearch": "2.0.0-beta.64",
-    "@vuepress/plugin-google-analytics": "2.0.0-beta.64",
+    "@vuepress/plugin-docsearch": "2.0.0-beta.66",
+    "@vuepress/plugin-google-analytics": "2.0.0-beta.66",
     "fs-extra": "^11.1.1",
-    "vuepress": "2.0.0-beta.64",
-    "vuepress-plugin-seo2": "^2.0.0-beta.230",
-    "vuepress-plugin-sitemap2": "^2.0.0-beta.230"
+    "vuepress": "2.0.0-beta.66",
+    "vuepress-plugin-seo2": "2.0.0-beta.234",
+    "vuepress-plugin-sitemap2": "2.0.0-beta.234",
+    "vuepress-plugin-md-enhance": "2.0.0-beta.234"
   },
   "scripts": {
     "dev": "vuepress dev docs",
