@@ -329,6 +329,7 @@ export default {
           text: '코드 작성',
           collapsible: true,
           children: [
+            '/essay/hexagon-profile/',
             '/essay/how-to-catch-error/',
             '/essay/branch-n-case/',
             '/essay/callback/',
