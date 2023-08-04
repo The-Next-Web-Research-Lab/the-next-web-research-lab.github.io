@@ -1,7 +1,7 @@
 ---
-title: 육각형 프로필 이미지 만들기
+title: SVG와 CSS Mask로 육각형 프로필 만들기
 ---
-# 육각형 프로필 이미지 만들기
+# SVG와 CSS Mask로 육각형 프로필 만들기
 전 직장에서 web3 관련 커뮤니티 서비스를 담당했었다. 사용자가 프로필 이미지를 NFT로 설정하면 육각형으로 표현해 줘야 하는 데, 처음에는 모양을 자유롭게 다룰 수 있는 SVG를 활용했었다. 하지만 iPhone에서 웹 뷰어의 프로세싱이 많아지면 SVG는 네모 박스로 표현되는 이슈가 있어서 CSS Mask 기능을 활용해서 해결했다.
 
 이 글에서는 SVG와 CSS Mask를 활용해서 육각형 프로필을 만드는 방법을 소개한다. 이 기능들을 활용하면 다른 모양으로도 가능하다.
@@ -95,6 +95,8 @@ title: 육각형 프로필 이미지 만들기
 ## CSS Mask로 육각형 프로필 만들기
 
 [데모보기](https://the-next-web-research-lab.github.io/docs/essay/demo/hexagon-profile/css-mask.html)
+
+![CSS Mask 데모](./demo/hexagon-profile-demo.png)
 
 ### 1. img 태그로 프로필 이미지를 불러오고 크기를 잡아줌
 ```html{4-9,12-18}
