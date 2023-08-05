@@ -2,11 +2,34 @@
 title: 인터넷 속도 측정
 ---
 # 자바스크립트로 인터넷 속도 측정하기
-navigator.connection.effectiveType을 사용해서 인터넷 속도를 조회할 수 있습니다. 브라우저에서 사이트 접속 후 인터넷 속도를 측정하며 결과값은 slow-2g, 2g, 3g, 4g 중에 하나를 알려줍니다.
+`navigator.connection.effectiveType`을 사용해서 인터넷 속도를 조회할 수 있습니다. 브라우저에서 사이트 접속 후 인터넷 속도를 측정하며 결과값은 slow-2g, 2g, 3g, 4g 중에 하나를 알려줍니다.
 
 ## 브라우저 지원 범위
 - Firefox / Safari 에서 미지원하고, 대부분 지원한다.
 - [Browser compatibility](https://developer.mozilla.org/en-US/docs/Web/API/NetworkInformation/effectiveType#browser_compatibility)
+
+::: normal-demo 데모
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+</html>
+```
+
+```js
+document.querySelector("#root").textContent = `navigator.connection.effectiveType: ${navigator.connection.effectiveType}`;
+```
+
+:::
 
 ## 항목별 상세 스펙
 ### 용어정의

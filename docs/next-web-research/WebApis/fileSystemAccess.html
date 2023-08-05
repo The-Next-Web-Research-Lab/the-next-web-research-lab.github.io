@@ -1,52 +1,59 @@
 <!DOCTYPE html>
-<html class="w-full h-full">
+<html>
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <title>React</title>
-
-  <script src="https://cdn.tailwindcss.com"></script>
-
-  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
-  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>File System</title>
 </head>
-<body class="w-full h-full">
-<div id="root" class="w-full h-full"></div>
 
-<script type="text/babel">
-  const Button = ({children, ...props}) => {
-    return (
-      <button
-        type="text"
-        className="py-2 px-4 bg-slate-900 text-white rounded-lg text-sm"
-        {...props}
-      >
-        {children}
-      </button>
-    )
-  };
+<body>
+  <div>
+    <button type="button" onclick="getFile()">Get File</button>
+    <button type="button" onclick="getDir()">Get Directory</button>
+    <p data-message></p>
+  </div>
+  
 
-  const GetSomething = () => {
-    const [message, setMessage] = React.useState('');
+  <hr />
+
+  <div>
+    <button type="button" onclick="createDir()">Create Directory</button>
+    <p data-message2></p>
+  </div>
+
+  <hr />
+
+  <div>
+    <button type="button" onclick="createFile()">Step 1. Create File</button>
+    <button type="button" onclick="closeFile()">Step 2. Close File</button>
+    <button type="button" onclick="readFile()">Step 3. Read File</button>
+    <p data-message3></p>
+
+    <textarea style="display: none; width: 200px; height: 200px"></textarea>
+  </div>
+
+  <script>
+    const setMessage = (selector, message) => {
+      document.querySelector(selector).textContent = message;
+    };
+
     const getFile = async () => {
       try {
         const [fileHandle] = await window.showOpenFilePicker({
-          types: [
-            {
-              description: 'Images',
-              accept: {
-                'image/*': ['.png', '.gif', '.jpeg', '.jpg']
-              }
-            },
-          ],
+          types: [{
+            description: 'Images',
+            accept: {
+              'image/*': ['.png', '.gif', '.jpeg', '.jpg']
+            }
+          }, ],
           excludeAcceptAllOption: true,
           multiple: false
         });
-        setMessage(`fileHandle.kind is ${fileHandle.kind}`)
+        setMessage('[data-message]', `fileHandle.kind is ${fileHandle.kind}`)
       } catch (error) {
-        setMessage(`error: ${error}`)
+        setMessage('[data-message]', `error: ${error}`)
       }
     }
     const getDir = async () => {
@@ -55,29 +62,12 @@
           mode: 'read',
           startIn: 'desktop'
         });
-        setMessage(`dirHandle.kind is ${dirHandle.kind}`)
+        setMessage('[data-message]', `dirHandle.kind is ${dirHandle.kind}`)
       } catch (error) {
-        setMessage(`error: ${error}`)
+        setMessage('[data-message]', `error: ${error}`)
       }
     }
 
-    return (
-      <>
-        <div>
-          <Button onClick={getFile}>
-            Get File
-          </Button>{' '}
-          <Button onClick={getDir}>
-            Get Dir
-          </Button>
-        </div>
-        <p>message: {message}</p>
-      </>
-    )
-  };
-
-  const CreateDir = () => {
-    const [message, setMessage] = React.useState('');
     const createDir = async () => {
       try {
         const dirHandle = await window.showDirectoryPicker({
@@ -85,126 +75,80 @@
           startIn: 'desktop'
         });
         const directoryName = `new-${Date.now()}`;
-        await dirHandle.getDirectoryHandle(directoryName, {create: true})
-        setMessage(`${directoryName} is created. please check your directory`);
+        await dirHandle.getDirectoryHandle(directoryName, {
+          create: true
+        })
+        setMessage('[data-message2]', `${directoryName} is created. please check your directory`);
       } catch (error) {
-        setMessage(`error: ${error}`)
+        setMessage('[data-message2]', `error: ${error}`)
       }
     }
 
-    return (
-      <>
-        <div>
-          <Button onClick={createDir}>
-            Create Dir
-          </Button>
-        </div>
-        <p>message: {message}</p>
-      </>
-    )
-  };
-
-  const SaveFile = () => {
-    const [message, setMessage] = React.useState('');
-    const [writableStream, setWritableStream] = React.useState(null);
-    const [text, setText] = React.useState('');
-
-    const handleChangeText = async (event) => {
-      setText(() => event.target.value);
-      await writableStream.write({
-        type: "truncate",
-        size: 0
-      });
-      await writableStream.write({
-        type: "write",
-        position: 0,
-        data: event.target.value
-      });
+    const state = {
+      writableStream: null,
+      text: '',
     };
 
     const createFile = async () => {
       try {
-        setMessage(`creating`);
+        setMessage('[data-message3]', `creating`);
         const fileHandle = await window.showSaveFilePicker();
-        const writableStream = await fileHandle.createWritable();
+        state.writableStream = await fileHandle.createWritable();
+        document.querySelector('textarea').style.display = 'block';
+        document.querySelector('textarea').addEventListener("change", handleChangeText);
 
-        setWritableStream(writableStream);
-        setMessage(`success`);
+        setMessage('[data-message3]', `success! 텍스트를 작성해보세요.`);
       } catch (error) {
-        setMessage(`error: ${error}`)
+        setMessage('[data-message3]', `error: ${error}`)
       }
     };
 
     const closeFile = async () => {
       try {
-        setMessage(`saving`);
-        await writableStream.close();
-        setMessage(`success`);
+        setMessage('[data-message3]', `saving`);
+        await state.writableStream.close();
+        setMessage('[data-message3]', `success! 생성한 파일을 열어보세요.`);
       } catch (error) {
-        setMessage(`error: ${error}`)
+        setMessage('[data-message3]', `error: ${error}`)
       } finally {
-        setText('');
-        setWritableStream(null);
+        state.text = '';
+        state.writableStream = null;
+        document.querySelector('textarea').style.display = 'none';
+        document.querySelector('textarea').removeEventListener("change", handleChangeText);
       }
     }
 
     const readFile = async () => {
       try {
-        setMessage(`reading`);
+        setMessage('[data-message3]', `reading`);
         const [fileHandle] = await window.showOpenFilePicker();
         const file = await fileHandle.getFile();
         const text = await file.text();
         const writableStream = await fileHandle.createWritable();
 
-        setText(text);
-        setWritableStream(writableStream)
-        setMessage(`success`);
+        state.text = text;
+        state.writableStream = writableStream;
+        
+        document.querySelector('textarea').style.display = 'block';
+        document.querySelector('textarea').textContent = text;
+        setMessage('[data-message3]', `success`);
       } catch (error) {
-        setMessage(`error: ${error}`)
+        setMessage('[data-message3]', `error: ${error}`)
       }
     };
-
-    return (
-      <>
-        <div>
-          <Button onClick={createFile}>
-            Create File
-          </Button>{' '}
-          <Button onClick={closeFile}>
-            Close File
-          </Button>{' '}
-          <Button onClick={readFile}>
-            Read File
-          </Button>
-        </div>
-        <p>message: {message}</p>
-        <div>
-          {
-            writableStream &&
-            <textarea
-              value={text}
-              onChange={handleChangeText}
-              className="w-[80%] h-[100px] py-2 px-4 border border-slate-900 rounded-lg text-sm"
-            >
-            </textarea>
-          }
-        </div>
-      </>
-    )
-  };
-
-  const MyApp = () => {
-
-    return <div className="h-full w-full text-xl text-center flex flex-col gap-y-5 pt-5">
-      <GetSomething />
-      <CreateDir />
-      <SaveFile />
-    </div>;
-  }
-
-  ReactDOM
-    .createRoot(document.querySelector('#root'))
-    .render(<MyApp />);
-</script>
+    
+    const handleChangeText = async (event) => {
+      await state.writableStream.write({
+        type: "truncate",
+        size: 0
+      });
+      await state.writableStream.write({
+        type: "write",
+        position: 0,
+        data: event.target.value
+      });
+    };
+  </script>
 </body>
+
 </html>

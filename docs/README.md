@@ -5,7 +5,7 @@ description: 담백한 프런트엔드 기술 블로그에서 지식 한 줌 담
 heroText: 
 heroImage: /images/white_logo.png
 heroImageDark: /images/black_logo.png
-heroHeight: 200
+heroHeight: 150
 heroAlt: 더넥스트웹리서치랩
 tagline: 담백한 FE 기술 블로그에서 지식 한 줌 담아 가세요!
 actions:

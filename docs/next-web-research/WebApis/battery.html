@@ -1,97 +1,47 @@
 <!DOCTYPE html>
-<html class="w-full h-full">
+<html>
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <title>React</title>
-
-  <script src="https://cdn.tailwindcss.com"></script>
-
-  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
-  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <title>navigator.getBattery</title>
 </head>
-<body class="w-full h-full">
-<div id="root" class="w-full h-full"></div>
+<body>
+<div id="root"></div>
 
-<script type="text/babel">
-  const MyApp = () => {
-    const [batteryStatus, setBatteryStatus] = React.useState({
-      charging: false,
-      level: 0,
-      chargingTime: 0,
-      dischargingTime: 0
+<script>
+  navigator
+    .getBattery()
+    .then((battery) => {
+      const handler = (event) => {
+        render(event.currentTarget);
+      };
+
+      render(battery);
+
+      battery.addEventListener("chargingchange", handler);
+      battery.addEventListener("levelchange", handler);
+      battery.addEventListener("chargingtimechange", handler);
+      battery.addEventListener("dischargingtimechange", handler);
     });
-    const batteryManagerRef = React.useRef(null);
-    const EVENT_LIST = React.useRef([
-      "chargingchange",
-      "levelchange",
-      "chargingtimechange",
-      "dischargingtimechange",
-    ]);
 
-    const onChangeBattery = React.useCallback(() => {
-      if (batteryManagerRef.current === null) return;
-
-      const {
-        charging,
-        level,
-        chargingTime,
-        dischargingTime,
-      } = batteryManagerRef.current;
-
-      setBatteryStatus({
-        charging,
-        level,
-        chargingTime,
-        dischargingTime,
-      })
-    }, []);
-
-    const addEventListener = React.useCallback(() => {
-      if (batteryManagerRef.current === null) return;
-
-      EVENT_LIST.current.forEach(eventName => {
-        batteryManagerRef
-          .current
-          .addEventListener(eventName, onChangeBattery);
-      });
-    }, []);
-
-    const removeEventListener = React.useCallback(() => {
-      if (batteryManagerRef.current === null) return;
-
-      EVENT_LIST.current.forEach(eventName => {
-        batteryManagerRef
-          .current
-          .removeEventListener(eventName, onChangeBattery);
-      });
-    }, []);
-
-    React.useEffect(() => {
-      navigator.getBattery()
-        .then((battery) => {
-          batteryManagerRef.current = battery;
-
-          onChangeBattery();
-          addEventListener();
-        });
-
-      return removeEventListener;
-    }, [])
-
-    return <div className="h-full w-full text-xl text-center flex flex-col gap-y-5 pt-5">
-      <span>충전중 상태: <strong>{batteryStatus.charging ? "Yes" : "No"}</strong></span>
-      <span>베터리량: <strong>{batteryStatus.level * 100}%</strong></span>
-      <span>100% 충전까지 남은 시간: <strong>{batteryStatus.chargingTime} seconds</strong></span>
-      <span>남은 베터리 사용 시간: <strong>{batteryStatus.dischargingTime} seconds</strong></span>
-    </div>;
-  }
-
-  ReactDOM
-    .createRoot(document.querySelector('#root'))
-    .render(<MyApp />);
+  const render = (batteryManager) => {
+    const {
+      charging,
+      level,
+      chargingTime,
+      dischargingTime,
+    } = batteryManager;
+    
+    document.querySelector("#root").innerHTML = `
+      <ul>
+        <li>충전중 상태: ${charging ? "Yes" : "No"}</li>
+        <li>베터리량: ${level * 100}%</li>
+        <li>100% 충전까지 남은 시간: ${chargingTime} seconds</li>
+        <li>남은 베터리 사용 시간: ${dischargingTime} seconds</li>
+      </ul>
+    `;
+  };
 </script>
 </body>
 </html>
