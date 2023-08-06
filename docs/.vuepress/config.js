@@ -263,6 +263,9 @@ export default {
       {
         text: '패밀리 사이트',
         children: [{
+            text: '인스타그램',
+            link: 'https://www.instagram.com/thenext_webresearchlab/'
+          }, {
             text: '네이버 블로그',
             link: 'https://m.blog.naver.com/nextwebresearchlab'
           },
@@ -299,6 +302,7 @@ export default {
           text: '경험기',
           collapsible: true,
           children: [
+            '/essay/software-versioning/',
             '/essay/web-usability-review/',
             '/essay/2019-new-service-building/',
             '/essay/cors-and-http-cookie/',
