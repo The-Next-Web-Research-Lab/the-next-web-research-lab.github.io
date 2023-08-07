@@ -290,6 +290,7 @@ export default {
       ],
       '/next-web-research': [
         '/next-web-research/',
+        '/next-web-research/scheduling-api.md',
         '/next-web-research/vibrate.md',
         '/next-web-research/battery.md',
         '/next-web-research/share.md',
