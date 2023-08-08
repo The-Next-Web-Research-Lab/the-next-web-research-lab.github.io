@@ -1,0 +1,17 @@
+{
+  "name": "swagger-dto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update-dto": "swagger-typescript-api -p ./swagger.json -o ./apiRouteTypes --no-client --route-types --modular --sort-types",
+    "bundle-dto": "dts-bundle-generator -o bundle.d.ts ./route.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dts-bundle-generator": "^8.0.1",
+    "swagger-typescript-api": "^13.0.2"
+  }
+}
