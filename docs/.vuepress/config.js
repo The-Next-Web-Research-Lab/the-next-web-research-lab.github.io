@@ -301,7 +301,6 @@ export default {
         '/essay/',
         {
           text: '경험기',
-          collapsible: true,
           children: [
             '/essay/commit-message/',
             '/essay/swagger-dto-automation/',
@@ -313,7 +312,6 @@ export default {
         },
         {
           text: '이론',
-          collapsible: true,
           children: [
             '/essay/authentication-and-authorization/',
             '/essay/abstract/',
@@ -325,7 +323,6 @@ export default {
         },
         {
           text: 'Color Space 시리즈',
-          collapsible: true,
           children: [
             '/essay/color-space-munsell-color-theory/',
             '/essay/color-space-hsl-and-hsv/',
@@ -334,8 +331,8 @@ export default {
         },
         {
           text: '코드 작성',
-          collapsible: true,
           children: [
+            '/essay/client-hints/',
             '/essay/hexagon-profile/',
             '/essay/how-to-catch-error/',
             '/essay/branch-n-case/',
@@ -586,7 +583,6 @@ export default {
         '/fe-dev/code-snippets/',
         {
           text: 'Javascript',
-          collapsible: true,
           children: [
             '/fe-dev/code-snippets/Javascript/Array/',
             '/fe-dev/code-snippets/Javascript/Date/',
@@ -598,7 +594,6 @@ export default {
         },
         {
           text: 'CSS3',
-          collapsible: true,
           children: [
             '/fe-dev/code-snippets/CSS3/Flex/',
             '/fe-dev/code-snippets/CSS3/MaskImage/',
@@ -606,7 +601,6 @@ export default {
         },
         {
           text: 'HTML5',
-          collapsible: true,
           children: [
             '/fe-dev/code-snippets/HTML5/HTML5/',
             '/fe-dev/code-snippets/HTML5/FetchApi/',
@@ -616,7 +610,6 @@ export default {
         },
         {
           text: 'Data Structure',
-          collapsible: true,
           children: [
             '/fe-dev/code-snippets/Data-Structure/Set/',
             '/fe-dev/code-snippets/Data-Structure/Stack/',
@@ -626,7 +619,6 @@ export default {
         },
         {
           text: 'UIComponent',
-          collapsible: true,
           children: [
             '/fe-dev/code-snippets/UIComponent/Boilerplate/',
             '/fe-dev/code-snippets/UIComponent/Pagination/',
@@ -638,7 +630,6 @@ export default {
         },
         {
           text: 'Helper',
-          collapsible: true,
           children: [
             '/fe-dev/code-snippets/Helper/Helper/',
             '/fe-dev/code-snippets/Helper/contextmenu/',
@@ -655,7 +646,6 @@ export default {
         },
         {
           text: 'OpenSources',
-          collapsible: true,
           children: [
             '/fe-dev/code-snippets/OpenSources/eslint/',
             '/fe-dev/code-snippets/OpenSources/chart-adaptor/',
@@ -682,7 +672,6 @@ export default {
         '/fe-dev/pet-project/',
         {
           text: 'Vue',
-          collapsible: true,
           children: [
             '/fe-dev/pet-project/vue2-part/',
             '/fe-dev/pet-project/vue2-component/',
@@ -691,7 +680,6 @@ export default {
         },
         {
           text: 'Helper',
-          collapsible: true,
           children: ['/fe-dev/pet-project/momentjs/',
             '/fe-dev/pet-project/immerjs/',
             '/fe-dev/pet-project/axios/',
@@ -699,7 +687,6 @@ export default {
         },
         {
           text: 'Component',
-          collapsible: true,
           children: [
             '/fe-dev/pet-project/component/2020-08-component/',
             '/fe-dev/pet-project/component/vuex-feature/',
@@ -711,7 +698,6 @@ export default {
         },
         {
           text: 'MVC',
-          collapsible: true,
           children: [
             '/fe-dev/pet-project/mvc/2021-07-mvc/',
             '/fe-dev/pet-project/mvc/2020-08-mvc/', '/fe-dev/pet-project/mvc/2021-07-mvc-class/', '/fe-dev/pet-project/mvc/2020-08-mvc-class/', '/fe-dev/pet-project/mvc/2020-08-mvc-function/'
