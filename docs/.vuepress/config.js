@@ -303,6 +303,7 @@ export default {
           text: '경험기',
           collapsible: true,
           children: [
+            '/essay/commit-message/',
             '/essay/swagger-dto-automation/',
             '/essay/software-versioning/',
             '/essay/web-usability-review/',
