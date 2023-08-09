@@ -26,7 +26,7 @@ swagger-typescript-api -p {Swagger JSON 주소} -o {DTO 파일 경로} --no-clie
 - `--sort-types`는 DTO를 정렬해서 정의합니다.
 
 
-## 라우트 파일 분리
+## 라우트 파일 번들링
 현업에서는 서비스 기능마다 REST API가 다르기도 하는데, 각 기능마다 프런트엔드 담당자가 다르기도 합니다. 동료들과 같은 저장소를 사용하는 상황에서 공통 DTO 파일은 저장소 파일에서 충돌 문제가 발생되곤 합니다. 때문에 코드 머지를 하거나 Pull Request에서 충돌 문제를 수동으로 해결하는 경우가 발생합니다.
 
 이 문제를 해결하기 위해 [`dts-bundle-generator`](https://www.npmjs.com/package/dts-bundle-generator)를 사용해서 DTO 파일을 번들링합니다. 번들링은 아래와 같이 동작합니다. 
