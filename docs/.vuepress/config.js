@@ -4,17 +4,10 @@ import {
 import {
   docsearchPlugin
 } from '@vuepress/plugin-docsearch';
-import {
-  sitemapPlugin
-} from "vuepress-plugin-sitemap2";
-import {
-  seoPlugin
-} from "vuepress-plugin-seo2";
-import {
-  mdEnhancePlugin
-} from "vuepress-plugin-md-enhance";
 
-import {hopeTheme} from "vuepress-theme-hope"
+import {
+  hopeTheme
+} from "vuepress-theme-hope"
 import {
   getDirname,
   path
@@ -176,23 +169,26 @@ export default {
         },
       }
     }),
-    sitemapPlugin({
-      hostname: 'the-next-web-research-lab.github.io',
-    }),
-    seoPlugin({
-      hostname: 'the-next-web-research-lab.github.io',
-      fallBackImage: 'https://the-next-web-research-lab.github.io/images/og_image.png'
-    }),
-    mdEnhancePlugin({
-      tabs: true,
-      codetabs: true,
-      demo: true,
-    })
   ],
   theme: hopeTheme({
     contributors: false,
     colorMode: 'light',
     colorModeSwitch: true,
+    plugins: {
+      mdEnhance: {
+        tabs: true,
+        codetabs: true,
+        demo: true,
+      },
+      seo: {
+        hostname: 'the-next-web-research-lab.github.io',
+        fallBackImage: 'https://the-next-web-research-lab.github.io/images/og_image.png'
+      },
+      sitemap: {
+        hostname: 'the-next-web-research-lab.github.io',
+      },
+      blog: true
+    },
     navbar: [{
         text: '소개',
         link: '/intro.html'

@@ -6,10 +6,10 @@ import clientConfig4 from 'C:/Users/04whd/OneDrive/바탕 화면/저장소/the-n
 import clientConfig5 from 'C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/node_modules/@vuepress/plugin-nprogress/lib/client/config.js'
 import clientConfig6 from 'C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/node_modules/@vuepress/plugin-theme-data/lib/client/config.js'
 import clientConfig7 from 'C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/node_modules/vuepress-plugin-copy-code2/lib/client/config.js'
-import clientConfig8 from 'C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/node_modules/vuepress-plugin-photo-swipe/lib/client/config.js'
-import clientConfig9 from 'C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/theme-hope/config.js'
-import clientConfig10 from 'C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/node_modules/@vuepress/plugin-docsearch/lib/client/config.js'
-import clientConfig11 from 'C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/md-enhance/config.js'
+import clientConfig8 from 'C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/md-enhance/config.js'
+import clientConfig9 from 'C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/node_modules/vuepress-plugin-photo-swipe/lib/client/config.js'
+import clientConfig10 from 'C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/theme-hope/config.js'
+import clientConfig11 from 'C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/node_modules/@vuepress/plugin-docsearch/lib/client/config.js'
 
 export const clientConfigs = [
   clientConfig0,

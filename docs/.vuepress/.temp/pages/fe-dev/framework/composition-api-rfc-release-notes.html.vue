@@ -2,9 +2,10 @@
 <blockquote>
 <p>초안작성일: 2020.02.29</p>
 </blockquote>
-<p>::: tip
-<code v-pre>@vue/composition-api</code>의 릴리즈 노트를 통해 어떤 변경 사항이 생길지 예상하기 위해 정리한 포스트입니다.
-:::</p>
+<div class="hint-container tip">
+<p class="hint-container-title">팁</p>
+<p><code v-pre>@vue/composition-api</code>의 릴리즈 노트를 통해 어떤 변경 사항이 생길지 예상하기 위해 정리한 포스트입니다.</p>
+</div>
 <h2 id="v0-4-0" tabindex="-1"><a class="header-anchor" href="#v0-4-0" aria-hidden="true">#</a> v0.4.0</h2>
 <ul>
 <li>[리팩토링] 이름변경 <code v-pre>createComponent</code> =&gt; <code v-pre>defineComponent</code></li>

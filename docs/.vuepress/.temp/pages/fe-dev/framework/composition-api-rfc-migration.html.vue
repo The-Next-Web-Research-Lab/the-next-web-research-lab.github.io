@@ -174,10 +174,11 @@ Vue<span class="token punctuation">.</span><span class="token function">use</spa
 <li><strong>(컴파일 타임)</strong> TypeScript로 props 타입 정의 시, <code v-pre>any</code> 또는 <code v-pre>unknown</code>이 필요할 때가 있다.</li>
 <li><strong>(런타임)</strong> 이때 props의 타입은 <code v-pre>null</code>로 작성해야 한다.</li>
 </ul>
-<p>::: tip
-Composition API 공식 문서에는 <code v-pre>undefined</code>와 <code v-pre>null</code>로 처리 가능하다고 가이드하는데,
-TypeScript로 정의된 Declaration 파일에서는 <code v-pre>null</code>만 허용한다.
-:::</p>
+<div class="hint-container tip">
+<p class="hint-container-title">팁</p>
+<p>Composition API 공식 문서에는 <code v-pre>undefined</code>와 <code v-pre>null</code>로 처리 가능하다고 가이드하는데,
+TypeScript로 정의된 Declaration 파일에서는 <code v-pre>null</code>만 허용한다.</p>
+</div>
 <div class="language-typescript line-numbers-mode" data-ext="ts"><pre v-pre class="language-typescript"><code><span class="token keyword">interface</span> <span class="token class-name">CommonSelectOption</span> <span class="token punctuation">{</span>
   value<span class="token operator">:</span> <span class="token builtin">unknown</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span>

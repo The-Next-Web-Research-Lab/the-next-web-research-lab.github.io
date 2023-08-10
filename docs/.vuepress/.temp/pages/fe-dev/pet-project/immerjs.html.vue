@@ -1,10 +1,12 @@
 <template><div><h1 id="immer-js-기능-만들기" tabindex="-1"><a class="header-anchor" href="#immer-js-기능-만들기" aria-hidden="true">#</a> Immer.js 기능 만들기</h1>
-<p>::: tip Immer.js
-<a href="https://immerjs.github.io/immer/docs/introduction" target="_blank" rel="noopener noreferrer">Immer.js<ExternalLinkIcon/></a>: Immer (German for: always) is a tiny package that allows you to work with immutable state in a more convenient way. It is based on the copy-on-write mechanism.
-:::</p>
-<p>::: tip 객체
-이 글에서 사용된 객체는 JavaScript의 Object를 의미합니다.
-:::</p>
+<div class="hint-container tip">
+<p class="hint-container-title">Immer.js</p>
+<p><a href="https://immerjs.github.io/immer/docs/introduction" target="_blank" rel="noopener noreferrer">Immer.js<ExternalLinkIcon/></a>: Immer (German for: always) is a tiny package that allows you to work with immutable state in a more convenient way. It is based on the copy-on-write mechanism.</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">객체</p>
+<p>이 글에서 사용된 객체는 JavaScript의 Object를 의미합니다.</p>
+</div>
 <h2 id="immer-js-특징" tabindex="-1"><a class="header-anchor" href="#immer-js-특징" aria-hidden="true">#</a> Immer.js 특징</h2>
 <div class="language-javascript line-numbers-mode" data-ext="js"><pre v-pre class="language-javascript"><code><span class="token keyword">const</span> obj <span class="token operator">=</span> <span class="token punctuation">{</span>
   <span class="token literal-property property">message</span><span class="token operator">:</span> <span class="token string">'Hello World'</span><span class="token punctuation">,</span>
