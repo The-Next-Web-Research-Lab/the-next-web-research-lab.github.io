@@ -174,6 +174,23 @@ export default {
     contributors: false,
     colorMode: 'light',
     colorModeSwitch: true,
+    breadcrumb: false,
+    blog: {
+      medias: {
+        '인스타그램': [
+          'https://www.instagram.com/thenext_webresearchlab/',
+          path.resolve(__dirname, 'public/icons/instagram.svg')
+        ],
+        "네이버 블로그": [
+          'https://blog.naver.com/nextwebresearchlab',
+          path.resolve(__dirname, 'public/icons/naver.svg')
+        ],
+        '티스토리 블로그': [
+          'https://the-next-web-research-lab.tistory.com/',
+          path.resolve(__dirname, 'public/icons/tistory.svg')
+        ],
+      }
+    },
     plugins: {
       mdEnhance: {
         tabs: true,
@@ -261,7 +278,7 @@ export default {
             link: 'https://www.instagram.com/thenext_webresearchlab/'
           }, {
             text: '네이버 블로그',
-            link: 'https://m.blog.naver.com/nextwebresearchlab'
+            link: 'https://blog.naver.com/nextwebresearchlab'
           },
           {
             text: '티스토리 블로그',
@@ -272,18 +289,18 @@ export default {
     ],
     sidebar: {
       '/fe-dev/self-management': [
-        '/fe-dev/self-management/',
+        '/fe-dev/self-management.md',
         '/fe-dev/self-management/project-history',
         '/fe-dev/self-management/stress-management'
       ],
       '/fe-dev/interview-guide': [
-        '/fe-dev/interview-guide/',
+        '/fe-dev/interview-guide.md',
         '/fe-dev/interview-guide/questions-list',
         '/fe-dev/interview-guide/interview-process',
         '/fe-dev/interview-guide/success-criteria',
       ],
       '/next-web-research': [
-        '/next-web-research/',
+        '/next-web-research.md',
         '/next-web-research/scheduling-api.md',
         '/next-web-research/vibrate.md',
         '/next-web-research/battery.md',
@@ -292,7 +309,7 @@ export default {
         '/next-web-research/network-speed.md'
       ],
       '/essay': [
-        '/essay/',
+        '/essay.md',
         {
           text: '경험기',
           children: [
@@ -338,7 +355,7 @@ export default {
         }
       ],
       '/fe-dev/books': [
-        '/fe-dev/books/',
+        '/fe-dev/books.md',
         {
           text: '프로그래밍 페러다임',
           children: [
@@ -392,14 +409,14 @@ export default {
         }
       ],
       '/fe-dev/optimization': [
-        '/fe-dev/optimization/',
+        '/fe-dev/optimization.md',
         '/fe-dev/optimization/rail',
         '/fe-dev/optimization/web-vitals',
         '/fe-dev/optimization/monitoring',
         '/fe-dev/optimization/chrome-network-tab'
       ],
       '/fe-dev/javascript': [
-        '/fe-dev/javascript/',
+        '/fe-dev/javascript.md',
         {
           text: '자바스크립트',
           children: [
@@ -437,7 +454,7 @@ export default {
         },
       ],
       '/fe-dev/paradigm': [
-        '/fe-dev/paradigm/',
+        '/fe-dev/paradigm.md',
         {
           text: '명령형',
           children: [
@@ -462,7 +479,7 @@ export default {
         },
       ],
       '/fe-dev/framework': [
-        '/fe-dev/framework/',
+        '/fe-dev/framework.md',
         {
           text: 'Vue Composition API',
           children: [
@@ -497,7 +514,7 @@ export default {
         },
       ],
       '/fe-dev/project-management': [
-        '/fe-dev/project-management/',
+        '/fe-dev/project-management.md',
         '/fe-dev/project-management/estimation/',
         '/fe-dev/project-management/release/',
         '/fe-dev/project-management/facilitation-for-meeting/',
@@ -506,7 +523,7 @@ export default {
         '/fe-dev/project-management/software-lifecycle/',
       ],
       '/fe-dev/refactoring': [
-        '/fe-dev/refactoring/',
+        '/fe-dev/refactoring.md',
         '/fe-dev/refactoring/structure-refactoring/',
         '/fe-dev/refactoring/legacy-code-to-easy-code/',
         '/fe-dev/refactoring/legacy-code-to-easy-code-2/',
@@ -516,7 +533,7 @@ export default {
         '/fe-dev/refactoring/test-guide/',
       ],
       '/fe-dev/good-code': [
-        '/fe-dev/good-code/',
+        '/fe-dev/good-code.md',
         {
           text: '실무 사례',
           children: [
@@ -542,7 +559,7 @@ export default {
         },
       ],
       '/fe-dev/design-patterns': [
-        '/fe-dev/design-patterns/',
+        '/fe-dev/design-patterns.md',
         {
           text: '패턴 비교',
           children: [
@@ -574,7 +591,7 @@ export default {
         },
       ],
       '/fe-dev/code-snippets': [
-        '/fe-dev/code-snippets/',
+        '/fe-dev/code-snippets.md',
         {
           text: 'Javascript',
           children: [
@@ -663,7 +680,7 @@ export default {
         },
       ],
       '/fe-dev/pet-project': [
-        '/fe-dev/pet-project/',
+        '/fe-dev/pet-project.md',
         {
           text: 'Vue',
           children: [
