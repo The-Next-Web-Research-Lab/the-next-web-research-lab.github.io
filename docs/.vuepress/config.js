@@ -173,7 +173,7 @@ export default {
   theme: hopeTheme({
     contributors: false,
     colorMode: 'light',
-    colorModeSwitch: true,
+    darkmode: 'toggle',
     breadcrumb: false,
     blog: {
       medias: {
