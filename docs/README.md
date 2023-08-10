@@ -7,7 +7,7 @@ bgImage: /images/bg.png
 heroFullScreen: true
 heroImage: /images/black_logo.png
 heroAlt: 더넥스트웹리서치랩
-tagline: 담백한 FE 기술 블로그에서<br />지식 한 줌 담아 가세요!
+tagline: 담백한 FE 기술 블로그에서<br />&nbsp;&nbsp;&nbsp;지식 한 줌 담아 가세요!
 actions:
   - text: 더넥스트웹리서치랩 소개
     link: /intro
