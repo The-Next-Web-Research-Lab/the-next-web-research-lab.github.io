@@ -2,17 +2,19 @@
 <blockquote>
 <p>초안작성일: 2020.02.28</p>
 </blockquote>
-<div class="custom-container warning"><p class="custom-container-title">WARNING</p>
-<p>Composition API 학습을 위해 <a href="https://vue-composition-api-rfc.netlify.com/" target="_blank" rel="noopener noreferrer">Composition API RFC<ExternalLinkIcon/></a>을 번역한 포스트입니다. 공식 문서가 아님을 밝힙니다.</p>
-</div>
-<div class="custom-container tip"><p class="custom-container-title">TIP</p>
-<p>RFC(Request for Comments) 문서는 비평을 기다리는 문서라는 의미로, 컴퓨터 네트워크 공학 등에서 인터넷 기술에 적용 가능한 새로운 연구, 혁신, 기법 등을 아우르는 메모를 나타낸다.</p>
+<p>::: warning
+Composition API 학습을 위해 <a href="https://vue-composition-api-rfc.netlify.com/" target="_blank" rel="noopener noreferrer">Composition API RFC<ExternalLinkIcon/></a>을 번역한 포스트입니다. 공식 문서가 아님을 밝힙니다.
+:::</p>
+<p>::: tip
+RFC(Request for Comments) 문서는 비평을 기다리는 문서라는 의미로, 컴퓨터 네트워크 공학 등에서 인터넷 기술에 적용 가능한 새로운 연구, 혁신, 기법 등을 아우르는 메모를 나타낸다.</p>
 <ul>
-<li>출처: <a href="https://ko.wikipedia.org/wiki/RFC" target="_blank" rel="noopener noreferrer">위키백과:RFC<ExternalLinkIcon/></a></li>
-</ul>
-</div>
-<ul>
-<li>참고 이슈: <a href="https://github.com/vuejs/rfcs/pull/42" target="_blank" rel="noopener noreferrer">#42<ExternalLinkIcon/></a></li>
+<li>
+<p>출처: <a href="https://ko.wikipedia.org/wiki/RFC" target="_blank" rel="noopener noreferrer">위키백과:RFC<ExternalLinkIcon/></a>
+:::</p>
+</li>
+<li>
+<p>참고 이슈: <a href="https://github.com/vuejs/rfcs/pull/42" target="_blank" rel="noopener noreferrer">#42<ExternalLinkIcon/></a></p>
+</li>
 </ul>
 <h2 id="요약" tabindex="-1"><a class="header-anchor" href="#요약" aria-hidden="true">#</a> 요약</h2>
 <p>컴포지션 API 소개: 컴포넌트 로직을 유연하게 구성할 수 있는 부가적인 함수기반 API 세트입니다.</p>

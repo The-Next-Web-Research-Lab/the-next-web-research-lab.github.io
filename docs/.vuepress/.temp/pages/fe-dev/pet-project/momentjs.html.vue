@@ -1,7 +1,7 @@
 <template><div><h1 id="moment-js-기능-만들기" tabindex="-1"><a class="header-anchor" href="#moment-js-기능-만들기" aria-hidden="true">#</a> Moment.js 기능 만들기</h1>
-<div class="custom-container tip"><p class="custom-container-title">Moment.js</p>
-<p><a href="https://momentjs.com/" target="_blank" rel="noopener noreferrer">Moment.js<ExternalLinkIcon/></a>: Parse, validate, manipulate, and display dates and times in JavaScript.</p>
-</div>
+<p>::: tip Moment.js
+<a href="https://momentjs.com/" target="_blank" rel="noopener noreferrer">Moment.js<ExternalLinkIcon/></a>: Parse, validate, manipulate, and display dates and times in JavaScript.
+:::</p>
 <h2 id="api-응답값을-date-객체로-만들기" tabindex="-1"><a class="header-anchor" href="#api-응답값을-date-객체로-만들기" aria-hidden="true">#</a> API 응답값을 Date 객체로 만들기</h2>
 <p>API 응답값에 날짜와 시간 데이터가 전달되어 Date 객체로 바꿔야 되는 경우가 있다.
 대체로 아래와 같은 형태의 데이터로 전달되었다.</p>

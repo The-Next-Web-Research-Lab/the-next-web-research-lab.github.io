@@ -14,9 +14,7 @@ import {
   mdEnhancePlugin
 } from "vuepress-plugin-md-enhance";
 
-import {
-  defaultTheme
-} from "vuepress";
+import {hopeTheme} from "vuepress-theme-hope"
 import {
   getDirname,
   path
@@ -191,7 +189,7 @@ export default {
       demo: true,
     })
   ],
-  theme: defaultTheme({
+  theme: hopeTheme({
     contributors: false,
     colorMode: 'light',
     colorModeSwitch: true,

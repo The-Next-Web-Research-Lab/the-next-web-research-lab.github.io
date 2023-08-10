@@ -1,7 +1,7 @@
 <template><div><h1 id="axios-기능-만들기" tabindex="-1"><a class="header-anchor" href="#axios-기능-만들기" aria-hidden="true">#</a> Axios 기능 만들기</h1>
-<div class="custom-container tip"><p class="custom-container-title">Axios</p>
-<p><a href="https://github.com/axios/axios" target="_blank" rel="noopener noreferrer">Axios<ExternalLinkIcon/></a>: Promise based HTTP client for the browser and node.js)</p>
-</div>
+<p>::: tip Axios
+<a href="https://github.com/axios/axios" target="_blank" rel="noopener noreferrer">Axios<ExternalLinkIcon/></a>: Promise based HTTP client for the browser and node.js)
+:::</p>
 <h2 id="crud-기능" tabindex="-1"><a class="header-anchor" href="#crud-기능" aria-hidden="true">#</a> CRUD 기능</h2>
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch" target="_blank" rel="noopener noreferrer">Fetch API<ExternalLinkIcon/></a>를 기반으로 Axios의 기능을 만들어 본다.</p>
 <h4 id="fetch-wrapper-js" tabindex="-1"><a class="header-anchor" href="#fetch-wrapper-js" aria-hidden="true">#</a> fetch-wrapper.js</h4>
