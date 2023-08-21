@@ -25,6 +25,10 @@
   <video src="./video.mp4" width="200" muted autoplay loop disablepictureinpicture></video>
   <button type="button" data-request>Request Picture-in-Picture</button>
 
+  <h2>Camera</h2>
+  <video src="" width="200"></video>
+  <button type="button" data-camera>Request Camera Picture-in-Picture</button>
+
   <script>
     const requestPictureInPicture = (button) => {
       if (document.pictureInPictureEnabled) {
@@ -56,6 +60,32 @@
           requestPictureInPicture(button);
         });
       })
+
+    document.querySelector('[data-camera]')
+      .addEventListener("click", (event) => {
+        navigator.mediaDevices.getUserMedia({
+            video: true,
+            audio: false
+          })
+          .then(stream => {
+            const video = event.target.previousElementSibling;
+            video.srcObject = stream;
+            requestPictureInPicture(video);
+          })
+          .catch(error => {
+            if (error.name === "OverconstrainedError") {
+              alert(
+                `The resolution ${constraints.video.width.exact}x${constraints.video.height.exact} px is not supported by your device.`,
+              );
+            } else if (error.name === "NotAllowedError") {
+              alert(
+                "You need to grant this page permission to access your camera and microphone.",
+              );
+            } else {
+              alert(`getUserMedia error: ${error.name}`, error);
+            }
+          })
+      });
   </script>
 </body>
 
