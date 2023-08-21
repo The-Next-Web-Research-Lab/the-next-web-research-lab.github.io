@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Picture-in-Picture</title>
+
+  <style>
+    :picture-in-picture {
+      border: solid 1px #f00;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Picture-In-Picture</h1>
+  <h2>Allow</h2>
+  <video src="./video.mp4" width="200" muted autoplay loop></video>
+  <button type="button" data-toggle>Toggle Picture-in-Picture</button>
+  <video src="./video2.mp4" width="200" muted autoplay loop></video>
+  <button type="button" data-request>Request Picture-in-Picture</button>
+
+  <h2>Disallow</h2>
+  <video src="./video.mp4" width="200" muted autoplay loop disablepictureinpicture></video>
+  <button type="button" data-request>Request Picture-in-Picture</button>
+
+  <script>
+    const requestPictureInPicture = (button) => {
+      if (document.pictureInPictureEnabled) {
+        const video = button.previousElementSibling;
+        video.requestPictureInPicture()
+          .catch((error) => {
+            alert("This video disallow picture-in-picture mode");
+          });
+      } else {
+        alert("Your browser cannot use picture-in-picture right now");
+      }
+    };
+    document
+      .querySelectorAll('[data-toggle]')
+      .forEach((button, index) => {
+        button.addEventListener("click", () => {
+          if (document.pictureInPictureElement) {
+            document.exitPictureInPicture();
+          } else {
+            requestPictureInPicture(button)
+          }
+        });
+      });
+
+    document
+      .querySelectorAll('[data-request]')
+      .forEach((button, index) => {
+        button.addEventListener("click", () => {
+          requestPictureInPicture(button);
+        });
+      })
+  </script>
+</body>
+
+</html>
