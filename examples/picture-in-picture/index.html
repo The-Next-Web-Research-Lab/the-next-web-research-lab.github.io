@@ -26,14 +26,13 @@
   <button type="button" data-request>Request Picture-in-Picture</button>
 
   <h2>Camera</h2>
-  <video src="" width="200" muted autoplay></video>
+  <video src="" width="200" muted autoplay data-stream></video>
   <button type="button" data-request>Request Picture-in-Picture</button>
   <button type="button" data-camera>Request Camera Picture-in-Picture</button>
 
   <script>
-    const requestPictureInPicture = (button) => {
+    const requestPictureInPicture = (video) => {
       if (document.pictureInPictureEnabled) {
-        const video = button.previousElementSibling;
         video.requestPictureInPicture()
           .catch((error) => {
             alert("This video disallow picture-in-picture mode");
@@ -49,7 +48,8 @@
           if (document.pictureInPictureElement) {
             document.exitPictureInPicture();
           } else {
-            requestPictureInPicture(button)
+            const video = button.previousElementSibling;
+            requestPictureInPicture(video)
           }
         });
       });
@@ -58,10 +58,16 @@
       .querySelectorAll('[data-request]')
       .forEach((button, index) => {
         button.addEventListener("click", () => {
-          requestPictureInPicture(button);
+          const video = button.previousElementSibling;
+          requestPictureInPicture(video);
         });
       })
 
+    const streamVideo = document.querySelector('[data-stream]');
+
+    streamVideo.addEventListener('loadedmetadata', () => {
+      requestPictureInPicture(streamVideo);
+    });
     document.querySelector('[data-camera]')
       .addEventListener("click", (event) => {
         navigator.mediaDevices.getUserMedia({
@@ -69,9 +75,7 @@
             audio: true
           })
           .then(stream => {
-            const video = event.target.previousElementSibling.previousElementSibling;
-            video.srcObject = stream;
-            requestPictureInPicture(video);
+            streamVideo.srcObject = stream;
           })
           .catch(error => {
             if (error.name === "OverconstrainedError") {
