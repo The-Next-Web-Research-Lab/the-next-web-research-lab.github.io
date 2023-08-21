@@ -27,6 +27,7 @@
 
   <h2>Camera</h2>
   <video src="" width="200" muted autoplay></video>
+  <button type="button" data-request>Request Picture-in-Picture</button>
   <button type="button" data-camera>Request Camera Picture-in-Picture</button>
 
   <script>
@@ -68,7 +69,7 @@
             audio: true
           })
           .then(stream => {
-            const video = event.target.previousElementSibling;
+            const video = event.target.previousElementSibling.previousElementSibling;
             video.srcObject = stream;
             requestPictureInPicture(video);
           })
