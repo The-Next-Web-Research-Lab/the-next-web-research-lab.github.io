@@ -401,6 +401,7 @@ export default {
         {
           text: '컴퓨터 과학',
           children: [
+            '/fe-dev/books/22',
             '/fe-dev/books/7',
             '/fe-dev/books/8',
             '/fe-dev/books/13',
