@@ -336,6 +336,8 @@ export default {
                 '/essay/web-usability-review/',
                 '/essay/2019-new-service-building/',
                 '/essay/cors-and-http-cookie/',
+                '/essay/front_end_ui/',
+                '/essay/developer_communication_skills/',
               ]
             },
             {
@@ -431,7 +433,8 @@ export default {
             '/fe-dev/optimization/rail',
             '/fe-dev/optimization/web-vitals',
             '/fe-dev/optimization/monitoring',
-            '/fe-dev/optimization/chrome-network-tab'
+            '/fe-dev/optimization/chrome-network-tab',
+            '/fe-dev/optimization/browser_cache'
           ],
           '/fe-dev/javascript': [
             '/fe-dev/javascript.md',
@@ -583,6 +586,7 @@ export default {
               children: [
                 '/fe-dev/design-patterns/mv_flux/',
                 '/fe-dev/design-patterns/react_hook_vue_composition_recoil/',
+                '/fe-dev/design-patterns/proxy_reverse_proxy_load_balancer/',
               ]
             },
             {
