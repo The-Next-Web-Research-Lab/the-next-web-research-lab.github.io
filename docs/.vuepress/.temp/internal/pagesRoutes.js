@@ -3,6 +3,8 @@ export const pagesRoutes = [
   ["v-184f4da6","/intro.html",{"d":1687165152000,"e":"<h1> 더넥스트웹리서치랩 소개</h1>\n<p>더넥스트웹리서치랩은 세로토닌이 생기는 담백한 프런트엔드 기술 블로그를 운영하기 위해 노력합니다.​ 콘텐츠에는 근 미래에 웹 표준이 될 기술과 10년간 20개 이상의 프로젝트에서 경험한 프런트엔드 지식들을 담았습니다.</p>\n<h1> 운영자 소개</h1>\n<p>조용구 | ISTJ | 프런트엔드 개발자 | <a href=\"https://github.com/ChoDragon9\" target=\"_blank\" rel=\"noopener noreferrer\">Github</a> | <a href=\"https://www.linkedin.com/in/yongku-cho\" target=\"_blank\" rel=\"noopener noreferrer\">LinkedIn</a></p>","r":{"minutes":0.21,"words":63},"y":"a","t":"더넥스트웹리서치랩 소개"},[":md"]],
   ["v-11459178","/next-web-research.html",{"d":1687165152000,"e":"<h1> 선행개발 소개</h1>\n<p>선행개발에서는 근 미래에 웹 표준이 될 기술을 담았습니다.</p>\n<p>현업에서 프로젝트 업무에 집중해서 프로젝트 관련된 기술만 학습하게 되면 어느 순간 무료함이 찾아옵니다. 뭔가 발전이 없다고 느낄 때도 있죠. 하지만 그것은 프로젝트 초반과 다르게 익숙해지고 잘하고 있다는 것을 의미합니다. 그리고 프로젝트에 새로운 기술을 도입하고 싶은데 권한이 없어서 도입을 못 하거나 이미 포화 상태이거나 경험이 부족해서 도입을 못 할 때도 있습니다.</p>\n<p>이런 시기에는 미래에 사용되는 기술을 학습해보는 것도 좋습니다. 발전하고 싶다는 마음도 충족할 수 있고 새로운 지식을 접하면서 꼬리를 물어가며 새로운 지식을 쌓을 수도 있습니다. 선행개발에 정리된 기술을 통해서 이러한 부분이 도움되었으면 합니다.</p>","r":{"minutes":0.03,"words":9},"y":"a","t":"선행개발 소개"},[":md"]],
   ["v-8daa1a0e","/",{"y":"h","t":"더넥스트웹리서치랩"},["/README.md"]],
+  ["v-5aa3d8ba","/en/intro.html",{"e":"<h1> About The Next Web Research Lab</h1>\n<p>The Next Web Research Lab strives to run a simple front-end technology blog that generates serotonin. The content includes technologies that will become web standards in the near future, as well as front-end knowledge from more than 20 projects over a decade.</p>","r":{"minutes":1.02,"words":305},"y":"a","t":"About The Next Web Research Lab"},[":md"]],
+  ["v-2d0a870d","/en/",{"y":"h","t":"The Next Web Research Lab"},["/en/README.md"]],
   ["v-210c8944","/essay/2019-new-service-building.html",{"d":1687351424000,"e":"<h1> 사내 신규 서비스 경험기</h1>\n<h2> 들어가며</h2>\n<p>2019년 9월부터 회사 내부에서 사용하는 신규 서비스를 담당하게 되었습니다. 서비스는 회사 내부에서만 사용되기 때문에 정식 명칭을 사용하지 않고, 신규 서비스라는 명칭을 사용하겠습니다. 이직 후 신규 서비스를 혼자 담당하는 것은 처음이라 지금까지 서비스를 운영하면서 쌓았던 경험에 신규 서비스를 하면서 쌓은 경험을 더하여 공유하고자 이 글을 정리하게 되었습니다.</p>\n<p>정리한 글은 지금까지 제가 경험했던 내용을 정리한 내용이라 정답이 아닐 수 있습니다. 하지만 신규 서비스를 개발할 예정이거나 하는 분들에게 소소한 정보가 되었으면 합니다.</p>","r":{"minutes":3.26,"words":977},"y":"a","t":"사내 신규 서비스 경험기"},[":md"]],
   ["v-8edcd768","/essay/abstract.html",{"d":1687351424000,"e":"<h1> 추상화 정리</h1>\n<p>서비스를 개발하면서 많은 코드를 작성한다. 그 코드들 속에 중복적인 요소 또는 로직은 항상 존재한다. 중복적인 요소 또는 로직은 추상화를 통해 반복적인 작업을 줄일 수 있다.</p>\n<p>추상화를 하는 과정은 중복적인 요소 또는 로직을 공통화하고, 결과적으로 재사용성을 높인다. 추상화는 요구사항 수정 시, 수정 범위를 최소화하기 때문에 구조 설계에 있어서 필수적인 과정이라고 할 수 있다.</p>\n<p>추상화는 일반화와 단순화로 설명된다. 아래에서 자세히 알아보자.</p>\n<h2> 일반화</h2>\n","r":{"minutes":0.21,"words":62},"y":"a","t":"추상화 정리"},[":md"]],
   ["v-862c8c00","/essay/authentication-and-authorization.html",{"d":1689834615000,"e":"<h1> 인증과 인가 구분하기</h1>\n<p>인증은 영어로 Authentication이고, 인가는 영어로 Authorization이다.\n로그인이나 권한 관리 쪽을 개발자가 아니면 자주 사용되지 않은 용어이고,\n한글과 영어로 표기와 의미도 비슷하기 때문에 간혹 혼동하기도 한다.</p>\n<p>동료들과 협업을 할 때 커뮤니케이션 미스가 발생되지 않도록 단어 풀이를 통해 명확히 의미를 이해해 보자.</p>\n<h2> 인증</h2>\n<p>인증은 한자로 認(알 인) + 證(증거 증)을 조합으로 만들어졌다.\n풀이로는 \"어떤 행위가 정당한 절차로 이루어졌는 것을 기관을 통해서 증명했다\"라는 의미이다.</p>","r":{"minutes":0.11,"words":33},"y":"a","t":"인증과 인가 구분하기"},[":md"]],
@@ -243,4 +245,9 @@ export const pagesRoutes = [
   ["v-e52c881c","/article/",{"y":"p","t":"게시글","I":0},[]],
   ["v-154dc4c4","/star/",{"y":"p","t":"스타","I":0},[]],
   ["v-01560935","/timeline/",{"y":"p","t":"타임라인","I":0},[]],
+  ["v-5decfa84","/en/category/",{"y":"p","t":"Category","I":0},[]],
+  ["v-075c6c62","/en/tag/",{"y":"p","t":"Tag","I":0},[]],
+  ["v-506407f4","/en/article/",{"y":"p","t":"Articles","I":0},[]],
+  ["v-37a8c5a0","/en/star/",{"y":"p","t":"Star","I":0},[]],
+  ["v-0379cba1","/en/timeline/",{"y":"p","t":"Timeline","I":0},[]],
 ]
