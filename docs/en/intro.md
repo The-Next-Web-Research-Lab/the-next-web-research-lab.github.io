@@ -11,7 +11,7 @@ Yongku Cho | ISTJ | Front-End Developer | [Github](https://github.com/ChoDragon9
 
 I started out as a self-taught student in high school and chose to be a front-end developer after winning several competitions. Since then, during his 10 years in the field, he has been promoted twice at a major company and recognized as a senior at Kakao.
 
-## career
+## Career
 - The Next Web Research Lab | 2023.06.01~
 - Marpple Corporation | R&D | 2022.07.05~2023.05.31
 - Kakao | FE Platform Team | 2018.02.19~2022.07.01
@@ -33,10 +33,16 @@ I started out as a self-taught student in high school and chose to be a front-en
   - Develop a company-wide web framework
   - PnP 2.0 Mobile: Chipmounter Equipment Monitoring Hybrid App Developmen
 
-## premier
-- 2019.04 Jeju Skill Competition Judge's Appointment | Jeju Island Special Self-Governing Province Skills Competition Committee
-- 2015.12 Brazil International Skills Olympics National Team Instructor Citation | Citation from the Minister of Employment and Labor
-- 2013.12 Bronze Tower Order of Industrial Merit | Ministry of the Interior and Security
-- 2013.07 Gold Medal & National MVP at the 42nd International Skills Olympics Germany | WorldSkills International
-- 2011.09 Silver Medal at the 46th National Skills Competition | International Skills Olympic Games Korean Committee
-- 2011.04 Chungcheongbuk-do Skills Competition Gold Medal | Chungcheongbuk-do Skills Competition Committee
+## Premier
+- 2019.04
+  - Jeju Skill Competition Judge's Appointment | Jeju Island Special Self-Governing Province Skills Competition Committee
+- 2015.12
+  - Brazil International Skills Olympics National Team Instructor Citation | Citation from the Minister of Employment and Labor
+- 2013.12
+  - Bronze Tower Order of Industrial Merit | Ministry of the Interior and Security
+- 2013.07
+  - Gold Medal & National MVP at the 42nd International Skills Olympics Germany | WorldSkills International
+- 2011.09
+  - Silver Medal at the 46th National Skills Competition | International Skills Olympic Games Korean Committee
+- 2011.04
+  - Chungcheongbuk-do Skills Competition Gold Medal | Chungcheongbuk-do Skills Competition Committee

@@ -1,0 +1,10 @@
+---
+title: Introduction to Prior Development
+---
+
+# Introduction to Prior Development
+In the advanced development, it contains technologies that will become web standards in the near future.
+
+If you concentrate on project work in the field and only learn project-related skills, you will feel bored at some point. Sometimes I feel like I'm not making progress. But that means you're getting used to it and doing it well, unlike at the beginning of the project. And sometimes you want to introduce a new technology to a project, but you can't because you don't have the authority, or because it's already saturated or inexperienced.
+
+During times like these, it's also a good idea to learn about the technologies that will be used in the future. You can satisfy your desire to improve, and you can accumulate new knowledge by biting your tail while being exposed to new knowledge. I hope that this will be helpful through the technologies outlined in the preceding development.

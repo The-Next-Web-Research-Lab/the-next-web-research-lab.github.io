@@ -25,8 +25,8 @@ export default {
     },
     '/en/': {
       lang: 'en-US',
-      title: 'The Next Web Research Lab',
-      description: 'Front-end Tech Blog',
+      title: '더넥스트웹리서치랩',
+      description: 'Take a handful of knowledge from the simple FE tech blog!',
     }
   },
   base: '/',
@@ -202,9 +202,35 @@ export default {
     locales: {
       '/en/': {
         navbar: [{
-          text: 'introduction',
-          link: '/en/intro.html'
-        }]
+            text: 'Introduction',
+            link: '/en/intro.html'
+          }, {
+            text: 'Prior Development',
+            link: '/en/next-web-research.html'
+          },
+          {
+            text: 'Pragmatic Frontend',
+            children: [{
+              text: 'Self-care',
+              link: '/en/fe-dev/self-management'
+            }]
+          },
+          {
+            text: 'Summary of experience',
+            link: '/en/essay.html'
+          },
+        ],
+        sidebar: {
+          '/en/fe-dev/self-management': [
+            '/en/fe-dev/self-management.md',
+          ],
+          '/en/next-web-research': [
+            '/en/next-web-research.md',
+          ],
+          '/en/essay': [
+            '/en/essay.md',
+          ]
+        }
       },
       '/': {
         blog: {

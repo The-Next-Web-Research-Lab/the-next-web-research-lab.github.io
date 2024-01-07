@@ -7,6 +7,7 @@ bgImage: /images/bg.png
 heroFullScreen: true
 heroImage: /images/black_logo.png
 heroAlt: 더넥스트웹리서치랩
+heroText: 더넥스트웹리서치랩
 tagline: 담백한 FE 기술 블로그에서<br />&nbsp;&nbsp;&nbsp;지식 한 줌 담아 가세요!
 actions:
   - text: 더넥스트웹리서치랩 소개
@@ -25,5 +26,5 @@ projects:
   desc: 10년간 20개 이상의 프로젝트에서 경험한 지식과 생각을 담았습니다.
   icon: article
   link: /essay.html
-footer: © 2023 더넥스트웹리서치랩 Corp. All rights reserved.
+footer: © 더넥스트웹리서치랩 Corp. All rights reserved.
 ---

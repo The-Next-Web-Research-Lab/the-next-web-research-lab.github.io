@@ -7,23 +7,24 @@ bgImage: /images/bg.png
 heroFullScreen: true
 heroImage: /images/black_logo.png
 heroAlt: The Next Web Research Lab
+heroText: The Next Web Research Lab
 tagline: Take a handful of knowledge from the simple FE tech blog!
 # actions:
 #   - text: 더넥스트웹리서치랩 소개
 #     link: /intro
 #     type: primary
-# projects:
-# - name: 선행개발
-#   desc: 근 미래에 웹 표준이 될 기술을 담았습니다.
-#   icon: project
-#   link: /next-web-research.html
-# - name: 실용주의 프런트엔드
-#   desc: 시니어 프런트엔드 개발자가 되는 과정에서 학습했던 지식들을 담았습니다.
-#   icon: friend
-#   link: /fe-dev/self-management.html
-# - name: 경험정리
-#   desc: 10년간 20개 이상의 프로젝트에서 경험한 지식과 생각을 담았습니다.
-#   icon: article
-#   link: /essay.html
-footer: © 2023 더넥스트웹리서치랩 Corp. All rights reserved.
+projects:
+- name: Prior Development
+  desc: In the advanced development, it contains technologies that will become web standards in the near future.
+  icon: project
+  link: /en/next-web-research.html
+- name: Pragmatic Frontend
+  desc: It contains the knowledge I learned in the process of becoming a senior front-end developer.
+  icon: friend
+  link: /en/fe-dev/self-management.html
+- name: Summary of experience
+  desc: It contains knowledge and thoughts from more than 20 projects over 10 years.
+  icon: article
+  link: /en/essay.html
+footer: © 더넥스트웹리서치랩 Corp. All rights reserved.
 ---
