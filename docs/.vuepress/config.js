@@ -41,6 +41,14 @@ export default {
   },
   head: [
     [
+      'script',
+      {
+        async: true,
+        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2063927113913779",
+        crossorigin: "anonymous"
+      }
+    ],
+    [
       'link',
       {
         rel: "stylesheet",
