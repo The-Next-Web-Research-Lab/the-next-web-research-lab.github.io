@@ -53,7 +53,6 @@
 그 상황은 이른바 <strong>부채</strong>를 떠안는 샘이 되는 데, 이를 <strong>기술적 부채</strong>라고 부른다.
 <strong>기술적 부채</strong>를 만들게 되면 재설계와 리펙토링 비용이 발생되므로 되도록
 재사용 코드가 필요하다고 인지되는 시점에 바로 개발하는 것이 좋다.</p>
-<h3 id="끝" tabindex="-1"><a class="header-anchor" href="#끝" aria-hidden="true">#</a> 끝</h3>
 </div></template>
 
 
