@@ -76,11 +76,13 @@ In this project, we documented specific ways to improve performance within the c
 Performance Improvement Guide Document
 - Affiliation: Kakao / FE Platform Team / Platform FE Part
 - Period: 2021.04 ~ 2021.12
+
 Overview
 - 3 people in charge
 - Writing an internal performance improvement guide document
 - Consists of performance measurement method / performance indicator guide / improvement method / improvement case.
 - Pilot conducted and deployed for the service target of the part within the team
+
 Roles and tasks performed
 - In charge of document writing and leading
 - Wrote 58% of the entire document

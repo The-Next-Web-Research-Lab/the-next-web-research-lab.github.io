@@ -41,7 +41,6 @@ Here's an example of a list of questions I wrote while preparing for an intervie
 - Did React Query solve it?
 - How was the conversion process?
 - Were there any inconveniences caused by the introduction of React Query?
-
 ```
 
 ### List of questions by type Examples

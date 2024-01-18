@@ -5,7 +5,7 @@ title: "Stress Management: Refactor Yourself to Manage Stress"
 ## Why do we need stress management?
 Do you feel stressed when something unexpected happens or when you are overloaded with information? I'm a planner and cautious person, so I get stressed out when something unexpected happens that I'm not used to. And when information overload occurred, judgment would be clouded.
 
-[Stress at the Centers for Disease Control and Preventionis](https://www.mentalhealth.go.kr/portal/disease/diseaseDetail.do?dissId=30&srCodeNm=%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%8A%A4) considered one of the mental illnesses. When people are stressed, their judgment is clouded, and they are unable to perform to their full potential. In other words, if you reduce the points of stress, your work efficiency will increase accordingly.
+[Stress at the Centers for Disease Control and Preventionis](https://www.mentalhealth.go.kr/portal/disease/diseaseDetail.do?dissId=30&srCodeNm=%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%8A%A4) is considered one of the mental illnesses. When people are stressed, their judgment is clouded, and they are unable to perform to their full potential. In other words, if you reduce the points of stress, your work efficiency will increase accordingly.
 
 ## Reducing Stress
 ### Reduce simple, repetitive tasks
