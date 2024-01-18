@@ -149,8 +149,16 @@ export const pagesData = {
   "v-593b8a7a": () => import(/* webpackChunkName: "v-593b8a7a" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/essay/web-accessibility.html.js").then(({ data }) => data),
   // path: /en/essay/web-usability-review.html
   "v-d157a8f0": () => import(/* webpackChunkName: "v-d157a8f0" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/essay/web-usability-review.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/books.html
+  "v-117a160a": () => import(/* webpackChunkName: "v-117a160a" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/books.html.js").then(({ data }) => data),
   // path: /en/fe-dev/interview-guide.html
   "v-2bd8a9f8": () => import(/* webpackChunkName: "v-2bd8a9f8" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/interview-guide.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/optimization.html
+  "v-c8ab8cde": () => import(/* webpackChunkName: "v-c8ab8cde" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/optimization.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/project-management.html
+  "v-ef1a6bf2": () => import(/* webpackChunkName: "v-ef1a6bf2" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/project-management.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/refactoring.html
+  "v-0b459258": () => import(/* webpackChunkName: "v-0b459258" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/refactoring.html.js").then(({ data }) => data),
   // path: /en/fe-dev/self-management.html
   "v-591109d0": () => import(/* webpackChunkName: "v-591109d0" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/self-management.html.js").then(({ data }) => data),
   // path: /en/next-web-research/battery.html
@@ -327,20 +335,6 @@ export const pagesData = {
   "v-752ce9d8": () => import(/* webpackChunkName: "v-752ce9d8" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/optimization/rail.html.js").then(({ data }) => data),
   // path: /fe-dev/optimization/web-vitals.html
   "v-12497326": () => import(/* webpackChunkName: "v-12497326" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/optimization/web-vitals.html.js").then(({ data }) => data),
-  // path: /fe-dev/paradigm/back-to-the-imperative.html
-  "v-4d1ec4d0": () => import(/* webpackChunkName: "v-4d1ec4d0" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/paradigm/back-to-the-imperative.html.js").then(({ data }) => data),
-  // path: /fe-dev/paradigm/functional.html
-  "v-1ad120be": () => import(/* webpackChunkName: "v-1ad120be" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/paradigm/functional.html.js").then(({ data }) => data),
-  // path: /fe-dev/paradigm/functional2.html
-  "v-63f33a1f": () => import(/* webpackChunkName: "v-63f33a1f" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/paradigm/functional2.html.js").then(({ data }) => data),
-  // path: /fe-dev/paradigm/object.html
-  "v-64c14965": () => import(/* webpackChunkName: "v-64c14965" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/paradigm/object.html.js").then(({ data }) => data),
-  // path: /fe-dev/paradigm/produce-immutable.html
-  "v-8507204e": () => import(/* webpackChunkName: "v-8507204e" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/paradigm/produce-immutable.html.js").then(({ data }) => data),
-  // path: /fe-dev/paradigm/produce-oop.html
-  "v-075aed0b": () => import(/* webpackChunkName: "v-075aed0b" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/paradigm/produce-oop.html.js").then(({ data }) => data),
-  // path: /fe-dev/paradigm/produce.html
-  "v-4082de24": () => import(/* webpackChunkName: "v-4082de24" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/paradigm/produce.html.js").then(({ data }) => data),
   // path: /fe-dev/pet-project/axios.html
   "v-dffdb214": () => import(/* webpackChunkName: "v-dffdb214" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/pet-project/axios.html.js").then(({ data }) => data),
   // path: /fe-dev/pet-project/immerjs.html
@@ -353,18 +347,6 @@ export const pagesData = {
   "v-244046f8": () => import(/* webpackChunkName: "v-244046f8" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/pet-project/vue2-part.html.js").then(({ data }) => data),
   // path: /fe-dev/pet-project/vuex.html
   "v-05655934": () => import(/* webpackChunkName: "v-05655934" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/pet-project/vuex.html.js").then(({ data }) => data),
-  // path: /fe-dev/project-management/estimation.html
-  "v-037d2f45": () => import(/* webpackChunkName: "v-037d2f45" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/project-management/estimation.html.js").then(({ data }) => data),
-  // path: /fe-dev/project-management/facilitation-for-meeting.html
-  "v-2e9cdd72": () => import(/* webpackChunkName: "v-2e9cdd72" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/project-management/facilitation-for-meeting.html.js").then(({ data }) => data),
-  // path: /fe-dev/project-management/git-scm-experience.html
-  "v-f89c23ca": () => import(/* webpackChunkName: "v-f89c23ca" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/project-management/git-scm-experience.html.js").then(({ data }) => data),
-  // path: /fe-dev/project-management/preventive-maintenance.html
-  "v-a8a0fe2c": () => import(/* webpackChunkName: "v-a8a0fe2c" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/project-management/preventive-maintenance.html.js").then(({ data }) => data),
-  // path: /fe-dev/project-management/release.html
-  "v-7af9ccfb": () => import(/* webpackChunkName: "v-7af9ccfb" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/project-management/release.html.js").then(({ data }) => data),
-  // path: /fe-dev/project-management/software-lifecycle.html
-  "v-4092052c": () => import(/* webpackChunkName: "v-4092052c" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/project-management/software-lifecycle.html.js").then(({ data }) => data),
   // path: /fe-dev/refactoring/legacy-code-to-easy-code-2.html
   "v-f29b2598": () => import(/* webpackChunkName: "v-f29b2598" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/refactoring/legacy-code-to-easy-code-2.html.js").then(({ data }) => data),
   // path: /fe-dev/refactoring/legacy-code-to-easy-code.html
@@ -379,20 +361,84 @@ export const pagesData = {
   "v-7b77b77a": () => import(/* webpackChunkName: "v-7b77b77a" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/refactoring/test-guide.html.js").then(({ data }) => data),
   // path: /fe-dev/refactoring/test-types.html
   "v-5836801d": () => import(/* webpackChunkName: "v-5836801d" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/refactoring/test-types.html.js").then(({ data }) => data),
+  // path: /fe-dev/project-management/estimation.html
+  "v-037d2f45": () => import(/* webpackChunkName: "v-037d2f45" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/project-management/estimation.html.js").then(({ data }) => data),
+  // path: /fe-dev/project-management/facilitation-for-meeting.html
+  "v-2e9cdd72": () => import(/* webpackChunkName: "v-2e9cdd72" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/project-management/facilitation-for-meeting.html.js").then(({ data }) => data),
+  // path: /fe-dev/project-management/git-scm-experience.html
+  "v-f89c23ca": () => import(/* webpackChunkName: "v-f89c23ca" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/project-management/git-scm-experience.html.js").then(({ data }) => data),
+  // path: /fe-dev/project-management/preventive-maintenance.html
+  "v-a8a0fe2c": () => import(/* webpackChunkName: "v-a8a0fe2c" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/project-management/preventive-maintenance.html.js").then(({ data }) => data),
+  // path: /fe-dev/project-management/release.html
+  "v-7af9ccfb": () => import(/* webpackChunkName: "v-7af9ccfb" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/project-management/release.html.js").then(({ data }) => data),
+  // path: /fe-dev/project-management/software-lifecycle.html
+  "v-4092052c": () => import(/* webpackChunkName: "v-4092052c" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/project-management/software-lifecycle.html.js").then(({ data }) => data),
+  // path: /fe-dev/paradigm/back-to-the-imperative.html
+  "v-4d1ec4d0": () => import(/* webpackChunkName: "v-4d1ec4d0" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/paradigm/back-to-the-imperative.html.js").then(({ data }) => data),
+  // path: /fe-dev/paradigm/functional.html
+  "v-1ad120be": () => import(/* webpackChunkName: "v-1ad120be" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/paradigm/functional.html.js").then(({ data }) => data),
+  // path: /fe-dev/paradigm/functional2.html
+  "v-63f33a1f": () => import(/* webpackChunkName: "v-63f33a1f" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/paradigm/functional2.html.js").then(({ data }) => data),
+  // path: /fe-dev/paradigm/object.html
+  "v-64c14965": () => import(/* webpackChunkName: "v-64c14965" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/paradigm/object.html.js").then(({ data }) => data),
+  // path: /fe-dev/paradigm/produce-immutable.html
+  "v-8507204e": () => import(/* webpackChunkName: "v-8507204e" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/paradigm/produce-immutable.html.js").then(({ data }) => data),
+  // path: /fe-dev/paradigm/produce-oop.html
+  "v-075aed0b": () => import(/* webpackChunkName: "v-075aed0b" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/paradigm/produce-oop.html.js").then(({ data }) => data),
+  // path: /fe-dev/paradigm/produce.html
+  "v-4082de24": () => import(/* webpackChunkName: "v-4082de24" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/paradigm/produce.html.js").then(({ data }) => data),
   // path: /fe-dev/self-management/project-history.html
   "v-5e256933": () => import(/* webpackChunkName: "v-5e256933" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/self-management/project-history.html.js").then(({ data }) => data),
   // path: /fe-dev/self-management/stress-management.html
   "v-ccf1b7d2": () => import(/* webpackChunkName: "v-ccf1b7d2" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/self-management/stress-management.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/books/12.html
+  "v-649d7578": () => import(/* webpackChunkName: "v-649d7578" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/books/12.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/books/13.html
+  "v-66524e17": () => import(/* webpackChunkName: "v-66524e17" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/books/13.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/books/17.html
+  "v-6d25b093": () => import(/* webpackChunkName: "v-6d25b093" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/books/17.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/books/18.html
+  "v-6eda8932": () => import(/* webpackChunkName: "v-6eda8932" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/books/18.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/books/2.html
+  "v-7030bdc7": () => import(/* webpackChunkName: "v-7030bdc7" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/books/2.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/books/22.html
+  "v-ccf89e8e": () => import(/* webpackChunkName: "v-ccf89e8e" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/books/22.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/books/4.html
+  "v-739a6f05": () => import(/* webpackChunkName: "v-739a6f05" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/books/4.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/refactoring/refactoring-meaning-and-result.html
+  "v-3cb0a0bf": () => import(/* webpackChunkName: "v-3cb0a0bf" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/refactoring/refactoring-meaning-and-result.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/refactoring/tdd-bdd.html
+  "v-ebdab7cc": () => import(/* webpackChunkName: "v-ebdab7cc" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/refactoring/tdd-bdd.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/refactoring/test-types.html
+  "v-6c200f31": () => import(/* webpackChunkName: "v-6c200f31" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/refactoring/test-types.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/self-management/project-history.html
+  "v-876cdec2": () => import(/* webpackChunkName: "v-876cdec2" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/self-management/project-history.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/self-management/stress-management.html
+  "v-0181befa": () => import(/* webpackChunkName: "v-0181befa" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/self-management/stress-management.html.js").then(({ data }) => data),
   // path: /en/fe-dev/interview-guide/interview-process.html
   "v-09e05620": () => import(/* webpackChunkName: "v-09e05620" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/interview-guide/interview-process.html.js").then(({ data }) => data),
   // path: /en/fe-dev/interview-guide/questions-list.html
   "v-6c67e061": () => import(/* webpackChunkName: "v-6c67e061" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/interview-guide/questions-list.html.js").then(({ data }) => data),
   // path: /en/fe-dev/interview-guide/success-criteria.html
   "v-6b7828f6": () => import(/* webpackChunkName: "v-6b7828f6" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/interview-guide/success-criteria.html.js").then(({ data }) => data),
-  // path: /en/fe-dev/self-management/project-history.html
-  "v-876cdec2": () => import(/* webpackChunkName: "v-876cdec2" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/self-management/project-history.html.js").then(({ data }) => data),
-  // path: /en/fe-dev/self-management/stress-management.html
-  "v-0181befa": () => import(/* webpackChunkName: "v-0181befa" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/self-management/stress-management.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/optimization/browser_cache.html
+  "v-17e75d35": () => import(/* webpackChunkName: "v-17e75d35" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/optimization/browser_cache.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/optimization/chrome-network-tab.html
+  "v-72e17d62": () => import(/* webpackChunkName: "v-72e17d62" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/optimization/chrome-network-tab.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/optimization/monitoring.html
+  "v-799aac6c": () => import(/* webpackChunkName: "v-799aac6c" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/optimization/monitoring.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/optimization/rail.html
+  "v-dac04100": () => import(/* webpackChunkName: "v-dac04100" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/optimization/rail.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/optimization/web-vitals.html
+  "v-7b91c692": () => import(/* webpackChunkName: "v-7b91c692" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/optimization/web-vitals.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/project-management/estimation.html
+  "v-4d1c41b1": () => import(/* webpackChunkName: "v-4d1c41b1" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/project-management/estimation.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/project-management/preventive-maintenance.html
+  "v-548a5156": () => import(/* webpackChunkName: "v-548a5156" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/project-management/preventive-maintenance.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/project-management/release.html
+  "v-529db20f": () => import(/* webpackChunkName: "v-529db20f" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/project-management/release.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/project-management/software-lifecycle.html
+  "v-504428d0": () => import(/* webpackChunkName: "v-504428d0" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/project-management/software-lifecycle.html.js").then(({ data }) => data),
   // path: /fe-dev/code-snippets/CSS3/Flex.html
   "v-7cb32589": () => import(/* webpackChunkName: "v-7cb32589" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/CSS3/Flex.html.js").then(({ data }) => data),
   // path: /fe-dev/code-snippets/CSS3/MaskImage.html
@@ -405,8 +451,26 @@ export const pagesData = {
   "v-6723792e": () => import(/* webpackChunkName: "v-6723792e" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/Data-Structure/Set.html.js").then(({ data }) => data),
   // path: /fe-dev/code-snippets/Data-Structure/Stack.html
   "v-1b625908": () => import(/* webpackChunkName: "v-1b625908" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/Data-Structure/Stack.html.js").then(({ data }) => data),
-  // path: /fe-dev/code-snippets/Functional/Functional.html
-  "v-5dbe1a72": () => import(/* webpackChunkName: "v-5dbe1a72" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/Functional/Functional.html.js").then(({ data }) => data),
+  // path: /fe-dev/code-snippets/Javascript/Array.html
+  "v-c49f2d8c": () => import(/* webpackChunkName: "v-c49f2d8c" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/Javascript/Array.html.js").then(({ data }) => data),
+  // path: /fe-dev/code-snippets/Javascript/Date.html
+  "v-50cb1791": () => import(/* webpackChunkName: "v-50cb1791" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/Javascript/Date.html.js").then(({ data }) => data),
+  // path: /fe-dev/code-snippets/Javascript/Iterable.html
+  "v-ea814b66": () => import(/* webpackChunkName: "v-ea814b66" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/Javascript/Iterable.html.js").then(({ data }) => data),
+  // path: /fe-dev/code-snippets/Javascript/Object.html
+  "v-43c7b5c0": () => import(/* webpackChunkName: "v-43c7b5c0" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/Javascript/Object.html.js").then(({ data }) => data),
+  // path: /fe-dev/code-snippets/Javascript/RegExp.html
+  "v-10c321b6": () => import(/* webpackChunkName: "v-10c321b6" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/Javascript/RegExp.html.js").then(({ data }) => data),
+  // path: /fe-dev/code-snippets/Javascript/String.html
+  "v-5f92c8e4": () => import(/* webpackChunkName: "v-5f92c8e4" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/Javascript/String.html.js").then(({ data }) => data),
+  // path: /fe-dev/code-snippets/HTML5/FetchApi.html
+  "v-0744ab8c": () => import(/* webpackChunkName: "v-0744ab8c" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/HTML5/FetchApi.html.js").then(({ data }) => data),
+  // path: /fe-dev/code-snippets/HTML5/FileReader.html
+  "v-a50dec66": () => import(/* webpackChunkName: "v-a50dec66" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/HTML5/FileReader.html.js").then(({ data }) => data),
+  // path: /fe-dev/code-snippets/HTML5/HTML5.html
+  "v-445e5b88": () => import(/* webpackChunkName: "v-445e5b88" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/HTML5/HTML5.html.js").then(({ data }) => data),
+  // path: /fe-dev/code-snippets/HTML5/SVG.html
+  "v-06310d62": () => import(/* webpackChunkName: "v-06310d62" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/HTML5/SVG.html.js").then(({ data }) => data),
   // path: /fe-dev/code-snippets/Helper/clone.html
   "v-47bcb7b5": () => import(/* webpackChunkName: "v-47bcb7b5" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/Helper/clone.html.js").then(({ data }) => data),
   // path: /fe-dev/code-snippets/Helper/component.html
@@ -429,14 +493,6 @@ export const pagesData = {
   "v-8d9a654e": () => import(/* webpackChunkName: "v-8d9a654e" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/Helper/shuffle.html.js").then(({ data }) => data),
   // path: /fe-dev/code-snippets/Helper/template-binding.html
   "v-556f9fa4": () => import(/* webpackChunkName: "v-556f9fa4" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/Helper/template-binding.html.js").then(({ data }) => data),
-  // path: /fe-dev/code-snippets/HTML5/FetchApi.html
-  "v-0744ab8c": () => import(/* webpackChunkName: "v-0744ab8c" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/HTML5/FetchApi.html.js").then(({ data }) => data),
-  // path: /fe-dev/code-snippets/HTML5/FileReader.html
-  "v-a50dec66": () => import(/* webpackChunkName: "v-a50dec66" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/HTML5/FileReader.html.js").then(({ data }) => data),
-  // path: /fe-dev/code-snippets/HTML5/HTML5.html
-  "v-445e5b88": () => import(/* webpackChunkName: "v-445e5b88" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/HTML5/HTML5.html.js").then(({ data }) => data),
-  // path: /fe-dev/code-snippets/HTML5/SVG.html
-  "v-06310d62": () => import(/* webpackChunkName: "v-06310d62" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/HTML5/SVG.html.js").then(({ data }) => data),
   // path: /fe-dev/code-snippets/OpenSources/chart-adaptor.html
   "v-ba9cbee8": () => import(/* webpackChunkName: "v-ba9cbee8" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/OpenSources/chart-adaptor.html.js").then(({ data }) => data),
   // path: /fe-dev/code-snippets/OpenSources/editor.html
@@ -447,18 +503,8 @@ export const pagesData = {
   "v-576d1a30": () => import(/* webpackChunkName: "v-576d1a30" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/OpenSources/express-server.html.js").then(({ data }) => data),
   // path: /fe-dev/code-snippets/OpenSources/pdfjs-sample.html
   "v-5741d7b4": () => import(/* webpackChunkName: "v-5741d7b4" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/OpenSources/pdfjs-sample.html.js").then(({ data }) => data),
-  // path: /fe-dev/code-snippets/Javascript/Array.html
-  "v-c49f2d8c": () => import(/* webpackChunkName: "v-c49f2d8c" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/Javascript/Array.html.js").then(({ data }) => data),
-  // path: /fe-dev/code-snippets/Javascript/Date.html
-  "v-50cb1791": () => import(/* webpackChunkName: "v-50cb1791" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/Javascript/Date.html.js").then(({ data }) => data),
-  // path: /fe-dev/code-snippets/Javascript/Iterable.html
-  "v-ea814b66": () => import(/* webpackChunkName: "v-ea814b66" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/Javascript/Iterable.html.js").then(({ data }) => data),
-  // path: /fe-dev/code-snippets/Javascript/Object.html
-  "v-43c7b5c0": () => import(/* webpackChunkName: "v-43c7b5c0" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/Javascript/Object.html.js").then(({ data }) => data),
-  // path: /fe-dev/code-snippets/Javascript/RegExp.html
-  "v-10c321b6": () => import(/* webpackChunkName: "v-10c321b6" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/Javascript/RegExp.html.js").then(({ data }) => data),
-  // path: /fe-dev/code-snippets/Javascript/String.html
-  "v-5f92c8e4": () => import(/* webpackChunkName: "v-5f92c8e4" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/Javascript/String.html.js").then(({ data }) => data),
+  // path: /fe-dev/code-snippets/Functional/Functional.html
+  "v-5dbe1a72": () => import(/* webpackChunkName: "v-5dbe1a72" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/Functional/Functional.html.js").then(({ data }) => data),
   // path: /fe-dev/code-snippets/Reactive/Reactive.html
   "v-2c1d129c": () => import(/* webpackChunkName: "v-2c1d129c" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/Reactive/Reactive.html.js").then(({ data }) => data),
   // path: /fe-dev/code-snippets/UIComponent/Boilerplate.html
@@ -481,6 +527,16 @@ export const pagesData = {
   "v-7d062abf": () => import(/* webpackChunkName: "v-7d062abf" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/design-patterns/gof/structural.html.js").then(({ data }) => data),
   // path: /fe-dev/design-patterns/gof/summary.html
   "v-56a8f9a0": () => import(/* webpackChunkName: "v-56a8f9a0" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/design-patterns/gof/summary.html.js").then(({ data }) => data),
+  // path: /fe-dev/pet-project/mvc/2020-08-mvc-class.html
+  "v-7a4f16b0": () => import(/* webpackChunkName: "v-7a4f16b0" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/pet-project/mvc/2020-08-mvc-class.html.js").then(({ data }) => data),
+  // path: /fe-dev/pet-project/mvc/2020-08-mvc-function.html
+  "v-7f2f8952": () => import(/* webpackChunkName: "v-7f2f8952" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/pet-project/mvc/2020-08-mvc-function.html.js").then(({ data }) => data),
+  // path: /fe-dev/pet-project/mvc/2020-08-mvc.html
+  "v-28409abb": () => import(/* webpackChunkName: "v-28409abb" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/pet-project/mvc/2020-08-mvc.html.js").then(({ data }) => data),
+  // path: /fe-dev/pet-project/mvc/2021-07-mvc-class.html
+  "v-66679a92": () => import(/* webpackChunkName: "v-66679a92" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/pet-project/mvc/2021-07-mvc-class.html.js").then(({ data }) => data),
+  // path: /fe-dev/pet-project/mvc/2021-07-mvc.html
+  "v-227a301d": () => import(/* webpackChunkName: "v-227a301d" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/pet-project/mvc/2021-07-mvc.html.js").then(({ data }) => data),
   // path: /fe-dev/pet-project/component/2020-08-component.html
   "v-ea9ac096": () => import(/* webpackChunkName: "v-ea9ac096" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/pet-project/component/2020-08-component.html.js").then(({ data }) => data),
   // path: /fe-dev/pet-project/component/fragment-dom.html
@@ -493,16 +549,6 @@ export const pagesData = {
   "v-282c544d": () => import(/* webpackChunkName: "v-282c544d" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/pet-project/component/simple-dom.html.js").then(({ data }) => data),
   // path: /fe-dev/pet-project/component/vuex-feature.html
   "v-730cfe4e": () => import(/* webpackChunkName: "v-730cfe4e" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/pet-project/component/vuex-feature.html.js").then(({ data }) => data),
-  // path: /fe-dev/pet-project/mvc/2020-08-mvc-class.html
-  "v-7a4f16b0": () => import(/* webpackChunkName: "v-7a4f16b0" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/pet-project/mvc/2020-08-mvc-class.html.js").then(({ data }) => data),
-  // path: /fe-dev/pet-project/mvc/2020-08-mvc-function.html
-  "v-7f2f8952": () => import(/* webpackChunkName: "v-7f2f8952" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/pet-project/mvc/2020-08-mvc-function.html.js").then(({ data }) => data),
-  // path: /fe-dev/pet-project/mvc/2020-08-mvc.html
-  "v-28409abb": () => import(/* webpackChunkName: "v-28409abb" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/pet-project/mvc/2020-08-mvc.html.js").then(({ data }) => data),
-  // path: /fe-dev/pet-project/mvc/2021-07-mvc-class.html
-  "v-66679a92": () => import(/* webpackChunkName: "v-66679a92" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/pet-project/mvc/2021-07-mvc-class.html.js").then(({ data }) => data),
-  // path: /fe-dev/pet-project/mvc/2021-07-mvc.html
-  "v-227a301d": () => import(/* webpackChunkName: "v-227a301d" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/pet-project/mvc/2021-07-mvc.html.js").then(({ data }) => data),
   // path: /fe-dev/code-snippets/OpenSources/chart-adaptor/c3-adaptor/
   "v-d3fed2b6": () => import(/* webpackChunkName: "v-d3fed2b6" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/OpenSources/chart-adaptor/c3-adaptor/index.html.js").then(({ data }) => data),
   // path: /404.html
@@ -535,44 +581,52 @@ export const pagesData = {
   "v-5703f313": () => import(/* webpackChunkName: "v-5703f313" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/javascript/index.html.js").then(({ data }) => data),
   // path: /fe-dev/optimization/
   "v-6c8d5a5a": () => import(/* webpackChunkName: "v-6c8d5a5a" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/optimization/index.html.js").then(({ data }) => data),
-  // path: /fe-dev/paradigm/
-  "v-59181875": () => import(/* webpackChunkName: "v-59181875" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/paradigm/index.html.js").then(({ data }) => data),
   // path: /fe-dev/pet-project/
   "v-3cfc16da": () => import(/* webpackChunkName: "v-3cfc16da" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/pet-project/index.html.js").then(({ data }) => data),
-  // path: /fe-dev/project-management/
-  "v-4d356d49": () => import(/* webpackChunkName: "v-4d356d49" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/project-management/index.html.js").then(({ data }) => data),
   // path: /fe-dev/refactoring/
   "v-52d0ff84": () => import(/* webpackChunkName: "v-52d0ff84" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/refactoring/index.html.js").then(({ data }) => data),
+  // path: /fe-dev/project-management/
+  "v-4d356d49": () => import(/* webpackChunkName: "v-4d356d49" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/project-management/index.html.js").then(({ data }) => data),
+  // path: /fe-dev/paradigm/
+  "v-59181875": () => import(/* webpackChunkName: "v-59181875" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/paradigm/index.html.js").then(({ data }) => data),
   // path: /fe-dev/self-management/
   "v-f0c0718c": () => import(/* webpackChunkName: "v-f0c0718c" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/self-management/index.html.js").then(({ data }) => data),
-  // path: /en/fe-dev/interview-guide/
-  "v-2e37904c": () => import(/* webpackChunkName: "v-2e37904c" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/interview-guide/index.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/books/
+  "v-a0d5d440": () => import(/* webpackChunkName: "v-a0d5d440" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/books/index.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/refactoring/
+  "v-2e27a8ac": () => import(/* webpackChunkName: "v-2e27a8ac" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/refactoring/index.html.js").then(({ data }) => data),
   // path: /en/fe-dev/self-management/
   "v-80ce46b4": () => import(/* webpackChunkName: "v-80ce46b4" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/self-management/index.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/interview-guide/
+  "v-2e37904c": () => import(/* webpackChunkName: "v-2e37904c" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/interview-guide/index.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/optimization/
+  "v-01fa14e7": () => import(/* webpackChunkName: "v-01fa14e7" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/optimization/index.html.js").then(({ data }) => data),
+  // path: /en/fe-dev/project-management/
+  "v-1f4d5f46": () => import(/* webpackChunkName: "v-1f4d5f46" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/en/fe-dev/project-management/index.html.js").then(({ data }) => data),
   // path: /fe-dev/code-snippets/CSS3/
   "v-05b7acb7": () => import(/* webpackChunkName: "v-05b7acb7" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/CSS3/index.html.js").then(({ data }) => data),
   // path: /fe-dev/code-snippets/Data-Structure/
   "v-5d2d2b52": () => import(/* webpackChunkName: "v-5d2d2b52" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/Data-Structure/index.html.js").then(({ data }) => data),
-  // path: /fe-dev/code-snippets/Functional/
-  "v-6a44c1a4": () => import(/* webpackChunkName: "v-6a44c1a4" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/Functional/index.html.js").then(({ data }) => data),
-  // path: /fe-dev/code-snippets/Helper/
-  "v-c19ac54e": () => import(/* webpackChunkName: "v-c19ac54e" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/Helper/index.html.js").then(({ data }) => data),
-  // path: /fe-dev/code-snippets/HTML5/
-  "v-8c5c3d66": () => import(/* webpackChunkName: "v-8c5c3d66" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/HTML5/index.html.js").then(({ data }) => data),
-  // path: /fe-dev/code-snippets/OpenSources/
-  "v-3169186e": () => import(/* webpackChunkName: "v-3169186e" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/OpenSources/index.html.js").then(({ data }) => data),
   // path: /fe-dev/code-snippets/Javascript/
   "v-3b80bf7a": () => import(/* webpackChunkName: "v-3b80bf7a" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/Javascript/index.html.js").then(({ data }) => data),
+  // path: /fe-dev/code-snippets/HTML5/
+  "v-8c5c3d66": () => import(/* webpackChunkName: "v-8c5c3d66" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/HTML5/index.html.js").then(({ data }) => data),
+  // path: /fe-dev/code-snippets/Helper/
+  "v-c19ac54e": () => import(/* webpackChunkName: "v-c19ac54e" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/Helper/index.html.js").then(({ data }) => data),
+  // path: /fe-dev/code-snippets/OpenSources/
+  "v-3169186e": () => import(/* webpackChunkName: "v-3169186e" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/OpenSources/index.html.js").then(({ data }) => data),
+  // path: /fe-dev/code-snippets/Functional/
+  "v-6a44c1a4": () => import(/* webpackChunkName: "v-6a44c1a4" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/Functional/index.html.js").then(({ data }) => data),
   // path: /fe-dev/code-snippets/Reactive/
   "v-0c69d56e": () => import(/* webpackChunkName: "v-0c69d56e" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/Reactive/index.html.js").then(({ data }) => data),
   // path: /fe-dev/code-snippets/UIComponent/
   "v-4071e44e": () => import(/* webpackChunkName: "v-4071e44e" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/UIComponent/index.html.js").then(({ data }) => data),
   // path: /fe-dev/design-patterns/gof/
   "v-4aa7c5bd": () => import(/* webpackChunkName: "v-4aa7c5bd" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/design-patterns/gof/index.html.js").then(({ data }) => data),
-  // path: /fe-dev/pet-project/component/
-  "v-13481ba5": () => import(/* webpackChunkName: "v-13481ba5" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/pet-project/component/index.html.js").then(({ data }) => data),
   // path: /fe-dev/pet-project/mvc/
   "v-a09a72b0": () => import(/* webpackChunkName: "v-a09a72b0" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/pet-project/mvc/index.html.js").then(({ data }) => data),
+  // path: /fe-dev/pet-project/component/
+  "v-13481ba5": () => import(/* webpackChunkName: "v-13481ba5" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/pet-project/component/index.html.js").then(({ data }) => data),
   // path: /fe-dev/code-snippets/OpenSources/chart-adaptor/
   "v-60ab9d3c": () => import(/* webpackChunkName: "v-60ab9d3c" */"C:/Users/04whd/OneDrive/바탕 화면/저장소/the-next-web-research-lab.github.io/docs/.vuepress/.temp/pages/fe-dev/code-snippets/OpenSources/chart-adaptor/index.html.js").then(({ data }) => data),
   // path: /category/

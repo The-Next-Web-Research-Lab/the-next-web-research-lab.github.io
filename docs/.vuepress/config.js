@@ -219,57 +219,57 @@ export default {
           {
             text: 'Pragmatic Frontend',
             children: [{
-              text: 'Self-care',
-              link: '/en/fe-dev/self-management'
-            }
-            // , {
-            //   text: '프로그래밍 언어',
-            //   link: '/fe-dev/javascript'
-            // }, {
-            //   text: '좋은코드',
-            //   link: '/fe-dev/good-code'
-            // },
-            ,{
-              text: 'Refactoring',
-              link: '/en/fe-dev/refactoring'
-            },
-            {
-              text: 'Project Management',
-              link: '/en/fe-dev/project-management'
-            },
-            // {
-            //   text: 'React / Vue / Angular',
-            //   link: '/fe-dev/framework',
-            // },
-            // {
-            //   text: '명령형 / 객체지향 / 함수형',
-            //   link: '/fe-dev/paradigm'
-            // },
-            // {
-            //   text: '코드 스니펫',
-            //   link: '/fe-dev/code-snippets'
-            // },
-            // {
-            //   text: '펫 프로젝트',
-            //   link: '/fe-dev/pet-project'
-            // },
-            // {
-            //   text: '디자인 패턴',
-            //   link: '/fe-dev/design-patterns'
-            // },
-            ,{
-              text: 'Performance Optimization',
-              link: '/en/fe-dev/optimization'
-            },
-            {
-              text: 'Book Reviews',
-              link: '/en/fe-dev/books'
-            },
-            , {
-               text: "Interviewer's Guide",
-               link: '/en/fe-dev/interview-guide'
-            },
-          ]
+                text: 'Self-care',
+                link: '/en/fe-dev/self-management'
+              },
+              // , {
+              //   text: '프로그래밍 언어',
+              //   link: '/fe-dev/javascript'
+              // }, {
+              //   text: '좋은코드',
+              //   link: '/fe-dev/good-code'
+              // },
+              {
+                text: 'Refactoring',
+                link: '/en/fe-dev/refactoring'
+              },
+              {
+                text: 'Project Management',
+                link: '/en/fe-dev/project-management'
+              }
+              // {
+              //   text: 'React / Vue / Angular',
+              //   link: '/fe-dev/framework',
+              // },
+              // {
+              //   text: '명령형 / 객체지향 / 함수형',
+              //   link: '/fe-dev/paradigm'
+              // },
+              // {
+              //   text: '코드 스니펫',
+              //   link: '/fe-dev/code-snippets'
+              // },
+              // {
+              //   text: '펫 프로젝트',
+              //   link: '/fe-dev/pet-project'
+              // },
+              // {
+              //   text: '디자인 패턴',
+              //   link: '/fe-dev/design-patterns'
+              // },
+              ,{
+                text: 'Performance Optimization',
+                link: '/en/fe-dev/optimization'
+              },
+              {
+                text: 'Book Reviews',
+                link: '/en/fe-dev/books'
+              },
+              {
+                text: "Interviewer's Guide",
+                link: '/en/fe-dev/interview-guide'
+              },
+            ]
           },
           {
             text: 'Summary of experience',

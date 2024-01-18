@@ -8,7 +8,7 @@ heroFullScreen: true
 heroImage: /images/black_logo.png
 heroAlt: The Next Web Research Lab
 heroText: The Next Web Research Lab
-tagline: Take a handful of knowledge from the simple FE tech blog!
+tagline: Take a handful of knowledge<br />from the simple FE tech blog!
 # actions:
 #   - text: 더넥스트웹리서치랩 소개
 #     link: /intro
