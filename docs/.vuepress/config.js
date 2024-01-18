@@ -257,10 +257,10 @@ export default {
             //   text: '디자인 패턴',
             //   link: '/fe-dev/design-patterns'
             // },
-            // {
-            //   text: '성능 최적화',
-            //   link: '/fe-dev/optimization'
-            // },
+            ,{
+              text: 'Performance Optimization',
+              link: '/en/fe-dev/optimization'
+            },
             // {
             //   text: '도서 리뷰',
             //   link: '/fe-dev/books'
@@ -399,15 +399,15 @@ export default {
           //       '/fe-dev/books/15',
           //     ]
           //   }
-          // ],
-          // '/fe-dev/optimization': [
-          //   '/fe-dev/optimization.md',
-          //   '/fe-dev/optimization/rail',
-          //   '/fe-dev/optimization/web-vitals',
-          //   '/fe-dev/optimization/monitoring',
-          //   '/fe-dev/optimization/chrome-network-tab',
-          //   '/fe-dev/optimization/browser_cache'
-          // ],
+          // ]
+          , '/en/fe-dev/optimization': [
+            '/en/fe-dev/optimization.md',
+            '/en/fe-dev/optimization/rail',
+            '/en/fe-dev/optimization/web-vitals',
+            '/en/fe-dev/optimization/monitoring',
+            '/en/fe-dev/optimization/chrome-network-tab',
+            '/en/fe-dev/optimization/browser_cache'
+          ],
           // '/fe-dev/javascript': [
           //   '/fe-dev/javascript.md',
           //   {
