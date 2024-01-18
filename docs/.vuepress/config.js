@@ -229,14 +229,14 @@ export default {
             //   text: '좋은코드',
             //   link: '/fe-dev/good-code'
             // },
-            // {
-            //   text: '리팩터링',
-            //   link: '/fe-dev/refactoring'
-            // },
-            // {
-            //   text: '프로젝트 관리',
-            //   link: '/fe-dev/project-management'
-            // },
+            ,{
+              text: 'Refactoring',
+              link: '/en/fe-dev/refactoring'
+            },
+            {
+              text: 'Project Management',
+              link: '/en/fe-dev/project-management'
+            },
             // {
             //   text: 'React / Vue / Angular',
             //   link: '/fe-dev/framework',
@@ -261,10 +261,10 @@ export default {
               text: 'Performance Optimization',
               link: '/en/fe-dev/optimization'
             },
-            // {
-            //   text: '도서 리뷰',
-            //   link: '/fe-dev/books'
-            // },
+            {
+              text: 'Book Reviews',
+              link: '/en/fe-dev/books'
+            },
             , {
                text: "Interviewer's Guide",
                link: '/en/fe-dev/interview-guide'
@@ -344,9 +344,9 @@ export default {
                 '/en/essay/observation-mechanism/',
               ]
             }
-          ]
-          // , '/fe-dev/books': [
-          //   '/fe-dev/books.md',
+          ],
+          '/en/fe-dev/books': [
+            '/en/fe-dev/books.md',
           //   {
           //     text: '프로그래밍 페러다임',
           //     children: [
@@ -356,14 +356,14 @@ export default {
           //       '/fe-dev/books/20',
           //     ]
           //   },
-          //   {
-          //     text: '클린 시리즈',
-          //     children: [
+            {
+              text: 'Clean Series',
+              children: [
           //       '/fe-dev/books/1',
-          //       '/fe-dev/books/2',
-          //       '/fe-dev/books/18',
-          //     ]
-          //   },
+                '/en/fe-dev/books/2',
+                '/en/fe-dev/books/18',
+              ]
+            },
           //   {
           //     text: '자바스크립트',
           //     children: [
@@ -372,35 +372,35 @@ export default {
           //       '/fe-dev/books/21',
           //     ]
           //   },
-          //   {
-          //     text: '매니징',
-          //     children: [
+            {
+              text: 'Managing',
+              children: [
           //       '/fe-dev/books/11',
-          //       '/fe-dev/books/12',
-          //     ]
-          //   },
-          //   {
-          //     text: '방법론',
-          //     children: [
+                '/en/fe-dev/books/12',
+              ]
+            },
+            {
+              text: 'Methodology',
+              children: [
           //       '/fe-dev/books/3',
-          //       '/fe-dev/books/4',
+                '/en/fe-dev/books/4',
           //       '/fe-dev/books/5',
           //       '/fe-dev/books/14',
-          //       '/fe-dev/books/17',
-          //     ]
-          //   },
-          //   {
-          //     text: '컴퓨터 과학',
-          //     children: [
-          //       '/fe-dev/books/22',
+                '/en/fe-dev/books/17',
+              ]
+            },
+            {
+              text: 'Computer Science',
+              children: [
+                '/en/fe-dev/books/22',
           //       '/fe-dev/books/7',
           //       '/fe-dev/books/8',
-          //       '/fe-dev/books/13',
+                '/en/fe-dev/books/13',
           //       '/fe-dev/books/15',
-          //     ]
-          //   }
-          // ]
-          , '/en/fe-dev/optimization': [
+              ]
+            }
+          ],
+          '/en/fe-dev/optimization': [
             '/en/fe-dev/optimization.md',
             '/en/fe-dev/optimization/rail',
             '/en/fe-dev/optimization/web-vitals',
@@ -506,25 +506,25 @@ export default {
           //     ]
           //   },
           // ],
-          // '/fe-dev/project-management': [
-          //   '/fe-dev/project-management.md',
-          //   '/fe-dev/project-management/estimation/',
-          //   '/fe-dev/project-management/release/',
+          '/en/fe-dev/project-management': [
+            '/en/fe-dev/project-management.md',
+            '/en/fe-dev/project-management/estimation/',
+            '/en/fe-dev/project-management/release/',
           //   '/fe-dev/project-management/facilitation-for-meeting/',
-          //   '/fe-dev/project-management/preventive-maintenance/',
+            '/en/fe-dev/project-management/preventive-maintenance/',
           //   '/fe-dev/project-management/git-scm-experience/',
-          //   '/fe-dev/project-management/software-lifecycle/',
-          // ],
-          // '/fe-dev/refactoring': [
-          //   '/fe-dev/refactoring.md',
+            '/en/fe-dev/project-management/software-lifecycle/',
+          ],
+          '/en/fe-dev/refactoring': [
+            '/en/fe-dev/refactoring.md',
           //   '/fe-dev/refactoring/structure-refactoring/',
           //   '/fe-dev/refactoring/legacy-code-to-easy-code/',
           //   '/fe-dev/refactoring/legacy-code-to-easy-code-2/',
-          //   '/fe-dev/refactoring/refactoring-meaning-and-result/',
-          //   '/fe-dev/refactoring/tdd-bdd/',
-          //   '/fe-dev/refactoring/test-types/',
+            '/en/fe-dev/refactoring/refactoring-meaning-and-result/',
+            '/en/fe-dev/refactoring/tdd-bdd/',
+            '/en/fe-dev/refactoring/test-types/',
           //   '/fe-dev/refactoring/test-guide/',
-          // ],
+          ],
           // '/fe-dev/good-code': [
           //   '/fe-dev/good-code.md',
           //   {

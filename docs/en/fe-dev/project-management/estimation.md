@@ -1,0 +1,74 @@
+---
+title: Development Schedule Estimation
+---
+# Development Schedule Estimation
+
+## Introduction
+There are many backlogs that need to be added or improved during service operation, but it is difficult to implement them all in reality. Therefore, we needed to adjust the work such as "what features to put in the sprint and deploy" and "how to do the large volume of features and the deployment time" among a series of sprints.
+
+Before this work adjustment, the first thing we need to do is to estimate the schedule that takes for development. The schedule estimation is based on the agile methodology, and there are various methods such as story points and planning poker, but we would like to introduce the easiest method to introduce based on experience.
+
+## Terminology
+- MD: Man Day abbreviation, meaning that one person worked for a day. That is, 8 hours.
+
+## Overall process of schedule estimation
+```
+User Story => Feature List => Estimation => Buffer
+```
+
+The start of the schedule estimation process is to write a User Story by referring to the planning document, and to write a Feature List based on the User Story. And through the Feature List, we estimate the MD based on experience and add Buffer depending on the situation to finish the schedule estimation.
+
+## User Story
+User Story is a list of who, what, and why they do it in the form of "~can do ~ if they do ~" from the user's point of view by looking at the planning document.
+
+### User Story example
+```
+[US] If you press pay, you can see the payment page.
+[US] On the payment page, you can see the product name, price, shipping address, and check button to agree to the terms and conditions.
+```
+
+When you write a User Story, you can understand the product more easily and focus on the business value, and it helps to select the development priority. And unclear parts are seen and a list of things to check is created.
+
+When writing a User Story, be careful to write each User Story by looking at the planning document carefully from the perspective of the service user, not the developer. And it is good to write even if it is an existing function. Then, instead of the planning document, you can understand the service function with only User Story.
+
+## Feature List
+Feature List is a list of features that need to be implemented to satisfy one User Story. Usually, because we collaborated with publishers and backend developers, the category of Feature was expressed as "markup", "FE", "API". Feature List is good for extracting good features as more people review.
+
+### Feature List example
+```
+[US] If you press pay, you can see the payment page.
+- [Markup] Payment page markup
+- [FE] Payment button connection
+[US] On the payment page, you can see the product name, price, shipping address, and check button to agree to the terms and conditions.
+- [API] Payment API
+- [FE] Form validation work
+```
+
+It is good to keep writing the feature list even if it looks like a feature that has been developed before. When everything is written, compare it with the product and distinguish only the features that are actually needed.
+
+The last thing to do when writing a Feature List is to group the features that can be reused. Grouping makes it easier to shorten development time and generalize for reuse.
+
+## Estimation
+In Estimation, we estimate the schedule for each Feature. It would be good if it is 0.25~2MD per Feature, but it varies depending on the experience and competence of each individual. Estimation is just an estimation, not necessarily accurate, and if necessary, adjust it by modifying the Feature List.
+
+### Estimation example
+```
+[US] If you press pay, you can see the payment page.
+- [0.25MD][Markup] Payment page markup
+- [0.25MD][FE] Payment button connection
+[US] On the payment page, you can see the product name, price, shipping address, and check button to agree to the terms and conditions.
+- [0.5MD][API] Payment API
+- [1MD][FE] Form validation work
+```
+
+## Buffer
+Depending on the project situation, add a buffer of about 2 times, such as code review, test writing, etc. You can see the effect of the buffer period to prevent schedule delays.
+
+## Note: Expected effects obtained through schedule estimation
+1. Based on the schedule estimation, smooth communication with the collaboration partners on schedule adjustment is possible.
+2. Flexibility of schedule adjustment by adjusting the period or Feature is created.
+3. Development progress can be visualized.
+4. You can measure the time it takes to work, and you can know how productive you are in the given time.
+
+## Conclusion
+When I received this method from a senior developer at Kakao, I didn't know if it was an effective method. But after several schedule estimations and trial and error, I was able to find a method that suits me and my team. If you want to introduce a systematic schedule estimation based on theory rather than a simple hit-and-miss schedule estimation, I think it would be helpful to refer to the agile methodology or this article.
