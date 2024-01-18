@@ -290,60 +290,60 @@ export default {
           ],
           '/en/next-web-research': [
             '/en/next-web-research.md',
-            // '/next-web-research/scheduling-api.md',
-            // '/next-web-research/vibrate.md',
-            // '/next-web-research/battery.md',
-            // '/next-web-research/share.md',
-            // '/next-web-research/file-system-access-api.md',
-            // '/next-web-research/network-speed.md'
+            '/en/next-web-research/scheduling-api.md',
+            '/en/next-web-research/vibrate.md',
+            '/en/next-web-research/battery.md',
+            '/en/next-web-research/share.md',
+            '/en/next-web-research/file-system-access-api.md',
+            '/en/next-web-research/network-speed.md'
           ],
           '/en/essay': [
             '/en/essay.md',
-            // {
-            //   text: '경험기',
-            //   children: [
-            //     '/essay/commit-message/',
-            //     '/essay/swagger-dto-automation/',
-            //     '/essay/software-versioning/',
-            //     '/essay/web-usability-review/',
-            //     '/essay/2019-new-service-building/',
-            //     '/essay/cors-and-http-cookie/',
-            //     '/essay/front_end_ui/',
-            //     '/essay/developer_communication_skills/',
-            //   ]
-            // },
-            // {
-            //   text: '이론',
-            //   children: [
-            //     '/essay/authentication-and-authorization/',
-            //     '/essay/abstract/',
+            {
+              text: 'Testimonials',
+              children: [
+                '/en/essay/commit-message/',
+                '/en/essay/swagger-dto-automation/',
+                '/en/essay/software-versioning/',
+                '/en/essay/web-usability-review/',
+                '/en/essay/2019-new-service-building/',
+                '/en/essay/cors-and-http-cookie/',
+                '/en/essay/front_end_ui/',
+                '/en/essay/developer_communication_skills/',
+              ]
+            },
+            {
+              text: 'Theory',
+              children: [
+                '/en/essay/authentication-and-authorization/',
+                '/en/essay/abstract/',
             //     '/essay/compiler-theory/',
-            //     '/essay/non-functional-requirements/',
+                '/en/essay/non-functional-requirements/',
             //     '/essay/design-guide/',
-            //     '/essay/web-accessibility/',
-            //   ]
-            // },
-            // {
-            //   text: 'Color Space 시리즈',
-            //   children: [
-            //     '/essay/color-space-munsell-color-theory/',
-            //     '/essay/color-space-hsl-and-hsv/',
-            //     '/essay/color-space-lch-and-lab/',
-            //   ]
-            // },
-            // {
-            //   text: '코드 작성',
-            //   children: [
-            //     '/essay/client-hints/',
-            //     '/essay/hexagon-profile/',
-            //     '/essay/how-to-catch-error/',
-            //     '/essay/branch-n-case/',
-            //     '/essay/callback/',
-            //     '/essay/clone-function/',
-            //     '/essay/safe-chain/',
-            //     '/essay/observation-mechanism/',
-            //   ]
-            // }
+                '/en/essay/web-accessibility/',
+              ]
+            },
+            {
+              text: 'Color Space Series',
+              children: [
+                '/en/essay/color-space-munsell-color-theory/',
+                '/en/essay/color-space-hsl-and-hsv/',
+                '/en/essay/color-space-lch-and-lab/',
+              ]
+            },
+            {
+              text: 'Writing code',
+              children: [
+                '/en/essay/client-hints/',
+                '/en/essay/hexagon-profile/',
+                '/en/essay/how-to-catch-error/',
+                '/en/essay/branch-n-case/',
+                '/en/essay/callback/',
+                '/en/essay/clone-function/',
+                '/en/essay/safe-chain/',
+                '/en/essay/observation-mechanism/',
+              ]
+            }
           ]
           // , '/fe-dev/books': [
           //   '/fe-dev/books.md',
