@@ -265,10 +265,10 @@ export default {
             //   text: '도서 리뷰',
             //   link: '/fe-dev/books'
             // },
-            // {
-            //   text: '면접관 가이드',
-            //   link: '/fe-dev/interview-guide'
-            // },
+            , {
+               text: "Interviewer's Guide",
+               link: '/en/fe-dev/interview-guide'
+            },
           ]
           },
           {
@@ -282,12 +282,12 @@ export default {
             '/en/fe-dev/self-management/project-history',
             '/en/fe-dev/self-management/stress-management'
           ],
-          // '/fe-dev/interview-guide': [
-          //   '/fe-dev/interview-guide.md',
-          //   '/fe-dev/interview-guide/questions-list',
-          //   '/fe-dev/interview-guide/interview-process',
-          //   '/fe-dev/interview-guide/success-criteria',
-          // ],
+          '/en/fe-dev/interview-guide': [
+            '/en/fe-dev/interview-guide.md',
+            '/en/fe-dev/interview-guide/questions-list',
+            '/en/fe-dev/interview-guide/interview-process',
+            '/en/fe-dev/interview-guide/success-criteria',
+          ],
           '/en/next-web-research': [
             '/en/next-web-research.md',
             // '/next-web-research/scheduling-api.md',
