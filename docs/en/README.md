@@ -2,13 +2,13 @@
 home: true
 layout: BlogHome
 title: The Next Web Research Lab
-description: Take a handful of knowledge from the simple FE tech blog!
+description: A plain front-end technology blog that generates serotonin! Okay
 bgImage: /images/bg.png
 heroFullScreen: true
 heroImage: /images/black_logo.png
 heroAlt: The Next Web Research Lab
 heroText: The Next Web Research Lab
-tagline: Take a handful of knowledge<br />from the simple FE tech blog!
+tagline: A plain front-end technology blog<br />that generates serotonin! Okay
 # actions:
 #   - text: 더넥스트웹리서치랩 소개
 #     link: /intro

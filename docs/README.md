@@ -2,13 +2,13 @@
 home: true
 layout: BlogHome
 title: 더넥스트웹리서치랩
-description: 담백한 프런트엔드 기술 블로그에서 지식 한 줌 담아 가세요!
+description: 세로토닌이 생기는 담백한 프런트엔드 기술 블로그! 오케이
 bgImage: /images/bg.png
 heroFullScreen: true
 heroImage: /images/black_logo.png
 heroAlt: 더넥스트웹리서치랩
 heroText: 더넥스트웹리서치랩
-tagline: 담백한 FE 기술 블로그에서<br />&nbsp;&nbsp;&nbsp;지식 한 줌 담아 가세요!
+tagline: 세로토닌이 생기는 담백한<br />프런트엔드 기술 블로그! 오케이
 actions:
   - text: 더넥스트웹리서치랩 소개
     link: /intro
