@@ -222,10 +222,11 @@ export default {
                 text: 'Self-care',
                 link: '/en/fe-dev/self-management'
               },
-              // , {
-              //   text: '프로그래밍 언어',
-              //   link: '/fe-dev/javascript'
-              // }, {
+              {
+                text: 'Computer Language',
+                link: '/en/fe-dev/javascript'
+              },
+              // {
               //   text: '좋은코드',
               //   link: '/fe-dev/good-code'
               // },
@@ -408,44 +409,44 @@ export default {
             '/en/fe-dev/optimization/chrome-network-tab',
             '/en/fe-dev/optimization/browser_cache'
           ],
-          // '/fe-dev/javascript': [
-          //   '/fe-dev/javascript.md',
-          //   {
-          //     text: '자바스크립트',
-          //     children: [
+          '/en/fe-dev/javascript': [
+            '/en/fe-dev/javascript.md',
+            {
+              text: 'JavaScript',
+              children: [
           //       '/fe-dev/javascript/syntax',
-          //       '/fe-dev/javascript/this',
-          //       '/fe-dev/javascript/promise',
-          //       '/fe-dev/javascript/async-await',
-          //       '/fe-dev/javascript/coroutine',
-          //       '/fe-dev/javascript/decorators',
-          //       '/fe-dev/javascript/event',
-          //       '/fe-dev/javascript/concurrency-and-parallelism',
-          //       '/fe-dev/javascript/pure-and-first-class-function',
-          //       '/fe-dev/javascript/immutable-persistent',
-          //     ]
-          //   },
-          //   {
-          //     text: '타입스크립트',
-          //     children: [
-          //       '/fe-dev/javascript/union-type',
-          //       '/fe-dev/javascript/callback/',
-          //       '/fe-dev/javascript/template-literals/',
-          //     ]
-          //   },
-          //   {
-          //     text: 'CSS',
-          //     children: [
-          //       '/fe-dev/javascript/float-flex-grid',
-          //     ]
-          //   },
-          //   {
-          //     text: 'npm',
-          //     children: [
-          //       '/fe-dev/javascript/mono-repo',
-          //     ]
-          //   },
-          // ],
+                '/en/fe-dev/javascript/this',
+                '/en/fe-dev/javascript/promise',
+                '/en/fe-dev/javascript/async-await',
+                '/en/fe-dev/javascript/coroutine',
+                '/en/fe-dev/javascript/decorators',
+                '/en/fe-dev/javascript/event',
+                '/en/fe-dev/javascript/concurrency-and-parallelism',
+                '/en/fe-dev/javascript/pure-and-first-class-function',
+                '/en/fe-dev/javascript/immutable-persistent',
+              ]
+            },
+            {
+              text: 'TypeScript',
+              children: [
+                '/en/fe-dev/javascript/union-type',
+                '/en/fe-dev/javascript/callback/',
+                '/en/fe-dev/javascript/template-literals/',
+              ]
+            },
+            {
+              text: 'CSS',
+              children: [
+                '/en/fe-dev/javascript/float-flex-grid',
+              ]
+            },
+            {
+              text: 'npm',
+              children: [
+                '/en/fe-dev/javascript/mono-repo',
+              ]
+            },
+          ],
           // '/fe-dev/paradigm': [
           //   '/fe-dev/paradigm.md',
           //   {
