@@ -3,7 +3,7 @@ home: true
 layout: BlogHome
 title: 더넥스트웹리서치랩
 description: 세로토닌이 생기는 담백한 프런트엔드 기술 블로그! 오케이
-bgImage: /images/bg.png
+# bgImage: /images/bg.png
 heroFullScreen: true
 heroImage: /images/black_logo.png
 heroAlt: 더넥스트웹리서치랩
