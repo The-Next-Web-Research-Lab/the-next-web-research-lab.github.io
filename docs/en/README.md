@@ -3,7 +3,7 @@ home: true
 layout: BlogHome
 title: The Next Web Research Lab
 description: A plain front-end technology blog that generates serotonin! Okay
-# bgImage: /images/bg.png
+bgImage: false
 heroFullScreen: true
 heroImage: /images/black_logo.png
 heroAlt: The Next Web Research Lab
