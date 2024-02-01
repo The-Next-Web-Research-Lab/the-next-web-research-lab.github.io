@@ -23,7 +23,7 @@ Authentic를 풀어쓰면 Auto(스스로) + hen(무언가를 해서) + tic(확�
 ## 인가
 인가 한자로 認(알 인) + 可(옭을 가)를 조합으로 만들어졌다. 풀이로는 "인정하여 허가한다"는 의미이다.
 
-인증은 영어로 Authorization이다.
+인가는 영어로 Authorization이다.
 Authorization은 "권위를 부여하다, 위임하다"이라는 의미의 Authorize의 명사인데,
 Authorize를 풀어쓰면 author + ize를 조합해서 만들어졌다.
 
