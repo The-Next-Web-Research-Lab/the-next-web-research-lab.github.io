@@ -7,3 +7,27 @@
   background: linear-gradient(to right, #0097b2, #7ed957);
   color: #fff !important;
 }
+
+@media (max-width: 419px) {
+  .vp-site-name {
+    font-size: 1rem;
+  }
+
+  .vp-blog-hero-title {
+    font-size: 1.5rem;
+  }
+
+  .vp-blog-hero-description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 719px) {
+  .vp-link.vp-brand {
+    display: flex;
+  }
+  
+  .vp-site-name {
+    width: calc(100vw - 13rem);
+  }
+}

@@ -30,7 +30,7 @@ export default {
     },
     '/en/': {
       lang: 'en-US',
-      title: '더넥스트웹리서치랩',
+      title: 'TheNextWebResearchLab',
       description: 'Take a handful of knowledge from the simple FE tech blog!',
     }
   },
