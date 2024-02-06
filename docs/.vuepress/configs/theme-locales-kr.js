@@ -13,10 +13,6 @@ export default {
         'https://www.instagram.com/thenext_webresearchlab/',
         path.resolve(__dirname, '../public/icons/instagram.svg')
       ],
-      "네이버 블로그": [
-        'https://blog.naver.com/nextwebresearchlab',
-        path.resolve(__dirname, '../public/icons/naver.svg')
-      ],
       '티스토리 블로그': [
         'https://the-next-web-research-lab.tistory.com/',
         path.resolve(__dirname, '../public/icons/tistory.svg')
@@ -93,9 +89,6 @@ export default {
       children: [{
           text: '인스타그램',
           link: 'https://www.instagram.com/thenext_webresearchlab/'
-        }, {
-          text: '네이버 블로그',
-          link: 'https://blog.naver.com/nextwebresearchlab'
         },
         {
           text: '티스토리 블로그',
