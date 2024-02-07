@@ -30,7 +30,7 @@ export default {
     },
     '/en/': {
       lang: 'en-US',
-      title: 'TheNextWebResearchLab',
+      title: 'The Next Web Research Lab',
       description: 'A plain front-end technology blog',
     }
   },
@@ -95,10 +95,7 @@ export default {
       sitemap: {
         hostname: 'the-next-web-research-lab.github.io',
       },
-      blog: {
-        article: false,
-        timeline: false,
-      }
+      blog: false
     },
   })
 }

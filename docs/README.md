@@ -1,6 +1,5 @@
 ---
 home: true
-layout: BlogHome
 title: 더넥스트웹리서치랩
 description: 담백한 프런트엔드 기술 블로그! 오케이
 bgImage: false
