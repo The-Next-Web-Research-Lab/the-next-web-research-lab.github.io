@@ -95,7 +95,9 @@ export default {
       sitemap: {
         hostname: 'the-next-web-research-lab.github.io',
       },
-      blog: true
+      blog: {
+        sidebarDisplay: 'none'
+      }
     },
   })
 }
