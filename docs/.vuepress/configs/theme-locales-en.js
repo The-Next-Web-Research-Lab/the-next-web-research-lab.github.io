@@ -2,12 +2,9 @@ export default {
   navbar: [{
       text: 'Introduction',
       link: '/en/intro.html'
-    }, {
-      text: 'Prior Development',
-      link: '/en/next-web-research.html'
     },
     {
-      text: 'Pragmatic Frontend',
+      text: 'Front-End',
       children: [{
           text: 'Self-care',
           link: '/en/fe-dev/self-management'
@@ -61,6 +58,9 @@ export default {
           link: '/en/fe-dev/interview-guide'
         },
       ]
+    }, {
+      text: 'Prior Development',
+      link: '/en/next-web-research.html'
     },
     {
       text: 'Summary of experience',

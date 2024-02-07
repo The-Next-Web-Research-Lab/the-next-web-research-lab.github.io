@@ -4,7 +4,7 @@ sidebar: false
 ---
 
 # About The Next Web Research Lab
-The Next Web Research Lab strives to run a plain front-end technology blog that generates serotonin. The content includes technologies that will become web standards in the near future, as well as front-end knowledge from more than 20 projects over a decade.
+The Next Web Research Lab strives to run a plain front-end technology blog. The content includes technologies that will become web standards in the near future, as well as front-end knowledge from more than 20 projects over a decade.
 
 # Operator Introduction
 Yongku Cho | ISTJ | Front-End Developer | [Github](https://github.com/ChoDragon9) | [LinkedIn](https://www.linkedin.com/in/yongku-cho)

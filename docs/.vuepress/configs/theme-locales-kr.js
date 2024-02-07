@@ -22,12 +22,9 @@ export default {
   navbar: [{
       text: '소개',
       link: '/intro.html'
-    }, {
-      text: '선행개발',
-      link: '/next-web-research.html'
     },
     {
-      text: '실용주의 프런트엔드',
+      text: '프런트엔드',
       children: [{
           text: '자기 관리',
           link: '/fe-dev/self-management'
@@ -79,6 +76,9 @@ export default {
           link: '/fe-dev/interview-guide'
         },
       ]
+    }, {
+      text: '선행개발',
+      link: '/next-web-research.html'
     },
     {
       text: '경험정리',
