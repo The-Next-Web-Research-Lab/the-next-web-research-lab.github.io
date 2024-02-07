@@ -58,14 +58,14 @@ export default {
           link: '/en/fe-dev/interview-guide'
         },
       ]
-    }, {
-      text: 'Prior Development',
-      link: '/en/next-web-research.html'
     },
     {
       text: 'Summary of experience',
       link: '/en/essay.html'
-    },
+    }, {
+      text: 'Prior Development',
+      link: '/en/next-web-research.html'
+    }
   ],
   sidebar: {
     '/en/fe-dev/self-management': [

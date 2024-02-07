@@ -7,18 +7,6 @@ const __dirname = getDirname(
   import.meta.url)
 
 export default {
-  blog: {
-    medias: {
-      '인스타그램': [
-        'https://www.instagram.com/thenext_webresearchlab/',
-        path.resolve(__dirname, '../public/icons/instagram.svg')
-      ],
-      '티스토리 블로그': [
-        'https://the-next-web-research-lab.tistory.com/',
-        path.resolve(__dirname, '../public/icons/tistory.svg')
-      ],
-    }
-  },
   navbar: [{
       text: '소개',
       link: '/intro.html'
@@ -76,25 +64,13 @@ export default {
           link: '/fe-dev/interview-guide'
         },
       ]
-    }, {
-      text: '선행개발',
-      link: '/next-web-research.html'
     },
     {
       text: '경험정리',
       link: '/essay.html'
-    },
-    {
-      text: '패밀리 사이트',
-      children: [{
-          text: '인스타그램',
-          link: 'https://www.instagram.com/thenext_webresearchlab/'
-        },
-        {
-          text: '티스토리 블로그',
-          link: 'https://the-next-web-research-lab.tistory.com/'
-        },
-      ]
+    }, {
+      text: '선행개발',
+      link: '/next-web-research.html'
     }
   ],
   sidebar: {

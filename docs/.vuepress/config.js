@@ -26,12 +26,12 @@ export default {
     '/': {
       lang: 'ko-KR',
       title: '더넥스트웹리서치랩',
-      description: '담백한 프런트엔드 기술 블로그에서 지식 한 줌 담아 가세요!',
+      description: '담백한 프런트엔드 기술 블로그',
     },
     '/en/': {
       lang: 'en-US',
       title: 'TheNextWebResearchLab',
-      description: 'Take a handful of knowledge from the simple FE tech blog!',
+      description: 'A plain front-end technology blog',
     }
   },
   base: '/',
