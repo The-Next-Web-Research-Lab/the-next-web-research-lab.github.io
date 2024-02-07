@@ -96,7 +96,8 @@ export default {
         hostname: 'the-next-web-research-lab.github.io',
       },
       blog: {
-        sidebarDisplay: 'none'
+        article: false,
+        timeline: false,
       }
     },
   })
