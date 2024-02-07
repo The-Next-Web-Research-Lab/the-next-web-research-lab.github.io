@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blob</title>
+  <style>
+    .blob {
+      width: 150px;
+      height: 150px;
+      border-radius: 58% 43% 33% 64% / 50% 38% 53% 50%;
+      background: transparent;
+      box-shadow:
+        inset 6px 33px 20px 0 #c9c9c9,
+        inset 20px 80px 15px 0 #e0e0e0,
+        10px 20px 20px 0px #c9c9c9;
+    }
+
+    .blob::before {
+      content: '';
+      border-radius: 37% 54% 46% 46%;
+      background: white;
+      width: 50px;
+      height: 15px;
+      transform: rotate(-30deg);
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+
+    .blob::after {
+      content: '';
+      border-radius: 50%;
+      background: white;
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      top: 60px;
+      left: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="blob"></div>
+</body>
+
+</html>
