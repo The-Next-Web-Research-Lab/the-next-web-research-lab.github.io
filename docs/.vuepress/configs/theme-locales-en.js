@@ -197,7 +197,9 @@ export default {
       '/en/fe-dev/optimization/web-vitals',
       '/en/fe-dev/optimization/monitoring',
       '/en/fe-dev/optimization/chrome-network-tab',
-      '/en/fe-dev/optimization/browser_cache'
+      '/en/fe-dev/optimization/browser_cache',
+      '/en/fe-dev/optimization/lighthouse-mobile',
+      '/en/fe-dev/optimization/performance-optimization-process'
     ],
     '/en/fe-dev/javascript': [
       '/en/fe-dev/javascript.md',
@@ -214,6 +216,7 @@ export default {
           '/en/fe-dev/javascript/concurrency-and-parallelism',
           '/en/fe-dev/javascript/pure-and-first-class-function',
           '/en/fe-dev/javascript/immutable-persistent',
+          '/en/fe-dev/javascript/console-log',
         ]
       },
       {

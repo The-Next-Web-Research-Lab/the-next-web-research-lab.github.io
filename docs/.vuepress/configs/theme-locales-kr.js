@@ -107,6 +107,7 @@ export default {
           '/essay/cors-and-http-cookie/',
           '/essay/front_end_ui/',
           '/essay/developer_communication_skills/',
+          '/essay/console-tab/',
         ]
       },
       {
@@ -203,7 +204,9 @@ export default {
       '/fe-dev/optimization/web-vitals',
       '/fe-dev/optimization/monitoring',
       '/fe-dev/optimization/chrome-network-tab',
-      '/fe-dev/optimization/browser_cache'
+      '/fe-dev/optimization/browser_cache',
+      '/fe-dev/optimization/lighthouse-mobile',
+      '/fe-dev/optimization/performance-optimization-process'
     ],
     '/fe-dev/javascript': [
       '/fe-dev/javascript.md',
@@ -220,6 +223,7 @@ export default {
           '/fe-dev/javascript/concurrency-and-parallelism',
           '/fe-dev/javascript/pure-and-first-class-function',
           '/fe-dev/javascript/immutable-persistent',
+          '/fe-dev/javascript/console-log',
         ]
       },
       {
