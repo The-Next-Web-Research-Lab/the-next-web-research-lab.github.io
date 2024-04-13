@@ -121,13 +121,6 @@ export default [
   [
     'meta',
     {
-      name: 'naver-site-verification',
-      content: '0adacb2ebffbc3afc4a8525d472fe9ff6029850b'
-    }
-  ],
-  [
-    'meta',
-    {
       name: 'google-adsense-account',
       content: 'ca-pub-2063927113913779'
     }
