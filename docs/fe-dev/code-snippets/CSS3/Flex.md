@@ -43,5 +43,5 @@ title: Flex
 ```
 
 ## sample
-<<< @/docs/fe-dev/code-snippets/CSS3/flex-width-height-auto.html
+<<< @/fe-dev/code-snippets/CSS3/flex-width-height-auto.html
 

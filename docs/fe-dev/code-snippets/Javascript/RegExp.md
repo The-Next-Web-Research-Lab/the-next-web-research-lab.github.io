@@ -4,13 +4,13 @@ title: RegExp
 ---
 
 ## input.js
-<<< @/docs/fe-dev/code-snippets/Javascript/RegExp/input.js
+<<< @/fe-dev/code-snippets/Javascript/RegExp/input.js
 
 ## date.js
-<<< @/docs/fe-dev/code-snippets/Javascript/RegExp/date.js
+<<< @/fe-dev/code-snippets/Javascript/RegExp/date.js
 
 ## url.js
-<<< @/docs/fe-dev/code-snippets/Javascript/RegExp/url.js
+<<< @/fe-dev/code-snippets/Javascript/RegExp/url.js
 
 ## special-char.js
-<<< @/docs/fe-dev/code-snippets/Javascript/RegExp/special-char.js
+<<< @/fe-dev/code-snippets/Javascript/RegExp/special-char.js

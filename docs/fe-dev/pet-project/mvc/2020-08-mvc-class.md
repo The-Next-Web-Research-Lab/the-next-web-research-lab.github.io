@@ -6,24 +6,24 @@ title: 2020.08 Todo List (Class 버전)
 MVC는 [2020.08 MVC](/fe-dev/pet-project/mvc/2020-08-mvc.html)에 설명한다.
 
 ## app
-<<< @/docs/fe-dev/pet-project/mvc/2020-08-mvc/basic-todo-class/index.html
-<<< @/docs/fe-dev/pet-project/mvc/2020-08-mvc/basic-todo-class/app.js
+<<< @/fe-dev/pet-project/mvc/2020-08-mvc/basic-todo-class/index.html
+<<< @/fe-dev/pet-project/mvc/2020-08-mvc/basic-todo-class/app.js
 
 ## controller
-<<< @/docs/fe-dev/pet-project/mvc/2020-08-mvc/basic-todo-class/src/controller.js
+<<< @/fe-dev/pet-project/mvc/2020-08-mvc/basic-todo-class/src/controller.js
 
 ## view
-<<< @/docs/fe-dev/pet-project/mvc/2020-08-mvc/basic-todo-class/src/view.js
+<<< @/fe-dev/pet-project/mvc/2020-08-mvc/basic-todo-class/src/view.js
 
 ### dom
-<<< @/docs/fe-dev/pet-project/mvc/2020-08-mvc/basic-todo-class/utils/dom.js
+<<< @/fe-dev/pet-project/mvc/2020-08-mvc/basic-todo-class/utils/dom.js
 
 ## model
 ### observer
-<<< @/docs/fe-dev/pet-project/mvc/2020-08-mvc/basic-todo-class/utils/observer.js
+<<< @/fe-dev/pet-project/mvc/2020-08-mvc/basic-todo-class/utils/observer.js
 
 ## model.js
-<<< @/docs/fe-dev/pet-project/mvc/2020-08-mvc/basic-todo-class/src/model.js
+<<< @/fe-dev/pet-project/mvc/2020-08-mvc/basic-todo-class/src/model.js
  
 ## 데모
 > [ESM](https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Modules)를 지원하는 브라우저에서만 동작함

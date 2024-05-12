@@ -28,19 +28,19 @@ Attribute 변경은 신규 추가/삭제에 미발생한다. 기존 Node에만 A
 
 ## 코어
 ### /core/render.js
-<<< @/docs/fe-dev/pet-project/component/fragment-dom/core/render.js
+<<< @/fe-dev/pet-project/component/fragment-dom/core/render.js
 
 #### 사용예
-<<< @/docs/fe-dev/pet-project/component/fragment-dom/step1.js
+<<< @/fe-dev/pet-project/component/fragment-dom/step1.js
 
 ### /core/patch.js
-<<< @/docs/fe-dev/pet-project/component/fragment-dom/core/patch.js
+<<< @/fe-dev/pet-project/component/fragment-dom/core/patch.js
 
 #### 사용예
-<<< @/docs/fe-dev/pet-project/component/fragment-dom/step2.js
+<<< @/fe-dev/pet-project/component/fragment-dom/step2.js
 
 ## 사용케이스
 ### 상태 변경 후 패치
-<<< @/docs/fe-dev/pet-project/component/fragment-dom/step3.js
+<<< @/fe-dev/pet-project/component/fragment-dom/step3.js
 
 - [데모보기](https://the-next-web-research-lab.github.io/docs/fe-dev/pet-project/component/fragment-dom/index.html)

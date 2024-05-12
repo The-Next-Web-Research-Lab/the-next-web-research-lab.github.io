@@ -4,44 +4,44 @@ title: Helper
 ---
 
 ## debounce.js
-<<< @/docs/fe-dev/code-snippets/Helper/debounce.js
+<<< @/fe-dev/code-snippets/Helper/debounce.js
 
 ## debounce.ts
-<<< @/docs/fe-dev/code-snippets/Helper/debounce.ts
+<<< @/fe-dev/code-snippets/Helper/debounce.ts
 
 ## highlight.js
-<<< @/docs/fe-dev/code-snippets/Helper/highlight.js
+<<< @/fe-dev/code-snippets/Helper/highlight.js
 
 ## is-primitive.js
-<<< @/docs/fe-dev/code-snippets/Helper/is-primitive.js
+<<< @/fe-dev/code-snippets/Helper/is-primitive.js
 
 ## is-object.js
-<<< @/docs/fe-dev/code-snippets/Helper/is-object.js
+<<< @/fe-dev/code-snippets/Helper/is-object.js
 
 ## is-valid-url.js
-<<< @/docs/fe-dev/code-snippets/Helper/is-valid-url.js
+<<< @/fe-dev/code-snippets/Helper/is-valid-url.js
 
 ## more-text.html
-<<< @/docs/fe-dev/code-snippets/Helper/more-text.html
+<<< @/fe-dev/code-snippets/Helper/more-text.html
 
 ## overlap.js
-<<< @/docs/fe-dev/code-snippets/Helper/overlap.js
+<<< @/fe-dev/code-snippets/Helper/overlap.js
 
 ## query-to-string.js
-<<< @/docs/fe-dev/code-snippets/Helper/query-to-string.js
+<<< @/fe-dev/code-snippets/Helper/query-to-string.js
 
 ## stepper.ts
-<<< @/docs/fe-dev/code-snippets/Helper/stepper.ts
+<<< @/fe-dev/code-snippets/Helper/stepper.ts
 
 ## subset.js
-<<< @/docs/fe-dev/code-snippets/Helper/subset.js
+<<< @/fe-dev/code-snippets/Helper/subset.js
 
 ## throttle.js
-<<< @/docs/fe-dev/code-snippets/Helper/throttle.js
+<<< @/fe-dev/code-snippets/Helper/throttle.js
 
 ## throttle.ts
-<<< @/docs/fe-dev/code-snippets/Helper/throttle.ts
+<<< @/fe-dev/code-snippets/Helper/throttle.ts
 
 ## toggle.ts
-<<< @/docs/fe-dev/code-snippets/Helper/toggle.ts
+<<< @/fe-dev/code-snippets/Helper/toggle.ts
 

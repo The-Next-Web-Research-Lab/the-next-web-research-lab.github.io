@@ -17,7 +17,7 @@ title: 2020.08 Component
 
 ## 📄 컴포넌트 사용법
 ### 기본 컴포넌트
-<<< @/docs/fe-dev/pet-project/component/2020-08-component/BasicComponent.js
+<<< @/fe-dev/pet-project/component/2020-08-component/BasicComponent.js
 
 - `component`로 컴포넌트를 선언한다.
 - `component` 인자에 함수를 전달하는 데, 해당 함수를 `createComponent`로 명명한다.
@@ -27,7 +27,7 @@ title: 2020.08 Component
  
 
 ### 컴포넌트 내부 스토어 사용
-<<< @/docs/fe-dev/pet-project/component/2020-08-component/CounterComponent.js
+<<< @/fe-dev/pet-project/component/2020-08-component/CounterComponent.js
 
 - `createComponent`는 첫번째 인자에 `html`과 함께, `store`가 전달된다.
 - `store`는 **컴포넌트 내부 스토어**다.
@@ -37,18 +37,18 @@ title: 2020.08 Component
 - DOM 이벤트는 DOM API로 등록한다.
 
 ### 리스트 렌더링
-<<< @/docs/fe-dev/pet-project/component/2020-08-component/ListComponent.js
+<<< @/fe-dev/pet-project/component/2020-08-component/ListComponent.js
 
 - 리스트 렌더링은 Array API를 사용한다.
 - `set` 함수의 두번째 인자에 `false`를 전달하면, 해당 상태를 전파 하지 않는다.
 
 ### 컨디션 렌더링
-<<< @/docs/fe-dev/pet-project/component/2020-08-component/ConditionComponent.js
+<<< @/fe-dev/pet-project/component/2020-08-component/ConditionComponent.js
 
 - 컨디션 렌디링은 연산자를 사용한다.
 
 ### 부모-자식 관계
-<<< @/docs/fe-dev/pet-project/component/2020-08-component/ParentChild.js
+<<< @/fe-dev/pet-project/component/2020-08-component/ParentChild.js
 
 - 자식 컴포넌트는 `replaceWith`으로 DOM을 변경한다.
 - 자식 컴포넌트에 `{props, emit}`을 전달할 수 있다.
@@ -58,13 +58,13 @@ title: 2020.08 Component
 - `props`, `emit` 자료구조는 강제성이 없으나, 인자 네이밍은 강제한다.
 
 ### 공유 상태 사용
-<<< @/docs/fe-dev/pet-project/component/2020-08-component/SharedState.js
+<<< @/fe-dev/pet-project/component/2020-08-component/SharedState.js
 
 - 공유 상태를 사용하려면, `store.share`로 스토어를 등록한다.
 - 등록된 스토어를 바로 사용하지 않고, 공유 상태를 사용한다.
 
 ### 마운트
-<<< @/docs/fe-dev/pet-project/component/2020-08-component/app.js
+<<< @/fe-dev/pet-project/component/2020-08-component/app.js
 
 - 컴포넌트 함수의 반환값은 DOM임으로 `appendChild`로 마운트한다.
 
@@ -76,28 +76,28 @@ title: 2020.08 Component
 ## 📄 코어 코드
 ### 헬퍼
 #### mapValues
-<<< @/docs/fe-dev/pet-project/component/2020-08-component/core/helper/map-values.js
+<<< @/fe-dev/pet-project/component/2020-08-component/core/helper/map-values.js
 
 - Object의 값을 변경해주는 map 함수다.
 
 #### html
-<<< @/docs/fe-dev/pet-project/component/2020-08-component/core/helper/html.js
+<<< @/fe-dev/pet-project/component/2020-08-component/core/helper/html.js
 
 - 템플릿을 DOM으로 변환하는 역할을 한다.
 
 
 #### DOM
-<<< @/docs/fe-dev/pet-project/component/2020-08-component/core/helper/dom.js
+<<< @/fe-dev/pet-project/component/2020-08-component/core/helper/dom.js
 
 - DOM API 헬퍼 역할을 한다.
 
 #### observer
-<<< @/docs/fe-dev/pet-project/component/2020-08-component/core/helper/observer.js
+<<< @/fe-dev/pet-project/component/2020-08-component/core/helper/observer.js
 
 - 옵져버 패턴을 구현한 함수다.
 
 ### 스토어
-<<< @/docs/fe-dev/pet-project/component/2020-08-component/core/store.js
+<<< @/fe-dev/pet-project/component/2020-08-component/core/store.js
 
 - `createStore` 실행 시, `subject`를 생성한다.
 - `useState`로 상태를 등록한다.
@@ -105,7 +105,7 @@ title: 2020.08 Component
 - `_subscribe`, `_unsubscribe`는 코어레벨에서 사용된다.
 
 ### 컴포넌트
-<<< @/docs/fe-dev/pet-project/component/2020-08-component/core/component.js
+<<< @/fe-dev/pet-project/component/2020-08-component/core/component.js
 
 - `createComponent`를 인자로 받는다.
 - `createComponent`를 실행하여 `render`를 반환 받는다.
