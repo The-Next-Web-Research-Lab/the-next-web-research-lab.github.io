@@ -52,11 +52,11 @@ export default defineConfig({
       lang: 'ko',
       title: '더넥스트웹리서치랩',
       description: '담백한 프런트엔드 기술 블로그',
-      footer: {
-        copyright: '© 더넥스트웹리서치랩 Corp. All rights reserved.'
-      },
       themeConfig: {
         ...themeLocalesKr,
+        footer: {
+          copyright: '© 더넥스트웹리서치랩 Corp. All rights reserved.'
+        },
       }
     },
     en: {
@@ -64,11 +64,11 @@ export default defineConfig({
       lang: 'en',
       title: 'The Next Web Research Lab',
       description: 'A plain front-end technology blog',
-      footer: {
-        copyright: '© The Next Web Research Lab Corp. All rights reserved.'
-      },
       themeConfig: {
         ...themeLocalesEn,
+        footer: {
+          copyright: '© The Next Web Research Lab Corp. All rights reserved.'
+        },
       }
     }
   },
