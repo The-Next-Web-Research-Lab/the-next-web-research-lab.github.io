@@ -534,23 +534,23 @@ export default {
       {
         text: 'Vue Composition API',
         items: [{
-            text: 'Index',
+            text: 'Composition API RFC 번역',
             link: '/fe-dev/framework/composition-api-rfc'
           },
           {
-            text: 'Index',
+            text: 'Composition API RFC 요약 및 자료 정리',
             link: '/fe-dev/framework/composition-api-rfc-summary'
           },
           {
-            text: 'Index',
+            text: 'Composition API RFC 릴리즈 노트 정리',
             link: '/fe-dev/framework/composition-api-rfc-release-notes'
           },
           {
-            text: 'Index',
+            text: 'Composition API 경험 정리',
             link: '/fe-dev/framework/composition-api-rfc-migration'
           },
           {
-            text: 'Index',
+            text: 'Vuex 적용 경험 정리',
             link: '/fe-dev/framework/vuex-in-composition-api'
           },
         ]
@@ -558,19 +558,19 @@ export default {
       {
         text: 'Vue',
         items: [{
-            text: 'Index',
+            text: 'Vue ESLint 설정',
             link: '/fe-dev/framework/vue-eslint'
           },
           {
-            text: 'Index',
+            text: 'Nuxt v2.11 기반 nuxt/typescript 환경 세팅',
             link: '/fe-dev/framework/nuxt-2-11-typescript'
           },
           {
-            text: 'Index',
+            text: '2019.08.11 Nuxt에서 TypeScript로 개발하기',
             link: '/fe-dev/framework/nuxt-ts'
           },
           {
-            text: 'Index',
+            text: '2020.02.10 Nuxt v2.0에서 v2.11로 마이그레이션',
             link: '/fe-dev/framework/nuxt-migration'
           },
         ]
@@ -578,117 +578,117 @@ export default {
       {
         text: 'Angular',
         items: [{
-            text: 'Index',
+            text: '2019.07.14 RxJs 코드리뷰 사례',
             link: '/fe-dev/framework/rxjs-codereview'
           },
           {
-            text: 'Index',
-            link: '/fe-dev/framework/angular/'
+            text: '2019.07.21 Angular의 강력함과 아쉬운점',
+            link: '/fe-dev/framework/angular'
           },
         ]
       },
       {
         text: 'React',
         items: [{
-          text: 'Index',
+          text: '2019.11.29 코드리뷰를 위한 React 컨벤션',
           link: '/fe-dev/framework/react-convention-for-codereview'
         }, ]
       },
     ],
     '/fe-dev/project-management': [{
-        text: 'Index',
+        text: '프로젝트 관리',
         link: '/fe-dev/project-management/'
       },
       {
-        text: 'Index',
+        text: '개발 일정산정',
         link: '/fe-dev/project-management/estimation'
       },
       {
-        text: 'Index',
+        text: '배포 어디까지 알고 있나요?',
         link: '/fe-dev/project-management/release'
       },
       {
-        text: 'Index',
+        text: '효율적인 회의를 위한 퍼실리테이션',
         link: '/fe-dev/project-management/facilitation-for-meeting'
       },
       {
-        text: 'Index',
+        text: '위험상황을 대비하는 위험관리',
         link: '/fe-dev/project-management/preventive-maintenance'
       },
       {
-        text: 'Index',
+        text: '형상관리 전략정리',
         link: '/fe-dev/project-management/git-scm-experience'
       },
       {
-        text: 'Index',
+        text: '소프트웨어 생명주기 간단 정리',
         link: '/fe-dev/project-management/software-lifecycle'
       },
     ],
     '/fe-dev/refactoring': [{
-        text: 'Index',
+        text: '리팩터링',
         link: '/fe-dev/refactoring/'
       },
       {
-        text: 'Index',
+        text: '구조 리펙토링 정리',
         link: '/fe-dev/refactoring/structure-refactoring'
       },
       {
-        text: 'Index',
+        text: '레거시 코드에서 이해하기 쉬운코드로 리팩토링',
         link: '/fe-dev/refactoring/legacy-code-to-easy-code'
       },
       {
-        text: 'Index',
+        text: '레거시 코드에서 이해하기 쉬운코드로 리팩토링 2',
         link: '/fe-dev/refactoring/legacy-code-to-easy-code-2'
       },
       {
-        text: 'Index',
+        text: '리펙토링 정의와 결과',
         link: '/fe-dev/refactoring/refactoring-meaning-and-result'
       },
       {
-        text: 'Index',
+        text: 'TDD와 BDD 비교',
         link: '/fe-dev/refactoring/tdd-bdd'
       },
       {
-        text: 'Index',
+        text: '테스트 종류 한장에 정리',
         link: '/fe-dev/refactoring/test-types'
       },
       {
-        text: 'Index',
+        text: '테스트가 필요한 부분과 명세 기반 테스트 방법',
         link: '/fe-dev/refactoring/test-guide'
       },
     ],
     '/fe-dev/good-code': [{
-        text: 'Index',
+        text: '좋은코드',
         link: '/fe-dev/good-code/'
       },
       {
         text: '실무 사례',
         items: [{
-            text: 'Index',
+            text: 'since 2019.05, 4년간 고민한 좋은 코드에 대한 결론',
             link: '/fe-dev/good-code/2023'
           },
           {
-            text: 'Index',
+            text: '이해하기 쉬운 코드 작성방법 정리',
             link: '/fe-dev/good-code/easy-code'
           },
           {
-            text: 'Index',
+            text: '코드의 위치를 정하는 기준',
             link: '/fe-dev/good-code/code-position'
           },
           {
-            text: 'Index',
+            text: '재사용 가능한 코드 개발',
             link: '/fe-dev/good-code/reusable-code'
           },
           {
-            text: 'Index',
+            text: '선언형으로 대체 가능한 문법들 정리',
             link: '/fe-dev/good-code/declarative-function'
           },
           {
-            text: 'Index',
+            text: '강제성, 단일화 그리고 날짜 헬퍼 개발',
             link: '/fe-dev/good-code/date-helper-development'
           },
           {
-            text: 'Index',
+            text: '의존성 역전! 한장에 정리',
             link: '/fe-dev/good-code/dependency-inversion'
           },
         ]
@@ -698,44 +698,44 @@ export default {
         items: [
 
           {
-            text: 'Index',
+            text: '단일 책임 원칙',
             link: '/fe-dev/good-code/solid-srp'
           },
           {
-            text: 'Index',
+            text: '개방-패쇄 원칙',
             link: '/fe-dev/good-code/solid-ocp'
           },
           {
-            text: 'Index',
+            text: '리스코프 치환 원칙',
             link: '/fe-dev/good-code/solid-lsp'
           },
           {
-            text: 'Index',
+            text: '인터페이스 분리 원칙',
             link: '/fe-dev/good-code/solid-isp'
           },
           {
-            text: 'Index',
+            text: '의존성 역전 원칙',
             link: '/fe-dev/good-code/solid-dip'
           },
         ]
       },
     ],
     '/fe-dev/design-patterns': [{
-        text: 'Index',
+        text: '디자인 패턴',
         link: '/fe-dev/design-patterns/'
       },
       {
         text: '패턴 비교',
         items: [{
-            text: 'Index',
+            text: 'MV*/Flux 정리',
             link: '/fe-dev/design-patterns/mv_flux'
           },
           {
-            text: 'Index',
+            text: 'React Hook/Vue Composition/Recoil 정리',
             link: '/fe-dev/design-patterns/react_hook_vue_composition_recoil'
           },
           {
-            text: 'Index',
+            text: 'Proxy, Reverse Proxy, Load Balancer 의 차이',
             link: '/fe-dev/design-patterns/proxy_reverse_proxy_load_balancer'
           },
         ]
@@ -743,35 +743,35 @@ export default {
       {
         text: 'Model-View 패턴',
         items: [{
-            text: 'Index',
+            text: 'MVC 용어정의 1979/12/10',
             link: '/fe-dev/design-patterns/mvc-word-1979-12-10'
           },
           {
-            text: 'Index',
+            text: 'MVC XEROX PARC',
             link: '/fe-dev/design-patterns/mvc-xerox-parc'
           },
           {
-            text: 'Index',
+            text: 'MVP The Taligent Programming Model',
             link: '/fe-dev/design-patterns/mvp-the-taligent-programming-model'
           },
           {
-            text: 'Index',
+            text: 'Introduction to MVVM for WPF',
             link: '/fe-dev/design-patterns/introduction-to-mvvm-for-wpf'
           },
           {
-            text: 'Index',
+            text: 'Flux',
             link: '/fe-dev/design-patterns/flux'
           },
           {
-            text: 'Index',
+            text: 'Vuex',
             link: '/fe-dev/design-patterns/vuex'
           },
           {
-            text: 'Index',
+            text: '2019.07.27 MVC 정리',
             link: '/fe-dev/design-patterns/mvc'
           },
           {
-            text: 'Index',
+            text: '2019.07.27 MVVM 정리',
             link: '/fe-dev/design-patterns/mvvm'
           },
         ]
@@ -779,52 +779,52 @@ export default {
       {
         text: 'GoF Design Patterns',
         items: [{
-            text: 'Index',
+            text: 'GoF 디자인 패턴 | 요약',
             link: '/fe-dev/design-patterns/gof/summary'
           },
           {
-            text: 'Index',
+            text: 'GoF 디자인 패턴 | 생성패턴',
             link: '/fe-dev/design-patterns/gof/creational'
           },
           {
-            text: 'Index',
+            text: 'GoF 디자인 패턴 | 구조패턴',
             link: '/fe-dev/design-patterns/gof/structural'
           },
           {
-            text: 'Index',
+            text: 'GoF 디자인 패턴 | 행동패턴',
             link: '/fe-dev/design-patterns/gof/behavioral'
           },
         ]
       },
     ],
     '/fe-dev/code-snippets': [{
-        text: 'Index',
+        text: '코드 스니펫',
         link: '/fe-dev/code-snippets/'
       },
       {
         text: 'Javascript',
         items: [{
-            text: 'Index',
+            text: 'Array',
             link: '/fe-dev/code-snippets/Javascript/Array'
           },
           {
-            text: 'Index',
+            text: 'Date',
             link: '/fe-dev/code-snippets/Javascript/Date'
           },
           {
-            text: 'Index',
+            text: 'Iterable',
             link: '/fe-dev/code-snippets/Javascript/Iterable'
           },
           {
-            text: 'Index',
+            text: 'Object',
             link: '/fe-dev/code-snippets/Javascript/Object'
           },
           {
-            text: 'Index',
+            text: 'String',
             link: '/fe-dev/code-snippets/Javascript/String'
           },
           {
-            text: 'Index',
+            text: 'RegExp',
             link: '/fe-dev/code-snippets/Javascript/RegExp'
           },
         ]
@@ -832,11 +832,11 @@ export default {
       {
         text: 'CSS3',
         items: [{
-            text: 'Index',
+            text: 'Flex',
             link: '/fe-dev/code-snippets/CSS3/Flex'
           },
           {
-            text: 'Index',
+            text: 'Mask Image',
             link: '/fe-dev/code-snippets/CSS3/MaskImage'
           },
         ]
@@ -844,19 +844,19 @@ export default {
       {
         text: 'HTML5',
         items: [{
-            text: 'Index',
+            text: 'HTML5',
             link: '/fe-dev/code-snippets/HTML5/HTML5'
           },
           {
-            text: 'Index',
+            text: 'FetchApi',
             link: '/fe-dev/code-snippets/HTML5/FetchApi'
           },
           {
-            text: 'Index',
+            text: 'FileReader',
             link: '/fe-dev/code-snippets/HTML5/FileReader'
           },
           {
-            text: 'Index',
+            text: 'SVG',
             link: '/fe-dev/code-snippets/HTML5/SVG'
           },
         ]
@@ -864,19 +864,19 @@ export default {
       {
         text: 'Data Structure',
         items: [{
-            text: 'Index',
+            text: 'Set',
             link: '/fe-dev/code-snippets/Data-Structure/Set'
           },
           {
-            text: 'Index',
+            text: 'Stack',
             link: '/fe-dev/code-snippets/Data-Structure/Stack'
           },
           {
-            text: 'Index',
+            text: 'Queue',
             link: '/fe-dev/code-snippets/Data-Structure/Queue'
           },
           {
-            text: 'Index',
+            text: 'LinkedList',
             link: '/fe-dev/code-snippets/Data-Structure/LinkedList'
           },
         ]
@@ -884,27 +884,27 @@ export default {
       {
         text: 'UIComponent',
         items: [{
-            text: 'Index',
+            text: 'Boilerplate',
             link: '/fe-dev/code-snippets/UIComponent/Boilerplate'
           },
           {
-            text: 'Index',
+            text: 'Pagination',
             link: '/fe-dev/code-snippets/UIComponent/Pagination'
           },
           {
-            text: 'Index',
+            text: 'Calendar',
             link: '/fe-dev/code-snippets/UIComponent/Calendar'
           },
           {
-            text: 'Index',
+            text: 'TimePicker',
             link: '/fe-dev/code-snippets/UIComponent/TimePicker'
           },
           {
-            text: 'Index',
+            text: 'InfiniteScrolling',
             link: '/fe-dev/code-snippets/UIComponent/InfiniteScrolling'
           },
           {
-            text: 'Index',
+            text: 'Slider',
             link: '/fe-dev/code-snippets/UIComponent/Slider'
           },
         ]
@@ -912,47 +912,47 @@ export default {
       {
         text: 'Helper',
         items: [{
-            text: 'Index',
+            text: 'Helper',
             link: '/fe-dev/code-snippets/Helper/Helper'
           },
           {
-            text: 'Index',
+            text: 'contextmenu',
             link: '/fe-dev/code-snippets/Helper/contextmenu'
           },
           {
-            text: 'Index',
+            text: 'clone',
             link: '/fe-dev/code-snippets/Helper/clone'
           },
           {
-            text: 'Index',
+            text: 'produce',
             link: '/fe-dev/code-snippets/Helper/produce'
           },
           {
-            text: 'Index',
+            text: 'safe-chain',
             link: '/fe-dev/code-snippets/Helper/safe-chain'
           },
           {
-            text: 'Index',
+            text: 'shuffle',
             link: '/fe-dev/code-snippets/Helper/shuffle'
           },
           {
-            text: 'Index',
+            text: 'Router',
             link: '/fe-dev/code-snippets/Helper/router'
           },
           {
-            text: 'Index',
+            text: 'Observer',
             link: '/fe-dev/code-snippets/Helper/observer'
           },
           {
-            text: 'Index',
+            text: 'Component',
             link: '/fe-dev/code-snippets/Helper/component'
           },
           {
-            text: 'Index',
+            text: 'Directive',
             link: '/fe-dev/code-snippets/Helper/directive'
           },
           {
-            text: 'Index',
+            text: 'Template Binding',
             link: '/fe-dev/code-snippets/Helper/template-binding'
           },
         ]
@@ -960,23 +960,23 @@ export default {
       {
         text: 'OpenSources',
         items: [{
-            text: 'Index',
+            text: 'eslint',
             link: '/fe-dev/code-snippets/OpenSources/eslint'
           },
           {
-            text: 'Index',
+            text: 'chart-adaptor',
             link: '/fe-dev/code-snippets/OpenSources/chart-adaptor'
           },
           {
-            text: 'Index',
+            text: 'editor',
             link: '/fe-dev/code-snippets/OpenSources/editor'
           },
           {
-            text: 'Index',
+            text: 'express-server',
             link: '/fe-dev/code-snippets/OpenSources/express-server'
           },
           {
-            text: 'Index',
+            text: 'pdfjs-sample',
             link: '/fe-dev/code-snippets/OpenSources/pdfjs-sample'
           },
         ]
@@ -984,58 +984,58 @@ export default {
       {
         text: 'Functional',
         items: [{
-          text: 'Index',
-          link: '/fe-dev/code-snippets/Functional/Functional/'
+          text: 'Functional',
+          link: '/fe-dev/code-snippets/Functional/Functional'
         }, ],
 
       },
       {
         text: 'TodoList',
         items: [{
-          text: 'Index',
-          link: '/fe-dev/code-snippets/TodoList/'
+          text: 'TodoList',
+          link: '/fe-dev/code-snippets/TodoList'
         }, ]
       },
       {
         text: 'Reactive',
         items: [{
-          text: 'Index',
-          link: '/fe-dev/code-snippets/Reactive/Reactive/'
+          text: 'Reactive',
+          link: '/fe-dev/code-snippets/Reactive/Reactive'
         }, ]
       },
     ],
     '/fe-dev/pet-project': [{
-        text: 'Index',
+        text: '펫 프로젝트',
         link: '/fe-dev/pet-project/'
       },
       {
         text: 'Vue',
         items: [{
-            text: 'Index',
+            text: '2017.09 Vue2 파트별 구현',
             link: '/fe-dev/pet-project/vue2-part'
           },
           {
-            text: 'Index',
+            text: '2019.08 Vue2 컴포넌트 구현',
             link: '/fe-dev/pet-project/vue2-component'
           },
           {
-            text: 'Index',
-            link: '/fe-dev/pet-project/vuex/'
+            text: 'Vuex',
+            link: '/fe-dev/pet-project/vuex'
           },
         ]
       },
       {
         text: 'Helper',
         items: [{
-            text: 'Index',
+            text: 'Moment.js 기능 만들기',
             link: '/fe-dev/pet-project/momentjs'
           },
           {
-            text: 'Index',
+            text: 'Immer.js 기능 만들기',
             link: '/fe-dev/pet-project/immerjs'
           },
           {
-            text: 'Index',
+            text: 'Axios 기능 만들기',
             link: '/fe-dev/pet-project/axios'
           },
         ]
@@ -1043,52 +1043,52 @@ export default {
       {
         text: 'Component',
         items: [{
-            text: 'Index',
+            text: '2020.08 Component',
             link: '/fe-dev/pet-project/component/2020-08-component'
           },
           {
-            text: 'Index',
+            text: '2020.07.19 Vuex 버전',
             link: '/fe-dev/pet-project/component/vuex-feature'
           },
           {
-            text: 'Index',
+            text: '2020.07.19 Recoil 버전',
             link: '/fe-dev/pet-project/component/recoil-feature'
           },
           {
-            text: 'Index',
+            text: '2020.07.22 Fragment DOM',
             link: '/fe-dev/pet-project/component/fragment-dom'
           },
           {
-            text: 'Index',
+            text: '2020.07.24 Simple DOM',
             link: '/fe-dev/pet-project/component/simple-dom'
           },
           {
-            text: 'Index',
-            link: '/fe-dev/pet-project/component/simple-component/'
+            text: '2020.07.23 Simple Component',
+            link: '/fe-dev/pet-project/component/simple-component'
           },
         ]
       },
       {
         text: 'MVC',
         items: [{
-            text: 'Index',
+            text: '2021.07 MVC',
             link: '/fe-dev/pet-project/mvc/2021-07-mvc'
           },
           {
-            text: 'Index',
+            text: '2020.08 MVC',
             link: '/fe-dev/pet-project/mvc/2020-08-mvc'
           },
           {
-            text: 'Index',
+            text: '2021.07 Todo List (Class 버전)',
             link: '/fe-dev/pet-project/mvc/2021-07-mvc-class'
           },
           {
-            text: 'Index',
+            text: '2020.08 Todo List (Class 버전)',
             link: '/fe-dev/pet-project/mvc/2020-08-mvc-class'
           },
           {
-            text: 'Index',
-            link: '/fe-dev/pet-project/mvc/2020-08-mvc-function/'
+            text: '2020.08 Todo List (Function 버전)',
+            link: '/fe-dev/pet-project/mvc/2020-08-mvc-function'
           },
         ],
       },
