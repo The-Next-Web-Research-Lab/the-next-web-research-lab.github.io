@@ -12,9 +12,9 @@ title: 배터리 상태 조회
 ## 코드 예제
 - 기기에 충전기를 연결하면 "충전 중 상태"가 "Yes"로 변경됩니다.
 
-::: normal-demo 데모
+::: code-group 
 
-```html
+```html [데모.html]
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,7 +29,7 @@ title: 배터리 상태 조회
 </html>
 ```
 
-```js
+```js [scripts.html]
 navigator
   .getBattery()
   .then((battery) => {

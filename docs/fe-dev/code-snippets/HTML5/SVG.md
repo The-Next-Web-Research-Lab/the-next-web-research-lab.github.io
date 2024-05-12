@@ -4,7 +4,7 @@ title: SVG
 ---
 
 ## 육각형 이미지
-@[code](@/docs/fe-dev/code-snippets/HTML5/SVG/rounded-hexagon.jsx)
+<<< @/fe-dev/code-snippets/HTML5/SVG/rounded-hexagon.jsx
 
 ## SVG 아이콘
 ### custom.d.ts
@@ -54,13 +54,13 @@ export const Icon = ({ className, iconType }: Props) => {
 ```
 
 ## circle-css.html
-@[code](@/docs/fe-dev/code-snippets/HTML5/SVG/circle-css.html)
+<<< @/fe-dev/code-snippets/HTML5/SVG/circle-css.html
 
 ## circle-css-with-text.html
-@[code](@/docs/fe-dev/code-snippets/HTML5/SVG/circle-css-with-text.html)
+<<< @/fe-dev/code-snippets/HTML5/SVG/circle-css-with-text.html
 
 ## circle-js.html
-@[code](@/docs/fe-dev/code-snippets/HTML5/SVG/circle-js.html)
+<<< @/fe-dev/code-snippets/HTML5/SVG/circle-js.html
 
 ## svg-parser.js
-@[code](@/docs/fe-dev/code-snippets/HTML5/SVG/svg-parser.js)
+<<< @/fe-dev/code-snippets/HTML5/SVG/svg-parser.js

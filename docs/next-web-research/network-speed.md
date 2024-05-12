@@ -8,9 +8,9 @@ title: 인터넷 속도 측정
 - Firefox / Safari 에서 미지원하고, 대부분 지원한다.
 - [Browser compatibility](https://developer.mozilla.org/en-US/docs/Web/API/NetworkInformation/effectiveType#browser_compatibility)
 
-::: normal-demo 데모
+::: code-group 
 
-```html
+```html [데모.html]
 <!doctype html>
 <html lang="en">
 <head>
@@ -25,7 +25,7 @@ title: 인터넷 속도 측정
 </html>
 ```
 
-```js
+```js [scripts.js]
 document.querySelector("#root").textContent = `navigator.connection.effectiveType: ${navigator.connection.effectiveType}`;
 ```
 

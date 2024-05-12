@@ -6,48 +6,48 @@ title: 2020.07.19 Recoil 버전
 ## Atom
 ### 유틸
 #### Observer
-@[code](@/docs/fe-dev/pet-project/component/recoil-feature/core/utils/observer.js)
+<<< @/fe-dev/pet-project/component/recoil-feature/core/utils/observer.js
 
 #### Ref
-@[code](@/docs/fe-dev/pet-project/component/recoil-feature/core/utils/ref.js)
+<<< @/fe-dev/pet-project/component/recoil-feature/core/utils/ref.js
 
 #### Debounce
-@[code](@/docs/fe-dev/pet-project/component/recoil-feature/core/utils/debounce.js)
+<<< @/fe-dev/pet-project/component/recoil-feature/core/utils/debounce.js
 
 ### atom
-@[code](@/docs/fe-dev/pet-project/component/recoil-feature/core/atom.js)
+<<< @/fe-dev/pet-project/component/recoil-feature/core/atom.js
 
 ## 컴포넌트
 ### forEach
-@[code](@/docs/fe-dev/pet-project/component/recoil-feature/core/utils/forEach.js)
+<<< @/fe-dev/pet-project/component/recoil-feature/core/utils/forEach.js
 
 ### defineComponent
-@[code](@/docs/fe-dev/pet-project/component/recoil-feature/core/defineComponent.js)
+<<< @/fe-dev/pet-project/component/recoil-feature/core/defineComponent.js
 
 ### html
-@[code](@/docs/fe-dev/pet-project/component/recoil-feature/core/html.js)
+<<< @/fe-dev/pet-project/component/recoil-feature/core/html.js
 
 ### mount
-@[code](@/docs/fe-dev/pet-project/component/recoil-feature/core/mount.js)
+<<< @/fe-dev/pet-project/component/recoil-feature/core/mount.js
 
 ## 컴포넌트 사용 예제
 ### 마운트
-@[code](@/docs/fe-dev/pet-project/component/recoil-feature/example/advanced.js)
+<<< @/fe-dev/pet-project/component/recoil-feature/example/advanced.js
 
 ### Atom
-@[code](@/docs/fe-dev/pet-project/component/recoil-feature/example/advanced/inputAtom.js)
+<<< @/fe-dev/pet-project/component/recoil-feature/example/advanced/inputAtom.js
 
 ### MainComponent
-@[code](@/docs/fe-dev/pet-project/component/recoil-feature/example/advanced/MainComponent.js)
+<<< @/fe-dev/pet-project/component/recoil-feature/example/advanced/MainComponent.js
 
 ### TextComponent
-@[code](@/docs/fe-dev/pet-project/component/recoil-feature/example/advanced/TextComponent.js)
+<<< @/fe-dev/pet-project/component/recoil-feature/example/advanced/TextComponent.js
 
 - Atom 변경 시, 다시 랜더링이 필요한 컴포넌트는 이와 같이 사용한다.
   - `defineComponent({atomA, atomB, ...}, renderFn)`
 
 ### InputComponent
-@[code](@/docs/fe-dev/pet-project/component/recoil-feature/example/advanced/InputComponent.js)
+<<< @/fe-dev/pet-project/component/recoil-feature/example/advanced/InputComponent.js
 
 #### 고민
 Atom 변경 시, 다시 랜더링되면 Focus와 입력이 종료된다.

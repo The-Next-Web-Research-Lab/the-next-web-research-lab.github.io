@@ -8,9 +8,9 @@ In this article, I will introduce how to make a hexagonal profile using SVG and 
 
 ## Making a hexagonal profile with SVG
 
-::: normal-demo SVG ClipPath
+::: code-group
 
-```html
+```html [SVG ClipPath.html]
 <svg 
   xmlns="http://www.w3.org/2000/svg" 
   width="2.25rem"

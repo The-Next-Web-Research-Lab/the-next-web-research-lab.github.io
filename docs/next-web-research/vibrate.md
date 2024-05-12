@@ -10,9 +10,9 @@ title: 기기의 진동 컨트롤
 - [Browser compatibility](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/vibrate#browser_compatibility)
 
 ## 코드 예제
-::: normal-demo 데모
+::: code-group 
 
-```html
+```html [데모.html]
 <!doctype html>
 <html lang="en">
 <head>

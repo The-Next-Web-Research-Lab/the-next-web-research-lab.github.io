@@ -26,17 +26,17 @@ type patch = (FragmentDOM, AutualDOM) => void
 [Fragment DOM](/fe-dev/pet-project/component/fragment-dom.html)에서 영감을 얻은 코어.
 
 ### parse
-@[code](@/docs/fe-dev/pet-project/component/simple-dom/core/parse.js)
+<<< @/fe-dev/pet-project/component/simple-dom/core/parse.js
 
 ### generate
-@[code](@/docs/fe-dev/pet-project/component/simple-dom/core/generate.js)
+<<< @/fe-dev/pet-project/component/simple-dom/core/generate.js
 
 ### fragment-dom
 #### patch
-@[code](@/docs/fe-dev/pet-project/component/simple-dom/core/fragment-dom-20200725/patch.js)
+<<< @/fe-dev/pet-project/component/simple-dom/core/fragment-dom-20200725/patch.js
 
 #### render
-@[code](@/docs/fe-dev/pet-project/component/simple-dom/core/fragment-dom-20200725/render.js)
+<<< @/fe-dev/pet-project/component/simple-dom/core/fragment-dom-20200725/render.js
 
 ## 사용예
-@[code](@/docs/fe-dev/pet-project/component/simple-dom/main.js)
+<<< @/fe-dev/pet-project/component/simple-dom/main.js

@@ -37,10 +37,9 @@ In a functional program, the concept of wrapping the intended code can be retain
 
 #### 1. Filter out users who are over 30 years old.
 
-::: code-tabs#js
+::: code-group
 
-@tab Imperative
-```js
+```js [Imperative.js]
 const temp_users = [];
 for (let i = 0; i < users.length; i++) {
   if (users[i].age >= 30) {
@@ -48,8 +47,8 @@ for (let i = 0; i < users.length; i++) {
   }
 }
 ```
-@tab Functional
-```js
+
+```js [Functional.js]
 const over_30 = users.filter(({age}) => age >= 30);
 ```
 
@@ -57,17 +56,16 @@ const over_30 = users.filter(({age}) => age >= 30);
 
 #### 2. Collect the names of users over 30 years of age.
 
-::: code-tabs#js
-
-@tab Imperative
-```js
+::: code-group
+ 
+```js [Imperative.js]
 const names = [];
 for (let i = 0; i < temp_users.length; i++) {
   names.push(temp_users[i].name);
 }
 ```
-@tab Functional
-```js
+
+```js [Functional.js]
 const names = over_30.map(({name}) => name);
 ```
 
@@ -75,10 +73,9 @@ const names = over_30.map(({name}) => name);
 
 #### 3. Filter out users under 30 years of age.
 
-::: code-tabs#js
+::: code-group
 
-@tab Imperative
-```js
+```js [Imperative.js]
 const temp_users2 = [];
 for (let i = 0; i < users.length; i++) {
   if (users[i].age < 30) {
@@ -86,8 +83,8 @@ for (let i = 0; i < users.length; i++) {
   }
 }
 ```
-@tab Functional
-```js
+
+```js [Functional.js]
 const under_30 = users.filter(({age}) => age < 30);
 ```
 
@@ -95,17 +92,16 @@ const under_30 = users.filter(({age}) => age < 30);
 
 #### 4. Collect the ages of users under 30 years of age.
 
-::: code-tabs#js
+::: code-group
 
-@tab Imperative
-```js
+```js [Imperative.js]
 const ages = [];
 for (let i = 0; i < temp_users2.length; i++) {
   ages.push(temp_users2[i].age);
 }
 ```
-@tab Functional
-```js
+
+```js [Functional.js]
 const ages = under_30.map(({age}) => age)
 ```
 

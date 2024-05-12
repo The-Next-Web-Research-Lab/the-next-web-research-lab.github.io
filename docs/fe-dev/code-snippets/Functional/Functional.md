@@ -4,41 +4,41 @@ title: Functional
 ---
 
 ## unfold
-@[code](@/docs/fe-dev/code-snippets/Functional/unfold.js)
+<<< @/fe-dev/code-snippets/Functional/unfold.js
 
 ## always
-@[code](@/docs/fe-dev/code-snippets/Functional/always.js)
+<<< @/fe-dev/code-snippets/Functional/always.js
 
 ## boolean
-@[code](@/docs/fe-dev/code-snippets/Functional/boolean.ts)
+<<< @/fe-dev/code-snippets/Functional/boolean.ts
 
 ## curry
-@[code](@/docs/fe-dev/code-snippets/Functional/curry.js)
+<<< @/fe-dev/code-snippets/Functional/curry.js
 
 ## is-same
-@[code](@/docs/fe-dev/code-snippets/Functional/is-same.ts)
+<<< @/fe-dev/code-snippets/Functional/is-same.ts
 
 ## memoize
-@[code](@/docs/fe-dev/code-snippets/Functional/memoize.js)
+<<< @/fe-dev/code-snippets/Functional/memoize.js
 
 ## once
-@[code](@/docs/fe-dev/code-snippets/Functional/once.ts)
+<<< @/fe-dev/code-snippets/Functional/once.ts
 
 ## partial
-@[code](@/docs/fe-dev/code-snippets/Functional/partial.js)
+<<< @/fe-dev/code-snippets/Functional/partial.js
 
 ## pipe
-@[code](@/docs/fe-dev/code-snippets/Functional/pipe.js)
+<<< @/fe-dev/code-snippets/Functional/pipe.js
 
 ## plucker
-@[code](@/docs/fe-dev/code-snippets/Functional/plucker.js)
+<<< @/fe-dev/code-snippets/Functional/plucker.js
 
 ## range
-@[code](@/docs/fe-dev/code-snippets/Functional/range.js)
+<<< @/fe-dev/code-snippets/Functional/range.js
 
 ## tab
-@[code](@/docs/fe-dev/code-snippets/Functional/tap.ts)
+<<< @/fe-dev/code-snippets/Functional/tap.ts
 
 ## fp
-@[code](@/docs/fe-dev/code-snippets/Functional/fp.js)
-@[code](@/docs/fe-dev/code-snippets/Functional/fp.spec.js)
+<<< @/fe-dev/code-snippets/Functional/fp.js
+<<< @/fe-dev/code-snippets/Functional/fp.spec.js

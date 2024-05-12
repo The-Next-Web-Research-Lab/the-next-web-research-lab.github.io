@@ -6,23 +6,23 @@ title: 2021.07 Todo List (Class 버전)
 > 참고자료: [Maria - The MVC Framework for JavaScript Application](http://peter.michaux.ca/maria/quick-start-tutorial-for-the-impatient.html)
 
 ## app
-@[code](@/docs/fe-dev/pet-project/mvc/2021-07-mvc/basic-todo-class/index.html)
-@[code](@/docs/fe-dev/pet-project/mvc/2021-07-mvc/basic-todo-class/app.js)
+<<< @/fe-dev/pet-project/mvc/2021-07-mvc/basic-todo-class/index.html
+<<< @/fe-dev/pet-project/mvc/2021-07-mvc/basic-todo-class/app.js
 
 ## model
-@[code](@/docs/fe-dev/pet-project/mvc/2021-07-mvc/basic-todo-class/src/model.js)
+<<< @/fe-dev/pet-project/mvc/2021-07-mvc/basic-todo-class/src/model.js
 
 ### subject
-@[code](@/docs/fe-dev/pet-project/mvc/2021-07-mvc/basic-todo-class/utils/subject.js)
+<<< @/fe-dev/pet-project/mvc/2021-07-mvc/basic-todo-class/utils/subject.js
 
 ## view
-@[code](@/docs/fe-dev/pet-project/mvc/2021-07-mvc/basic-todo-class/src/view.js)
+<<< @/fe-dev/pet-project/mvc/2021-07-mvc/basic-todo-class/src/view.js
 
 ### dom
-@[code](@/docs/fe-dev/pet-project/mvc/2021-07-mvc/basic-todo-class/utils/dom.js)
+<<< @/fe-dev/pet-project/mvc/2021-07-mvc/basic-todo-class/utils/dom.js
 
 ## controller
-@[code](@/docs/fe-dev/pet-project/mvc/2021-07-mvc/basic-todo-class/src/controller.js)
+<<< @/fe-dev/pet-project/mvc/2021-07-mvc/basic-todo-class/src/controller.js
 
 
  
