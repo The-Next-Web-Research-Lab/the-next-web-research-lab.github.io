@@ -13,7 +13,7 @@
     "preview": "vitepress preview docs",
     "preprocess": "node preprocess.js",
     "release": "node release.js",
-    "git:push": "git add -A && git commit -m \"설명 수정\" && git push origin main",
+    "git:push": "git add -A && git commit -m \"feat: 수정 후 배포\" && git push origin HEAD",
     "push": "npm run preprocess && npm run build && npm run release && npm run git:push"
   }
 }

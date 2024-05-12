@@ -1,7 +1,7 @@
-const fs = require("fs-extra");
+import fs from 'fs-extra';
 
 try {
-    fs.removeSync("./docs/.vuepress/dist");
+    fs.removeSync("./docs/.vitepress/dist");
 } catch {
-    console.error("fs.removeSync('./docs/.vuepress/dist'); 실패");
+    console.error("fs.removeSync('./docs/.vitepress/dist'); 실패");
 }
