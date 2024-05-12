@@ -46,7 +46,7 @@ export default defineConfig({
     },
   },
   sitemap: {
-    hostname: 'the-next-web-research-lab.github.io',
+    hostname: 'https://the-next-web-research-lab.github.io',
   },
   locales: {
     root: {
