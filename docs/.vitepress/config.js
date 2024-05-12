@@ -16,6 +16,7 @@ export default defineConfig({
   lang: 'ko-KR',
   head,
   appearance: 'dark',
+  ignoreDeadLinks: 'localhostLinks',
   themeConfig: {
     search: {
       provider: 'algolia',
