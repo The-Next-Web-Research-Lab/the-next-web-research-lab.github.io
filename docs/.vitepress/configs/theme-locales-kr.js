@@ -5,64 +5,80 @@ export default {
     },
     {
       text: '프런트엔드',
+      activeMatch: '/fe-dev/',
       items: [{
           text: '자기 관리',
-          link: '/fe-dev/self-management/'
+          link: '/fe-dev/self-management/',
+          activeMatch: '/fe-dev/self-management/'
         }, {
           text: '프로그래밍 언어',
-          link: '/fe-dev/javascript/'
+          link: '/fe-dev/javascript/',
+          activeMatch: '/fe-dev/javascript/'
         }, {
           text: '좋은코드',
-          link: '/fe-dev/good-code/'
+          link: '/fe-dev/good-code/',
+          activeMatch: '/fe-dev/good-code/'
         },
         {
           text: '리팩터링',
-          link: '/fe-dev/refactoring/'
+          link: '/fe-dev/refactoring/',
+          activeMatch: '/fe-dev/refactoring/'
         },
         {
           text: '프로젝트 관리',
-          link: '/fe-dev/project-management/'
+          link: '/fe-dev/project-management/',
+          activeMatch: '/fe-dev/project-management/'
         },
         {
           text: 'React / Vue / Angular',
           link: '/fe-dev/framework/',
+          activeMatch: '/fe-dev/framework/',
         },
         {
           text: '명령형 / 객체지향 / 함수형',
-          link: '/fe-dev/paradigm/'
+          link: '/fe-dev/paradigm/',
+          activeMatch: '/fe-dev/paradigm/'
         },
         {
           text: '코드 스니펫',
-          link: '/fe-dev/code-snippets/'
+          link: '/fe-dev/code-snippets/',
+          activeMatch: '/fe-dev/code-snippets/'
         },
         {
           text: '펫 프로젝트',
-          link: '/fe-dev/pet-project/'
+          link: '/fe-dev/pet-project/',
+          activeMatch: '/fe-dev/pet-project/'
         },
         {
           text: '디자인 패턴',
-          link: '/fe-dev/design-patterns/'
+          link: '/fe-dev/design-patterns/',
+          activeMatch: '/fe-dev/design-patterns/'
         },
         {
           text: '성능 최적화',
-          link: '/fe-dev/optimization/'
+          link: '/fe-dev/optimization/',
+          activeMatch: '/fe-dev/optimization/'
         },
         {
           text: '도서 리뷰',
-          link: '/fe-dev/books/'
+          link: '/fe-dev/books/',
+          activeMatch: '/fe-dev/books/'
         },
         {
           text: '면접관 가이드',
-          link: '/fe-dev/interview-guide/'
+          link: '/fe-dev/interview-guide/',
+          activeMatch: '/fe-dev/interview-guide/'
         },
       ]
     },
     {
       text: '경험정리',
-      link: '/essay/'
+      link: '/essay/',
+      activeMatch: '/essay/'
     }, {
       text: '선행개발',
-      link: '/next-web-research/'
+      link: '/next-web-research/',
+      activeMatch: '/next-web-research/'
     }
   ],
   sidebar: {
