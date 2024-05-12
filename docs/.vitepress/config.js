@@ -15,6 +15,7 @@ import {
 export default defineConfig({
   lang: 'ko-KR',
   head,
+  appearance: 'dark',
   themeConfig: {
     search: {
       provider: 'algolia',
