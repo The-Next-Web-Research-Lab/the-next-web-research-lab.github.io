@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "preview": "vietepress preview docs",
+    "preview": "vitepress preview docs",
     "preprocess": "node preprocess.js",
     "release": "node release.js",
     "git:push": "git add -A && git commit -m \"설명 수정\" && git push origin main",

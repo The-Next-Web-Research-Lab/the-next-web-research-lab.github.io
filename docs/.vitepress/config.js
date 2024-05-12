@@ -14,7 +14,6 @@ import {
 
 export default defineConfig({
   lang: 'ko-KR',
-  base: '/',
   head,
   themeConfig: {
     search: {
