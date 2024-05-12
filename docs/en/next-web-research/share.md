@@ -12,9 +12,9 @@ You can use navigator.share to share URL, text, and files with custom options.
 
 
 ## Code example
-::: normal-demo Demo
+::: code-group 
 
-```html
+```html [Demo.html]
 <!DOCTYPE html>
 <html>
 
@@ -50,7 +50,7 @@ You can use navigator.share to share URL, text, and files with custom options.
 </html>
 ```
 
-```js
+```js [scripts.js]
 const setMessage = (selector, message) => {
   document.querySelector(selector).textContent = message;
 };

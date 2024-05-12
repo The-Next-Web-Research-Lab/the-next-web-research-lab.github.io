@@ -37,10 +37,9 @@ title: 명령형 프로그래밍 사고로 전환하기
 
 #### 1. 30세 이상인 users를 거른다.
 
-::: code-tabs#js
+::: code-group
 
-@tab 명령형
-```js
+```js [명령형.js]
 const temp_users = [];
 for (let i = 0; i < users.length; i++) {
   if (users[i].age >= 30) {
@@ -48,8 +47,8 @@ for (let i = 0; i < users.length; i++) {
   }
 }
 ```
-@tab 함수형
-```js
+
+```js [함수형.js]
 const over_30 = users.filter(({age}) => age >= 30);
 ```
 
@@ -57,17 +56,16 @@ const over_30 = users.filter(({age}) => age >= 30);
 
 #### 2. 30세 이상인 users의 names를 수집한다.
 
-::: code-tabs#js
+::: code-group
 
-@tab 명령형
-```js
+```js [명령형.js]
 const names = [];
 for (let i = 0; i < temp_users.length; i++) {
   names.push(temp_users[i].name);
 }
 ```
-@tab 함수형
-```js
+
+```js [함수형.js]
 const names = over_30.map(({name}) => name);
 ```
 
@@ -75,10 +73,9 @@ const names = over_30.map(({name}) => name);
 
 #### 3. 30세 미만인 users를 거른다.
 
-::: code-tabs#js
+::: code-group
 
-@tab 명령형
-```js
+```js [명령형.js]
 const temp_users2 = [];
 for (let i = 0; i < users.length; i++) {
   if (users[i].age < 30) {
@@ -86,8 +83,8 @@ for (let i = 0; i < users.length; i++) {
   }
 }
 ```
-@tab 함수형
-```js
+
+```js [함수형.js]
 const under_30 = users.filter(({age}) => age < 30);
 ```
 
@@ -95,17 +92,16 @@ const under_30 = users.filter(({age}) => age < 30);
 
 #### 4. 30세 미만인 users의 ages를 수집한다.
 
-::: code-tabs#js
+::: code-group
 
-@tab 명령형
-```js
+```js [명령형.js]
 const ages = [];
 for (let i = 0; i < temp_users2.length; i++) {
   ages.push(temp_users2[i].age);
 }
 ```
-@tab 함수형
-```js
+
+```js [함수형.js]
 const ages = under_30.map(({age}) => age)
 ```
 

@@ -7,9 +7,9 @@ title: SVG와 CSS Mask로 육각형 프로필 만들기
 이 글에서는 SVG와 CSS Mask를 활용해서 육각형 프로필을 만드는 방법을 소개한다. 이 기능들을 활용하면 다른 모양으로도 가능하다.
 
 ## SVG로 육각형 프로필 만들기
-::: normal-demo SVG ClipPath
+::: code-group 
 
-```html
+```html [SVG ClipPath.html]
 <svg 
   xmlns="http://www.w3.org/2000/svg" 
   width="2.25rem"

@@ -12,9 +12,9 @@ navigator.share를 사용해서 URL, 텍스트, 파일을 공유할 때 커스�
 
 
 ## 코드 예제
-::: normal-demo 데모
+::: code-group 
 
-```html
+```html [데모.html]
 <!DOCTYPE html>
 <html>
 
@@ -50,7 +50,7 @@ navigator.share를 사용해서 URL, 텍스트, 파일을 공유할 때 커스�
 </html>
 ```
 
-```js
+```js [scripts.js]
 const setMessage = (selector, message) => {
   document.querySelector(selector).textContent = message;
 };

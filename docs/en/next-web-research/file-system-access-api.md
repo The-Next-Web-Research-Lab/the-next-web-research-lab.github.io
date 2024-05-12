@@ -11,9 +11,9 @@ You can use the file system API to read and modify folders and files. In the pas
 
 
 ## Code example
-::: normal-demo Demo
+::: code-group
 
-```html
+```html [Demo.html]
 <!DOCTYPE html>
 <html>
 
@@ -54,9 +54,7 @@ You can use the file system API to read and modify folders and files. In the pas
 </html>
 ```
 
-I can help you translate the code from Korean to English in markdown format. Here is the translation:
-
-```js
+```js [scripts.js]
 const setMessage = (selector, message) => {
   document.querySelector(selector).textContent = message;
 };

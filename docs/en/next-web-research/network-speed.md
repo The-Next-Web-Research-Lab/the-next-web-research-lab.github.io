@@ -9,9 +9,9 @@ You can check the internet speed using `navigator.connection.effectiveType`. It 
 - Not supported by Firefox / Safari, but mostly supported by others.
 - [Browser compatibility](https://developer.mozilla.org/en-US/docs/Web/API/NetworkInformation/effectiveType#browser_compatibility)
 
-::: normal-demo Demo
+::: code-group 
 
-```html
+```html [Demo.html]
 <!doctype html>
 <html lang="en">
 <head>
@@ -26,7 +26,7 @@ You can check the internet speed using `navigator.connection.effectiveType`. It 
 </html>
 ```
 
-```js
+```js [scripts.js]
 document.querySelector("#root").textContent = `navigator.connection.effectiveType: ${navigator.connection.effectiveType}`;
 ```
 

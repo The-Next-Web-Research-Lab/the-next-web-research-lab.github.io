@@ -11,9 +11,9 @@ title: 파일 시스템 접근
 
 
 ## 코드 예제
-::: normal-demo 데모
+::: code-group 
 
-```html
+```html [데모.html]
 <!DOCTYPE html>
 <html>
 
@@ -54,7 +54,7 @@ title: 파일 시스템 접근
 </html>
 ```
 
-```js
+```js [scripts.js]
 const setMessage = (selector, message) => {
   document.querySelector(selector).textContent = message;
 };

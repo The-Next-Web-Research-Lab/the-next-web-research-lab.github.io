@@ -96,4 +96,4 @@ fetchDeleteData('/delete/json', {data: 'json'})
 ```
 
 ## fetch-wrapper.js
-@[code](@/0_files/FetchWrapper/src/fetch-wrapper.js)
+<<< @/0_files/FetchWrapper/src/fetch-wrapper.js

@@ -10,9 +10,9 @@ You can adjust the number or duration of vibrations using `navigator.vibrate`. T
 - [Browser compatibility](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/vibrate#browser_compatibility)
 
 ## Code example
-::: normal-demo Demo
+::: code-group 
 
-```html
+```html [Demo.html]
 <!doctype html>
 <html lang="en">
 <head>

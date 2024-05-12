@@ -12,9 +12,9 @@ You can check the charging status, battery level, and remaining time until full 
 ## Code example
 - When you connect the charger to the device, the "charging status" changes to "Yes".
 
-::: normal-demo Demo
+::: code-group 
 
-```html
+```html [Demo.html]
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,7 +29,7 @@ You can check the charging status, battery level, and remaining time until full 
 </html>
 ```
 
-```js
+```js [scripts.js]
 navigator
   .getBattery()
   .then((battery) => {

@@ -1,8 +1,16 @@
-import { defineConfig } from 'vitepress'
+import {
+  defineConfig
+} from 'vitepress'
 
-import {default as head} from "./configs/head";
-import {default as themeLocalesEn} from "./configs/theme-locales-en";
-import {default as themeLocalesKr} from "./configs/theme-locales-kr";
+import {
+  default as head
+} from "./configs/head";
+import {
+  default as themeLocalesEn
+} from "./configs/theme-locales-en";
+import {
+  default as themeLocalesKr
+} from "./configs/theme-locales-kr";
 
 const __dirname = getDirname(
   import.meta.url)
@@ -18,9 +26,9 @@ export default defineConfig({
       options: {
         appId: 'KG049CYGHA',
         apiKey: '989e418f2e968981ce479c9ccfdfc9cf',
-        indexName: 'the-next-web-research-labio',  
+        indexName: 'the-next-web-research-labio',
         locales: {
-          kr: {
+          root: {
             placeholder: '찾고 싶은 포스트와 관련된 검색어를 입력해주세요.',
             translations: {
               button: {
@@ -36,33 +44,25 @@ export default defineConfig({
               },
             },
           },
+        }
       }
-    }
+    },
   },
   sitemap: {
     hostname: 'the-next-web-research-lab.github.io',
   },
-
-  // shouldPrefetch: false,
   locales: {
-    '/': {
-      lang: 'ko-KR',
+    root: {
+      label: '한국어',
+      lang: 'ko',
       title: '더넥스트웹리서치랩',
       description: '담백한 프런트엔드 기술 블로그',
     },
-    '/en/': {
-      lang: 'en-US',
+    en: {
+      label: 'English',
+      lang: 'en',
       title: 'The Next Web Research Lab',
       description: 'A plain front-end technology blog',
-    }
-  },
-  markdown: {
-    importCode: {
-      handleImportPath: (str) => {
-        return str
-          .replace('@/docs', path.resolve(__dirname, '../'))
-          .replace('@/0_files', path.resolve(__dirname, '../../0_files'))
-      }
     }
   },
   theme: hopeTheme({
