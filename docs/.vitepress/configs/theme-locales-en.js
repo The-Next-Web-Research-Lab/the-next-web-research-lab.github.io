@@ -7,11 +7,13 @@ export default {
       text: 'Front-End',
       items: [{
           text: 'Self-care',
-          link: '/en/fe-dev/self-management'
+          link: '/en/fe-dev/self-management/',
+          activeMatch: '/en/fe-dev/self-management/'
         },
         {
           text: 'Computer Language',
-          link: '/en/fe-dev/javascript'
+          link: '/en/fe-dev/javascript/',
+          activeMatch: '/en/fe-dev/javascript/'
         },
         // {
         //   text: '좋은코드',
@@ -19,11 +21,13 @@ export default {
         // },
         {
           text: 'Refactoring',
-          link: '/en/fe-dev/refactoring'
+          link: '/en/fe-dev/refactoring/',
+          activeMatch: '/en/fe-dev/refactoring/'
         },
         {
           text: 'Project Management',
-          link: '/en/fe-dev/project-management'
+          link: '/en/fe-dev/project-management/',
+          activeMatch: '/en/fe-dev/project-management/'
         },
         // {
         //   text: 'React / Vue / Angular',
@@ -31,7 +35,8 @@ export default {
         // },
         {
           text: 'Programming Paradigm',
-          link: '/en/fe-dev/paradigm'
+          link: '/en/fe-dev/paradigm/',
+          activeMatch: '/en/fe-dev/paradigm/'
         },
         // {
         //   text: '코드 스니펫',
@@ -47,97 +52,102 @@ export default {
         // },
         {
           text: 'Performance Optimization',
-          link: '/en/fe-dev/optimization'
+          link: '/en/fe-dev/optimization/',
+          activeMatch: '/en/fe-dev/optimization/'
         },
         {
           text: 'Book Reviews',
-          link: '/en/fe-dev/books'
+          link: '/en/fe-dev/books/',
+          activeMatch: '/en/fe-dev/books/'
         },
         {
           text: "Interviewer's Guide",
-          link: '/en/fe-dev/interview-guide'
+          link: '/en/fe-dev/interview-guide/',
+          activeMatch: '/en/fe-dev/interview-guide/'
         },
       ]
     },
     {
       text: 'Summary of experience',
-      link: '/en/essay.html'
+      link: '/en/essay/',
+      activeMatch: '/en/essay/'
     }, {
       text: 'Prior Development',
-      link: '/en/next-web-research.html'
+      link: '/en/next-web-research/',
+      activeMatch: '/en/next-web-research/'
     }
   ],
   sidebar: {
     '/en/fe-dev/self-management': [
-      '/en/fe-dev/self-management.md',
-      '/en/fe-dev/self-management/project-history',
-      '/en/fe-dev/self-management/stress-management'
+      {text: 'Index', link: '/en/fe-dev/self-management/'},
+      {text: 'Index', link: '/en/fe-dev/self-management/project-history'},
+      {text: 'Index', link: '/en/fe-dev/self-management/stress-management'},
     ],
     '/en/fe-dev/interview-guide': [
-      '/en/fe-dev/interview-guide.md',
-      '/en/fe-dev/interview-guide/questions-list',
-      '/en/fe-dev/interview-guide/interview-process',
-      '/en/fe-dev/interview-guide/success-criteria',
+      {text: 'Index', link: '/en/fe-dev/interview-guide/'},
+      {text: 'Index', link: '/en/fe-dev/interview-guide/questions-list'},
+      {text: 'Index', link: '/en/fe-dev/interview-guide/interview-process'},
+      {text: 'Index', link: '/en/fe-dev/interview-guide/success-criteria'},
     ],
     '/en/next-web-research': [
-      '/en/next-web-research.md',
-      '/en/next-web-research/scheduling-api.md',
-      '/en/next-web-research/vibrate.md',
-      '/en/next-web-research/battery.md',
-      '/en/next-web-research/share.md',
-      '/en/next-web-research/file-system-access-api.md',
-      '/en/next-web-research/network-speed.md'
+      {text: 'Index', link: '/en/next-web-research/'},
+      {text: 'Index', link: '/en/next-web-research/scheduling-api.md'},
+      {text: 'Index', link: '/en/next-web-research/vibrate.md'},
+      {text: 'Index', link: '/en/next-web-research/battery.md'},
+      {text: 'Index', link: '/en/next-web-research/share.md'},
+      {text: 'Index', link: '/en/next-web-research/file-system-access-api.md'},
+      {text: 'Index', link: '/en/next-web-research/network-speed.md'},
     ],
     '/en/essay': [
-      '/en/essay.md',
+      {text: 'Index', link: '/en/essay/'},
       {
         text: 'Testimonials',
         items: [
-          '/en/essay/commit-message/',
-          '/en/essay/swagger-dto-automation/',
-          '/en/essay/software-versioning/',
-          '/en/essay/web-usability-review/',
-          '/en/essay/2019-new-service-building/',
-          '/en/essay/cors-and-http-cookie/',
-          '/en/essay/front_end_ui/',
-          '/en/essay/developer_communication_skills/',
+          {text: 'Index', link: '/en/essay/commit-message'},
+          {text: 'Index', link: '/en/essay/swagger-dto-automation'},
+          {text: 'Index', link: '/en/essay/software-versioning'},
+          {text: 'Index', link: '/en/essay/web-usability-review'},
+          {text: 'Index', link: '/en/essay/2019-new-service-building'},
+          {text: 'Index', link: '/en/essay/cors-and-http-cookie'},
+          {text: 'Index', link: '/en/essay/front_end_ui'},
+          {text: 'Index', link: '/en/essay/developer_communication_skills'},
         ]
       },
       {
         text: 'Theory',
         items: [
-          '/en/essay/authentication-and-authorization/',
-          '/en/essay/abstract/',
+          {text: 'Index', link: '/en/essay/authentication-and-authorization'},
+          {text: 'Index', link: '/en/essay/abstract'},
           //     '/essay/compiler-theory/',
-          '/en/essay/non-functional-requirements/',
+          {text: 'Index', link: '/en/essay/non-functional-requirements'},
           //     '/essay/design-guide/',
-          '/en/essay/web-accessibility/',
+          {text: 'Index', link: '/en/essay/web-accessibility'},
         ]
       },
       {
         text: 'Color Space Series',
         items: [
-          '/en/essay/color-space-munsell-color-theory/',
-          '/en/essay/color-space-hsl-and-hsv/',
-          '/en/essay/color-space-lch-and-lab/',
+          {text: 'Index', link: '/en/essay/color-space-munsell-color-theory'},
+          {text: 'Index', link: '/en/essay/color-space-hsl-and-hsv'},
+          {text: 'Index', link: '/en/essay/color-space-lch-and-lab'},
         ]
       },
       {
         text: 'Writing code',
         items: [
-          '/en/essay/client-hints/',
-          '/en/essay/hexagon-profile/',
-          '/en/essay/how-to-catch-error/',
-          '/en/essay/branch-n-case/',
-          '/en/essay/callback/',
-          '/en/essay/clone-function/',
-          '/en/essay/safe-chain/',
-          '/en/essay/observation-mechanism/',
+          {text: 'Index', link: '/en/essay/client-hints'},
+          {text: 'Index', link: '/en/essay/hexagon-profile'},
+          {text: 'Index', link: '/en/essay/how-to-catch-error'},
+          {text: 'Index', link: '/en/essay/branch-n-case'},
+          {text: 'Index', link: '/en/essay/callback'},
+          {text: 'Index', link: '/en/essay/clone-function'},
+          {text: 'Index', link: '/en/essay/safe-chain'},
+          {text: 'Index', link: '/en/essay/observation-mechanism'},
         ]
       }
     ],
     '/en/fe-dev/books': [
-      '/en/fe-dev/books.md',
+      {text: 'Index', link: '/en/fe-dev/books/'},
       //   {
       //     text: '프로그래밍 페러다임',
       //     items: [
@@ -151,8 +161,8 @@ export default {
         text: 'Clean Series',
         items: [
           //       '/fe-dev/books/1',
-          '/en/fe-dev/books/2',
-          '/en/fe-dev/books/18',
+          {text: 'Index', link: '/en/fe-dev/books/2'},
+          {text: 'Index', link: '/en/fe-dev/books/18'},
         ]
       },
       //   {
@@ -167,99 +177,99 @@ export default {
         text: 'Managing',
         items: [
           //       '/fe-dev/books/11',
-          '/en/fe-dev/books/12',
+          {text: 'Index', link: '/en/fe-dev/books/12'},
         ]
       },
       {
         text: 'Methodology',
         items: [
           //       '/fe-dev/books/3',
-          '/en/fe-dev/books/4',
+          {text: 'Index', link: '/en/fe-dev/books/4'},
           //       '/fe-dev/books/5',
           //       '/fe-dev/books/14',
-          '/en/fe-dev/books/17',
+          {text: 'Index', link: '/en/fe-dev/books/17'},
         ]
       },
       {
         text: 'Computer Science',
         items: [
-          '/en/fe-dev/books/22',
+          {text: 'Index', link: '/en/fe-dev/books/22'},
           //       '/fe-dev/books/7',
           //       '/fe-dev/books/8',
-          '/en/fe-dev/books/13',
+          {text: 'Index', link: '/en/fe-dev/books/13'},
           //       '/fe-dev/books/15',
         ]
       }
     ],
     '/en/fe-dev/optimization': [
-      '/en/fe-dev/optimization.md',
-      '/en/fe-dev/optimization/rail',
-      '/en/fe-dev/optimization/web-vitals',
-      '/en/fe-dev/optimization/monitoring',
-      '/en/fe-dev/optimization/chrome-network-tab',
-      '/en/fe-dev/optimization/browser_cache',
-      '/en/fe-dev/optimization/lighthouse-mobile',
-      '/en/fe-dev/optimization/performance-optimization-process'
+      {text: 'Index', link: '/en/fe-dev/optimization/'},
+      {text: 'Index', link: '/en/fe-dev/optimization/rail'},
+      {text: 'Index', link: '/en/fe-dev/optimization/web-vitals'},
+      {text: 'Index', link: '/en/fe-dev/optimization/monitoring'},
+      {text: 'Index', link: '/en/fe-dev/optimization/chrome-network-tab'},
+      {text: 'Index', link: '/en/fe-dev/optimization/browser_cache'},
+      {text: 'Index', link: '/en/fe-dev/optimization/lighthouse-mobile'},
+      {text: 'Index', link: '/en/fe-dev/optimization/performance-optimization-process'},
     ],
     '/en/fe-dev/javascript': [
-      '/en/fe-dev/javascript.md',
+      {text: 'Index', link: '/en/fe-dev/javascript/'},
       {
         text: 'JavaScript',
         items: [
           //       '/fe-dev/javascript/syntax',
-          '/en/fe-dev/javascript/this',
-          '/en/fe-dev/javascript/promise',
-          '/en/fe-dev/javascript/async-await',
-          '/en/fe-dev/javascript/coroutine',
-          '/en/fe-dev/javascript/decorators',
-          '/en/fe-dev/javascript/event',
-          '/en/fe-dev/javascript/concurrency-and-parallelism',
-          '/en/fe-dev/javascript/pure-and-first-class-function',
-          '/en/fe-dev/javascript/immutable-persistent',
-          '/en/fe-dev/javascript/console-log',
+          {text: 'Index', link: '/en/fe-dev/javascript/this'},
+          {text: 'Index', link: '/en/fe-dev/javascript/promise'},
+          {text: 'Index', link: '/en/fe-dev/javascript/async-await'},
+          {text: 'Index', link: '/en/fe-dev/javascript/coroutine'},
+          {text: 'Index', link: '/en/fe-dev/javascript/decorators'},
+          {text: 'Index', link: '/en/fe-dev/javascript/event'},
+          {text: 'Index', link: '/en/fe-dev/javascript/concurrency-and-parallelism'},
+          {text: 'Index', link: '/en/fe-dev/javascript/pure-and-first-class-function'},
+          {text: 'Index', link: '/en/fe-dev/javascript/immutable-persistent'},
+          {text: 'Index', link: '/en/fe-dev/javascript/console-log'},
         ]
       },
       {
         text: 'TypeScript',
         items: [
-          '/en/fe-dev/javascript/union-type',
-          '/en/fe-dev/javascript/callback/',
-          '/en/fe-dev/javascript/template-literals/',
+          {text: 'Index', link: '/en/fe-dev/javascript/union-type'},
+          {text: 'Index', link: '/en/fe-dev/javascript/callback'},
+          {text: 'Index', link: '/en/fe-dev/javascript/template-literals'},
         ]
       },
       {
         text: 'CSS',
         items: [
-          '/en/fe-dev/javascript/float-flex-grid',
+          {text: 'Index', link: '/en/fe-dev/javascript/float-flex-grid'},
         ]
       },
       {
         text: 'npm',
         items: [
-          '/en/fe-dev/javascript/mono-repo',
+          {text: 'Index', link: '/en/fe-dev/javascript/mono-repo'},
         ]
       },
     ],
     '/en/fe-dev/paradigm': [
-      '/en/fe-dev/paradigm.md',
+      {text: 'Index', link: '/en/fe-dev/paradigm/'},
       {
         text: 'Imperative Programming',
         items: [
-          '/en/fe-dev/paradigm/back-to-the-imperative/',
+          {text: 'Index', link: '/en/fe-dev/paradigm/back-to-the-imperative'},
         ]
       },
       {
         text: 'Object-oriented Programming',
         items: [
-          '/en/fe-dev/paradigm/object/',
+          {text: 'Index', link: '/en/fe-dev/paradigm/object'},
           //       '/fe-dev/paradigm/produce-oop/'
         ]
       },
       {
         text: 'Functional Programming',
         items: [
-          '/en/fe-dev/paradigm/functional/',
-          '/en/fe-dev/paradigm/functional2/',
+          {text: 'Index', link: '/en/fe-dev/paradigm/functional'},
+          {text: 'Index', link: '/en/fe-dev/paradigm/functional2'},
           //       '/fe-dev/paradigm/produce/',
           //       '/fe-dev/paradigm/produce-immutable/',
         ]
@@ -301,22 +311,22 @@ export default {
     //   },
     // ],
     '/en/fe-dev/project-management': [
-      '/en/fe-dev/project-management.md',
-      '/en/fe-dev/project-management/estimation/',
-      '/en/fe-dev/project-management/release/',
+      {text: 'Index', link: '/en/fe-dev/project-management/'},
+      {text: 'Index', link: '/en/fe-dev/project-management/estimation'},
+      {text: 'Index', link: '/en/fe-dev/project-management/release'},
       //   '/fe-dev/project-management/facilitation-for-meeting/',
-      '/en/fe-dev/project-management/preventive-maintenance/',
+      {text: 'Index', link: '/en/fe-dev/project-management/preventive-maintenance'},
       //   '/fe-dev/project-management/git-scm-experience/',
-      '/en/fe-dev/project-management/software-lifecycle/',
+      {text: 'Index', link: '/en/fe-dev/project-management/software-lifecycle'},
     ],
     '/en/fe-dev/refactoring': [
-      '/en/fe-dev/refactoring.md',
+      {text: 'Index', link: '/en/fe-dev/refactoring/'},
       //   '/fe-dev/refactoring/structure-refactoring/',
       //   '/fe-dev/refactoring/legacy-code-to-easy-code/',
       //   '/fe-dev/refactoring/legacy-code-to-easy-code-2/',
-      '/en/fe-dev/refactoring/refactoring-meaning-and-result/',
-      '/en/fe-dev/refactoring/tdd-bdd/',
-      '/en/fe-dev/refactoring/test-types/',
+      {text: 'Index', link: '/en/fe-dev/refactoring/refactoring-meaning-and-result'},
+      {text: 'Index', link: '/en/fe-dev/refactoring/tdd-bdd'},
+      {text: 'Index', link: '/en/fe-dev/refactoring/test-types'},
       //   '/fe-dev/refactoring/test-guide/',
     ],
     // '/fe-dev/good-code': [
