@@ -19,30 +19,7 @@ export default defineConfig({
   ignoreDeadLinks: 'localhostLinks',
   themeConfig: {
     search: {
-      provider: 'algolia',
-      options: {
-        appId: 'KG049CYGHA',
-        apiKey: '989e418f2e968981ce479c9ccfdfc9cf',
-        indexName: 'the-next-web-research-labio',
-        locales: {
-          root: {
-            placeholder: '찾고 싶은 포스트와 관련된 검색어를 입력해주세요.',
-            translations: {
-              button: {
-                buttonText: '',
-              },
-            },
-          },
-          en: {
-            placeholder: 'Search docs',
-            translations: {
-              button: {
-                buttonText: '',
-              },
-            },
-          },
-        }
-      }
+      provider: 'local',
     },
   },
   sitemap: {
