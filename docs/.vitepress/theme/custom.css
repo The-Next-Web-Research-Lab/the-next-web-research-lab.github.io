@@ -1,0 +1,39 @@
+:root {
+  --vp-font-family-base: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  --vp-font-family-mono: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+/* .vp-hero-info-wrapper {
+  background: linear-gradient(to right, #0097b2, #7ed957);
+}
+
+#main-title,
+.vp-description {
+  color: #fff !important;
+  -webkit-text-fill-color: unset !important;
+  background: none !important;
+}
+
+@media (max-width: 419px) {
+  .vp-site-name {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 719px) {
+  .vp-link.vp-brand {
+    display: flex;
+  }
+  
+  .vp-site-name {
+    width: calc(100vw - 13rem);
+  }
+
+  #main-title {
+    font-size: 1.5rem !important;
+  }
+
+  .vp-description {
+    font-size: 1rem !important;
+  }
+} */

@@ -1,19 +1,11 @@
-import {
-  getDirname,
-  path
-} from '@vuepress/utils'
-
-const __dirname = getDirname(
-  import.meta.url)
-
 export default {
-  navbar: [{
+  nav: [{
       text: '소개',
       link: '/intro.html'
     },
     {
       text: '프런트엔드',
-      children: [{
+      items: [{
           text: '자기 관리',
           link: '/fe-dev/self-management'
         }, {
@@ -98,7 +90,7 @@ export default {
       '/essay.md',
       {
         text: '경험기',
-        children: [
+        items: [
           '/essay/commit-message/',
           '/essay/swagger-dto-automation/',
           '/essay/software-versioning/',
@@ -112,7 +104,7 @@ export default {
       },
       {
         text: '이론',
-        children: [
+        items: [
           '/essay/authentication-and-authorization/',
           '/essay/abstract/',
           '/essay/compiler-theory/',
@@ -123,7 +115,7 @@ export default {
       },
       {
         text: 'Color Space 시리즈',
-        children: [
+        items: [
           '/essay/color-space-munsell-color-theory/',
           '/essay/color-space-hsl-and-hsv/',
           '/essay/color-space-lch-and-lab/',
@@ -131,7 +123,7 @@ export default {
       },
       {
         text: '코드 작성',
-        children: [
+        items: [
           '/essay/client-hints/',
           '/essay/hexagon-profile/',
           '/essay/how-to-catch-error/',
@@ -147,7 +139,7 @@ export default {
       '/fe-dev/books.md',
       {
         text: '프로그래밍 페러다임',
-        children: [
+        items: [
           '/fe-dev/books/9',
           '/fe-dev/books/10',
           '/fe-dev/books/19',
@@ -156,7 +148,7 @@ export default {
       },
       {
         text: '클린 시리즈',
-        children: [
+        items: [
           '/fe-dev/books/1',
           '/fe-dev/books/2',
           '/fe-dev/books/18',
@@ -164,7 +156,7 @@ export default {
       },
       {
         text: '자바스크립트',
-        children: [
+        items: [
           '/fe-dev/books/6',
           '/fe-dev/books/16',
           '/fe-dev/books/21',
@@ -172,14 +164,14 @@ export default {
       },
       {
         text: '매니징',
-        children: [
+        items: [
           '/fe-dev/books/11',
           '/fe-dev/books/12',
         ]
       },
       {
         text: '방법론',
-        children: [
+        items: [
           '/fe-dev/books/3',
           '/fe-dev/books/4',
           '/fe-dev/books/5',
@@ -189,7 +181,7 @@ export default {
       },
       {
         text: '컴퓨터 과학',
-        children: [
+        items: [
           '/fe-dev/books/22',
           '/fe-dev/books/7',
           '/fe-dev/books/8',
@@ -212,7 +204,7 @@ export default {
       '/fe-dev/javascript.md',
       {
         text: '자바스크립트',
-        children: [
+        items: [
           '/fe-dev/javascript/syntax',
           '/fe-dev/javascript/this',
           '/fe-dev/javascript/promise',
@@ -228,7 +220,7 @@ export default {
       },
       {
         text: '타입스크립트',
-        children: [
+        items: [
           '/fe-dev/javascript/union-type',
           '/fe-dev/javascript/callback/',
           '/fe-dev/javascript/template-literals/',
@@ -236,13 +228,13 @@ export default {
       },
       {
         text: 'CSS',
-        children: [
+        items: [
           '/fe-dev/javascript/float-flex-grid',
         ]
       },
       {
         text: 'npm',
-        children: [
+        items: [
           '/fe-dev/javascript/mono-repo',
         ]
       },
@@ -251,20 +243,20 @@ export default {
       '/fe-dev/paradigm.md',
       {
         text: '명령형',
-        children: [
+        items: [
           '/fe-dev/paradigm/back-to-the-imperative/',
         ]
       },
       {
         text: '객체지향',
-        children: [
+        items: [
           '/fe-dev/paradigm/object/',
           '/fe-dev/paradigm/produce-oop/'
         ]
       },
       {
         text: '함수형',
-        children: [
+        items: [
           '/fe-dev/paradigm/functional/',
           '/fe-dev/paradigm/functional2/',
           '/fe-dev/paradigm/produce/',
@@ -276,7 +268,7 @@ export default {
       '/fe-dev/framework.md',
       {
         text: 'Vue Composition API',
-        children: [
+        items: [
           '/fe-dev/framework/composition-api-rfc/',
           '/fe-dev/framework/composition-api-rfc-summary/',
           '/fe-dev/framework/composition-api-rfc-release-notes/',
@@ -286,7 +278,7 @@ export default {
       },
       {
         text: 'Vue',
-        children: [
+        items: [
           '/fe-dev/framework/vue-eslint/',
           '/fe-dev/framework/nuxt-2-11-typescript/',
           '/fe-dev/framework/nuxt-ts/',
@@ -295,14 +287,14 @@ export default {
       },
       {
         text: 'Angular',
-        children: [
+        items: [
           '/fe-dev/framework/rxjs-codereview/',
           '/fe-dev/framework/angular/'
         ]
       },
       {
         text: 'React',
-        children: [
+        items: [
           '/fe-dev/framework/react-convention-for-codereview/',
         ]
       },
@@ -330,7 +322,7 @@ export default {
       '/fe-dev/good-code.md',
       {
         text: '실무 사례',
-        children: [
+        items: [
           '/fe-dev/good-code/2023/',
           '/fe-dev/good-code/easy-code/',
           '/fe-dev/good-code/code-position/',
@@ -342,7 +334,7 @@ export default {
       },
       {
         text: 'SOLID 원칙 시리즈',
-        children: [
+        items: [
 
           '/fe-dev/good-code/solid-srp/',
           '/fe-dev/good-code/solid-ocp/',
@@ -356,7 +348,7 @@ export default {
       '/fe-dev/design-patterns.md',
       {
         text: '패턴 비교',
-        children: [
+        items: [
           '/fe-dev/design-patterns/mv_flux/',
           '/fe-dev/design-patterns/react_hook_vue_composition_recoil/',
           '/fe-dev/design-patterns/proxy_reverse_proxy_load_balancer/',
@@ -364,7 +356,7 @@ export default {
       },
       {
         text: 'Model-View 패턴',
-        children: [
+        items: [
           '/fe-dev/design-patterns/mvc-word-1979-12-10/',
           '/fe-dev/design-patterns/mvc-xerox-parc/',
           '/fe-dev/design-patterns/mvp-the-taligent-programming-model/',
@@ -377,7 +369,7 @@ export default {
       },
       {
         text: 'GoF Design Patterns',
-        children: [
+        items: [
           '/fe-dev/design-patterns/gof/summary/',
           '/fe-dev/design-patterns/gof/creational/',
           '/fe-dev/design-patterns/gof/structural/',
@@ -389,7 +381,7 @@ export default {
       '/fe-dev/code-snippets.md',
       {
         text: 'Javascript',
-        children: [
+        items: [
           '/fe-dev/code-snippets/Javascript/Array/',
           '/fe-dev/code-snippets/Javascript/Date/',
           '/fe-dev/code-snippets/Javascript/Iterable/',
@@ -400,14 +392,14 @@ export default {
       },
       {
         text: 'CSS3',
-        children: [
+        items: [
           '/fe-dev/code-snippets/CSS3/Flex/',
           '/fe-dev/code-snippets/CSS3/MaskImage/',
         ]
       },
       {
         text: 'HTML5',
-        children: [
+        items: [
           '/fe-dev/code-snippets/HTML5/HTML5/',
           '/fe-dev/code-snippets/HTML5/FetchApi/',
           '/fe-dev/code-snippets/HTML5/FileReader/',
@@ -416,7 +408,7 @@ export default {
       },
       {
         text: 'Data Structure',
-        children: [
+        items: [
           '/fe-dev/code-snippets/Data-Structure/Set/',
           '/fe-dev/code-snippets/Data-Structure/Stack/',
           '/fe-dev/code-snippets/Data-Structure/Queue/',
@@ -425,7 +417,7 @@ export default {
       },
       {
         text: 'UIComponent',
-        children: [
+        items: [
           '/fe-dev/code-snippets/UIComponent/Boilerplate/',
           '/fe-dev/code-snippets/UIComponent/Pagination/',
           '/fe-dev/code-snippets/UIComponent/Calendar/',
@@ -436,7 +428,7 @@ export default {
       },
       {
         text: 'Helper',
-        children: [
+        items: [
           '/fe-dev/code-snippets/Helper/Helper/',
           '/fe-dev/code-snippets/Helper/contextmenu/',
           '/fe-dev/code-snippets/Helper/clone/',
@@ -452,7 +444,7 @@ export default {
       },
       {
         text: 'OpenSources',
-        children: [
+        items: [
           '/fe-dev/code-snippets/OpenSources/eslint/',
           '/fe-dev/code-snippets/OpenSources/chart-adaptor/',
           '/fe-dev/code-snippets/OpenSources/editor/',
@@ -462,23 +454,23 @@ export default {
       },
       {
         text: 'Functional',
-        children: ['/fe-dev/code-snippets/Functional/Functional/'],
+        items: ['/fe-dev/code-snippets/Functional/Functional/'],
 
       },
       {
         text: 'TodoList',
-        children: ['/fe-dev/code-snippets/TodoList/']
+        items: ['/fe-dev/code-snippets/TodoList/']
       },
       {
         text: 'Reactive',
-        children: ['/fe-dev/code-snippets/Reactive/Reactive/']
+        items: ['/fe-dev/code-snippets/Reactive/Reactive/']
       },
     ],
     '/fe-dev/pet-project': [
       '/fe-dev/pet-project.md',
       {
         text: 'Vue',
-        children: [
+        items: [
           '/fe-dev/pet-project/vue2-part/',
           '/fe-dev/pet-project/vue2-component/',
           '/fe-dev/pet-project/vuex/'
@@ -486,14 +478,14 @@ export default {
       },
       {
         text: 'Helper',
-        children: ['/fe-dev/pet-project/momentjs/',
+        items: ['/fe-dev/pet-project/momentjs/',
           '/fe-dev/pet-project/immerjs/',
           '/fe-dev/pet-project/axios/',
         ]
       },
       {
         text: 'Component',
-        children: [
+        items: [
           '/fe-dev/pet-project/component/2020-08-component/',
           '/fe-dev/pet-project/component/vuex-feature/',
           '/fe-dev/pet-project/component/recoil-feature/',
@@ -504,7 +496,7 @@ export default {
       },
       {
         text: 'MVC',
-        children: [
+        items: [
           '/fe-dev/pet-project/mvc/2021-07-mvc/',
           '/fe-dev/pet-project/mvc/2020-08-mvc/',
           '/fe-dev/pet-project/mvc/2021-07-mvc-class/',

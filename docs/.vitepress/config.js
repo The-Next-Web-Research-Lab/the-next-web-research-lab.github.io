@@ -12,13 +12,9 @@ import {
   default as themeLocalesKr
 } from "./configs/theme-locales-kr";
 
-const __dirname = getDirname(
-  import.meta.url)
-
 export default defineConfig({
+  lang: 'ko-KR',
   base: '/',
-  title: '더넥스트웹리서치랩',
-  description: '담백한 프런트엔드 기술 블로그',
   head,
   themeConfig: {
     search: {
@@ -57,34 +53,24 @@ export default defineConfig({
       lang: 'ko',
       title: '더넥스트웹리서치랩',
       description: '담백한 프런트엔드 기술 블로그',
+      footer: {
+        copyright: '© 더넥스트웹리서치랩 Corp. All rights reserved.'
+      },
+      themeConfig: {
+        ...themeLocalesKr,
+      }
     },
     en: {
       label: 'English',
       lang: 'en',
       title: 'The Next Web Research Lab',
       description: 'A plain front-end technology blog',
+      footer: {
+        copyright: '© The Next Web Research Lab Corp. All rights reserved.'
+      },
+      themeConfig: {
+        ...themeLocalesEn,
+      }
     }
   },
-  theme: hopeTheme({
-    contributors: false,
-    colorMode: 'light',
-    darkmode: 'toggle',
-    breadcrumb: false,
-    locales: {
-      '/en/': themeLocalesEn,
-      '/': themeLocalesKr,
-    },
-    plugins: {
-      mdEnhance: {
-        tabs: true,
-        codetabs: true,
-        demo: true,
-      },
-      seo: {
-        hostname: 'the-next-web-research-lab.github.io',
-        fallBackImage: 'https://the-next-web-research-lab.github.io/images/og_image.png'
-      },
-      blog: false
-    },
-  })
 });
