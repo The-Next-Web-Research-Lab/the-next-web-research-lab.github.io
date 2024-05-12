@@ -5,6 +5,7 @@ export default {
     },
     {
       text: 'Front-End',
+      activeMatch: '/en/fe-dev/',
       items: [{
           text: 'Self-care',
           link: '/en/fe-dev/self-management/',
@@ -79,75 +80,75 @@ export default {
   ],
   sidebar: {
     '/en/fe-dev/self-management': [
-      {text: 'Index', link: '/en/fe-dev/self-management/'},
-      {text: 'Index', link: '/en/fe-dev/self-management/project-history'},
-      {text: 'Index', link: '/en/fe-dev/self-management/stress-management'},
+      {text: 'Self-care', link: '/en/fe-dev/self-management/'},
+      {text: 'Manage your work history for your career', link: '/en/fe-dev/self-management/project-history'},
+      {text: 'Stress Management: Refactor Yourself to Manage Stress', link: '/en/fe-dev/self-management/stress-management'},
     ],
     '/en/fe-dev/interview-guide': [
-      {text: 'Index', link: '/en/fe-dev/interview-guide/'},
-      {text: 'Index', link: '/en/fe-dev/interview-guide/questions-list'},
-      {text: 'Index', link: '/en/fe-dev/interview-guide/interview-process'},
-      {text: 'Index', link: '/en/fe-dev/interview-guide/success-criteria'},
+      {text: "Interviewer's Guide", link: '/en/fe-dev/interview-guide/'},
+      {text: 'Preparing Interview Questions', link: '/en/fe-dev/interview-guide/questions-list'},
+      {text: 'Technical Interview Process', link: '/en/fe-dev/interview-guide/interview-process'},
+      {text: 'Points to decide on acceptance after the interview', link: '/en/fe-dev/interview-guide/success-criteria'},
     ],
     '/en/next-web-research': [
-      {text: 'Index', link: '/en/next-web-research/'},
-      {text: 'Index', link: '/en/next-web-research/scheduling-api.md'},
-      {text: 'Index', link: '/en/next-web-research/vibrate.md'},
-      {text: 'Index', link: '/en/next-web-research/battery.md'},
-      {text: 'Index', link: '/en/next-web-research/share.md'},
-      {text: 'Index', link: '/en/next-web-research/file-system-access-api.md'},
-      {text: 'Index', link: '/en/next-web-research/network-speed.md'},
+      {text: 'Introduction to Prior Development', link: '/en/next-web-research/'},
+      {text: 'Scheduling API for Main Thread Optimization', link: '/en/next-web-research/scheduling-api.md'},
+      {text: 'Device Vibration Control', link: '/en/next-web-research/vibrate.md'},
+      {text: 'Battery Status Inquiry', link: '/en/next-web-research/battery.md'},
+      {text: 'Sharing feature', link: '/en/next-web-research/share.md'},
+      {text: 'File System Access', link: '/en/next-web-research/file-system-access-api.md'},
+      {text: 'Internet Speed Test', link: '/en/next-web-research/network-speed.md'},
     ],
     '/en/essay': [
-      {text: 'Index', link: '/en/essay/'},
+      {text: 'Introduction to Experience Summary', link: '/en/essay/'},
       {
         text: 'Testimonials',
         items: [
-          {text: 'Index', link: '/en/essay/commit-message'},
-          {text: 'Index', link: '/en/essay/swagger-dto-automation'},
-          {text: 'Index', link: '/en/essay/software-versioning'},
-          {text: 'Index', link: '/en/essay/web-usability-review'},
-          {text: 'Index', link: '/en/essay/2019-new-service-building'},
-          {text: 'Index', link: '/en/essay/cors-and-http-cookie'},
-          {text: 'Index', link: '/en/essay/front_end_ui'},
-          {text: 'Index', link: '/en/essay/developer_communication_skills'},
+          {text: 'Save costs with commit message rules', link: '/en/essay/commit-message'},
+          {text: 'Automatically generate DTO code defined in Swagger document', link: '/en/essay/swagger-dto-automation'},
+          {text: 'Experience of using software version', link: '/en/essay/software-versioning'},
+          {text: 'Service usability review case', link: '/en/essay/web-usability-review'},
+          {text: 'Experience of a new service in the company', link: '/en/essay/2019-new-service-building'},
+          {text: 'CORS and HTTP Cookie', link: '/en/essay/cors-and-http-cookie'},
+          {text: 'Basic UI terms that front-end developers should know', link: '/en/essay/front_end_ui'},
+          {text: 'How to communicate with developers?', link: '/en/essay/developer_communication_skills'},
         ]
       },
       {
         text: 'Theory',
         items: [
-          {text: 'Index', link: '/en/essay/authentication-and-authorization'},
-          {text: 'Index', link: '/en/essay/abstract'},
+          {text: 'Distinguish between authentication and authorization', link: '/en/essay/authentication-and-authorization'},
+          {text: 'Summary of abstraction', link: '/en/essay/abstract'},
           //     '/essay/compiler-theory/',
-          {text: 'Index', link: '/en/essay/non-functional-requirements'},
+          {text: 'A summary of the core non-functional requirements of software', link: '/en/essay/non-functional-requirements'},
           //     '/essay/design-guide/',
-          {text: 'Index', link: '/en/essay/web-accessibility'},
+          {text: 'Web Accessibility', link: '/en/essay/web-accessibility'},
         ]
       },
       {
         text: 'Color Space Series',
         items: [
-          {text: 'Index', link: '/en/essay/color-space-munsell-color-theory'},
-          {text: 'Index', link: '/en/essay/color-space-hsl-and-hsv'},
-          {text: 'Index', link: '/en/essay/color-space-lch-and-lab'},
+          {text: "Munsell's color system", link: '/en/essay/color-space-munsell-color-theory'},
+          {text: 'HSL HSV', link: '/en/essay/color-space-hsl-and-hsv'},
+          {text: 'LCH LAB', link: '/en/essay/color-space-lch-and-lab'},
         ]
       },
       {
         text: 'Writing code',
         items: [
-          {text: 'Index', link: '/en/essay/client-hints'},
-          {text: 'Index', link: '/en/essay/hexagon-profile'},
-          {text: 'Index', link: '/en/essay/how-to-catch-error'},
-          {text: 'Index', link: '/en/essay/branch-n-case'},
-          {text: 'Index', link: '/en/essay/callback'},
-          {text: 'Index', link: '/en/essay/clone-function'},
-          {text: 'Index', link: '/en/essay/safe-chain'},
-          {text: 'Index', link: '/en/essay/observation-mechanism'},
+          {text: 'Cleanly branch browsers with Client Hints', link: '/en/essay/client-hints'},
+          {text: 'Making a hexagonal profile with SVG and CSS Mask', link: '/en/essay/hexagon-profile'},
+          {text: 'Error handling summary', link: '/en/essay/how-to-catch-error'},
+          {text: 'n ways to write a branch', link: '/en/essay/branch-n-case'},
+          {text: 'When to use callbacks', link: '/en/essay/callback'},
+          {text: 'Clone functions depending on the case', link: '/en/essay/clone-function'},
+          {text: 'safeChain for safe chaining', link: '/en/essay/safe-chain'},
+          {text: 'Observer mechanism', link: '/en/essay/observation-mechanism'},
         ]
       }
     ],
     '/en/fe-dev/books': [
-      {text: 'Index', link: '/en/fe-dev/books/'},
+      {text: 'Book Reviews', link: '/en/fe-dev/books/'},
       //   {
       //     text: '프로그래밍 페러다임',
       //     items: [
@@ -161,8 +162,8 @@ export default {
         text: 'Clean Series',
         items: [
           //       '/fe-dev/books/1',
-          {text: 'Index', link: '/en/fe-dev/books/2'},
-          {text: 'Index', link: '/en/fe-dev/books/18'},
+          {text: 'Clean Architecture', link: '/en/fe-dev/books/2'},
+          {text: 'Clean Software', link: '/en/fe-dev/books/18'},
         ]
       },
       //   {
@@ -177,99 +178,99 @@ export default {
         text: 'Managing',
         items: [
           //       '/fe-dev/books/11',
-          {text: 'Index', link: '/en/fe-dev/books/12'},
+          {text: 'Technical Leader', link: '/en/fe-dev/books/12'},
         ]
       },
       {
         text: 'Methodology',
         items: [
           //       '/fe-dev/books/3',
-          {text: 'Index', link: '/en/fe-dev/books/4'},
+          {text: 'Front-end development without frameworks', link: '/en/fe-dev/books/4'},
           //       '/fe-dev/books/5',
           //       '/fe-dev/books/14',
-          {text: 'Index', link: '/en/fe-dev/books/17'},
+          {text: 'This is the first time I learned how to work properly', link: '/en/fe-dev/books/17'},
         ]
       },
       {
         text: 'Computer Science',
         items: [
-          {text: 'Index', link: '/en/fe-dev/books/22'},
+          {text: 'Today We Call It Computer', link: '/en/fe-dev/books/22'},
           //       '/fe-dev/books/7',
           //       '/fe-dev/books/8',
-          {text: 'Index', link: '/en/fe-dev/books/13'},
+          {text: 'Intellectual Production Skills for Those Who Work in IT', link: '/en/fe-dev/books/13'},
           //       '/fe-dev/books/15',
         ]
       }
     ],
     '/en/fe-dev/optimization': [
-      {text: 'Index', link: '/en/fe-dev/optimization/'},
-      {text: 'Index', link: '/en/fe-dev/optimization/rail'},
-      {text: 'Index', link: '/en/fe-dev/optimization/web-vitals'},
-      {text: 'Index', link: '/en/fe-dev/optimization/monitoring'},
-      {text: 'Index', link: '/en/fe-dev/optimization/chrome-network-tab'},
-      {text: 'Index', link: '/en/fe-dev/optimization/browser_cache'},
-      {text: 'Index', link: '/en/fe-dev/optimization/lighthouse-mobile'},
-      {text: 'Index', link: '/en/fe-dev/optimization/performance-optimization-process'},
+      {text: 'Performance Optimization', link: '/en/fe-dev/optimization/'},
+      {text: 'RAIL Model - Web Performance Optimization Basics', link: '/en/fe-dev/optimization/rail'},
+      {text: 'Web Vitals - Web Performance Optimization Basics', link: '/en/fe-dev/optimization/web-vitals'},
+      {text: 'Web Performance Monitoring Methods - Synthetic Monitoring and Real User Monitoring (RUM)', link: '/en/fe-dev/optimization/monitoring'},
+      {text: 'Understanding the Network Tab in Chrome Developer Tools', link: '/en/fe-dev/optimization/chrome-network-tab'},
+      {text: 'What is browser cache?', link: '/en/fe-dev/optimization/browser_cache'},
+      {text: '{Lighthouse Deep Dive} Understanding Mobile Devices (Why the measurements in the ft. Performance tab are different)', link: '/en/fe-dev/optimization/lighthouse-mobile'},
+      {text: '{Lighthouse Deep Dive} Performance optimization process (ft. LCP, TBT optimization)', link: '/en/fe-dev/optimization/performance-optimization-process'},
     ],
     '/en/fe-dev/javascript': [
-      {text: 'Index', link: '/en/fe-dev/javascript/'},
+      {text: 'Computer Language', link: '/en/fe-dev/javascript/'},
       {
         text: 'JavaScript',
         items: [
           //       '/fe-dev/javascript/syntax',
-          {text: 'Index', link: '/en/fe-dev/javascript/this'},
-          {text: 'Index', link: '/en/fe-dev/javascript/promise'},
-          {text: 'Index', link: '/en/fe-dev/javascript/async-await'},
-          {text: 'Index', link: '/en/fe-dev/javascript/coroutine'},
-          {text: 'Index', link: '/en/fe-dev/javascript/decorators'},
-          {text: 'Index', link: '/en/fe-dev/javascript/event'},
-          {text: 'Index', link: '/en/fe-dev/javascript/concurrency-and-parallelism'},
-          {text: 'Index', link: '/en/fe-dev/javascript/pure-and-first-class-function'},
-          {text: 'Index', link: '/en/fe-dev/javascript/immutable-persistent'},
-          {text: 'Index', link: '/en/fe-dev/javascript/console-log'},
+          {text: 'In JavaScript, this means', link: '/en/fe-dev/javascript/this'},
+          {text: 'Summary of Promises in One Sheet', link: '/en/fe-dev/javascript/promise'},
+          {text: 'async await summarized in one sheet', link: '/en/fe-dev/javascript/async-await'},
+          {text: 'Implementing Latency Assessment with Coroutines', link: '/en/fe-dev/javascript/coroutine'},
+          {text: 'JavaScript - Decorators', link: '/en/fe-dev/javascript/decorators'},
+          {text: 'History and Definition of DOM Event', link: '/en/fe-dev/javascript/event'},
+          {text: 'Summary of Concurrency and Parallelism', link: '/en/fe-dev/javascript/concurrency-and-parallelism'},
+          {text: 'Summary of Pure Functions and First-Class Functions', link: '/en/fe-dev/javascript/pure-and-first-class-function'},
+          {text: 'Immutable Data Structures and Persistent Data Structures', link: '/en/fe-dev/javascript/immutable-persistent'},
+          {text: 'How to use CSS in console.log', link: '/en/fe-dev/javascript/console-log'},
         ]
       },
       {
         text: 'TypeScript',
         items: [
-          {text: 'Index', link: '/en/fe-dev/javascript/union-type'},
-          {text: 'Index', link: '/en/fe-dev/javascript/callback'},
-          {text: 'Index', link: '/en/fe-dev/javascript/template-literals'},
+          {text: 'TypeScript - Union Type Definition and Usage', link: '/en/fe-dev/javascript/union-type'},
+          {text: 'Inferring Callback Types', link: '/en/fe-dev/javascript/callback'},
+          {text: 'Enforcing the class names allowed in props', link: '/en/fe-dev/javascript/template-literals'},
         ]
       },
       {
         text: 'CSS',
         items: [
-          {text: 'Index', link: '/en/fe-dev/javascript/float-flex-grid'},
+          {text: 'CSS Layout Comparison - Float vs Flex vs Grid', link: '/en/fe-dev/javascript/float-flex-grid'},
         ]
       },
       {
         text: 'npm',
         items: [
-          {text: 'Index', link: '/en/fe-dev/javascript/mono-repo'},
+          {text: 'Definition and Basic Principles of Monorepo', link: '/en/fe-dev/javascript/mono-repo'},
         ]
       },
     ],
     '/en/fe-dev/paradigm': [
-      {text: 'Index', link: '/en/fe-dev/paradigm/'},
+      {text: 'Programming Paradigm', link: '/en/fe-dev/paradigm/'},
       {
         text: 'Imperative Programming',
         items: [
-          {text: 'Index', link: '/en/fe-dev/paradigm/back-to-the-imperative'},
+          {text: 'Shifting to imperative programming thinking', link: '/en/fe-dev/paradigm/back-to-the-imperative'},
         ]
       },
       {
         text: 'Object-oriented Programming',
         items: [
-          {text: 'Index', link: '/en/fe-dev/paradigm/object'},
+          {text: 'Object theorem', link: '/en/fe-dev/paradigm/object'},
           //       '/fe-dev/paradigm/produce-oop/'
         ]
       },
       {
         text: 'Functional Programming',
         items: [
-          {text: 'Index', link: '/en/fe-dev/paradigm/functional'},
-          {text: 'Index', link: '/en/fe-dev/paradigm/functional2'},
+          {text: 'Functional programming theorem', link: '/en/fe-dev/paradigm/functional'},
+          {text: 'Functional programming theorem 2', link: '/en/fe-dev/paradigm/functional2'},
           //       '/fe-dev/paradigm/produce/',
           //       '/fe-dev/paradigm/produce-immutable/',
         ]
@@ -311,22 +312,22 @@ export default {
     //   },
     // ],
     '/en/fe-dev/project-management': [
-      {text: 'Index', link: '/en/fe-dev/project-management/'},
-      {text: 'Index', link: '/en/fe-dev/project-management/estimation'},
-      {text: 'Index', link: '/en/fe-dev/project-management/release'},
+      {text: 'Project management', link: '/en/fe-dev/project-management/'},
+      {text: 'Development Schedule Estimation', link: '/en/fe-dev/project-management/estimation'},
+      {text: 'How much do you know about deployment?', link: '/en/fe-dev/project-management/release'},
       //   '/fe-dev/project-management/facilitation-for-meeting/',
-      {text: 'Index', link: '/en/fe-dev/project-management/preventive-maintenance'},
+      {text: 'Risk Management to Prepare for Risk Situations', link: '/en/fe-dev/project-management/preventive-maintenance'},
       //   '/fe-dev/project-management/git-scm-experience/',
-      {text: 'Index', link: '/en/fe-dev/project-management/software-lifecycle'},
+      {text: 'A Brief Summary of Software Life Cycle', link: '/en/fe-dev/project-management/software-lifecycle'},
     ],
     '/en/fe-dev/refactoring': [
-      {text: 'Index', link: '/en/fe-dev/refactoring/'},
+      {text: 'Refactoring', link: '/en/fe-dev/refactoring/'},
       //   '/fe-dev/refactoring/structure-refactoring/',
       //   '/fe-dev/refactoring/legacy-code-to-easy-code/',
       //   '/fe-dev/refactoring/legacy-code-to-easy-code-2/',
-      {text: 'Index', link: '/en/fe-dev/refactoring/refactoring-meaning-and-result'},
-      {text: 'Index', link: '/en/fe-dev/refactoring/tdd-bdd'},
-      {text: 'Index', link: '/en/fe-dev/refactoring/test-types'},
+      {text: 'Definition and Results of Refactoring', link: '/en/fe-dev/refactoring/refactoring-meaning-and-result'},
+      {text: 'Comparison of TDD and BDD', link: '/en/fe-dev/refactoring/tdd-bdd'},
+      {text: 'A Summary of Test Types on One Page', link: '/en/fe-dev/refactoring/test-types'},
       //   '/fe-dev/refactoring/test-guide/',
     ],
     // '/fe-dev/good-code': [
