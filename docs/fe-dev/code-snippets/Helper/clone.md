@@ -4,6 +4,8 @@ title: clone
 
 ## structuredClone.js
 
+> https://developer.mozilla.org/ko/docs/Web/API/structuredClone
+
 <<< @/fe-dev/code-snippets/Helper/clone/structuredClone.js
 
 ## collection.js
