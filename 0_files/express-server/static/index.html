@@ -37,6 +37,7 @@
         const PROXY_URL = "http://localhost:4000/proxy";
         const response = await fetch(`${PROXY_URL}/intro.html`);
         const text = await response.text();
+
         console.assert(text.includes("더넥스트웹리서치랩"));
       };
 
