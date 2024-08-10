@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "vitepress dev docs",
-    "build": "vitepress build docs --outDir _site",
+    "build": "vitepress build docs",
     "preview": "vitepress preview docs",
     "preprocess": "node preprocess.js",
     "release": "node release.js",
