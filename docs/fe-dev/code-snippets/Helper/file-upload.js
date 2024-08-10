@@ -10,13 +10,13 @@ const handleClick = async () => {
 const getFiles = () => {
   return new Promise((resolve) => {
     const fileInput = document.createElement("input");
-    fileInput.setAttribute("type", "file");
-    fileInput.setAttribute("accept", "image/*");
-    fileInput.setAttribute("multiple", "true");
-
     const handler = () => {
       resolve(fileInput.files);
     };
+
+    fileInput.setAttribute("type", "file");
+    fileInput.setAttribute("accept", "image/*");
+    fileInput.setAttribute("multiple", "true");
 
     fileInput.onchange = handler;
     fileInput.oncancel = handler;
