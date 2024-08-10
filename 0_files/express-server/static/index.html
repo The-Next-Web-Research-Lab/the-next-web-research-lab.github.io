@@ -1,28 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Title</title>
-</head>
-<body>
-<input type="file" id="my-file">
-<input type="button" value="Submit" onclick="uploadFile()">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+  </head>
+  <body>
+    <input
+      type="file"
+      id="my-file"
+    />
+    <input
+      type="button"
+      value="Submit"
+      onclick="uploadFile()"
+    />
 
-<script src="/docs/src/sample.js"></script>
-<script>
-  console.log(add(10, 5))
+    <script src="/src/sample.js"></script>
+    <script>
+      console.log(add(10, 5));
 
-  const uploadFile = () => {
-    const file = document.querySelector('#my-file').files[0]
-    const formData = new FormData()
+      const uploadFile = async () => {
+        const file = document.querySelector("#my-file").files[0];
+        const formData = new FormData();
 
-    formData.append('uploadFile', file, file.name)
+        formData.append("uploadFile", file, file.name);
 
-    fetch('/upload', {
-      method: 'POST',
-      body: formData
-    })
-  }
-</script>
-</body>
+        const response = await fetch("/upload", {
+          method: "POST",
+          body: formData,
+        });
+
+        console.log(await response.json());
+      };
+
+      const proxyTest = async () => {
+        const PROXY_URL = "http://localhost:4000/proxy";
+        const response = await fetch(`${PROXY_URL}/intro.html`);
+        const text = await response.text();
+        console.assert(text.includes("더넥스트웹리서치랩"));
+      };
+
+      proxyTest();
+    </script>
+  </body>
 </html>
