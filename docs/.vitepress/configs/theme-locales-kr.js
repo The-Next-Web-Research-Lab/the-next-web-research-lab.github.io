@@ -76,6 +76,11 @@ export default {
       ],
     },
     {
+      text: "백엔드",
+      link: "/be-dev/",
+      activeMatch: "/be-dev/",
+    },
+    {
       text: "경험정리",
       link: "/essay/",
       activeMatch: "/essay/",
@@ -147,6 +152,21 @@ export default {
       {
         text: "인터넷 속도 측정",
         link: "/next-web-research/network-speed.md",
+      },
+    ],
+    "/be-dev": [
+      {
+        text: "백엔드 소개",
+        link: "/be-dev/",
+      },
+      {
+        text: "AWS",
+        items: [
+          {
+            text: "AWS에서 Node.js 서버 환경 설정하기",
+            link: "/be-dev/aws/nodejs-setting",
+          },
+        ],
       },
     ],
     "/essay": [
