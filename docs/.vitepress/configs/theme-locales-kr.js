@@ -166,6 +166,10 @@ export default {
             text: "AWS에서 Node.js 서버 환경 설정하기",
             link: "/be-dev/aws/nodejs-setting",
           },
+          {
+            text: "AWS에서 ALB 환경 설정하기",
+            link: "/be-dev/aws/alb-setting",
+          },
         ],
       },
     ],
