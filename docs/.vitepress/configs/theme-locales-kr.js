@@ -131,27 +131,27 @@ export default {
       },
       {
         text: "메인 스레드 최적화를 위한 Scheduling API",
-        link: "/next-web-research/scheduling-api.md",
+        link: "/next-web-research/scheduling-api",
       },
       {
         text: "기기의 진동 컨트롤",
-        link: "/next-web-research/vibrate.md",
+        link: "/next-web-research/vibrate",
       },
       {
         text: "배터리 상태 조회",
-        link: "/next-web-research/battery.md",
+        link: "/next-web-research/battery",
       },
       {
         text: "공유 기능",
-        link: "/next-web-research/share.md",
+        link: "/next-web-research/share",
       },
       {
         text: "파일 시스템 접근",
-        link: "/next-web-research/file-system-access-api.md",
+        link: "/next-web-research/file-system-access-api",
       },
       {
         text: "인터넷 속도 측정",
-        link: "/next-web-research/network-speed.md",
+        link: "/next-web-research/network-speed",
       },
     ],
     "/be-dev": [
