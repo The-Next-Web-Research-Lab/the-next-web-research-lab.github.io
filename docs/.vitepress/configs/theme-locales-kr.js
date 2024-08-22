@@ -147,7 +147,7 @@ export default {
       },
       {
         text: "파일 시스템 접근",
-        link: "/next-web-research/file-system-access-api",
+        link: "/next-web-research/file-system-api",
       },
       {
         text: "인터넷 속도 측정",
