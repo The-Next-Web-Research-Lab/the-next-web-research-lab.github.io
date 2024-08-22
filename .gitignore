@@ -6,3 +6,4 @@ _site
 docs/.vitepress/dist
 docs/.vitepress/.temp
 docs/.vitepress/cache
+assets
