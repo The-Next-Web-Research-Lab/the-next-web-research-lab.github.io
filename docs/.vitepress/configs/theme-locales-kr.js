@@ -606,6 +606,19 @@ export default {
         link: "/fe-dev/framework/",
       },
       {
+        text: "React",
+        items: [
+          {
+            text: "2019.11.29 코드리뷰를 위한 React 컨벤션",
+            link: "/fe-dev/framework/react-convention-for-codereview",
+          },
+          {
+            text: "[react-query] 무한 스크롤 관련 예제",
+            link: "/fe-dev/framework/react-query-infinite-query",
+          },
+        ],
+      },
+      {
         text: "Vue Composition API",
         items: [
           {
@@ -661,15 +674,6 @@ export default {
           {
             text: "2019.07.21 Angular의 강력함과 아쉬운점",
             link: "/fe-dev/framework/angular",
-          },
-        ],
-      },
-      {
-        text: "React",
-        items: [
-          {
-            text: "2019.11.29 코드리뷰를 위한 React 컨벤션",
-            link: "/fe-dev/framework/react-convention-for-codereview",
           },
         ],
       },
