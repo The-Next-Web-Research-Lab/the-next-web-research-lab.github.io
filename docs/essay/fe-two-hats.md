@@ -24,9 +24,9 @@ title: 프론트엔드 개발 과정과 두 모자
 - (commit) API 유틸 적용
 - (commit) 에러 케이스 처리
 ```
-- Task: 지라 티켓이나 칸반 보드의 테스크 단위입니다.
-- Sub Task: Task의 하위로 등록하는 테스크입니다.
-- commit: Sub Task의 업무 완료 조건이며 Git commit message로 사용합니다.
+- Task: 지라 티켓이나 칸반 보드의 테스크 단위다.
+- Sub Task: Task의 하위로 등록하는 테스크다.
+- commit: Sub Task의 업무 완료 조건이며 Git commit message로 사용한다.
 
 ## 두 모자
 두 모자는 일하는 방법에 대해 설명하기 위한 메타포이다. 일을 할 때 두 모자를 쓰곤 한다. 하나는 일을 시키는 모자, 다른 하나는 일을 하는 모자이다.
