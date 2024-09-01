@@ -182,6 +182,10 @@ export default {
         text: "경험기",
         items: [
           {
+            text: "프론트엔드 개발 과정과 두 모자",
+            link: "/essay/fe-two-hats",
+          },
+          {
             text: "커밋 메시지 룰로 비용 절약하기",
             link: "/essay/commit-message",
           },
