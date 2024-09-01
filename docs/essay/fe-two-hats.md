@@ -94,17 +94,17 @@ title: 프론트엔드 개발 과정과 두 모자
     - ~~(commit) 목업 데이터 작성~~
     - ~~(commit) 마크업 및 접근성 작업~~
     - (commit) 스타일 작업
-  - (Sub Task) 디자인 변경 대응
+  - **(Sub Task) 디자인 변경 대응**
     - (commit) 마크업 및 접근성 작업
     - (commit) 스타일 작업
   - (Sub Task) REST API 연동
-    - (commit) API 변경 대응
+    - **(commit) API 변경 대응**
     - (commit) API 유틸 추가
     - (commit) API 유틸 적용
     - (commit) 에러 케이스 처리
 
 ---
-디자인 변경할 때는 마크업과 스타일 모두 수정이 필요하므로 테스크를 새로 등록하고, 현재했던 일은 Pull Request를 해서 마무리한다.
+디자인 변경할 때는 마크업과 스타일 모두 수정이 필요하므로 테스크를 새로 등록하고, 했던 일은 Pull Request를 해서 마무리한다.
 API 변경은 interface 대응만 필요하므로 마이너한 작업이라 API 연동할 때 선작업한다.
 
 전반적인 작업이 완료되었는데 마크업과 API가 변경된다면 어떻게 해야 할까? 이런 상황은 둘 다 한 테스크에 작업해도 작업에 무리가 없고 Pull Request의 파일 변경량이 리뷰어의 부담이 적기 때문에 하나의 테스크로 만들어서 작업한다.
@@ -114,7 +114,7 @@ API 변경은 interface 대응만 필요하므로 마이너한 작업이라 API 
   - ~~(Sub Task) 마크업 개발~~
   - ~~(Sub Task) 디자인 변경 대응~~
   - ~~(Sub Task) REST API 연동~~
-  - (Sub Task) 기능 변경 대응
+  - **(Sub Task) 기능 변경 대응**
     - (commit) 마크업 및 접근성 작업
     - (commit) 스타일 작업
     - (commit) API 변경 대응
