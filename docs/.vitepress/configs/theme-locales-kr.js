@@ -170,6 +170,10 @@ export default {
             text: "AWS에서 ALB 환경 설정하기",
             link: "/be-dev/aws/alb-setting",
           },
+          {
+            text: "Elastic Beanstalk에 Next.js 배포 시행착오 정리",
+            link: "/be-dev/aws/nextjs-elastic-beanstalk",
+          },
         ],
       },
     ],
