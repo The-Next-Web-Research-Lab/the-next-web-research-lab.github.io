@@ -1079,6 +1079,10 @@ export default {
             link: "/fe-dev/code-snippets/OpenSources/eslint",
           },
           {
+            text: "SheetJs",
+            link: "/fe-dev/code-snippets/OpenSources/sheetjs",
+          },
+          {
             text: "chart-adaptor",
             link: "/fe-dev/code-snippets/OpenSources/chart-adaptor",
           },
