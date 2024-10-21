@@ -174,6 +174,10 @@ export default {
             text: "Elastic Beanstalk에 Next.js 배포 시행착오 정리",
             link: "/be-dev/aws/nextjs-elastic-beanstalk",
           },
+          {
+            text: "터미널 명령어 모음",
+            link: "/be-dev/aws/terminal-commands",
+          },
         ],
       },
     ],
