@@ -14,3 +14,5 @@ ALB는 Application Load Balancer로 HTTP 및 HTTPS 트래픽을 사용하는 애
 1. Auto Scaling을 설정 중에 ALB를 선택한다.
 1. 생성된 로드밸런서의 보안을 인터넷에서 접속할 수 있게 설정한다.
 1. 로드밸런서의 DNS로 접속 확인한다.
+
+요약하면 EC2 인스턴스는 Private, 로드밸런서는 Public으로 설정하면 된다.
