@@ -178,6 +178,10 @@ export default {
             text: "터미널 명령어 모음",
             link: "/be-dev/aws/terminal-commands",
           },
+          {
+            text: "Beanstalk에서 nginx 로드밸런스 설정",
+            link: "/be-dev/aws/beanstalk-nginx-lb",
+          },
         ],
       },
     ],
