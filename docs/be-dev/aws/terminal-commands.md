@@ -8,6 +8,18 @@ title: 터미널 명령어 모음
 http-server . -p [포트번호] -a [호스트명]
 npm list -g
 time [명령어] # 명령어 실행 시간
+
+nslookup [도메인] # IP 주소 조회
+scutil --dns # DNS 조회
+```
+
+## Datadog
+```bash
+sudo datadog-agent status
+sudo service datadog-agent start
+sudo service datadog-agent stop
+sudo chown -R dd-agent:dd-agent [파일경로]
+sudo chmod 644 [파일경로]
 ```
 
 ## EC2 인스턴스에서 자주 사용하는 명령어
@@ -26,4 +38,5 @@ sudo tail /var/log/nginx/error.log # nginx 로그
 du -sh [folder] # 전체 디스크 용량
 du -h [folder] # 서브 폴더 디스크 용량
 df -h # 남은 디스크 용량
+free -h # RAM
 ```
