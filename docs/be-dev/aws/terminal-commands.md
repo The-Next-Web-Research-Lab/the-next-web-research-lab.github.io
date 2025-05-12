@@ -38,5 +38,15 @@ sudo tail /var/log/nginx/error.log # nginx 로그
 du -sh [folder] # 전체 디스크 용량
 du -h [folder] # 서브 폴더 디스크 용량
 df -h # 남은 디스크 용량
+```
+
+### 메모리 관련 명령어
+```bash
 free -h # RAM
+
+date "+%Y-%m-%d %H:%M:%S" | cat - <(free -h)
+ps aux --sort=-%mem | head
+
+watch -n 1 'date "+%Y-%m-%d %H:%M:%S" && free -h'
+watch -n 1 'ps aux --sort=-%mem | head'
 ```
