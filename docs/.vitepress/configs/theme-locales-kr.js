@@ -1,10 +1,6 @@
 export default {
   nav: [
     {
-      text: "소개",
-      link: "/intro.html",
-    },
-    {
       text: "프런트엔드",
       activeMatch: "/fe-dev/",
       items: [
