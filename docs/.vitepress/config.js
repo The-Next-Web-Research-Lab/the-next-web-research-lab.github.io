@@ -26,7 +26,7 @@ export default defineConfig({
       themeConfig: {
         ...themeLocalesKr,
         footer: {
-          copyright: "© 2024 더넥스트웹리서치랩 Corp. All rights reserved.",
+          copyright: "© 더넥스트웹리서치랩 Corp. All rights reserved.",
         },
       },
     },
@@ -34,7 +34,7 @@ export default defineConfig({
       label: "English",
       lang: "en",
       title: "The Next Web Research Lab",
-      description: "A plain front-end technology blog",
+      description: "A front-end technology blog",
       themeConfig: {
         ...themeLocalesEn,
         footer: {
