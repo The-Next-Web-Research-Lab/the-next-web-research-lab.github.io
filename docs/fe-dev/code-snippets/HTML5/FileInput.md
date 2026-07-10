@@ -9,7 +9,7 @@ title: FileInput
 <script setup>
 import { ref } from 'vue'
 
-const selectedType = ref('accept-audio')
+const selectedType = ref('default') // 기본 선택값을 'default'로 설정
 const fileList = ref([])
 
 const handleFileChange = (event) => {
@@ -24,6 +24,11 @@ const handleFileChange = (event) => {
 
 ## 🛠️ 테스트할 속성 선택
 <div style="display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px;">
+  <strong>0. 기본 케이스 (순수 HTML 상태)</strong>
+  <div style="padding-left: 10px;">
+    <label><input type="radio" v-model="selectedType" value="default" /> 아무 속성 없음 (기본값)</label>
+  </div>
+
   <strong>1. accept 속성 (특정 파일 포맷/미디어 제한)</strong>
   <div style="padding-left: 10px;">
     <label><input type="radio" v-model="selectedType" value="accept-audio" /> 오디오만 (`audio/*`)</label><br>
@@ -50,6 +55,12 @@ const handleFileChange = (event) => {
 ## 🖥️ 실시간 데모 실행 결과
 
 <div class="demo-box" style="padding: 24px; border: 2px dashed #3eaf7c; border-radius: 12px; background-color: var(--vp-c-bg-soft); margin-top: 20px;">
+
+  <div v-if="selectedType === 'default'">
+    <h4>📦 아무 속성 없는 기본 상태 (`input type="file"`)</h4>
+    <p style="font-size: 0.9em; color: #777;">💡 시스템 표준 파일 탐색기가 열립니다. 제한이 없으므로 이미지, 문서, 오디오 등 어떤 파일이든 선택이 가능하고 기본적으로 단일 파일만 선택할 수 있습니다.</p>
+    <input type="file" @change="handleFileChange" />
+  </div>
 
   <div v-if="selectedType === 'accept-audio'">
     <h4>🎵 오디오 파일만 선택 (`accept="audio/*"`)</h4>
@@ -105,7 +116,7 @@ const handleFileChange = (event) => {
 
 ### 📊 현재 선택된 파일 데이터 구조 (`event.target.files`)
 
-선택한 속성에 따라 브라우저가 넘겨준 파일 객체 리스트입니다. (모바일 카메라 촬영 시 임시 파일명으로 생성됨)
+선택한 속성에 따라 브라우저가 넘겨준 파일 객체 리스트입니다.
 
 <div v-if="fileList.length > 0" style="margin-top: 15px; background: #282c34; padding: 15px; border-radius: 8px; color: #abb2bf;">
   <ul style="list-style: none; padding-left: 0; margin: 0;">
