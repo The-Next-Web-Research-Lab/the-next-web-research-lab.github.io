@@ -974,6 +974,10 @@ export default {
             text: "SVG",
             link: "/fe-dev/code-snippets/HTML5/SVG",
           },
+          {
+            text: "FileInput",
+            link: "/fe-dev/code-snippets/HTML5/FileInput",
+          },
         ],
       },
       {
