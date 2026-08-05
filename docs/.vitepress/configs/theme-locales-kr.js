@@ -159,6 +159,10 @@ export default {
         text: "AWS",
         items: [
           {
+            text: "nginx Disk 버퍼 초과로 인한 JS 청크 손상 재현 및 해결",
+            link: "/be-dev/aws/nginx-disk-buffer-overflow",
+          },
+          {
             text: "AWS에서 Node.js 서버 환경 설정하기",
             link: "/be-dev/aws/nodejs-setting",
           },
