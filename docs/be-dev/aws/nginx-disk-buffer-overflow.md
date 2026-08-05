@@ -34,7 +34,7 @@ Nginx에서 Node.js로의 통신을 HTTP/1.0으로 강제하는 설정:
 ```nginx
 location / {
     proxy_http_version 1.0; 
-    proxy_pass [http://127.0.0.1:3000](http://127.0.0.1:3000);
+    proxy_pass http://127.0.0.1:3000;
 }
 ```
 
@@ -51,7 +51,7 @@ HTTP/1.0 통신에서는 연결 종료 시점을 응답의 끝으로 간주하�
 :::
 
 ## 4. 해결 방안: HTTP/1.1 프로토콜 전환
-이 장애의 근본적인 문제는 **"파일이 중간에 끊겼음에도 브라우저가 이를 정상 파일로 인지하고 캐싱한다"**는 점입니다. 이를 해결하기 위해 Nginx의 프록시 통신 프로토콜을 HTTP/1.1로 변경합니다.
+이 장애의 근본적인 문제는 **파일이 중간에 끊겼음에도 브라우저가 이를 정상 파일로 인지하고 캐싱한다**는 점입니다. 이를 해결하기 위해 Nginx의 프록시 통신 프로토콜을 HTTP/1.1로 변경합니다.
 ### 4.1. HTTP/1.1 변경 시점의 차이 (Transfer-Encoding: chunked)
  * HTTP/1.1은 스트리밍 응답 시 Transfer-Encoding: chunked 방식을 사용합니다.
  * 이 방식은 데이터 전송이 완전히 끝났을 때 **0바이트 청크(Zero-length chunk, 0\r\n\r\n)**를 보내 끝을 명확히 알립니다.
@@ -70,7 +70,7 @@ server {
         proxy_http_version 1.1;
         proxy_set_header Connection ""; # Keep-alive 통신을 위해 Connection 헤더 비움
         
-        proxy_pass [http://127.0.0.1:3000](http://127.0.0.1:3000);
+        proxy_pass http://127.0.0.1:3000;
     }
 }
 ```
