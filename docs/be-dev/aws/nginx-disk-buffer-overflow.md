@@ -62,22 +62,29 @@ HTTP/1.0 통신에서는 연결 종료 시점을 응답의 끝으로 간주하�
 Nginx 설정 파일에서 Upstream 서버와 통신할 때 HTTP/1.1을 사용하도록 변경하고, Keep-alive 연결이 유지되도록 Connection 헤더를 초기화합니다.
 
 ```nginx
+upstream nextjs_backend {
+    server 127.0.0.1:3000;
+    keepalive 32; # Keep-alive 커넥션 풀 유지를 위해 명시적 추가
+}
+
 server {
     listen 80 default_server;
     
     location / {
-        # 기존 proxy_http_version 1.0; 제거
+        # proxy_http_version 1.0; (기본값) 대신 1.1 명시
         proxy_http_version 1.1;
         proxy_set_header Connection ""; # Keep-alive 통신을 위해 Connection 헤더 비움
         
-        proxy_pass http://127.0.0.1:3000;
+        proxy_pass http://nextjs_backend;
     }
 }
 ```
 
-#### 4.3. 결론
+### 4.3. HTTP/1.1 전환 시 주의사항 (사이드 이펙트 고려)
+​프록시 통신을 HTTP/1.1로 전환하고 Keep-alive를 활성화하면, 트래픽이 많은 환경에서 Node.js(Upstream) 서버가 Nginx와 맺은 커넥션을 더 오래 유지하게 됩니다. 설정된 keepalive 개수나 keepalive_timeout 값이 인프라 규모에 맞지 않으면 Node.js의 연결 풀이 고갈될 우려가 있으므로, 전환 후에는 서버 부하와 커넥션 상태를 모니터링하여 적절히 튜닝하는 것이 좋습니다.
+
+#### 4.4. 결론
 ::: tip 요약 및 권장 사항
-프록시 통신을 HTTP/1.1로 전환함으로써, 디스크 버퍼 부족으로 인한 연결 단절 시에도 불완전한 파일이 클라이언트에 캐싱되어 영구적인 장애(빈 화면)로 이어지는 문제를 원천 차단할 수 있습니다.
-추가적으로, 근본적인 버퍼 부족 문제 해결을 위해 Nginx의 proxy_buffer_size 상향 및 정적 자산의 CDN 오프로딩을 병행하는 것을 권장합니다.
+프록시 통신을 HTTP/1.1로 전환함으로써, 디스크 버퍼 부족으로 인한 연결 단절 시에도 불완전한 파일이 클라이언트에 캐싱되어 영구적인 장애(빈 화면)로 이어지는 문제를 원천 차단할 수 있습니다. 추가적으로, 근본적인 버퍼 부족 문제 해결을 위해 Nginx의 proxy_buffer_size 상향 조정 및 정적 자산의 CDN 오프로딩을 병행하는 것을 권장합니다.
 :::
 
